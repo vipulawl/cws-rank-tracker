@@ -1,7 +1,13 @@
 {
-  "extension": "",
-  "keywords": [],
-  "markets": ["US", "GB", "IN", "DE", "FR", "ES", "BR", "JP"],
+  "extension": "https://chromewebstore.google.com/detail/aeo-geo-checker-+-seo-aud/mmiagdcijcmncoifmehfodelnkdbfcoo?authuser=0&hl=en-GB",
+  "keywords": [
+    "aeo",
+    "ai visibility",
+    "ai seo",
+    "seo",
+    "geo"
+  ],
+  "markets": "all",
   "competitors": [],
   "depth": 100
 }
