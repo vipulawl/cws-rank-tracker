@@ -1,0 +1,1219 @@
+{
+ "dates": [
+  "2026-11-13"
+ ],
+ "series": {
+  "aeo": {
+   "US": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     14
+    ]
+   },
+   "GB": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     17
+    ]
+   },
+   "CA": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     14
+    ]
+   },
+   "AU": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     17
+    ]
+   },
+   "IN": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     14
+    ]
+   },
+   "IE": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     17
+    ]
+   },
+   "SG": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     14
+    ]
+   },
+   "ZA": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     14
+    ]
+   },
+   "NG": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     14
+    ]
+   },
+   "PH": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     14
+    ]
+   },
+   "DE": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     5
+    ]
+   },
+   "AT": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     5
+    ]
+   },
+   "CH": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     5
+    ]
+   },
+   "FR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     6
+    ]
+   },
+   "BE": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     6
+    ]
+   },
+   "NL": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     2
+    ]
+   },
+   "ES": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     6
+    ]
+   },
+   "MX": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     10
+    ]
+   },
+   "AR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     10
+    ]
+   },
+   "CO": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     10
+    ]
+   },
+   "IT": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     4
+    ]
+   },
+   "PT": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     7
+    ]
+   },
+   "BR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     9
+    ]
+   },
+   "PL": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     2
+    ]
+   },
+   "SE": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     13
+    ]
+   },
+   "NO": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     12
+    ]
+   },
+   "DK": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     10
+    ]
+   },
+   "FI": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     11
+    ]
+   },
+   "CZ": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     16
+    ]
+   },
+   "RO": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     12
+    ]
+   },
+   "HU": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     14
+    ]
+   },
+   "GR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     16
+    ]
+   },
+   "TR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     3
+    ]
+   },
+   "UA": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     14
+    ]
+   },
+   "RU": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     6
+    ]
+   },
+   "IL": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     11
+    ]
+   },
+   "SA": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     10
+    ]
+   },
+   "AE": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     10
+    ]
+   },
+   "EG": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     10
+    ]
+   },
+   "JP": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     1
+    ]
+   },
+   "KR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     3
+    ]
+   },
+   "CN": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     14
+    ]
+   },
+   "TW": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     14
+    ]
+   },
+   "HK": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     14
+    ]
+   },
+   "ID": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     2
+    ]
+   },
+   "TH": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     14
+    ]
+   },
+   "VN": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     10
+    ]
+   },
+   "MY": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     14
+    ]
+   }
+  },
+  "ai visibility": {
+   "US": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     100
+    ]
+   },
+   "GB": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "CA": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     100
+    ]
+   },
+   "AU": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "IN": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     99
+    ]
+   },
+   "IE": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "SG": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     100
+    ]
+   },
+   "ZA": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     100
+    ]
+   },
+   "NG": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     100
+    ]
+   },
+   "PH": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     99
+    ]
+   },
+   "DE": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     100
+    ]
+   },
+   "AT": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     100
+    ]
+   },
+   "CH": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     100
+    ]
+   },
+   "FR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "BE": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "NL": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "ES": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "MX": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "AR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "CO": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "IT": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "PT": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "BR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "PL": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "SE": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "NO": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "DK": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     99
+    ]
+   },
+   "FI": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     99
+    ]
+   },
+   "CZ": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     98
+    ]
+   },
+   "RO": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "HU": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     99
+    ]
+   },
+   "GR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     99
+    ]
+   },
+   "TR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     99
+    ]
+   },
+   "UA": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     98
+    ]
+   },
+   "RU": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "IL": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     98
+    ]
+   },
+   "SA": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "AE": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "EG": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "JP": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "KR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "CN": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     99
+    ]
+   },
+   "TW": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     99
+    ]
+   },
+   "HK": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     99
+    ]
+   },
+   "ID": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "TH": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     98
+    ]
+   },
+   "VN": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     98
+    ]
+   },
+   "MY": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     98
+    ]
+   }
+  },
+  "ai seo": {
+   "US": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     65
+    ]
+   },
+   "GB": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "CA": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     65
+    ]
+   },
+   "AU": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "IN": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     65
+    ]
+   },
+   "IE": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "SG": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     65
+    ]
+   },
+   "ZA": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     65
+    ]
+   },
+   "NG": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     65
+    ]
+   },
+   "PH": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     65
+    ]
+   },
+   "DE": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     77
+    ]
+   },
+   "AT": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     77
+    ]
+   },
+   "CH": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     77
+    ]
+   },
+   "FR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     81
+    ]
+   },
+   "BE": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     81
+    ]
+   },
+   "NL": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     44
+    ]
+   },
+   "ES": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "MX": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "AR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "CO": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "IT": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     71
+    ]
+   },
+   "PT": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     85
+    ]
+   },
+   "BR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "PL": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     52
+    ]
+   },
+   "SE": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     70
+    ]
+   },
+   "NO": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     68
+    ]
+   },
+   "DK": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     69
+    ]
+   },
+   "FI": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     68
+    ]
+   },
+   "CZ": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     69
+    ]
+   },
+   "RO": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     99
+    ]
+   },
+   "HU": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     71
+    ]
+   },
+   "GR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     81
+    ]
+   },
+   "TR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     68
+    ]
+   },
+   "UA": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     70
+    ]
+   },
+   "RU": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     76
+    ]
+   },
+   "IL": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     80
+    ]
+   },
+   "SA": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     86
+    ]
+   },
+   "AE": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     86
+    ]
+   },
+   "EG": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     86
+    ]
+   },
+   "JP": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "KR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     69
+    ]
+   },
+   "CN": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     70
+    ]
+   },
+   "TW": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     70
+    ]
+   },
+   "HK": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     70
+    ]
+   },
+   "ID": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     37
+    ]
+   },
+   "TH": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     54
+    ]
+   },
+   "VN": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     97
+    ]
+   },
+   "MY": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     82
+    ]
+   }
+  },
+  "seo": {
+   "US": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "GB": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "CA": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "AU": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "IN": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "IE": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "SG": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "ZA": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "NG": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "PH": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "DE": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "AT": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "CH": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "FR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "BE": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "NL": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "ES": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "MX": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "AR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "CO": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "IT": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "PT": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "BR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "PL": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "SE": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "NO": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "DK": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "FI": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "CZ": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "RO": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "HU": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "GR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "TR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "UA": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "RU": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "IL": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "SA": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "AE": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "EG": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "JP": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "KR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "CN": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "TW": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "HK": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "ID": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "TH": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "VN": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   },
+   "MY": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0
+    ]
+   }
+  },
+  "geo": {
+   "US": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     35
+    ]
+   },
+   "GB": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     79
+    ]
+   },
+   "CA": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     35
+    ]
+   },
+   "AU": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     79
+    ]
+   },
+   "IN": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     35
+    ]
+   },
+   "IE": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     79
+    ]
+   },
+   "SG": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     35
+    ]
+   },
+   "ZA": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     35
+    ]
+   },
+   "NG": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     35
+    ]
+   },
+   "PH": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     35
+    ]
+   },
+   "DE": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     14
+    ]
+   },
+   "AT": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     14
+    ]
+   },
+   "CH": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     14
+    ]
+   },
+   "FR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     12
+    ]
+   },
+   "BE": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     12
+    ]
+   },
+   "NL": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     13
+    ]
+   },
+   "ES": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     12
+    ]
+   },
+   "MX": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     15
+    ]
+   },
+   "AR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     15
+    ]
+   },
+   "CO": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     15
+    ]
+   },
+   "IT": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     11
+    ]
+   },
+   "PT": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     20
+    ]
+   },
+   "BR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     9
+    ]
+   },
+   "PL": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     8
+    ]
+   },
+   "SE": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     37
+    ]
+   },
+   "NO": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     50
+    ]
+   },
+   "DK": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     41
+    ]
+   },
+   "FI": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     32
+    ]
+   },
+   "CZ": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     36
+    ]
+   },
+   "RO": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     38
+    ]
+   },
+   "HU": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     46
+    ]
+   },
+   "GR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     42
+    ]
+   },
+   "TR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     11
+    ]
+   },
+   "UA": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     26
+    ]
+   },
+   "RU": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     11
+    ]
+   },
+   "IL": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     36
+    ]
+   },
+   "SA": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     38
+    ]
+   },
+   "AE": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     38
+    ]
+   },
+   "EG": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     37
+    ]
+   },
+   "JP": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     6
+    ]
+   },
+   "KR": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     12
+    ]
+   },
+   "CN": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     40
+    ]
+   },
+   "TW": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     40
+    ]
+   },
+   "HK": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     40
+    ]
+   },
+   "ID": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     11
+    ]
+   },
+   "TH": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     26
+    ]
+   },
+   "VN": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     41
+    ]
+   },
+   "MY": {
+    "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     42
+    ]
+   }
+  }
+ },
+ "depth": 100,
+ "updated": "2026-11-13T16:21:03.436Z"
+}
