@@ -55,6 +55,15 @@
   .chart-wrap { position: relative; height: 360px; }
   .banner { padding: 10px 14px; border-radius: 10px; border: 1px solid var(--border); background: var(--surface); color: var(--text-2); }
   .banner.warn { border-color: var(--bad); }
+  .run { display: grid; gap: 8px; }
+  .run .top { display: flex; justify-content: space-between; gap: 10px; flex-wrap: wrap; }
+  .run b { color: var(--text); }
+  .bar { height: 8px; border-radius: 999px; background: var(--q0); overflow: hidden; }
+  .bar > i { display: block; height: 100%; width: 0; background: var(--accent); border-radius: 999px; transition: width 1s linear; }
+  .bar.indet > i { width: 30% !important; animation: slide 1.4s ease-in-out infinite; }
+  @keyframes slide { from { margin-left: -30%; } to { margin-left: 100%; } }
+  .steps { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12.5px; color: var(--muted); }
+  .steps .on { color: var(--text); font-weight: 600; } .steps .done { color: var(--good); }
   .table-scroll { overflow: auto; max-height: 560px; }
   table.heat { border-collapse: separate; border-spacing: 2px; font-variant-numeric: tabular-nums; }
   table.heat th { position: sticky; top: 0; background: var(--surface); font-weight: 600; font-size: 12px; color: var(--text-2); padding: 4px 6px; white-space: nowrap; }
@@ -109,11 +118,16 @@
 </header>
 
 <main>
+  <div id="runbox" class="banner run" hidden>
+    <div class="top"><span id="runTitle"><b>Collecting rankings…</b></span><span id="runEta" class="muted"></span></div>
+    <div class="bar" id="runBar"><i></i></div>
+    <div class="steps" id="runSteps"></div>
+  </div>
   <div id="banner" class="banner" hidden></div>
 
   <section class="tiles" id="tiles"></section>
 
-  <section class="card">
+  <section class="card" id="chartCard">
     <div class="filters">
       <label>Compare
         <div class="seg" id="mode">
@@ -139,7 +153,7 @@
     <div class="muted" id="chartNote" style="margin-top:6px;font-size:12px"></div>
   </section>
 
-  <div class="split">
+  <div class="split" id="tablesRow">
     <section class="card">
       <h2>Latest ranks <span class="hint">click a cell to focus · ▲▼ change vs 7 days ago</span></h2>
       <div class="table-scroll" id="heat"></div>
@@ -242,6 +256,7 @@ async function load() {
   if (repo) $('#repoLink').href = 'https://github.com/' + repo;
   render();
   if (!extractId(config.extension)) openSettings(true);
+  else watchRuns();
 }
 
 const mainId = () => extractId(config.extension);
@@ -280,9 +295,11 @@ function render() {
   // status banner
   const b = $('#banner');
   if (!id) { b.hidden = false; b.className = 'banner'; b.textContent = 'No extension configured yet. Open Settings to set up tracking.'; }
-  else if (!history.dates.length) { b.hidden = false; b.className = 'banner'; b.textContent = 'Tracking is set up. The first run takes a few minutes. Refresh this page once it has finished.'; }
+  else if (!history.dates.length) { b.hidden = !!run.active; b.className = 'banner'; b.textContent = 'Tracking is set up. Waiting for the first run to start…'; }
   else if (status && status.failed) { b.hidden = false; b.className = 'banner warn'; b.textContent = `Last run: ${status.failed} of ${status.searches} searches failed (${status.date}). They'll be retried on the next run.`; }
   else b.hidden = true;
+  const hasData = activeKeywords().length > 0 && activeMarkets().length > 0;
+  $('#chartCard').hidden = !hasData; $('#tablesRow').hidden = !hasData;
 
   const ks = activeKeywords(), ms = activeMarkets();
   if (!ks.includes(state.keyword)) state.keyword = ks[0] || null;
@@ -505,18 +522,132 @@ $('#save').addEventListener('click', async () => {
   try {
     const cur = await gh('/contents/docs/config.json');
     await gh('/contents/docs/config.json', { method: 'PUT', body: JSON.stringify({ message: 'Update tracking settings', content: b64(JSON.stringify(next, null, 2) + '\n'), sha: cur.sha }) });
-    config = next; render();
+    config = next; render(); watchRuns(true);
     msg('Saved. A tracking run has started. Results appear in a few minutes (refresh the page).', 'ok');
   } catch (e) { msg(e.message, 'err'); }
   finally { $('#save').disabled = false; }
 });
 $('#runNow').addEventListener('click', async () => {
   $('#runNow').disabled = true; msg('Starting run…');
-  try { await gh('/actions/workflows/track.yml/dispatches', { method: 'POST', body: JSON.stringify({ ref: 'main' }) }); msg('Run started. Check back in a few minutes.', 'ok'); }
+  try { await gh('/actions/workflows/track.yml/dispatches', { method: 'POST', body: JSON.stringify({ ref: 'main' }) }); msg('Run started. Progress is shown at the top of the dashboard.', 'ok'); watchRuns(true); }
   catch (e) { msg(e.message, 'err'); }
   finally { $('#runNow').disabled = false; }
 });
 window.matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', () => render());
+/* ---------------- Live run progress ---------------- */
+const run = { active: null, timer: null, tick: null, lastDataStamp: null, expectStart: false };
+function totalSearches() {
+  const m = config.markets === 'all' ? markets.length : (config.markets || []).length;
+  return (config.keywords || []).length * m;
+}
+function estimateSecs() {
+  // learn speed from the last run if we have one; first runs use a conservative default
+  const per = status && status.searches && status.seconds ? Math.max(0.8, status.seconds / status.searches) : 3.6;
+  return 75 /* setup */ + totalSearches() * per + 40 /* save + publish */;
+}
+const fmtMin = (s) => s < 60 ? 'less than a minute' : Math.round(s / 60) === 1 ? 'about 1 minute' : `about ${Math.round(s / 60)} minutes`;
+async function ghPublic(path) {
+  const repo = guessRepo(); if (!repo) throw new Error('no repo');
+  const token = store.get('cws.token');
+  const r = await fetch(`https://api.github.com/repos/${repo}${path}`, { headers: { Accept: 'application/vnd.github+json', ...(token ? { Authorization: `Bearer ${token}` } : {}) }, cache: 'no-store' });
+  if (!r.ok) throw new Error(r.status);
+  return r.json();
+}
+async function pollRun() {
+  let latestRun;
+  try {
+    const d = await ghPublic('/actions/workflows/track.yml/runs?per_page=1&branch=main');
+    latestRun = d.workflow_runs && d.workflow_runs[0];
+  } catch { return scheduleRun(120); }
+  if (latestRun && latestRun.status !== 'completed') {
+    run.active = latestRun; run.expectStart = false;
+    let steps = [];
+    try { const j = await ghPublic(`/actions/runs/${latestRun.id}/jobs`); steps = (j.jobs && j.jobs[0] && j.jobs[0].steps) || []; } catch {}
+    run.steps = steps;
+    showRun();
+    return scheduleRun(store.get('cws.token') ? 15 : 60);
+  }
+  // a run that finished moments ago whose data isn't on the dashboard yet
+  if (!run.active && !run.publishing && latestRun && latestRun.conclusion === 'success'
+      && Date.now() - new Date(latestRun.updated_at).getTime() < 5 * 60 * 1000
+      && (!history.updated || new Date(history.updated) < new Date(latestRun.run_started_at || latestRun.created_at))) {
+    run.active = latestRun;
+  }
+  if (run.active || run.publishing) {
+    // run just finished: wait for GitHub Pages to publish the new data, then reload it
+    const finished = latestRun || run.active;
+    run.active = null;
+    if (finished && finished.conclusion && finished.conclusion !== 'success') {
+      clearInterval(run.tick); $('#runbox').hidden = true;
+      const b = $('#banner'); b.hidden = false; b.className = 'banner warn';
+      b.innerHTML = `The last run failed. <a href="${esc(finished.html_url)}" target="_blank" rel="noopener">See what happened on GitHub</a>. It will try again at the next scheduled run.`;
+      return;
+    }
+    run.publishing = true; showRun();
+    const h = await getJson('data/history.json', { dates: [], series: {} });
+    if (h.updated && h.updated !== run.lastDataStamp) {
+      run.publishing = false; clearInterval(run.tick); $('#runbox').hidden = true;
+      await reloadData(); return;
+    }
+    return scheduleRun(15);
+  }
+  if (run.expectStart && Date.now() - run.expectSince < 3 * 60 * 1000) { showRun(); return scheduleRun(10); }
+  if (run.expectStart) {
+    run.expectStart = false; clearInterval(run.tick); $('#runbox').hidden = true;
+    const b = $('#banner'); b.hidden = false; b.className = 'banner warn';
+    b.innerHTML = `GitHub hasn't started a run yet. Check the <a href="https://github.com/${esc(guessRepo())}/actions" target="_blank" rel="noopener">Actions tab</a>, or tap “Run now” in Settings.`;
+    return;
+  } // just saved; the run hasn't appeared yet
+  $('#runbox').hidden = true; clearInterval(run.tick);
+}
+function scheduleRun(sec) { clearTimeout(run.timer); run.timer = setTimeout(pollRun, sec * 1000); }
+async function reloadData() {
+  [history, latest, exts, status] = await Promise.all([
+    getJson('data/history.json', { dates: [], series: {} }), getJson('data/latest.json', { results: [] }),
+    getJson('data/extensions.json', {}), getJson('data/status.json', null),
+  ]);
+  render();
+}
+function showRun() {
+  const box = $('#runbox'); box.hidden = false; $('#banner').hidden = true;
+  const bar = $('#runBar'); const n = totalSearches();
+  const stepName = (s) => /install/i.test(s.name) ? 'Preparing' : /search/i.test(s.name) ? `Searching ${n} keyword × market pairs` : /save/i.test(s.name) ? 'Saving results' : null;
+  const steps = (run.steps || []).map((s) => ({ label: stepName(s), st: s.status, c: s.conclusion })).filter((s) => s.label);
+  $('#runSteps').innerHTML = (steps.length ? steps : [{ label: 'Preparing' }, { label: `Searching ${n} keyword × market pairs` }, { label: 'Saving results' }])
+    .concat([{ label: 'Publishing to dashboard', st: run.publishing ? 'in_progress' : 'queued' }])
+    .map((s) => `<span class="${s.st === 'completed' ? 'done' : s.st === 'in_progress' ? 'on' : ''}">${s.st === 'completed' ? '✓ ' : s.st === 'in_progress' ? '● ' : '○ '}${esc(s.label)}</span>`).join('');
+  clearInterval(run.tick);
+  const update = () => {
+    if (run.publishing) {
+      $('#runTitle').innerHTML = '<b>Almost done.</b> Publishing the new rankings…';
+      $('#runEta').textContent = 'usually under a minute · this page updates by itself';
+      bar.classList.remove('indet'); bar.firstElementChild.style.width = '97%'; return;
+    }
+    if (!run.active) {
+      $('#runTitle').innerHTML = '<b>Starting a run…</b>'; $('#runEta').textContent = 'waiting for GitHub to pick it up';
+      bar.classList.add('indet'); return;
+    }
+    if (run.active.status === 'queued') {
+      $('#runTitle').innerHTML = '<b>Queued on GitHub…</b>'; $('#runEta').textContent = 'usually starts within a minute';
+      bar.classList.add('indet'); return;
+    }
+    bar.classList.remove('indet');
+    const started = new Date(run.active.run_started_at || run.active.created_at).getTime();
+    const elapsed = (Date.now() - started) / 1000, total = estimateSecs();
+    const pct = Math.min(95, (elapsed / total) * 100);
+    bar.firstElementChild.style.width = pct.toFixed(1) + '%';
+    const left = total - elapsed;
+    $('#runTitle').innerHTML = `<b>Collecting rankings…</b> started ${fmtMin(elapsed).replace('about ', '')} ago`;
+    $('#runEta').textContent = left > 30 ? `${fmtMin(left)} left · this page updates by itself` : 'taking a bit longer than estimated · almost there';
+  };
+  update(); run.tick = setInterval(update, 1000);
+}
+function watchRuns(justTriggered = false) {
+  run.lastDataStamp = history.updated || null;
+  if (justTriggered) { run.expectStart = true; run.expectSince = Date.now(); run.active = null; showRun(); scheduleRun(8); }
+  else pollRun();
+}
+
 load();
 </script>
 </body>
