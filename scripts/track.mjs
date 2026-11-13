@@ -51,8 +51,18 @@ async function collectResults(page) {
       const m = (a.getAttribute('href') || '').match(re);
       if (!m || seen.has(m[1])) continue;
       seen.add(m[1]);
-      const text = (a.innerText || a.getAttribute('aria-label') || '').trim();
-      out.push({ id: m[1], name: text.split('\n').map((t) => t.trim()).filter(Boolean)[0] || '' });
+      // The name may sit outside the link: climb to the largest ancestor that holds only this result.
+      let card = a;
+      while (card.parentElement) {
+        const ids = new Set([...card.parentElement.querySelectorAll('a[href*="/detail/"]')]
+          .map((x) => ((x.getAttribute('href') || '').match(re) || [])[1]).filter(Boolean));
+        if (ids.size > 1) break;
+        card = card.parentElement;
+      }
+      const lines = [a.getAttribute('aria-label'), a.innerText, card.innerText]
+        .flatMap((t) => String(t || '').split('\n')).map((t) => t.trim())
+        .filter((t) => t.length > 1 && !/^[\d.,\s★()kKmM+]+$/.test(t));
+      out.push({ id: m[1], name: lines[0] || '' });
     }
     return out;
   }, ID_RE.source);
@@ -98,6 +108,13 @@ async function searchOnce(context, keyword, market, depth) {
       await sleep(1500);
       const next = await collectResults(page);
       if (next.length > results.length) { results = next; stalls = 0; } else { stalls++; }
+    }
+    if (process.env.DEBUG_DIR) {
+      await fs.mkdir(process.env.DEBUG_DIR, { recursive: true });
+      const f = path.join(process.env.DEBUG_DIR, `${market.code}-${keyword.replace(/\W+/g, '_')}`);
+      await page.evaluate(() => window.scrollTo(0, 0));
+      await page.screenshot({ path: f + '.png', fullPage: false }).catch(() => {});
+      await fs.writeFile(f + '.txt', results.map((r, i) => `${i + 1}. ${r.id} ${r.name}`).join('\n'));
     }
     return { results: results.slice(0, depth) };
   } finally {
