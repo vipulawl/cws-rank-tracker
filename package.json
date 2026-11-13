@@ -1,0 +1,16 @@
+{
+  "name": "cws-rank-tracker",
+  "version": "1.0.0",
+  "description": "Track your Chrome extension's Chrome Web Store search rankings per keyword and market, daily.",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "track": "node scripts/track.mjs"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "playwright": "^1.65.0"
+  },
+  "private": true
+}

@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chrome Web Store Rank Tracker</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.6/dist/chart.umd.js"></script>
+<style>
+  :root {
+    color-scheme: light;
+    --bg: #f6f6f4; --surface: #fcfcfb; --border: #e3e2de; --grid: #ecebe7;
+    --text: #0b0b0b; --text-2: #52514e; --muted: #85847f;
+    --accent: #2a78d6; --good: #0f7b3e; --bad: #c53a39;
+    --s1:#2a78d6; --s2:#eb6834; --s3:#1baf7a; --s4:#eda100; --s5:#e87ba4; --s6:#008300; --s7:#6250d6; --s8:#e34948;
+    --q0:#efeeea; --q1:#cde2fb; --q2:#9ec5f4; --q3:#5598e7; --q4:#256abf; --q5:#104281;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --bg: #121211; --surface: #1a1a19; --border: #2e2e2c; --grid: #262624;
+      --text: #f0efec; --text-2: #c3c2b7; --muted: #8d8c85;
+      --accent: #3987e5; --good: #4cc27e; --bad: #ef7a79;
+      --s1:#3987e5; --s2:#d95926; --s3:#199e70; --s4:#c98500; --s5:#d55181; --s6:#008300; --s7:#9085e9; --s8:#e66767;
+      --q0:#232321; --q1:#104281; --q2:#184f95; --q3:#256abf; --q4:#3987e5; --q5:#86b6ef;
+    }
+  }
+  * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 14px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  a { color: var(--accent); }
+  header { display: flex; align-items: center; gap: 12px; padding: 16px 20px; border-bottom: 1px solid var(--border); background: var(--surface); position: sticky; top: 0; z-index: 5; }
+  header img { width: 36px; height: 36px; border-radius: 8px; }
+  header h1 { font-size: 17px; margin: 0; font-weight: 650; }
+  header .sub { color: var(--text-2); font-size: 12.5px; }
+  header .spacer { flex: 1; }
+  button, .btn { font: inherit; border: 1px solid var(--border); background: var(--surface); color: var(--text); padding: 7px 12px; border-radius: 8px; cursor: pointer; }
+  button.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+  button:disabled { opacity: .5; cursor: default; }
+  main { max-width: 1200px; margin: 0 auto; padding: 20px; display: grid; gap: 16px; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+  .card h2 { font-size: 14px; margin: 0 0 12px; font-weight: 650; }
+  .card h2 .hint { color: var(--muted); font-weight: 400; margin-left: 6px; }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; }
+  .tile { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 14px 16px; }
+  .tile .label { color: var(--text-2); font-size: 12.5px; }
+  .tile .value { font-size: 26px; font-weight: 650; margin-top: 2px; font-variant-numeric: tabular-nums; }
+  .tile .note { color: var(--muted); font-size: 12px; }
+  .filters { display: flex; flex-wrap: wrap; gap: 10px; align-items: end; margin-bottom: 12px; }
+  .filters label { display: grid; gap: 3px; font-size: 12px; color: var(--text-2); }
+  select, input[type=text], input[type=password], input[type=number], textarea {
+    font: inherit; color: var(--text); background: var(--bg); border: 1px solid var(--border); border-radius: 8px; padding: 7px 9px; }
+  .seg { display: inline-flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+  .seg button { border: 0; border-radius: 0; padding: 7px 10px; }
+  .seg button.on { background: var(--accent); color: #fff; }
+  .chart-wrap { position: relative; height: 360px; }
+  .banner { padding: 10px 14px; border-radius: 10px; border: 1px solid var(--border); background: var(--surface); color: var(--text-2); }
+  .banner.warn { border-color: var(--bad); }
+  .table-scroll { overflow: auto; max-height: 560px; }
+  table.heat { border-collapse: separate; border-spacing: 2px; font-variant-numeric: tabular-nums; }
+  table.heat th { position: sticky; top: 0; background: var(--surface); font-weight: 600; font-size: 12px; color: var(--text-2); padding: 4px 6px; white-space: nowrap; }
+  table.heat th.kw { left: 0; z-index: 2; text-align: left; position: sticky; }
+  table.heat td.kw { position: sticky; left: 0; background: var(--surface); padding: 4px 8px 4px 0; white-space: nowrap; max-width: 220px; overflow: hidden; text-overflow: ellipsis; }
+  table.heat td.c { min-width: 54px; height: 34px; text-align: center; border-radius: 4px; cursor: pointer; font-size: 12.5px; }
+  table.heat td.c:hover, table.heat td.c.sel { outline: 2px solid var(--text); outline-offset: -2px; }
+  .d { font-size: 10.5px; display: block; line-height: 1; }
+  .up { color: var(--good); } .down { color: var(--bad); }
+  .split { display: grid; grid-template-columns: minmax(0,2fr) minmax(0,1fr); gap: 16px; }
+  main > *, .split > * { min-width: 0; }
+  @media (max-width: 860px) { .split { grid-template-columns: minmax(0,1fr); } .chart-wrap { height: 300px; } }
+  ol.top { margin: 0; padding-left: 26px; }
+  ol.top li { padding: 3px 0; }
+  ol.top li.me { font-weight: 650; }
+  ol.top li.comp { font-weight: 600; color: var(--text-2); }
+  .legend { display: flex; flex-wrap: wrap; gap: 6px 14px; margin-top: 10px; font-size: 12.5px; color: var(--text-2); }
+  .legend span::before { content: ""; display: inline-block; width: 10px; height: 10px; border-radius: 3px; background: var(--c); margin-right: 6px; vertical-align: -1px; }
+  .muted { color: var(--muted); }
+  .empty { text-align: center; padding: 40px 10px; color: var(--text-2); }
+  /* settings drawer */
+  dialog { border: 1px solid var(--border); border-radius: 14px; padding: 0; width: min(720px, 96vw); background: var(--surface); color: var(--text); }
+  dialog::backdrop { background: rgba(0,0,0,.4); }
+  .dlg-head { display: flex; align-items: center; padding: 14px 18px; border-bottom: 1px solid var(--border); }
+  .dlg-head h2 { margin: 0; font-size: 16px; flex: 1; }
+  .dlg-body { padding: 16px 18px; display: grid; gap: 16px; max-height: 72vh; overflow: auto; }
+  .dlg-foot { padding: 12px 18px; border-top: 1px solid var(--border); display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+  .field { display: grid; gap: 5px; }
+  .field > span { font-weight: 600; font-size: 13px; }
+  .field small { color: var(--muted); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--border); border-radius: 999px; padding: 3px 6px 3px 10px; background: var(--bg); }
+  .chip button { border: 0; padding: 0 4px; background: none; color: var(--muted); }
+  .markets { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 4px 10px; }
+  .markets label { display: flex; gap: 6px; align-items: center; font-size: 13px; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .msg { font-size: 13px; }
+  .msg.err { color: var(--bad); } .msg.ok { color: var(--good); }
+  details summary { cursor: pointer; color: var(--text-2); }
+  .sr { position: absolute; left: -9999px; }
+</style>
+</head>
+<body>
+<header>
+  <img id="extIcon" alt="" hidden>
+  <div>
+    <h1 id="title">Chrome Web Store Rank Tracker</h1>
+    <div class="sub" id="subtitle">Loading…</div>
+  </div>
+  <div class="spacer"></div>
+  <button id="openSettings">Settings</button>
+</header>
+
+<main>
+  <div id="banner" class="banner" hidden></div>
+
+  <section class="tiles" id="tiles"></section>
+
+  <section class="card">
+    <div class="filters">
+      <label>Compare
+        <div class="seg" id="mode">
+          <button data-v="keywords" class="on">Keywords</button>
+          <button data-v="markets">Markets</button>
+          <button data-v="competitors">Competitors</button>
+        </div>
+      </label>
+      <label id="fMarket">Market <select id="selMarket"></select></label>
+      <label id="fKeyword" hidden>Keyword <select id="selKeyword"></select></label>
+      <label>Range
+        <div class="seg" id="range">
+          <button data-v="30" class="on">30d</button>
+          <button data-v="90">90d</button>
+          <button data-v="365">1y</button>
+          <button data-v="0">All</button>
+        </div>
+      </label>
+    </div>
+    <h2 id="chartTitle">Rank over time</h2>
+    <div class="chart-wrap"><canvas id="chart" aria-label="Rank over time chart" role="img"></canvas></div>
+    <div class="legend" id="legend"></div>
+    <div class="muted" id="chartNote" style="margin-top:6px;font-size:12px"></div>
+  </section>
+
+  <div class="split">
+    <section class="card">
+      <h2>Latest ranks <span class="hint">click a cell to focus · ▲▼ change vs 7 days ago</span></h2>
+      <div class="table-scroll" id="heat"></div>
+    </section>
+    <section class="card">
+      <h2 id="topTitle">Top 10</h2>
+      <div id="top"></div>
+    </section>
+  </div>
+
+  <p class="muted" style="text-align:center;font-size:12px">
+    Open source · <a id="repoLink" href="https://github.com/vipulawl/cws-rank-tracker">get your own copy</a> · runs daily on GitHub Actions
+  </p>
+</main>
+
+<dialog id="settings">
+  <div class="dlg-head"><h2>Settings</h2><button id="closeSettings" aria-label="Close">✕</button></div>
+  <div class="dlg-body">
+    <div id="setupIntro" class="banner" hidden>
+      Welcome! Paste your extension's Chrome Web Store link, add keywords and choose markets, then save.
+      Rankings are collected once a day; the first run starts right after you save.
+    </div>
+    <label class="field"><span>Your extension</span>
+      <input type="text" id="cfgExt" placeholder="https://chromewebstore.google.com/detail/name/abcdefghijklmnopabcdefghijklmnop">
+      <small id="cfgExtHint">Store link or 32-letter extension ID</small>
+    </label>
+    <div class="field"><span>Keywords</span>
+      <div class="row"><input type="text" id="kwInput" placeholder="e.g. tab manager" style="flex:1;min-width:180px"><button id="kwAdd">Add</button></div>
+      <small>Tip: paste several separated by commas or new lines.</small>
+      <div class="chips" id="kwChips"></div>
+    </div>
+    <div class="field"><span>Markets</span>
+      <div class="row"><button id="mAll">Select all</button><button id="mNone">Clear</button><small id="mCount"></small></div>
+      <div class="markets" id="mList"></div>
+    </div>
+    <div class="field"><span>Competitors <span class="muted" style="font-weight:400">(optional)</span></span>
+      <textarea id="cfgComp" rows="3" placeholder="One store link or ID per line"></textarea>
+      <small>Their ranks are tracked for the same keywords so you can compare.</small>
+    </div>
+    <label class="field"><span>Search depth</span>
+      <input type="number" id="cfgDepth" min="10" max="300" step="10" style="width:110px">
+      <small>How many results to scan per search. Beyond this, you show as “not ranked”.</small>
+    </label>
+    <div class="banner" id="estimate"></div>
+    <details id="authBox">
+      <summary>GitHub access (needed to save)</summary>
+      <div style="display:grid;gap:10px;margin-top:10px">
+        <div class="row">
+          <label class="field" style="flex:1"><span>Repository</span><input type="text" id="cfgRepo" placeholder="owner/repo"></label>
+        </div>
+        <label class="field"><span>Access token</span>
+          <input type="password" id="cfgToken" placeholder="github_pat_…" autocomplete="off">
+          <small>Create a <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">fine-grained token</a> for only this repository with
+            <b>Contents: Read and write</b> and <b>Actions: Read and write</b>. It's stored only in this browser and sent only to api.github.com.</small>
+        </label>
+        <div class="row"><button id="forget">Forget token</button></div>
+      </div>
+    </details>
+  </div>
+  <div class="dlg-foot">
+    <button class="primary" id="save">Save &amp; start tracking</button>
+    <button id="runNow">Run now</button>
+    <span class="msg" id="saveMsg"></span>
+  </div>
+</dialog>
+
+<script>
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const css = (v) => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const SERIES = ['--s1','--s2','--s3','--s4','--s5','--s6','--s7','--s8'];
+const store = {
+  get(k) { try { return localStorage.getItem(k); } catch { return null; } },
+  set(k, v) { try { v == null ? localStorage.removeItem(k) : localStorage.setItem(k, v); } catch {} },
+};
+const extractId = (s) => { const m = String(s || '').match(/([a-p]{32})/); return m ? m[1] : null; };
+
+let config = {}, markets = [], history = { dates: [], series: {} }, latest = { results: [] }, exts = {}, status = null;
+const state = { mode: 'keywords', market: null, keyword: null, range: 30 };
+let chart;
+
+async function getJson(url, fallback) {
+  try { const r = await fetch(url + '?t=' + Date.now(), { cache: 'no-store' }); if (!r.ok) throw 0; return await r.json(); }
+  catch { return fallback; }
+}
+
+function guessRepo() {
+  const saved = store.get('cws.repo'); if (saved) return saved;
+  const h = location.hostname, p = location.pathname.split('/').filter(Boolean);
+  if (h.endsWith('.github.io') && p[0]) return h.split('.')[0] + '/' + p[0];
+  return '';
+}
+
+async function load() {
+  [config, markets, history, latest, exts, status] = await Promise.all([
+    getJson('config.json', {}), getJson('markets.json', []), getJson('data/history.json', { dates: [], series: {} }),
+    getJson('data/latest.json', { results: [] }), getJson('data/extensions.json', {}), getJson('data/status.json', null),
+  ]);
+  const repo = guessRepo();
+  if (repo) $('#repoLink').href = 'https://github.com/' + repo;
+  render();
+  if (!extractId(config.extension)) openSettings(true);
+}
+
+const mainId = () => extractId(config.extension);
+const marketName = (c) => (markets.find((m) => m.code === c) || {}).name || c;
+const activeKeywords = () => (config.keywords || []).filter((k) => history.series[k]);
+const activeMarkets = () => {
+  const want = config.markets === 'all' ? markets.map((m) => m.code) : (config.markets || []);
+  return want.filter((m) => activeKeywords().some((k) => history.series[k]?.[m]));
+};
+const seriesFor = (k, m, id = mainId()) => history.series[k]?.[m]?.[id] || [];
+const lastIdx = (arr) => { for (let i = arr.length - 1; i >= 0; i--) if (arr[i] != null) return i; return -1; };
+const depth = () => history.depth || config.depth || 100;
+
+function rankAt(arr, i) { const v = arr[i]; return v == null ? null : v; }
+function change(arr, days = 7) {
+  const i = lastIdx(arr); if (i < 0) return null;
+  const cur = arr[i]; const target = new Date(history.dates[i]); target.setDate(target.getDate() - days);
+  let j = -1;
+  for (let x = i - 1; x >= 0; x--) if (new Date(history.dates[x]) <= target && arr[x] != null) { j = x; break; }
+  if (j < 0) return null;
+  const prev = arr[j];
+  const D = depth() + 1;
+  return (prev || D) - (cur || D); // positive = improved
+}
+
+function render() {
+  const id = mainId();
+  const meta = exts[id] || {};
+  $('#title').textContent = meta.name || (id ? 'Your extension' : 'Chrome Web Store Rank Tracker');
+  if (meta.icon) { $('#extIcon').src = meta.icon; $('#extIcon').hidden = false; }
+  const upd = history.updated ? new Date(history.updated).toLocaleString() : 'never';
+  $('#subtitle').innerHTML = id
+    ? `${(config.keywords || []).length} keywords · ${(config.markets === 'all' ? markets.length : (config.markets || []).length)} markets · updated ${esc(upd)}${meta.url ? ` · <a href="${esc(meta.url)}" target="_blank" rel="noopener">store page</a>` : ''}`
+    : 'Not set up yet';
+
+  // status banner
+  const b = $('#banner');
+  if (!id) { b.hidden = false; b.className = 'banner'; b.textContent = 'No extension configured yet. Open Settings to set up tracking.'; }
+  else if (!history.dates.length) { b.hidden = false; b.className = 'banner'; b.textContent = 'Tracking is set up. The first run takes a few minutes. Refresh this page once it has finished.'; }
+  else if (status && status.failed) { b.hidden = false; b.className = 'banner warn'; b.textContent = `Last run: ${status.failed} of ${status.searches} searches failed (${status.date}). They'll be retried on the next run.`; }
+  else b.hidden = true;
+
+  const ks = activeKeywords(), ms = activeMarkets();
+  if (!ks.includes(state.keyword)) state.keyword = ks[0] || null;
+  if (!ms.includes(state.market)) state.market = ms[0] || null;
+  $('#selMarket').innerHTML = ms.map((m) => `<option value="${m}">${esc(marketName(m))}</option>`).join('');
+  $('#selKeyword').innerHTML = ks.map((k) => `<option>${esc(k)}</option>`).join('');
+  $('#selMarket').value = state.market || ''; $('#selKeyword').value = state.keyword || '';
+  renderTiles(ks, ms); renderChart(); renderHeat(ks, ms); renderTop();
+}
+
+function renderTiles(ks, ms) {
+  const el = $('#tiles');
+  if (!history.dates.length) { el.innerHTML = ''; return; }
+  let ranked = 0, top10 = 0, total = 0, sum = 0, best = null, up = 0, down = 0;
+  for (const k of ks) for (const m of ms) {
+    const arr = seriesFor(k, m); const i = lastIdx(arr); if (i < 0) continue;
+    total++; const r = arr[i];
+    if (r) { ranked++; sum += r; if (r <= 10) top10++; if (!best || r < best.r) best = { r, k, m }; }
+    const c = change(arr); if (c > 0) up++; else if (c < 0) down++;
+  }
+  const tile = (label, value, note) => `<div class="tile"><div class="label">${label}</div><div class="value">${value}</div><div class="note">${note}</div></div>`;
+  el.innerHTML = [
+    tile('Best rank', best ? '#' + best.r : '–', best ? esc(`“${best.k}” · ${marketName(best.m)}`) : 'not ranked yet'),
+    tile('In top 10', `${top10}`, `of ${total} keyword × market pairs`),
+    tile('Ranked (top ' + depth() + ')', `${ranked}`, `of ${total} pairs`),
+    tile('Average rank', ranked ? '#' + (sum / ranked).toFixed(1) : '–', 'where ranked'),
+    tile('Last 7 days', `<span class="up">▲${up}</span> <span class="down">▼${down}</span>`, 'pairs moved up / down'),
+  ].join('');
+}
+
+function windowIdx() {
+  const n = history.dates.length; if (!state.range || !n) return 0;
+  const cut = new Date(history.dates[n - 1]); cut.setDate(cut.getDate() - state.range + 1);
+  const i = history.dates.findIndex((d) => new Date(d) >= cut); return Math.max(0, i);
+}
+
+function renderChart() {
+  const id = mainId();
+  $('#fMarket').hidden = state.mode === 'markets';
+  $('#fKeyword').hidden = state.mode === 'keywords';
+  let lines = [], title = '';
+  if (state.mode === 'keywords') {
+    title = `Rank by keyword · ${marketName(state.market)}`;
+    lines = activeKeywords().map((k) => ({ label: k, data: seriesFor(k, state.market) }));
+  } else if (state.mode === 'markets') {
+    title = `Rank by market · “${state.keyword}”`;
+    lines = activeMarkets().map((m) => ({ label: marketName(m), data: seriesFor(state.keyword, m) }));
+  } else {
+    title = `You vs competitors · “${state.keyword}” · ${marketName(state.market)}`;
+    const ids = [id, ...(config.competitors || []).map(extractId).filter(Boolean)];
+    lines = ids.map((x) => ({ label: (exts[x] && exts[x].name) || x, data: seriesFor(state.keyword, state.market, x) }));
+  }
+  $('#chartTitle').textContent = title;
+  const from = windowIdx();
+  const labels = history.dates.slice(from);
+  // Max 8 lines: keep the best-ranked ones so colors stay distinguishable.
+  const latestRank = (d) => { const i = lastIdx(d); return i < 0 || !d[i] ? 1e9 : d[i]; };
+  let note = '';
+  if (lines.length > 8) {
+    const keep = state.mode === 'competitors' ? lines.slice(0, 8) : [...lines].sort((a, b) => latestRank(a.data) - latestRank(b.data)).slice(0, 8);
+    note = `Showing the 8 best-ranked of ${lines.length}. The table below has all of them.`;
+    lines = lines.filter((l) => keep.includes(l));
+  }
+  const D = depth();
+  const datasets = lines.map((l, i) => {
+    const color = css(SERIES[i % 8]);
+    return {
+      label: l.label, borderColor: color, backgroundColor: color, borderWidth: 2, pointRadius: labels.length > 60 ? 0 : 2.5, pointHoverRadius: 5,
+      spanGaps: false, tension: 0.15,
+      data: l.data.slice(from).map((v) => (v == null || v === 0 ? null : v)),
+      raw: l.data.slice(from),
+    };
+  });
+  $('#legend').innerHTML = datasets.map((d) => `<span style="--c:${d.borderColor}">${esc(d.label)}</span>`).join('');
+  $('#chartNote').textContent = note || (labels.length ? `Gaps mean not in the top ${D} that day. Higher on the chart = better rank.` : '');
+  const grid = css('--grid'), muted = css('--muted');
+  const cfg = {
+    type: 'line',
+    data: { labels, datasets },
+    options: {
+      responsive: true, maintainAspectRatio: false, animation: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { display: false },
+        tooltip: { callbacks: { label: (c) => { const v = c.dataset.raw[c.dataIndex]; return ` ${c.dataset.label}: ${v == null ? 'no data' : v === 0 ? 'not in top ' + D : '#' + v}`; } } },
+      },
+      scales: {
+        y: { reverse: true, min: 1, suggestedMax: 20, ticks: { color: muted, precision: 0, callback: (v) => '#' + v }, grid: { color: grid }, border: { display: false } },
+        x: { ticks: { color: muted, maxRotation: 0, autoSkip: true, maxTicksLimit: 8 }, grid: { display: false } },
+      },
+    },
+  };
+  if (chart) chart.destroy();
+  if (!labels.length) { $('#chart').hidden = true; return; }
+  $('#chart').hidden = false;
+  chart = new Chart($('#chart'), cfg);
+}
+
+function cellColor(r) {
+  if (!r) return ['var(--q0)', 'var(--muted)'];
+  if (r <= 3) return ['var(--q5)', '#fff'];
+  if (r <= 10) return ['var(--q4)', '#fff'];
+  if (r <= 25) return ['var(--q3)', '#fff'];
+  if (r <= 50) return ['var(--q2)', 'var(--text)'];
+  return ['var(--q1)', 'var(--text)'];
+}
+
+function renderHeat(ks, ms) {
+  const el = $('#heat');
+  if (!ks.length || !ms.length) { el.innerHTML = `<div class="empty">No rankings yet.</div>`; return; }
+  let h = '<table class="heat"><thead><tr><th class="kw">Keyword</th>' + ms.map((m) => `<th title="${esc(marketName(m))}">${m}</th>`).join('') + '</tr></thead><tbody>';
+  for (const k of ks) {
+    h += `<tr><td class="kw" title="${esc(k)}">${esc(k)}</td>`;
+    for (const m of ms) {
+      const arr = seriesFor(k, m); const i = lastIdx(arr); const r = i < 0 ? null : arr[i];
+      const [bg, fg] = cellColor(r); const c = change(arr);
+      const d = c ? `<span class="d" style="color:${fg}">${c > 0 ? '▲' : '▼'}${Math.abs(c) > depth() ? '' : Math.abs(c)}</span>` : '';
+      const sel = k === state.keyword && m === state.market ? ' sel' : '';
+      h += `<td class="c${sel}" data-k="${esc(k)}" data-m="${m}" style="background:${bg};color:${fg}" title="${esc(k)} · ${esc(marketName(m))}: ${r == null ? 'no data' : r ? '#' + r : 'not in top ' + depth()}">${r == null ? '·' : r || '–'}${d}</td>`;
+    }
+    h += '</tr>';
+  }
+  el.innerHTML = h + '</tbody></table>';
+  el.querySelectorAll('td.c').forEach((td) => td.addEventListener('click', () => {
+    state.keyword = td.dataset.k; state.market = td.dataset.m;
+    if (state.mode === 'keywords') setMode('competitors'); else render();
+  }));
+}
+
+function renderTop() {
+  const r = (latest.results || []).find((x) => x.keyword === state.keyword && x.market === state.market);
+  $('#topTitle').textContent = state.keyword ? `Top 10 · “${state.keyword}” · ${state.market}` : 'Top 10';
+  if (!r || !r.top || !r.top.length) { $('#top').innerHTML = '<div class="muted">No results for this search yet.</div>'; return; }
+  const comps = new Set((config.competitors || []).map(extractId));
+  const myRank = (seriesFor(state.keyword, state.market)[lastIdx(seriesFor(state.keyword, state.market))]);
+  $('#top').innerHTML = '<ol class="top">' + r.top.map((t) =>
+    `<li class="${t.id === mainId() ? 'me' : comps.has(t.id) ? 'comp' : ''}"><a href="https://chromewebstore.google.com/detail/${t.id}" target="_blank" rel="noopener">${esc(t.name || t.id)}</a>${t.id === mainId() ? ' ← you' : ''}</li>`
+  ).join('') + '</ol>' + (myRank > 10 ? `<p class="muted">You: #${myRank}</p>` : myRank === 0 ? `<p class="muted">You: not in top ${depth()}</p>` : '');
+}
+
+function setMode(v) { state.mode = v; document.querySelectorAll('#mode button').forEach((b) => b.classList.toggle('on', b.dataset.v === v)); render(); }
+document.querySelectorAll('#mode button').forEach((b) => b.addEventListener('click', () => setMode(b.dataset.v)));
+document.querySelectorAll('#range button').forEach((b) => b.addEventListener('click', () => {
+  state.range = +b.dataset.v; document.querySelectorAll('#range button').forEach((x) => x.classList.toggle('on', x === b)); renderChart();
+}));
+$('#selMarket').addEventListener('change', (e) => { state.market = e.target.value; render(); });
+$('#selKeyword').addEventListener('change', (e) => { state.keyword = e.target.value; render(); });
+
+/* ---------------- Settings ---------------- */
+let draft;
+function openSettings(first = false) {
+  draft = { extension: config.extension || '', keywords: [...(config.keywords || [])],
+    markets: config.markets === 'all' ? markets.map((m) => m.code) : [...(config.markets || ['US'])],
+    competitors: [...(config.competitors || [])], depth: config.depth || 100 };
+  $('#setupIntro').hidden = !first;
+  $('#cfgExt').value = draft.extension; $('#cfgComp').value = draft.competitors.join('\n'); $('#cfgDepth').value = draft.depth;
+  $('#cfgRepo').value = guessRepo(); $('#cfgToken').value = store.get('cws.token') || '';
+  $('#authBox').open = !store.get('cws.token');
+  $('#saveMsg').textContent = ''; $('#saveMsg').className = 'msg';
+  $('#mList').innerHTML = markets.map((m) => `<label><input type="checkbox" value="${m.code}" ${draft.markets.includes(m.code) ? 'checked' : ''}> ${esc(m.name)}</label>`).join('');
+  $('#mList').querySelectorAll('input').forEach((i) => i.addEventListener('change', syncMarkets));
+  drawChips(); estimate(); checkExt();
+  $('#settings').showModal();
+}
+function syncMarkets() { draft.markets = [...$('#mList').querySelectorAll('input:checked')].map((i) => i.value); estimate(); }
+function drawChips() {
+  $('#kwChips').innerHTML = draft.keywords.map((k, i) => `<span class="chip">${esc(k)}<button data-i="${i}" aria-label="Remove ${esc(k)}">✕</button></span>`).join('') || '<span class="muted">No keywords yet</span>';
+  $('#kwChips').querySelectorAll('button').forEach((b) => b.addEventListener('click', () => { draft.keywords.splice(+b.dataset.i, 1); drawChips(); estimate(); }));
+}
+function addKeywords() {
+  const parts = $('#kwInput').value.split(/[,\n]/).map((s) => s.trim().toLowerCase()).filter(Boolean);
+  for (const p of parts) if (!draft.keywords.includes(p)) draft.keywords.push(p);
+  $('#kwInput').value = ''; drawChips(); estimate();
+}
+function estimate() {
+  const n = draft.keywords.length * draft.markets.length;
+  const mins = Math.max(1, Math.round(n * 7 / 4 / 60));
+  $('#mCount').textContent = `${draft.markets.length} selected`;
+  $('#estimate').innerHTML = `<b>${n}</b> searches per day (${draft.keywords.length} keywords × ${draft.markets.length} markets) · about <b>${mins} min</b> per run.` +
+    (mins > 240 ? ' <span class="down">That is close to GitHub’s 6-hour job limit. Reduce keywords or markets.</span>' : '');
+}
+function checkExt() {
+  const ok = extractId($('#cfgExt').value);
+  $('#cfgExtHint').textContent = $('#cfgExt').value && !ok ? 'That doesn’t look like a Chrome Web Store link or ID.' : ok ? 'Extension ID: ' + ok : 'Store link or 32-letter extension ID';
+}
+$('#cfgExt').addEventListener('input', checkExt);
+$('#kwAdd').addEventListener('click', addKeywords);
+$('#kwInput').addEventListener('keydown', (e) => { if (e.key === 'Enter') { e.preventDefault(); addKeywords(); } });
+$('#kwInput').addEventListener('paste', () => setTimeout(() => { if (/[,\n]/.test($('#kwInput').value)) addKeywords(); }));
+$('#mAll').addEventListener('click', () => { $('#mList').querySelectorAll('input').forEach((i) => (i.checked = true)); syncMarkets(); });
+$('#mNone').addEventListener('click', () => { $('#mList').querySelectorAll('input').forEach((i) => (i.checked = false)); syncMarkets(); });
+$('#openSettings').addEventListener('click', () => openSettings(false));
+$('#closeSettings').addEventListener('click', () => $('#settings').close());
+$('#forget').addEventListener('click', () => { store.set('cws.token', null); $('#cfgToken').value = ''; });
+
+function msg(t, cls = '') { const m = $('#saveMsg'); m.textContent = t; m.className = 'msg ' + cls; }
+async function gh(path, opts = {}) {
+  const token = $('#cfgToken').value.trim(); const repo = $('#cfgRepo').value.trim();
+  if (!token || !/^[\w.-]+\/[\w.-]+$/.test(repo)) { $('#authBox').open = true; throw new Error('Add the repository (owner/repo) and an access token under “GitHub access”.'); }
+  store.set('cws.token', token); store.set('cws.repo', repo);
+  const r = await fetch(`https://api.github.com/repos/${repo}${path}`, { ...opts, headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28', ...(opts.headers || {}) } });
+  if (!r.ok) { let t = ''; try { t = (await r.json()).message; } catch {} throw new Error(`GitHub said: ${r.status} ${t || r.statusText}`); }
+  return r.status === 204 ? null : r.json();
+}
+const b64 = (s) => { const bytes = new TextEncoder().encode(s); let bin = ''; bytes.forEach((b) => (bin += String.fromCharCode(b))); return btoa(bin); };
+
+$('#save').addEventListener('click', async () => {
+  const ext = $('#cfgExt').value.trim();
+  if (!extractId(ext)) return msg('Enter a valid extension link or ID.', 'err');
+  if (!draft.keywords.length) return msg('Add at least one keyword.', 'err');
+  if (!draft.markets.length) return msg('Pick at least one market.', 'err');
+  const next = {
+    extension: ext,
+    keywords: draft.keywords,
+    markets: draft.markets.length === markets.length ? 'all' : draft.markets,
+    competitors: $('#cfgComp').value.split(/\n/).map((s) => s.trim()).filter((s) => extractId(s)),
+    depth: Math.max(10, Math.min(300, +$('#cfgDepth').value || 100)),
+  };
+  $('#save').disabled = true; msg('Saving…');
+  try {
+    const cur = await gh('/contents/docs/config.json');
+    await gh('/contents/docs/config.json', { method: 'PUT', body: JSON.stringify({ message: 'Update tracking settings', content: b64(JSON.stringify(next, null, 2) + '\n'), sha: cur.sha }) });
+    config = next; render();
+    msg('Saved. A tracking run has started. Results appear in a few minutes (refresh the page).', 'ok');
+  } catch (e) { msg(e.message, 'err'); }
+  finally { $('#save').disabled = false; }
+});
+$('#runNow').addEventListener('click', async () => {
+  $('#runNow').disabled = true; msg('Starting run…');
+  try { await gh('/actions/workflows/track.yml/dispatches', { method: 'POST', body: JSON.stringify({ ref: 'main' }) }); msg('Run started. Check back in a few minutes.', 'ok'); }
+  catch (e) { msg(e.message, 'err'); }
+  finally { $('#runNow').disabled = false; }
+});
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', () => render());
+load();
+</script>
+</body>
+</html>
