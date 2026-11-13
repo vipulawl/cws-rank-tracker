@@ -476,7 +476,7 @@ function addKeywords() {
 }
 function estimate() {
   const n = draft.keywords.length * draft.markets.length;
-  const mins = Math.max(1, Math.round(n * 7 / 4 / 60));
+  const mins = Math.max(1, Math.round(n * 4.2 / 60));
   $('#mCount').textContent = `${draft.markets.length} selected`;
   $('#estimate').innerHTML = `<b>${n}</b> searches per day (${draft.keywords.length} keywords × ${draft.markets.length} markets) · about <b>${mins} min</b> per run.` +
     (mins > 240 ? ' <span class="down">That is close to GitHub’s 6-hour job limit. Reduce keywords or markets.</span>' : '');
@@ -542,7 +542,7 @@ function totalSearches() {
 }
 function estimateSecs() {
   // learn speed from the last run if we have one; first runs use a conservative default
-  const per = status && status.searches && status.seconds ? Math.max(0.8, status.seconds / status.searches) : 3.6;
+  const per = status && status.searches && status.seconds ? Math.max(0.8, status.seconds / status.searches) : 4.2;
   return 75 /* setup */ + totalSearches() * per + 40 /* save + publish */;
 }
 const fmtMin = (s) => s < 60 ? 'less than a minute' : Math.round(s / 60) === 1 ? 'about 1 minute' : `about ${Math.round(s / 60)} minutes`;
