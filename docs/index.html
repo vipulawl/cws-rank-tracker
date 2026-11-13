@@ -185,14 +185,14 @@
     </label>
     <div class="banner" id="estimate"></div>
     <details id="authBox">
-      <summary>GitHub access (needed to save)</summary>
+      <summary>GitHub access: paste your token once (needed to save)</summary>
       <div style="display:grid;gap:10px;margin-top:10px">
         <div class="row">
           <label class="field" style="flex:1"><span>Repository</span><input type="text" id="cfgRepo" placeholder="owner/repo"></label>
         </div>
         <label class="field"><span>Access token</span>
           <input type="password" id="cfgToken" placeholder="github_pat_…" autocomplete="off">
-          <small>Create a <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">fine-grained token</a> for only this repository with
+          <small>Paste the token you already created. Don’t have one? Create a <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">fine-grained token</a> for only this repository with
             <b>Contents: Read and write</b> and <b>Actions: Read and write</b>. It's stored only in this browser and sent only to api.github.com.</small>
         </label>
         <div class="row"><button id="forget">Forget token</button></div>
@@ -481,7 +481,7 @@ $('#forget').addEventListener('click', () => { store.set('cws.token', null); $('
 function msg(t, cls = '') { const m = $('#saveMsg'); m.textContent = t; m.className = 'msg ' + cls; }
 async function gh(path, opts = {}) {
   const token = $('#cfgToken').value.trim(); const repo = $('#cfgRepo').value.trim();
-  if (!token || !/^[\w.-]+\/[\w.-]+$/.test(repo)) { $('#authBox').open = true; throw new Error('Add the repository (owner/repo) and an access token under “GitHub access”.'); }
+  if (!token || !/^[\w.-]+\/[\w.-]+$/.test(repo)) { $('#authBox').open = true; throw new Error(!token ? 'Paste the access token you created on GitHub into “GitHub access” below. You only need to do this once per browser.' : 'Enter the repository as owner/repo under “GitHub access” below.'); }
   store.set('cws.token', token); store.set('cws.repo', repo);
   const r = await fetch(`https://api.github.com/repos/${repo}${path}`, { ...opts, headers: { Authorization: `Bearer ${token}`, Accept: 'application/vnd.github+json', 'X-GitHub-Api-Version': '2022-11-28', ...(opts.headers || {}) } });
   if (!r.ok) { let t = ''; try { t = (await r.json()).message; } catch {} throw new Error(`GitHub said: ${r.status} ${t || r.statusText}`); }
