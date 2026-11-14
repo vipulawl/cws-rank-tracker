@@ -1,6 +1,6 @@
 {
- "date": "2026-11-13",
- "updated": "2026-11-13T19:41:49.006Z",
+ "date": "2026-11-14",
+ "updated": "2026-11-14T11:55:19.163Z",
  "results": [
   {
    "market": "US",
@@ -41,12 +41,12 @@
      "name": "Zicy – AEO/GEO Audit & AI Consultant"
     },
     {
-     "id": "pikkfgkljegabdiodamblgjapfmhccbn",
-     "name": "AEO: SEO & AI Visibility Analyzer"
-    },
-    {
      "id": "pimhmeagnhepckniikojblilglbjngal",
      "name": "RankSEO - AEO & GEO Expert"
+    },
+    {
+     "id": "pikkfgkljegabdiodamblgjapfmhccbn",
+     "name": "AEO: SEO & AI Visibility Analyzer"
     }
    ]
   },
@@ -113,12 +113,12 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "nblbceehggefmhkioijdbppdboimoicg",
-     "name": "AI SEO & GEO Site Audit"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "nblbceehggefmhkioijdbppdboimoicg",
+     "name": "AI SEO & GEO Site Audit"
     },
     {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
@@ -129,20 +129,20 @@
      "name": "OnPageSEO.ai SEO Chrome Extension with Ai & Best SEO Tools"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "kchaponcodemjigejilffhfchecpgdpf",
      "name": "Writesonic - SEO Keywords & AI Search Insights"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     },
     {
      "id": "mkllojoidmbbhmjlpjabpfhklgancdnj",
      "name": "AI SEO Analyzer"
     },
     {
-     "id": "ohogkkknjcjnimjfmgfeppedimjbpmcc",
-     "name": "SEO Lens — AI SEO & GEO Analyzer"
+     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "name": "SEO AI Assistant: SEO Checker, AEO & GEO Audit"
     }
    ]
   },
@@ -165,12 +165,12 @@
      "name": "SEO Minion"
     },
     {
-     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
-     "name": "SEO Search Simulator by Nightwatch"
-    },
-    {
      "id": "kbhghidlilegihmipoohlboebekiigli",
      "name": "SEO Pilot"
+    },
+    {
+     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
+     "name": "SEO Search Simulator by Nightwatch"
     },
     {
      "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
@@ -245,7 +245,7 @@
   {
    "market": "US",
    "keyword": "aeo audit",
-   "scanned": 88,
+   "scanned": 90,
    "ok": true,
    "top": [
     {
@@ -259,10 +259,6 @@
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "ehhgkikhbnpblhfalbggjcpboighdijd",
@@ -283,6 +279,10 @@
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
      "name": "AEO & SEO Linter - Full SEO, GEO & AEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "hhnaciohedaejlgcfdgdpnnfblbdmpal",
@@ -389,13 +389,9 @@
   {
    "market": "US",
    "keyword": "free aeo audit",
-   "scanned": 35,
+   "scanned": 36,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
@@ -403,6 +399,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
@@ -469,16 +469,16 @@
      "name": "AEO Tool"
     },
     {
+     "id": "pimhmeagnhepckniikojblilglbjngal",
+     "name": "RankSEO - AEO & GEO Expert"
+    },
+    {
      "id": "fdjhpdhkngglkpbgagbfacljkodofedl",
      "name": "AEO Visibility Tracking"
     },
     {
      "id": "pikkfgkljegabdiodamblgjapfmhccbn",
      "name": "AEO: SEO & AI Visibility Analyzer"
-    },
-    {
-     "id": "pimhmeagnhepckniikojblilglbjngal",
-     "name": "RankSEO - AEO & GEO Expert"
     }
    ]
   },
@@ -549,10 +549,6 @@
      "name": "AI SEO & GEO Site Audit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
-    },
-    {
      "id": "mjecmfhofeojemjhbecidfkfpopikokg",
      "name": "OnPageSEO.ai SEO Chrome Extension with Ai & Best SEO Tools"
     },
@@ -561,12 +557,12 @@
      "name": "ProfilePro - AI SEO Tool for Google Business Profile SEO"
     },
     {
-     "id": "njjbmbinhpipcdocojjniahjgdoljohg",
-     "name": "Digispot AI - SEO Insights"
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
+     "id": "njjbmbinhpipcdocojjniahjgdoljohg",
+     "name": "Digispot AI - SEO Insights"
     },
     {
      "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
@@ -575,6 +571,10 @@
     {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
      "name": "AI SEO AEO Optimizer"
+    },
+    {
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     }
    ]
   },
@@ -609,12 +609,12 @@
      "name": "SEOquake: On-Page SEO Checker"
     },
     {
-     "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
-     "name": "SEO | ASO | Search Ranking & Keyword Tool"
-    },
-    {
      "id": "kbhghidlilegihmipoohlboebekiigli",
      "name": "SEO Pilot"
+    },
+    {
+     "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
+     "name": "SEO | ASO | Search Ranking & Keyword Tool"
     },
     {
      "id": "oaknplagkdlkngpgdnbhjjeciiknaiaf",
@@ -677,7 +677,7 @@
   {
    "market": "GB",
    "keyword": "aeo audit",
-   "scanned": 88,
+   "scanned": 89,
    "ok": true,
    "top": [
     {
@@ -689,16 +689,12 @@
      "name": "Zicy – AEO/GEO Audit & AI Consultant"
     },
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
+     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
+     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
     },
     {
      "id": "fnljlfppfckehkcapdmdegeoingojcnn",
      "name": "AI Rank Inspector – SEO, AEO & GEO Audit"
-    },
-    {
-     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
-     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
     },
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
@@ -709,8 +705,8 @@
      "name": "SEO & AEO Audit by Omnibound"
     },
     {
-     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
-     "name": "SEO AI Assistant: SEO Checker, AEO & GEO Audit"
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "cbnjcgfpgcedeefpbjiiemgbicflmkil",
@@ -719,6 +715,10 @@
     {
      "id": "bdkkjpbipgolopjhndknigaaokdabnad",
      "name": "AEO/GEO Auditor"
+    },
+    {
+     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "name": "SEO AI Assistant: SEO Checker, AEO & GEO Audit"
     }
    ]
   },
@@ -821,20 +821,16 @@
   {
    "market": "GB",
    "keyword": "free aeo audit",
-   "scanned": 35,
+   "scanned": 36,
    "ok": true,
    "top": [
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
+     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
+     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
     },
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
-    },
-    {
-     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
-     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
     },
     {
      "id": "igknbmbiemjdmoigcblgikpjncaneobb",
@@ -843,6 +839,10 @@
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
      "name": "AEO Quick Check — AI search visibility"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "cnooidbfijmlelofbifefdbieieegnga",
@@ -905,12 +905,12 @@
      "name": "Zicy – AEO/GEO Audit & AI Consultant"
     },
     {
-     "id": "pikkfgkljegabdiodamblgjapfmhccbn",
-     "name": "AEO: SEO & AI Visibility Analyzer"
-    },
-    {
      "id": "pimhmeagnhepckniikojblilglbjngal",
      "name": "RankSEO - AEO & GEO Expert"
+    },
+    {
+     "id": "pikkfgkljegabdiodamblgjapfmhccbn",
+     "name": "AEO: SEO & AI Visibility Analyzer"
     }
    ]
   },
@@ -941,12 +941,12 @@
      "name": "AI Visibility Checker — GEO Audit Tool"
     },
     {
-     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
-     "name": "AI Visibility Auditor"
-    },
-    {
      "id": "odhjoplggcgjmgicckgnaamelnmbdikl",
      "name": "AI Visibility Checker: ChatGPT & AI SEO"
+    },
+    {
+     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
+     "name": "AI Visibility Auditor"
     },
     {
      "id": "mpmlmhennngidjplnndmbgibalaigiic",
@@ -977,12 +977,12 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "nblbceehggefmhkioijdbppdboimoicg",
-     "name": "AI SEO & GEO Site Audit"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "nblbceehggefmhkioijdbppdboimoicg",
+     "name": "AI SEO & GEO Site Audit"
     },
     {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
@@ -993,20 +993,20 @@
      "name": "OnPageSEO.ai SEO Chrome Extension with Ai & Best SEO Tools"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "kchaponcodemjigejilffhfchecpgdpf",
      "name": "Writesonic - SEO Keywords & AI Search Insights"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     },
     {
      "id": "mkllojoidmbbhmjlpjabpfhklgancdnj",
      "name": "AI SEO Analyzer"
     },
     {
-     "id": "ohogkkknjcjnimjfmgfeppedimjbpmcc",
-     "name": "SEO Lens — AI SEO & GEO Analyzer"
+     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "name": "SEO AI Assistant: SEO Checker, AEO & GEO Audit"
     }
    ]
   },
@@ -1029,12 +1029,12 @@
      "name": "SEO Minion"
     },
     {
-     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
-     "name": "SEO Search Simulator by Nightwatch"
-    },
-    {
      "id": "kbhghidlilegihmipoohlboebekiigli",
      "name": "SEO Pilot"
+    },
+    {
+     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
+     "name": "SEO Search Simulator by Nightwatch"
     },
     {
      "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
@@ -1109,7 +1109,7 @@
   {
    "market": "CA",
    "keyword": "aeo audit",
-   "scanned": 88,
+   "scanned": 90,
    "ok": true,
    "top": [
     {
@@ -1123,10 +1123,6 @@
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "ehhgkikhbnpblhfalbggjcpboighdijd",
@@ -1147,6 +1143,10 @@
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
      "name": "AEO & SEO Linter - Full SEO, GEO & AEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "hhnaciohedaejlgcfdgdpnnfblbdmpal",
@@ -1253,13 +1253,9 @@
   {
    "market": "CA",
    "keyword": "free aeo audit",
-   "scanned": 35,
+   "scanned": 36,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
@@ -1267,6 +1263,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
@@ -1333,16 +1333,16 @@
      "name": "AEO Tool"
     },
     {
+     "id": "pimhmeagnhepckniikojblilglbjngal",
+     "name": "RankSEO - AEO & GEO Expert"
+    },
+    {
      "id": "fdjhpdhkngglkpbgagbfacljkodofedl",
      "name": "AEO Visibility Tracking"
     },
     {
      "id": "pikkfgkljegabdiodamblgjapfmhccbn",
      "name": "AEO: SEO & AI Visibility Analyzer"
-    },
-    {
-     "id": "pimhmeagnhepckniikojblilglbjngal",
-     "name": "RankSEO - AEO & GEO Expert"
     }
    ]
   },
@@ -1413,10 +1413,6 @@
      "name": "AI SEO & GEO Site Audit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
-    },
-    {
      "id": "mjecmfhofeojemjhbecidfkfpopikokg",
      "name": "OnPageSEO.ai SEO Chrome Extension with Ai & Best SEO Tools"
     },
@@ -1425,12 +1421,12 @@
      "name": "ProfilePro - AI SEO Tool for Google Business Profile SEO"
     },
     {
-     "id": "njjbmbinhpipcdocojjniahjgdoljohg",
-     "name": "Digispot AI - SEO Insights"
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
+     "id": "njjbmbinhpipcdocojjniahjgdoljohg",
+     "name": "Digispot AI - SEO Insights"
     },
     {
      "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
@@ -1439,6 +1435,10 @@
     {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
      "name": "AI SEO AEO Optimizer"
+    },
+    {
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     }
    ]
   },
@@ -1473,12 +1473,12 @@
      "name": "SEOquake: On-Page SEO Checker"
     },
     {
-     "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
-     "name": "SEO | ASO | Search Ranking & Keyword Tool"
-    },
-    {
      "id": "kbhghidlilegihmipoohlboebekiigli",
      "name": "SEO Pilot"
+    },
+    {
+     "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
+     "name": "SEO | ASO | Search Ranking & Keyword Tool"
     },
     {
      "id": "oaknplagkdlkngpgdnbhjjeciiknaiaf",
@@ -1541,7 +1541,7 @@
   {
    "market": "AU",
    "keyword": "aeo audit",
-   "scanned": 88,
+   "scanned": 89,
    "ok": true,
    "top": [
     {
@@ -1553,16 +1553,12 @@
      "name": "Zicy – AEO/GEO Audit & AI Consultant"
     },
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
+     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
+     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
     },
     {
      "id": "fnljlfppfckehkcapdmdegeoingojcnn",
      "name": "AI Rank Inspector – SEO, AEO & GEO Audit"
-    },
-    {
-     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
-     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
     },
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
@@ -1573,8 +1569,8 @@
      "name": "SEO & AEO Audit by Omnibound"
     },
     {
-     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
-     "name": "SEO AI Assistant: SEO Checker, AEO & GEO Audit"
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "cbnjcgfpgcedeefpbjiiemgbicflmkil",
@@ -1583,6 +1579,10 @@
     {
      "id": "bdkkjpbipgolopjhndknigaaokdabnad",
      "name": "AEO/GEO Auditor"
+    },
+    {
+     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "name": "SEO AI Assistant: SEO Checker, AEO & GEO Audit"
     }
    ]
   },
@@ -1685,20 +1685,16 @@
   {
    "market": "AU",
    "keyword": "free aeo audit",
-   "scanned": 35,
+   "scanned": 36,
    "ok": true,
    "top": [
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
+     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
+     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
     },
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
-    },
-    {
-     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
-     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
     },
     {
      "id": "igknbmbiemjdmoigcblgikpjncaneobb",
@@ -1707,6 +1703,10 @@
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
      "name": "AEO Quick Check — AI search visibility"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "cnooidbfijmlelofbifefdbieieegnga",
@@ -1769,12 +1769,12 @@
      "name": "Zicy – AEO/GEO Audit & AI Consultant"
     },
     {
-     "id": "pikkfgkljegabdiodamblgjapfmhccbn",
-     "name": "AEO: SEO & AI Visibility Analyzer"
-    },
-    {
      "id": "pimhmeagnhepckniikojblilglbjngal",
      "name": "RankSEO - AEO & GEO Expert"
+    },
+    {
+     "id": "pikkfgkljegabdiodamblgjapfmhccbn",
+     "name": "AEO: SEO & AI Visibility Analyzer"
     }
    ]
   },
@@ -1841,12 +1841,12 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "nblbceehggefmhkioijdbppdboimoicg",
-     "name": "AI SEO & GEO Site Audit"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "nblbceehggefmhkioijdbppdboimoicg",
+     "name": "AI SEO & GEO Site Audit"
     },
     {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
@@ -1857,20 +1857,20 @@
      "name": "OnPageSEO.ai SEO Chrome Extension with Ai & Best SEO Tools"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "kchaponcodemjigejilffhfchecpgdpf",
      "name": "Writesonic - SEO Keywords & AI Search Insights"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     },
     {
      "id": "mkllojoidmbbhmjlpjabpfhklgancdnj",
      "name": "AI SEO Analyzer"
     },
     {
-     "id": "ohogkkknjcjnimjfmgfeppedimjbpmcc",
-     "name": "SEO Lens — AI SEO & GEO Analyzer"
+     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "name": "SEO AI Assistant: SEO Checker, AEO & GEO Audit"
     }
    ]
   },
@@ -1893,12 +1893,12 @@
      "name": "SEO Minion"
     },
     {
-     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
-     "name": "SEO Search Simulator by Nightwatch"
-    },
-    {
      "id": "kbhghidlilegihmipoohlboebekiigli",
      "name": "SEO Pilot"
+    },
+    {
+     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
+     "name": "SEO Search Simulator by Nightwatch"
     },
     {
      "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
@@ -1973,7 +1973,7 @@
   {
    "market": "IN",
    "keyword": "aeo audit",
-   "scanned": 88,
+   "scanned": 90,
    "ok": true,
    "top": [
     {
@@ -1987,10 +1987,6 @@
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "ehhgkikhbnpblhfalbggjcpboighdijd",
@@ -2011,6 +2007,10 @@
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
      "name": "AEO & SEO Linter - Full SEO, GEO & AEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "hhnaciohedaejlgcfdgdpnnfblbdmpal",
@@ -2117,13 +2117,9 @@
   {
    "market": "IN",
    "keyword": "free aeo audit",
-   "scanned": 35,
+   "scanned": 36,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
@@ -2131,6 +2127,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
@@ -2197,16 +2197,16 @@
      "name": "AEO Tool"
     },
     {
+     "id": "pimhmeagnhepckniikojblilglbjngal",
+     "name": "RankSEO - AEO & GEO Expert"
+    },
+    {
      "id": "fdjhpdhkngglkpbgagbfacljkodofedl",
      "name": "AEO Visibility Tracking"
     },
     {
      "id": "pikkfgkljegabdiodamblgjapfmhccbn",
      "name": "AEO: SEO & AI Visibility Analyzer"
-    },
-    {
-     "id": "pimhmeagnhepckniikojblilglbjngal",
-     "name": "RankSEO - AEO & GEO Expert"
     }
    ]
   },
@@ -2277,10 +2277,6 @@
      "name": "AI SEO & GEO Site Audit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
-    },
-    {
      "id": "mjecmfhofeojemjhbecidfkfpopikokg",
      "name": "OnPageSEO.ai SEO Chrome Extension with Ai & Best SEO Tools"
     },
@@ -2289,12 +2285,12 @@
      "name": "ProfilePro - AI SEO Tool for Google Business Profile SEO"
     },
     {
-     "id": "njjbmbinhpipcdocojjniahjgdoljohg",
-     "name": "Digispot AI - SEO Insights"
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
+     "id": "njjbmbinhpipcdocojjniahjgdoljohg",
+     "name": "Digispot AI - SEO Insights"
     },
     {
      "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
@@ -2303,6 +2299,10 @@
     {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
      "name": "AI SEO AEO Optimizer"
+    },
+    {
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     }
    ]
   },
@@ -2337,12 +2337,12 @@
      "name": "SEOquake: On-Page SEO Checker"
     },
     {
-     "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
-     "name": "SEO | ASO | Search Ranking & Keyword Tool"
-    },
-    {
      "id": "kbhghidlilegihmipoohlboebekiigli",
      "name": "SEO Pilot"
+    },
+    {
+     "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
+     "name": "SEO | ASO | Search Ranking & Keyword Tool"
     },
     {
      "id": "oaknplagkdlkngpgdnbhjjeciiknaiaf",
@@ -2405,7 +2405,7 @@
   {
    "market": "IE",
    "keyword": "aeo audit",
-   "scanned": 88,
+   "scanned": 89,
    "ok": true,
    "top": [
     {
@@ -2417,16 +2417,12 @@
      "name": "Zicy – AEO/GEO Audit & AI Consultant"
     },
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
+     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
+     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
     },
     {
      "id": "fnljlfppfckehkcapdmdegeoingojcnn",
      "name": "AI Rank Inspector – SEO, AEO & GEO Audit"
-    },
-    {
-     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
-     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
     },
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
@@ -2437,8 +2433,8 @@
      "name": "SEO & AEO Audit by Omnibound"
     },
     {
-     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
-     "name": "SEO AI Assistant: SEO Checker, AEO & GEO Audit"
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "cbnjcgfpgcedeefpbjiiemgbicflmkil",
@@ -2447,6 +2443,10 @@
     {
      "id": "bdkkjpbipgolopjhndknigaaokdabnad",
      "name": "AEO/GEO Auditor"
+    },
+    {
+     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "name": "SEO AI Assistant: SEO Checker, AEO & GEO Audit"
     }
    ]
   },
@@ -2549,20 +2549,16 @@
   {
    "market": "IE",
    "keyword": "free aeo audit",
-   "scanned": 35,
+   "scanned": 36,
    "ok": true,
    "top": [
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
+     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
+     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
     },
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
-    },
-    {
-     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
-     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
     },
     {
      "id": "igknbmbiemjdmoigcblgikpjncaneobb",
@@ -2571,6 +2567,10 @@
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
      "name": "AEO Quick Check — AI search visibility"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "cnooidbfijmlelofbifefdbieieegnga",
@@ -2633,12 +2633,12 @@
      "name": "Zicy – AEO/GEO Audit & AI Consultant"
     },
     {
-     "id": "pikkfgkljegabdiodamblgjapfmhccbn",
-     "name": "AEO: SEO & AI Visibility Analyzer"
-    },
-    {
      "id": "pimhmeagnhepckniikojblilglbjngal",
      "name": "RankSEO - AEO & GEO Expert"
+    },
+    {
+     "id": "pikkfgkljegabdiodamblgjapfmhccbn",
+     "name": "AEO: SEO & AI Visibility Analyzer"
     }
    ]
   },
@@ -2705,12 +2705,12 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "nblbceehggefmhkioijdbppdboimoicg",
-     "name": "AI SEO & GEO Site Audit"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "nblbceehggefmhkioijdbppdboimoicg",
+     "name": "AI SEO & GEO Site Audit"
     },
     {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
@@ -2721,20 +2721,20 @@
      "name": "OnPageSEO.ai SEO Chrome Extension with Ai & Best SEO Tools"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "kchaponcodemjigejilffhfchecpgdpf",
      "name": "Writesonic - SEO Keywords & AI Search Insights"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     },
     {
      "id": "mkllojoidmbbhmjlpjabpfhklgancdnj",
      "name": "AI SEO Analyzer"
     },
     {
-     "id": "ohogkkknjcjnimjfmgfeppedimjbpmcc",
-     "name": "SEO Lens — AI SEO & GEO Analyzer"
+     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "name": "SEO AI Assistant: SEO Checker, AEO & GEO Audit"
     }
    ]
   },
@@ -2757,12 +2757,12 @@
      "name": "SEO Minion"
     },
     {
-     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
-     "name": "SEO Search Simulator by Nightwatch"
-    },
-    {
      "id": "kbhghidlilegihmipoohlboebekiigli",
      "name": "SEO Pilot"
+    },
+    {
+     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
+     "name": "SEO Search Simulator by Nightwatch"
     },
     {
      "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
@@ -2837,7 +2837,7 @@
   {
    "market": "SG",
    "keyword": "aeo audit",
-   "scanned": 88,
+   "scanned": 90,
    "ok": true,
    "top": [
     {
@@ -2851,10 +2851,6 @@
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "ehhgkikhbnpblhfalbggjcpboighdijd",
@@ -2875,6 +2871,10 @@
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
      "name": "AEO & SEO Linter - Full SEO, GEO & AEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "hhnaciohedaejlgcfdgdpnnfblbdmpal",
@@ -2981,13 +2981,9 @@
   {
    "market": "SG",
    "keyword": "free aeo audit",
-   "scanned": 35,
+   "scanned": 36,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
@@ -2995,6 +2991,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
@@ -3065,12 +3065,12 @@
      "name": "Zicy – AEO/GEO Audit & AI Consultant"
     },
     {
-     "id": "pikkfgkljegabdiodamblgjapfmhccbn",
-     "name": "AEO: SEO & AI Visibility Analyzer"
-    },
-    {
      "id": "pimhmeagnhepckniikojblilglbjngal",
      "name": "RankSEO - AEO & GEO Expert"
+    },
+    {
+     "id": "pikkfgkljegabdiodamblgjapfmhccbn",
+     "name": "AEO: SEO & AI Visibility Analyzer"
     }
    ]
   },
@@ -3101,12 +3101,12 @@
      "name": "AI Visibility Checker — GEO Audit Tool"
     },
     {
-     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
-     "name": "AI Visibility Auditor"
-    },
-    {
      "id": "odhjoplggcgjmgicckgnaamelnmbdikl",
      "name": "AI Visibility Checker: ChatGPT & AI SEO"
+    },
+    {
+     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
+     "name": "AI Visibility Auditor"
     },
     {
      "id": "mpmlmhennngidjplnndmbgibalaigiic",
@@ -3137,12 +3137,12 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "nblbceehggefmhkioijdbppdboimoicg",
-     "name": "AI SEO & GEO Site Audit"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "nblbceehggefmhkioijdbppdboimoicg",
+     "name": "AI SEO & GEO Site Audit"
     },
     {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
@@ -3153,20 +3153,20 @@
      "name": "OnPageSEO.ai SEO Chrome Extension with Ai & Best SEO Tools"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "kchaponcodemjigejilffhfchecpgdpf",
      "name": "Writesonic - SEO Keywords & AI Search Insights"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     },
     {
      "id": "mkllojoidmbbhmjlpjabpfhklgancdnj",
      "name": "AI SEO Analyzer"
     },
     {
-     "id": "ohogkkknjcjnimjfmgfeppedimjbpmcc",
-     "name": "SEO Lens — AI SEO & GEO Analyzer"
+     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "name": "SEO AI Assistant: SEO Checker, AEO & GEO Audit"
     }
    ]
   },
@@ -3189,12 +3189,12 @@
      "name": "SEO Minion"
     },
     {
-     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
-     "name": "SEO Search Simulator by Nightwatch"
-    },
-    {
      "id": "kbhghidlilegihmipoohlboebekiigli",
      "name": "SEO Pilot"
+    },
+    {
+     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
+     "name": "SEO Search Simulator by Nightwatch"
     },
     {
      "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
@@ -3269,7 +3269,7 @@
   {
    "market": "ZA",
    "keyword": "aeo audit",
-   "scanned": 88,
+   "scanned": 90,
    "ok": true,
    "top": [
     {
@@ -3283,10 +3283,6 @@
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "ehhgkikhbnpblhfalbggjcpboighdijd",
@@ -3307,6 +3303,10 @@
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
      "name": "AEO & SEO Linter - Full SEO, GEO & AEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "hhnaciohedaejlgcfdgdpnnfblbdmpal",
@@ -3413,13 +3413,9 @@
   {
    "market": "ZA",
    "keyword": "free aeo audit",
-   "scanned": 35,
+   "scanned": 36,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
@@ -3427,6 +3423,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
@@ -3497,12 +3497,12 @@
      "name": "Zicy – AEO/GEO Audit & AI Consultant"
     },
     {
-     "id": "pikkfgkljegabdiodamblgjapfmhccbn",
-     "name": "AEO: SEO & AI Visibility Analyzer"
-    },
-    {
      "id": "pimhmeagnhepckniikojblilglbjngal",
      "name": "RankSEO - AEO & GEO Expert"
+    },
+    {
+     "id": "pikkfgkljegabdiodamblgjapfmhccbn",
+     "name": "AEO: SEO & AI Visibility Analyzer"
     }
    ]
   },
@@ -3569,12 +3569,12 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "nblbceehggefmhkioijdbppdboimoicg",
-     "name": "AI SEO & GEO Site Audit"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "nblbceehggefmhkioijdbppdboimoicg",
+     "name": "AI SEO & GEO Site Audit"
     },
     {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
@@ -3585,20 +3585,20 @@
      "name": "OnPageSEO.ai SEO Chrome Extension with Ai & Best SEO Tools"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "kchaponcodemjigejilffhfchecpgdpf",
      "name": "Writesonic - SEO Keywords & AI Search Insights"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     },
     {
      "id": "mkllojoidmbbhmjlpjabpfhklgancdnj",
      "name": "AI SEO Analyzer"
     },
     {
-     "id": "ohogkkknjcjnimjfmgfeppedimjbpmcc",
-     "name": "SEO Lens — AI SEO & GEO Analyzer"
+     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "name": "SEO AI Assistant: SEO Checker, AEO & GEO Audit"
     }
    ]
   },
@@ -3621,12 +3621,12 @@
      "name": "SEO Minion"
     },
     {
-     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
-     "name": "SEO Search Simulator by Nightwatch"
-    },
-    {
      "id": "kbhghidlilegihmipoohlboebekiigli",
      "name": "SEO Pilot"
+    },
+    {
+     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
+     "name": "SEO Search Simulator by Nightwatch"
     },
     {
      "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
@@ -3701,7 +3701,7 @@
   {
    "market": "NG",
    "keyword": "aeo audit",
-   "scanned": 88,
+   "scanned": 90,
    "ok": true,
    "top": [
     {
@@ -3715,10 +3715,6 @@
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "ehhgkikhbnpblhfalbggjcpboighdijd",
@@ -3739,6 +3735,10 @@
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
      "name": "AEO & SEO Linter - Full SEO, GEO & AEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "hhnaciohedaejlgcfdgdpnnfblbdmpal",
@@ -3845,13 +3845,9 @@
   {
    "market": "NG",
    "keyword": "free aeo audit",
-   "scanned": 35,
+   "scanned": 36,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
@@ -3859,6 +3855,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
@@ -3929,12 +3929,12 @@
      "name": "Zicy – AEO/GEO Audit & AI Consultant"
     },
     {
-     "id": "pikkfgkljegabdiodamblgjapfmhccbn",
-     "name": "AEO: SEO & AI Visibility Analyzer"
-    },
-    {
      "id": "pimhmeagnhepckniikojblilglbjngal",
      "name": "RankSEO - AEO & GEO Expert"
+    },
+    {
+     "id": "pikkfgkljegabdiodamblgjapfmhccbn",
+     "name": "AEO: SEO & AI Visibility Analyzer"
     }
    ]
   },
@@ -4001,12 +4001,12 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "nblbceehggefmhkioijdbppdboimoicg",
-     "name": "AI SEO & GEO Site Audit"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "nblbceehggefmhkioijdbppdboimoicg",
+     "name": "AI SEO & GEO Site Audit"
     },
     {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
@@ -4017,20 +4017,20 @@
      "name": "OnPageSEO.ai SEO Chrome Extension with Ai & Best SEO Tools"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "kchaponcodemjigejilffhfchecpgdpf",
      "name": "Writesonic - SEO Keywords & AI Search Insights"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     },
     {
      "id": "mkllojoidmbbhmjlpjabpfhklgancdnj",
      "name": "AI SEO Analyzer"
     },
     {
-     "id": "ohogkkknjcjnimjfmgfeppedimjbpmcc",
-     "name": "SEO Lens — AI SEO & GEO Analyzer"
+     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "name": "SEO AI Assistant: SEO Checker, AEO & GEO Audit"
     }
    ]
   },
@@ -4053,12 +4053,12 @@
      "name": "SEO Minion"
     },
     {
-     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
-     "name": "SEO Search Simulator by Nightwatch"
-    },
-    {
      "id": "kbhghidlilegihmipoohlboebekiigli",
      "name": "SEO Pilot"
+    },
+    {
+     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
+     "name": "SEO Search Simulator by Nightwatch"
     },
     {
      "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
@@ -4133,7 +4133,7 @@
   {
    "market": "PH",
    "keyword": "aeo audit",
-   "scanned": 88,
+   "scanned": 90,
    "ok": true,
    "top": [
     {
@@ -4147,10 +4147,6 @@
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "ehhgkikhbnpblhfalbggjcpboighdijd",
@@ -4171,6 +4167,10 @@
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
      "name": "AEO & SEO Linter - Full SEO, GEO & AEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "hhnaciohedaejlgcfdgdpnnfblbdmpal",
@@ -4277,13 +4277,9 @@
   {
    "market": "PH",
    "keyword": "free aeo audit",
-   "scanned": 35,
+   "scanned": 36,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
@@ -4291,6 +4287,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
@@ -4365,8 +4365,8 @@
      "name": "AEO Quick Check — AI search visibility"
     },
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: KI-SEO, GEO & llms.txt Audit"
+     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "name": "SEO AI Assistant: SEO-Checker, AEO- & GEO-Audit"
     }
    ]
   },
@@ -4433,12 +4433,16 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
+    },
+    {
      "id": "nblbceehggefmhkioijdbppdboimoicg",
      "name": "AI SEO- & GEO-Seitenaudit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "name": "SEO AI Assistant: SEO-Checker, AEO- & GEO-Audit"
     },
     {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
@@ -4449,20 +4453,16 @@
      "name": "OnPageSEO.ai SEO Chrome Extension with Ai & Best SEO Tools"
     },
     {
-     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
-     "name": "SEO AI Assistant: SEO-Checker, AEO- & GEO-Audit"
-    },
-    {
      "id": "kchaponcodemjigejilffhfchecpgdpf",
      "name": "Writesonic - SEO Keywords & AI Search Insights"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
      "name": "AI SEO AEO Optimizer"
+    },
+    {
+     "id": "mkllojoidmbbhmjlpjabpfhklgancdnj",
+     "name": "AI SEO Analyzer"
     }
    ]
   },
@@ -4489,20 +4489,20 @@
      "name": "SEO Minion"
     },
     {
-     "id": "lajfdngpocmchpihjecojjllfjeehgnl",
-     "name": "SEO Pro Extension"
-    },
-    {
      "id": "kbhghidlilegihmipoohlboebekiigli",
      "name": "SEO Pilot"
     },
     {
-     "id": "hbdkkfheckcdppiaiabobmennhijkknn",
-     "name": "Open SEO Stats(Formerly: PageRank Status)"
+     "id": "lajfdngpocmchpihjecojjllfjeehgnl",
+     "name": "SEO Pro Extension"
     },
     {
      "id": "nljcdkjpjnhlilgepggmmagnmebhadnk",
      "name": "SEO Website Analyse"
+    },
+    {
+     "id": "hbdkkfheckcdppiaiabobmennhijkknn",
+     "name": "Open SEO Stats(Formerly: PageRank Status)"
     },
     {
      "id": "pfjdepjjfjjahkjfpkcgfmfhmnakjfba",
@@ -4537,16 +4537,12 @@
      "name": "GEO Auditor"
     },
     {
-     "id": "kcnljjabgbbilgnllmdhogiajcoehcan",
-     "name": "Glippy - GEO- & Agent-Readiness-Checker"
-    },
-    {
      "id": "fiaifciaeodokchkkgjndmmjpelkcbpb",
      "name": "Sorank SEO- & GEO-Audit - Search Console & Speed Insight"
     },
     {
-     "id": "bighchjkhmbkekohphegfjchbjhglcon",
-     "name": "SEOwer Pro: SEO-, GEO- und KI-Audit"
+     "id": "kcnljjabgbbilgnllmdhogiajcoehcan",
+     "name": "Glippy - GEO- & Agent-Readiness-Checker"
     },
     {
      "id": "nblbceehggefmhkioijdbppdboimoicg",
@@ -4559,13 +4555,17 @@
     {
      "id": "ldeicpgfgebmokkcbpoclggdimfoadff",
      "name": "GEO Checker"
+    },
+    {
+     "id": "pimhmeagnhepckniikojblilglbjngal",
+     "name": "RankSEO - AEO & GEO Expert"
     }
    ]
   },
   {
    "market": "DE",
    "keyword": "aeo audit",
-   "scanned": 91,
+   "scanned": 93,
    "ok": true,
    "top": [
     {
@@ -4579,10 +4579,6 @@
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO-Audit – KI-Sichtbarkeit in der Suche"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: KI-SEO, GEO & llms.txt Audit"
     },
     {
      "id": "cbnjcgfpgcedeefpbjiiemgbicflmkil",
@@ -4607,6 +4603,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: KI-SEO, GEO & llms.txt Audit"
     }
    ]
   },
@@ -4653,8 +4653,8 @@
      "name": "ZYNAGI AI Audit"
     },
     {
-     "id": "ckjklbhmiaikmndlokoaogcbpllcpond",
-     "name": "Seiten-SEO-Audit by AIO.com.ai"
+     "id": "fggajaaicafpjgdlepmafomcmlhijbkk",
+     "name": "AI Visibility & SEO Audit by Snezzi"
     }
    ]
   },
@@ -4709,13 +4709,9 @@
   {
    "market": "DE",
    "keyword": "free aeo audit",
-   "scanned": 35,
+   "scanned": 36,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: KI-SEO, GEO & llms.txt Audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO-Audit – KI-Sichtbarkeit in der Suche"
@@ -4723,6 +4719,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: KI-SEO, GEO & llms.txt Audit"
     },
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
@@ -4797,8 +4797,8 @@
      "name": "AEO Quick Check — AI search visibility"
     },
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: KI-SEO, GEO & llms.txt Audit"
+     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "name": "SEO AI Assistant: SEO-Checker, AEO- & GEO-Audit"
     }
    ]
   },
@@ -4865,12 +4865,16 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
+    },
+    {
      "id": "nblbceehggefmhkioijdbppdboimoicg",
      "name": "AI SEO- & GEO-Seitenaudit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "name": "SEO AI Assistant: SEO-Checker, AEO- & GEO-Audit"
     },
     {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
@@ -4881,20 +4885,16 @@
      "name": "OnPageSEO.ai SEO Chrome Extension with Ai & Best SEO Tools"
     },
     {
-     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
-     "name": "SEO AI Assistant: SEO-Checker, AEO- & GEO-Audit"
-    },
-    {
      "id": "kchaponcodemjigejilffhfchecpgdpf",
      "name": "Writesonic - SEO Keywords & AI Search Insights"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
      "name": "AI SEO AEO Optimizer"
+    },
+    {
+     "id": "mkllojoidmbbhmjlpjabpfhklgancdnj",
+     "name": "AI SEO Analyzer"
     }
    ]
   },
@@ -4917,6 +4917,10 @@
      "name": "SEO & ASO | Suchrangfolge- und Schlüsselwort-Tool"
     },
     {
+     "id": "kbhghidlilegihmipoohlboebekiigli",
+     "name": "SEO Pilot"
+    },
+    {
      "id": "giihipjfimkajhlcilipnjeohabimjhi",
      "name": "SEO Minion"
     },
@@ -4925,16 +4929,12 @@
      "name": "SEO Pro Extension"
     },
     {
-     "id": "kbhghidlilegihmipoohlboebekiigli",
-     "name": "SEO Pilot"
+     "id": "nljcdkjpjnhlilgepggmmagnmebhadnk",
+     "name": "SEO Website Analyse"
     },
     {
      "id": "hbdkkfheckcdppiaiabobmennhijkknn",
      "name": "Open SEO Stats(Formerly: PageRank Status)"
-    },
-    {
-     "id": "nljcdkjpjnhlilgepggmmagnmebhadnk",
-     "name": "SEO Website Analyse"
     },
     {
      "id": "pfjdepjjfjjahkjfpkcgfmfhmnakjfba",
@@ -4969,16 +4969,12 @@
      "name": "GEO Auditor"
     },
     {
-     "id": "kcnljjabgbbilgnllmdhogiajcoehcan",
-     "name": "Glippy - GEO- & Agent-Readiness-Checker"
-    },
-    {
      "id": "fiaifciaeodokchkkgjndmmjpelkcbpb",
      "name": "Sorank SEO- & GEO-Audit - Search Console & Speed Insight"
     },
     {
-     "id": "bighchjkhmbkekohphegfjchbjhglcon",
-     "name": "SEOwer Pro: SEO-, GEO- und KI-Audit"
+     "id": "kcnljjabgbbilgnllmdhogiajcoehcan",
+     "name": "Glippy - GEO- & Agent-Readiness-Checker"
     },
     {
      "id": "nblbceehggefmhkioijdbppdboimoicg",
@@ -4991,13 +4987,17 @@
     {
      "id": "ldeicpgfgebmokkcbpoclggdimfoadff",
      "name": "GEO Checker"
+    },
+    {
+     "id": "pimhmeagnhepckniikojblilglbjngal",
+     "name": "RankSEO - AEO & GEO Expert"
     }
    ]
   },
   {
    "market": "AT",
    "keyword": "aeo audit",
-   "scanned": 91,
+   "scanned": 93,
    "ok": true,
    "top": [
     {
@@ -5011,10 +5011,6 @@
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO-Audit – KI-Sichtbarkeit in der Suche"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: KI-SEO, GEO & llms.txt Audit"
     },
     {
      "id": "cbnjcgfpgcedeefpbjiiemgbicflmkil",
@@ -5039,6 +5035,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: KI-SEO, GEO & llms.txt Audit"
     }
    ]
   },
@@ -5085,8 +5085,8 @@
      "name": "ZYNAGI AI Audit"
     },
     {
-     "id": "ckjklbhmiaikmndlokoaogcbpllcpond",
-     "name": "Seiten-SEO-Audit by AIO.com.ai"
+     "id": "fggajaaicafpjgdlepmafomcmlhijbkk",
+     "name": "AI Visibility & SEO Audit by Snezzi"
     }
    ]
   },
@@ -5141,13 +5141,9 @@
   {
    "market": "AT",
    "keyword": "free aeo audit",
-   "scanned": 35,
+   "scanned": 36,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: KI-SEO, GEO & llms.txt Audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO-Audit – KI-Sichtbarkeit in der Suche"
@@ -5155,6 +5151,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: KI-SEO, GEO & llms.txt Audit"
     },
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
@@ -5229,8 +5229,8 @@
      "name": "AEO Quick Check — AI search visibility"
     },
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: KI-SEO, GEO & llms.txt Audit"
+     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "name": "SEO AI Assistant: SEO-Checker, AEO- & GEO-Audit"
     }
    ]
   },
@@ -5297,12 +5297,16 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
+    },
+    {
      "id": "nblbceehggefmhkioijdbppdboimoicg",
      "name": "AI SEO- & GEO-Seitenaudit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "name": "SEO AI Assistant: SEO-Checker, AEO- & GEO-Audit"
     },
     {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
@@ -5313,20 +5317,16 @@
      "name": "OnPageSEO.ai SEO Chrome Extension with Ai & Best SEO Tools"
     },
     {
-     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
-     "name": "SEO AI Assistant: SEO-Checker, AEO- & GEO-Audit"
-    },
-    {
      "id": "kchaponcodemjigejilffhfchecpgdpf",
      "name": "Writesonic - SEO Keywords & AI Search Insights"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
      "name": "AI SEO AEO Optimizer"
+    },
+    {
+     "id": "mkllojoidmbbhmjlpjabpfhklgancdnj",
+     "name": "AI SEO Analyzer"
     }
    ]
   },
@@ -5349,6 +5349,10 @@
      "name": "SEO & ASO | Suchrangfolge- und Schlüsselwort-Tool"
     },
     {
+     "id": "kbhghidlilegihmipoohlboebekiigli",
+     "name": "SEO Pilot"
+    },
+    {
      "id": "giihipjfimkajhlcilipnjeohabimjhi",
      "name": "SEO Minion"
     },
@@ -5357,16 +5361,12 @@
      "name": "SEO Pro Extension"
     },
     {
-     "id": "kbhghidlilegihmipoohlboebekiigli",
-     "name": "SEO Pilot"
+     "id": "nljcdkjpjnhlilgepggmmagnmebhadnk",
+     "name": "SEO Website Analyse"
     },
     {
      "id": "hbdkkfheckcdppiaiabobmennhijkknn",
      "name": "Open SEO Stats(Formerly: PageRank Status)"
-    },
-    {
-     "id": "nljcdkjpjnhlilgepggmmagnmebhadnk",
-     "name": "SEO Website Analyse"
     },
     {
      "id": "pfjdepjjfjjahkjfpkcgfmfhmnakjfba",
@@ -5401,16 +5401,12 @@
      "name": "GEO Auditor"
     },
     {
-     "id": "kcnljjabgbbilgnllmdhogiajcoehcan",
-     "name": "Glippy - GEO- & Agent-Readiness-Checker"
-    },
-    {
      "id": "fiaifciaeodokchkkgjndmmjpelkcbpb",
      "name": "Sorank SEO- & GEO-Audit - Search Console & Speed Insight"
     },
     {
-     "id": "bighchjkhmbkekohphegfjchbjhglcon",
-     "name": "SEOwer Pro: SEO-, GEO- und KI-Audit"
+     "id": "kcnljjabgbbilgnllmdhogiajcoehcan",
+     "name": "Glippy - GEO- & Agent-Readiness-Checker"
     },
     {
      "id": "nblbceehggefmhkioijdbppdboimoicg",
@@ -5423,13 +5419,17 @@
     {
      "id": "ldeicpgfgebmokkcbpoclggdimfoadff",
      "name": "GEO Checker"
+    },
+    {
+     "id": "pimhmeagnhepckniikojblilglbjngal",
+     "name": "RankSEO - AEO & GEO Expert"
     }
    ]
   },
   {
    "market": "CH",
    "keyword": "aeo audit",
-   "scanned": 91,
+   "scanned": 93,
    "ok": true,
    "top": [
     {
@@ -5443,10 +5443,6 @@
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO-Audit – KI-Sichtbarkeit in der Suche"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: KI-SEO, GEO & llms.txt Audit"
     },
     {
      "id": "cbnjcgfpgcedeefpbjiiemgbicflmkil",
@@ -5471,6 +5467,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: KI-SEO, GEO & llms.txt Audit"
     }
    ]
   },
@@ -5517,8 +5517,8 @@
      "name": "ZYNAGI AI Audit"
     },
     {
-     "id": "ckjklbhmiaikmndlokoaogcbpllcpond",
-     "name": "Seiten-SEO-Audit by AIO.com.ai"
+     "id": "fggajaaicafpjgdlepmafomcmlhijbkk",
+     "name": "AI Visibility & SEO Audit by Snezzi"
     }
    ]
   },
@@ -5573,13 +5573,9 @@
   {
    "market": "CH",
    "keyword": "free aeo audit",
-   "scanned": 35,
+   "scanned": 36,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: KI-SEO, GEO & llms.txt Audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO-Audit – KI-Sichtbarkeit in der Suche"
@@ -5587,6 +5583,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: KI-SEO, GEO & llms.txt Audit"
     },
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
@@ -5729,8 +5729,8 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
      "id": "nblbceehggefmhkioijdbppdboimoicg",
@@ -5745,12 +5745,12 @@
      "name": "SEO AI Assistant : Analyse SEO et audit AEO et GEO"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
      "name": "ProfilePro - AI SEO Tool for Google Business Profile SEO"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     },
     {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
@@ -5853,15 +5853,15 @@
      "name": "GEO Inspector — Recherche IA (Google)"
     },
     {
-     "id": "indefccjpcmnohkeiddnagngaphdahdl",
-     "name": "peeq — Validateur de Schema et JSON-LD pour SEO et GEO"
+     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
+     "name": "Vérificateur AEO & GEO + audit SEO - Visibilité recherche IA"
     }
    ]
   },
   {
    "market": "FR",
    "keyword": "aeo audit",
-   "scanned": 85,
+   "scanned": 86,
    "ok": true,
    "top": [
     {
@@ -5885,10 +5885,6 @@
      "name": "Audito: SEO, AEO & AI Content Audit"
     },
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker : audit SEO IA, GEO et llms.txt"
-    },
-    {
      "id": "ehhgkikhbnpblhfalbggjcpboighdijd",
      "name": "SEO & AEO Audit by Omnibound"
     },
@@ -5899,6 +5895,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker : audit SEO IA, GEO et llms.txt"
     },
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
@@ -6009,12 +6009,12 @@
    "ok": true,
    "top": [
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker : audit SEO IA, GEO et llms.txt"
-    },
-    {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
      "name": "AEO Quick Check — AI search visibility"
+    },
+    {
+     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
+     "name": "Vérificateur AEO & GEO + audit SEO - Visibilité recherche IA"
     },
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
@@ -6025,8 +6025,8 @@
      "name": "AuditBeacon — Free SEO/AEO/GEO Auditor"
     },
     {
-     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
-     "name": "Vérificateur AEO & GEO + audit SEO - Visibilité recherche IA"
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker : audit SEO IA, GEO et llms.txt"
     },
     {
      "id": "hnfdfkpmamjkfomfgijbmkijahcjengn",
@@ -6141,8 +6141,8 @@
      "name": "AI Content Visibility Checker"
     },
     {
-     "id": "edonofkflcbkihifkjalafnkabjpaamd",
-     "name": "GEO Search Leads – AI Visibility Score for ChatGPT & AI Search"
+     "id": "olhjmljioknnjhmmcdbmhhngcjjkpcdn",
+     "name": "AI Visibility Checker"
     }
    ]
   },
@@ -6161,8 +6161,8 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
      "id": "nblbceehggefmhkioijdbppdboimoicg",
@@ -6177,12 +6177,12 @@
      "name": "SEO AI Assistant : Analyse SEO et audit AEO et GEO"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
      "name": "ProfilePro - AI SEO Tool for Google Business Profile SEO"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     },
     {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
@@ -6285,15 +6285,15 @@
      "name": "GEO Inspector — Recherche IA (Google)"
     },
     {
-     "id": "indefccjpcmnohkeiddnagngaphdahdl",
-     "name": "peeq — Validateur de Schema et JSON-LD pour SEO et GEO"
+     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
+     "name": "Vérificateur AEO & GEO + audit SEO - Visibilité recherche IA"
     }
    ]
   },
   {
    "market": "BE",
    "keyword": "aeo audit",
-   "scanned": 85,
+   "scanned": 86,
    "ok": true,
    "top": [
     {
@@ -6317,10 +6317,6 @@
      "name": "Audito: SEO, AEO & AI Content Audit"
     },
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker : audit SEO IA, GEO et llms.txt"
-    },
-    {
      "id": "ehhgkikhbnpblhfalbggjcpboighdijd",
      "name": "SEO & AEO Audit by Omnibound"
     },
@@ -6331,6 +6327,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker : audit SEO IA, GEO et llms.txt"
     },
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
@@ -6441,12 +6441,12 @@
    "ok": true,
    "top": [
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker : audit SEO IA, GEO et llms.txt"
-    },
-    {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
      "name": "AEO Quick Check — AI search visibility"
+    },
+    {
+     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
+     "name": "Vérificateur AEO & GEO + audit SEO - Visibilité recherche IA"
     },
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
@@ -6457,8 +6457,8 @@
      "name": "AuditBeacon — Free SEO/AEO/GEO Auditor"
     },
     {
-     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
-     "name": "Vérificateur AEO & GEO + audit SEO - Visibilité recherche IA"
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker : audit SEO IA, GEO et llms.txt"
     },
     {
      "id": "hnfdfkpmamjkfomfgijbmkijahcjengn",
@@ -6501,16 +6501,20 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "gmmliebciophkjngpdomhdfehfgcfdee",
-     "name": "AEO Analyzer: AI Website Optimizer"
-    },
-    {
      "id": "oedaeehegodiiggcpbgbmdppjnacfhne",
      "name": "AEO Tool"
     },
     {
+     "id": "gmmliebciophkjngpdomhdfehfgcfdee",
+     "name": "AEO Analyzer: AI Website Optimizer"
+    },
+    {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
      "name": "AEO Quick Check — AI search visibility"
+    },
+    {
+     "id": "pimhmeagnhepckniikojblilglbjngal",
+     "name": "RankSEO - AEO & GEO Expert"
     },
     {
      "id": "nifnkfllpenejgiockmebhkaapfbklce",
@@ -6519,10 +6523,6 @@
     {
      "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
      "name": "SEO AI Assistant: SEO-checker en AEO- & GEO-audit"
-    },
-    {
-     "id": "pimhmeagnhepckniikojblilglbjngal",
-     "name": "RankSEO - AEO & GEO Expert"
     },
     {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
@@ -6593,36 +6593,36 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "nblbceehggefmhkioijdbppdboimoicg",
-     "name": "AI SEO & GEO Site Audit"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "nblbceehggefmhkioijdbppdboimoicg",
+     "name": "AI SEO & GEO Site Audit"
     },
     {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
      "name": "ProfilePro - AI SEO Tool for Google Business Profile SEO"
     },
     {
-     "id": "mjecmfhofeojemjhbecidfkfpopikokg",
-     "name": "OnPageSEO.ai SEO Chrome Extension with Ai & Best SEO Tools"
-    },
-    {
      "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
      "name": "SEO AI Assistant: SEO-checker en AEO- & GEO-audit"
+    },
+    {
+     "id": "mjecmfhofeojemjhbecidfkfpopikokg",
+     "name": "OnPageSEO.ai SEO Chrome Extension with Ai & Best SEO Tools"
     },
     {
      "id": "kchaponcodemjigejilffhfchecpgdpf",
      "name": "Writesonic - SEO Keywords & AI Search Insights"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
      "name": "AI SEO AEO Optimizer"
+    },
+    {
+     "id": "mkllojoidmbbhmjlpjabpfhklgancdnj",
+     "name": "AI SEO Analyzer"
     }
    ]
   },
@@ -6633,16 +6633,16 @@
    "ok": true,
    "top": [
     {
+     "id": "akdgnmcogleenhbclghghlkkdndkjdjc",
+     "name": "SEOquake: On-Page SEO Checker"
+    },
+    {
      "id": "giihipjfimkajhlcilipnjeohabimjhi",
      "name": "SEO Minion"
     },
     {
      "id": "bjogjfinolnhfhkbipphpdlldadpnmhc",
      "name": "SEO META in 1 CLICK"
-    },
-    {
-     "id": "akdgnmcogleenhbclghghlkkdndkjdjc",
-     "name": "SEOquake: On-Page SEO Checker"
     },
     {
      "id": "lajfdngpocmchpihjecojjllfjeehgnl",
@@ -6669,8 +6669,8 @@
      "name": "Detailed SEO Extension"
     },
     {
-     "id": "oaknplagkdlkngpgdnbhjjeciiknaiaf",
-     "name": "SEO Specialist Extension"
+     "id": "hbdkkfheckcdppiaiabobmennhijkknn",
+     "name": "Open SEO Stats(Formerly: PageRank Status)"
     }
    ]
   },
@@ -6717,15 +6717,15 @@
      "name": "Sorank SEO & GEO Audit - Search Console & Speed Insight"
     },
     {
-     "id": "bjjhdfofkppcajpiheekikagfhhcnhml",
-     "name": "SEOLensAI — SEO, AEO & GEO Checker"
+     "id": "odfojkkhknhhifgmjffhlaocllkeicjm",
+     "name": "GEO Score"
     }
    ]
   },
   {
    "market": "NL",
    "keyword": "aeo audit",
-   "scanned": 93,
+   "scanned": 94,
    "ok": true,
    "top": [
     {
@@ -6745,16 +6745,16 @@
      "name": "AEO/GEO Auditor"
     },
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt-audit"
-    },
-    {
      "id": "ehhgkikhbnpblhfalbggjcpboighdijd",
      "name": "SEO & AEO Audit by Omnibound"
     },
     {
      "id": "hhnaciohedaejlgcfdgdpnnfblbdmpal",
      "name": "AEO Audit by Cintra"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt-audit"
     },
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
@@ -6765,8 +6765,8 @@
      "name": "GrackerAI AEO Audit"
     },
     {
-     "id": "gioaennlbdoddfnacdkplbkdndehabbd",
-     "name": "AEO/SEO/GEO Auditor"
+     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "name": "SEO AI Assistant: SEO-checker en AEO- & GEO-audit"
     }
    ]
   },
@@ -6869,13 +6869,9 @@
   {
    "market": "NL",
    "keyword": "free aeo audit",
-   "scanned": 36,
+   "scanned": 37,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt-audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO-audit - Zichtbaarheid in AI-zoekmachines"
@@ -6883,6 +6879,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt-audit"
     },
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
@@ -7033,8 +7033,8 @@
      "name": "Auditoría SEO y GEO con IA"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
      "id": "mjecmfhofeojemjhbecidfkfpopikokg",
@@ -7045,16 +7045,16 @@
      "name": "AI SEO AEO Optimizer"
     },
     {
-     "id": "ohogkkknjcjnimjfmgfeppedimjbpmcc",
-     "name": "SEO Lens — AI SEO & GEO Analyzer"
-    },
-    {
      "id": "njjbmbinhpipcdocojjniahjgdoljohg",
      "name": "Digispot AI - SEO Insights"
     },
     {
      "id": "mkllojoidmbbhmjlpjabpfhklgancdnj",
      "name": "AI SEO Analyzer"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     }
    ]
   },
@@ -7089,6 +7089,10 @@
      "name": "Auditoría SEO y GEO de Sorank - Search Console & Speed Insight"
     },
     {
+     "id": "kbhghidlilegihmipoohlboebekiigli",
+     "name": "SEO Pilot"
+    },
+    {
      "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
      "name": "SEO | ASO | Herramienta de Clasificación en Búsqueda y Palabras Clave"
     },
@@ -7099,10 +7103,6 @@
     {
      "id": "akdgnmcogleenhbclghghlkkdndkjdjc",
      "name": "SEOquake: On-Page SEO Checker"
-    },
-    {
-     "id": "ljkhgacfcnhpfafpcdpaadgklajibdak",
-     "name": "Herramienta SEO Checker - Obtén un análisis SEO gratuito"
     }
    ]
   },
@@ -7129,12 +7129,12 @@
      "name": "Geo Hound"
     },
     {
-     "id": "ldeicpgfgebmokkcbpoclggdimfoadff",
-     "name": "GEO Checker"
-    },
-    {
      "id": "lbnlokippcnpafcjbglcmaehkkiokcei",
      "name": "GEO Auditor"
+    },
+    {
+     "id": "ldeicpgfgebmokkcbpoclggdimfoadff",
+     "name": "GEO Checker"
     },
     {
      "id": "hjnhkojlmnmnfnajhcdlihimhaaimigi",
@@ -7157,7 +7157,7 @@
   {
    "market": "ES",
    "keyword": "aeo audit",
-   "scanned": 86,
+   "scanned": 87,
    "ok": true,
    "top": [
     {
@@ -7171,10 +7171,6 @@
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "Comprobador AEO y GEO + auditoría SEO - Visibilidad en búsqueda IA"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: auditoría SEO IA, GEO y llms.txt"
     },
     {
      "id": "bdkkjpbipgolopjhndknigaaokdabnad",
@@ -7193,12 +7189,16 @@
      "name": "Audito: SEO, AEO & AI Content Audit"
     },
     {
-     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
-     "name": "SEO AI Assistant: Comprobador SEO y auditoría AEO y GEO"
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: auditoría SEO IA, GEO y llms.txt"
     },
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
      "name": "AEO & SEO Linter - Full SEO, GEO & AEO Audit"
+    },
+    {
+     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "name": "SEO AI Assistant: Comprobador SEO y auditoría AEO y GEO"
     }
    ]
   },
@@ -7301,24 +7301,24 @@
   {
    "market": "ES",
    "keyword": "free aeo audit",
-   "scanned": 37,
+   "scanned": 38,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: auditoría SEO IA, GEO y llms.txt"
-    },
-    {
-     "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
-     "name": "SEO Checker • AI SEO, AEO & GEO Audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "Comprobador AEO y GEO + auditoría SEO - Visibilidad en búsqueda IA"
     },
     {
+     "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
+     "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
      "name": "AEO Quick Check — AI search visibility"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: auditoría SEO IA, GEO y llms.txt"
     },
     {
      "id": "igknbmbiemjdmoigcblgikpjncaneobb",
@@ -7465,8 +7465,8 @@
      "name": "AI SEO & GEO Site Audit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
      "id": "mjecmfhofeojemjhbecidfkfpopikokg",
@@ -7477,16 +7477,16 @@
      "name": "AI SEO AEO Optimizer"
     },
     {
-     "id": "ohogkkknjcjnimjfmgfeppedimjbpmcc",
-     "name": "SEO Lens — AI SEO & GEO Analyzer"
-    },
-    {
      "id": "njjbmbinhpipcdocojjniahjgdoljohg",
      "name": "Digispot AI - SEO Insights"
     },
     {
      "id": "mkllojoidmbbhmjlpjabpfhklgancdnj",
      "name": "AI SEO Analyzer"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     }
    ]
   },
@@ -7513,6 +7513,10 @@
      "name": "Website SEO Checker"
     },
     {
+     "id": "kbhghidlilegihmipoohlboebekiigli",
+     "name": "SEO Pilot"
+    },
+    {
      "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
      "name": "SEO | ASO | Search Ranking & Keyword Tool"
     },
@@ -7523,10 +7527,6 @@
     {
      "id": "akdgnmcogleenhbclghghlkkdndkjdjc",
      "name": "SEOquake: On-Page SEO Checker"
-    },
-    {
-     "id": "kbhghidlilegihmipoohlboebekiigli",
-     "name": "SEO Pilot"
     },
     {
      "id": "lajfdngpocmchpihjecojjllfjeehgnl",
@@ -7581,15 +7581,15 @@
      "name": "Dashcrab GEO Observer"
     },
     {
-     "id": "iaehnkikdaojjffhpaknfnfdggdepjdl",
-     "name": "Generative Engine Optimization Scanner - GEO Audit Tool"
+     "id": "odfojkkhknhhifgmjffhlaocllkeicjm",
+     "name": "GEO Score"
     }
    ]
   },
   {
    "market": "MX",
    "keyword": "aeo audit",
-   "scanned": 86,
+   "scanned": 87,
    "ok": true,
    "top": [
     {
@@ -7605,10 +7605,6 @@
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
     },
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
-    {
      "id": "bdkkjpbipgolopjhndknigaaokdabnad",
      "name": "AEO/GEO Auditor"
     },
@@ -7621,12 +7617,16 @@
      "name": "SEO & AEO Audit by Omnibound"
     },
     {
-     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
-     "name": "SEO AI Assistant: Comprobador SEO y auditoría AEO y GEO"
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
      "name": "AEO & SEO Linter - Full SEO, GEO & AEO Audit"
+    },
+    {
+     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "name": "SEO AI Assistant: Comprobador SEO y auditoría AEO y GEO"
     },
     {
      "id": "igfipamcggmbdfmnppkhlbpbphchfgnb",
@@ -7733,24 +7733,24 @@
   {
    "market": "MX",
    "keyword": "free aeo audit",
-   "scanned": 37,
+   "scanned": 38,
    "ok": true,
    "top": [
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
+     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
+     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
     },
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
     },
     {
-     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
-     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
-    },
-    {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
      "name": "AEO Quick Check — AI search visibility"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "igknbmbiemjdmoigcblgikpjncaneobb",
@@ -7897,8 +7897,8 @@
      "name": "AI SEO & GEO Site Audit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
      "id": "mjecmfhofeojemjhbecidfkfpopikokg",
@@ -7909,16 +7909,16 @@
      "name": "AI SEO AEO Optimizer"
     },
     {
-     "id": "ohogkkknjcjnimjfmgfeppedimjbpmcc",
-     "name": "SEO Lens — AI SEO & GEO Analyzer"
-    },
-    {
      "id": "njjbmbinhpipcdocojjniahjgdoljohg",
      "name": "Digispot AI - SEO Insights"
     },
     {
      "id": "mkllojoidmbbhmjlpjabpfhklgancdnj",
      "name": "AI SEO Analyzer"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     }
    ]
   },
@@ -7945,6 +7945,10 @@
      "name": "Website SEO Checker"
     },
     {
+     "id": "kbhghidlilegihmipoohlboebekiigli",
+     "name": "SEO Pilot"
+    },
+    {
      "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
      "name": "SEO | ASO | Search Ranking & Keyword Tool"
     },
@@ -7955,10 +7959,6 @@
     {
      "id": "akdgnmcogleenhbclghghlkkdndkjdjc",
      "name": "SEOquake: On-Page SEO Checker"
-    },
-    {
-     "id": "kbhghidlilegihmipoohlboebekiigli",
-     "name": "SEO Pilot"
     },
     {
      "id": "lajfdngpocmchpihjecojjllfjeehgnl",
@@ -8013,15 +8013,15 @@
      "name": "Dashcrab GEO Observer"
     },
     {
-     "id": "iaehnkikdaojjffhpaknfnfdggdepjdl",
-     "name": "Generative Engine Optimization Scanner - GEO Audit Tool"
+     "id": "odfojkkhknhhifgmjffhlaocllkeicjm",
+     "name": "GEO Score"
     }
    ]
   },
   {
    "market": "AR",
    "keyword": "aeo audit",
-   "scanned": 86,
+   "scanned": 87,
    "ok": true,
    "top": [
     {
@@ -8037,10 +8037,6 @@
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
     },
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
-    {
      "id": "bdkkjpbipgolopjhndknigaaokdabnad",
      "name": "AEO/GEO Auditor"
     },
@@ -8053,12 +8049,16 @@
      "name": "SEO & AEO Audit by Omnibound"
     },
     {
-     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
-     "name": "SEO AI Assistant: Comprobador SEO y auditoría AEO y GEO"
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
      "name": "AEO & SEO Linter - Full SEO, GEO & AEO Audit"
+    },
+    {
+     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "name": "SEO AI Assistant: Comprobador SEO y auditoría AEO y GEO"
     },
     {
      "id": "igfipamcggmbdfmnppkhlbpbphchfgnb",
@@ -8165,24 +8165,24 @@
   {
    "market": "AR",
    "keyword": "free aeo audit",
-   "scanned": 37,
+   "scanned": 38,
    "ok": true,
    "top": [
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
+     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
+     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
     },
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
     },
     {
-     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
-     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
-    },
-    {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
      "name": "AEO Quick Check — AI search visibility"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "igknbmbiemjdmoigcblgikpjncaneobb",
@@ -8329,8 +8329,8 @@
      "name": "AI SEO & GEO Site Audit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
      "id": "mjecmfhofeojemjhbecidfkfpopikokg",
@@ -8341,16 +8341,16 @@
      "name": "AI SEO AEO Optimizer"
     },
     {
-     "id": "ohogkkknjcjnimjfmgfeppedimjbpmcc",
-     "name": "SEO Lens — AI SEO & GEO Analyzer"
-    },
-    {
      "id": "njjbmbinhpipcdocojjniahjgdoljohg",
      "name": "Digispot AI - SEO Insights"
     },
     {
      "id": "mkllojoidmbbhmjlpjabpfhklgancdnj",
      "name": "AI SEO Analyzer"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     }
    ]
   },
@@ -8377,6 +8377,10 @@
      "name": "Website SEO Checker"
     },
     {
+     "id": "kbhghidlilegihmipoohlboebekiigli",
+     "name": "SEO Pilot"
+    },
+    {
      "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
      "name": "SEO | ASO | Search Ranking & Keyword Tool"
     },
@@ -8387,10 +8391,6 @@
     {
      "id": "akdgnmcogleenhbclghghlkkdndkjdjc",
      "name": "SEOquake: On-Page SEO Checker"
-    },
-    {
-     "id": "kbhghidlilegihmipoohlboebekiigli",
-     "name": "SEO Pilot"
     },
     {
      "id": "lajfdngpocmchpihjecojjllfjeehgnl",
@@ -8445,15 +8445,15 @@
      "name": "Dashcrab GEO Observer"
     },
     {
-     "id": "iaehnkikdaojjffhpaknfnfdggdepjdl",
-     "name": "Generative Engine Optimization Scanner - GEO Audit Tool"
+     "id": "odfojkkhknhhifgmjffhlaocllkeicjm",
+     "name": "GEO Score"
     }
    ]
   },
   {
    "market": "CO",
    "keyword": "aeo audit",
-   "scanned": 86,
+   "scanned": 87,
    "ok": true,
    "top": [
     {
@@ -8469,10 +8469,6 @@
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
     },
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
-    {
      "id": "bdkkjpbipgolopjhndknigaaokdabnad",
      "name": "AEO/GEO Auditor"
     },
@@ -8485,12 +8481,16 @@
      "name": "SEO & AEO Audit by Omnibound"
     },
     {
-     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
-     "name": "SEO AI Assistant: Comprobador SEO y auditoría AEO y GEO"
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
      "name": "AEO & SEO Linter - Full SEO, GEO & AEO Audit"
+    },
+    {
+     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "name": "SEO AI Assistant: Comprobador SEO y auditoría AEO y GEO"
     },
     {
      "id": "igfipamcggmbdfmnppkhlbpbphchfgnb",
@@ -8597,24 +8597,24 @@
   {
    "market": "CO",
    "keyword": "free aeo audit",
-   "scanned": 37,
+   "scanned": 38,
    "ok": true,
    "top": [
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
+     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
+     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
     },
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
     },
     {
-     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
-     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
-    },
-    {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
      "name": "AEO Quick Check — AI search visibility"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "igknbmbiemjdmoigcblgikpjncaneobb",
@@ -8685,8 +8685,8 @@
      "name": "RankSEO - AEO & GEO Expert"
     },
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: audit SEO IA, GEO e llms.txt"
+     "id": "pjlklehdacnnhjecnbilolhaapinkpbp",
+     "name": "AEO Analyzer"
     }
    ]
   },
@@ -8753,8 +8753,8 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
      "id": "nblbceehggefmhkioijdbppdboimoicg",
@@ -8769,12 +8769,12 @@
      "name": "OnPageSEO.ai SEO Chrome Extension with Ai & Best SEO Tools"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
      "name": "ProfilePro - AI SEO Tool for Google Business Profile SEO"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     },
     {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
@@ -8821,16 +8821,16 @@
      "name": "SEO & ASO | Strumento di Classifica di Ricerca e Parole Chiave"
     },
     {
-     "id": "giihipjfimkajhlcilipnjeohabimjhi",
-     "name": "SEO Minion"
-    },
-    {
      "id": "lajfdngpocmchpihjecojjllfjeehgnl",
      "name": "SEO Pro Extension"
     },
     {
-     "id": "ljkhgacfcnhpfafpcdpaadgklajibdak",
-     "name": "Strumento SEO Checker - Ottieni un'analisi SEO gratuita"
+     "id": "giihipjfimkajhlcilipnjeohabimjhi",
+     "name": "SEO Minion"
+    },
+    {
+     "id": "kbhghidlilegihmipoohlboebekiigli",
+     "name": "SEO Pilot"
     }
    ]
   },
@@ -8885,7 +8885,7 @@
   {
    "market": "IT",
    "keyword": "aeo audit",
-   "scanned": 85,
+   "scanned": 86,
    "ok": true,
    "top": [
     {
@@ -8893,20 +8893,16 @@
      "name": "AEO Audit Pro"
     },
     {
-     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
-     "name": "Checker AEO e GEO + audit SEO - Visibilità nella ricerca IA"
-    },
-    {
      "id": "bbgmbofeglplaaamnfgmiejbeacokfbn",
      "name": "Zicy – AEO/GEO Audit & AI Consultant"
     },
     {
-     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
-     "name": "SEO AI Assistant: Analisi SEO e audit AEO e GEO"
+     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
+     "name": "Checker AEO e GEO + audit SEO - Visibilità nella ricerca IA"
     },
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: audit SEO IA, GEO e llms.txt"
+     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "name": "SEO AI Assistant: Analisi SEO e audit AEO e GEO"
     },
     {
      "id": "ehhgkikhbnpblhfalbggjcpboighdijd",
@@ -8927,6 +8923,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: audit SEO IA, GEO e llms.txt"
     }
    ]
   },
@@ -9029,20 +9029,20 @@
   {
    "market": "IT",
    "keyword": "free aeo audit",
-   "scanned": 35,
+   "scanned": 36,
    "ok": true,
    "top": [
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: audit SEO IA, GEO e llms.txt"
+     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
+     "name": "Checker AEO e GEO + audit SEO - Visibilità nella ricerca IA"
     },
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
     },
     {
-     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
-     "name": "Checker AEO e GEO + audit SEO - Visibilità nella ricerca IA"
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: audit SEO IA, GEO e llms.txt"
     },
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
@@ -9085,10 +9085,6 @@
      "name": "AEO Tool"
     },
     {
-     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
-     "name": "SEO AI Assistant: Verificador SEO e auditoria AEO e GEO"
-    },
-    {
      "id": "hfacnjbjlibdljaocclackojneegkbgh",
      "name": "SEO / AEO / GEO Checker by PPCBlogPro"
     },
@@ -9101,16 +9097,20 @@
      "name": "AEO Analyzer: AI Website Optimizer"
     },
     {
+     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "name": "SEO AI Assistant: Verificador SEO e auditoria AEO e GEO"
+    },
+    {
+     "id": "pimhmeagnhepckniikojblilglbjngal",
+     "name": "RankSEO - AEO & GEO Expert"
+    },
+    {
      "id": "nifnkfllpenejgiockmebhkaapfbklce",
      "name": "AEO Audit Pro"
     },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
-    },
-    {
-     "id": "pimhmeagnhepckniikojblilglbjngal",
-     "name": "RankSEO - AEO & GEO Expert"
     },
     {
      "id": "pjlklehdacnnhjecnbilolhaapinkpbp",
@@ -9185,12 +9185,12 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
-    },
-    {
      "id": "mjecmfhofeojemjhbecidfkfpopikokg",
      "name": "OnPageSEO.ai SEO Chrome Extension with Ai & Best SEO Tools"
+    },
+    {
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
      "id": "nblbceehggefmhkioijdbppdboimoicg",
@@ -9201,8 +9201,8 @@
      "name": "SEO AI Assistant: Verificador SEO e auditoria AEO e GEO"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     },
     {
      "id": "mkllojoidmbbhmjlpjabpfhklgancdnj",
@@ -9317,7 +9317,7 @@
   {
    "market": "PT",
    "keyword": "aeo audit",
-   "scanned": 85,
+   "scanned": 87,
    "ok": true,
    "top": [
     {
@@ -9333,10 +9333,6 @@
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
     },
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
-    {
      "id": "ehhgkikhbnpblhfalbggjcpboighdijd",
      "name": "SEO & AEO Audit by Omnibound"
     },
@@ -9345,8 +9341,8 @@
      "name": "AEO/GEO Auditor"
     },
     {
-     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
-     "name": "SEO AI Assistant: Verificador SEO e auditoria AEO e GEO"
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
@@ -9359,6 +9355,10 @@
     {
      "id": "cbnjcgfpgcedeefpbjiiemgbicflmkil",
      "name": "Audito: SEO, AEO & AI Content Audit"
+    },
+    {
+     "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
+     "name": "SEO Checker • AI SEO, AEO & GEO Audit"
     }
    ]
   },
@@ -9385,12 +9385,12 @@
      "name": "Presenc AI Audit"
     },
     {
-     "id": "klkkjgkeffglemfjlbhnfagjakfhfnjg",
-     "name": "AI Audit: For Users of Multiple AI, Google Ads and Meta Ads"
-    },
-    {
      "id": "jipdopagpobdhifjlehoppmkfdnafhmj",
      "name": "ZYNAGI AI Audit"
+    },
+    {
+     "id": "klkkjgkeffglemfjlbhnfagjakfhfnjg",
+     "name": "AI Audit: For Users of Multiple AI, Google Ads and Meta Ads"
     },
     {
      "id": "klmadhkofldgcjghdmnffpkdkldemene",
@@ -9425,12 +9425,12 @@
      "name": "Siteiz: AI Readability Checker"
     },
     {
-     "id": "fjpohmmgennglcgfdhjeeconejimcbkk",
-     "name": "Readability Checker — Reading Level, Flesch-Kincaid & Writing Score"
-    },
-    {
      "id": "gndhbfjoggkbpmfbdppggdnpheefkmid",
      "name": "LumenRank — AI Search Readability Diagnosis"
+    },
+    {
+     "id": "fjpohmmgennglcgfdhjeeconejimcbkk",
+     "name": "Readability Checker — Reading Level, Flesch-Kincaid & Writing Score"
     },
     {
      "id": "jbjngahjjdgonbeinjlepfamjdmdcbcc",
@@ -9461,13 +9461,9 @@
   {
    "market": "PT",
    "keyword": "free aeo audit",
-   "scanned": 37,
+   "scanned": 38,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
@@ -9479,6 +9475,10 @@
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
      "name": "AEO Quick Check — AI search visibility"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "igknbmbiemjdmoigcblgikpjncaneobb",
@@ -9621,8 +9621,8 @@
      "name": "SEO Lens — AI SEO & GEO Analyzer"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
      "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
@@ -9641,8 +9641,8 @@
      "name": "AI SEO AEO Optimizer"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     },
     {
      "id": "mjecmfhofeojemjhbecidfkfpopikokg",
@@ -9661,12 +9661,12 @@
      "name": "SEO Analyzer"
     },
     {
-     "id": "giihipjfimkajhlcilipnjeohabimjhi",
-     "name": "SEO Minion"
-    },
-    {
      "id": "nmpgaoofmjlimabncmnmnopjabbflegf",
      "name": "Ubersuggest - SEO e Ideias de Palavras-Chave"
+    },
+    {
+     "id": "giihipjfimkajhlcilipnjeohabimjhi",
+     "name": "SEO Minion"
     },
     {
      "id": "hpmllfbpmmhjncbfofmkkgomjpfaocca",
@@ -9685,12 +9685,12 @@
      "name": "SEO META in 1 CLICK"
     },
     {
-     "id": "hgmoccdbjhknikckedaaebbpdeebhiei",
-     "name": "Ahrefs SEO Toolbar"
-    },
-    {
      "id": "ailjlokgfhoipjjkifiiogiffkfinlkb",
      "name": "Meta SEO Viewer - Detailed"
+    },
+    {
+     "id": "hgmoccdbjhknikckedaaebbpdeebhiei",
+     "name": "Ahrefs SEO Toolbar"
     },
     {
      "id": "eneohehdbadflaenpfheabnaikhdkkfa",
@@ -9713,12 +9713,12 @@
      "name": "Glippy - Verificador de GEO & Agent-Readiness"
     },
     {
-     "id": "fiaifciaeodokchkkgjndmmjpelkcbpb",
-     "name": "Auditoria de SEO e GEO da Sorank - Search Console & Speed Insight"
-    },
-    {
      "id": "hjnhkojlmnmnfnajhcdlihimhaaimigi",
      "name": "SAGE - AI SEO, AEO & GEO Engine"
+    },
+    {
+     "id": "fiaifciaeodokchkkgjndmmjpelkcbpb",
+     "name": "Auditoria de SEO e GEO da Sorank - Search Console & Speed Insight"
     },
     {
      "id": "ohogkkknjcjnimjfmgfeppedimjbpmcc",
@@ -9749,7 +9749,7 @@
   {
    "market": "BR",
    "keyword": "aeo audit",
-   "scanned": 85,
+   "scanned": 87,
    "ok": true,
    "top": [
     {
@@ -9759,10 +9759,6 @@
     {
      "id": "bbgmbofeglplaaamnfgmiejbeacokfbn",
      "name": "Zicy – AEO/GEO Audit & AI Consultant"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: auditoria SEO IA, GEO e llms.txt"
     },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
@@ -9779,6 +9775,10 @@
     {
      "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
      "name": "SEO AI Assistant: Verificador SEO e auditoria AEO e GEO"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: auditoria SEO IA, GEO e llms.txt"
     },
     {
      "id": "cbnjcgfpgcedeefpbjiiemgbicflmkil",
@@ -9857,12 +9857,12 @@
      "name": "ExactSite AI Readability Checker"
     },
     {
-     "id": "fjpohmmgennglcgfdhjeeconejimcbkk",
-     "name": "Verificador de Legibilidade — Nível de Leitura & Escrita, Flesch-Kincaid"
-    },
-    {
      "id": "gndhbfjoggkbpmfbdppggdnpheefkmid",
      "name": "LumenRank — AI Search Readability Diagnosis"
+    },
+    {
+     "id": "fjpohmmgennglcgfdhjeeconejimcbkk",
+     "name": "Verificador de Legibilidade — Nível de Leitura & Escrita, Flesch-Kincaid"
     },
     {
      "id": "oljkbimlkhofggjmmfikohpiljiekiof",
@@ -9901,16 +9901,16 @@
      "name": "AEO Quick Check — AI search visibility"
     },
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: auditoria SEO IA, GEO e llms.txt"
-    },
-    {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "Verificador AEO e GEO + auditoria SEO - Visibilidade na busca IA"
     },
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: auditoria SEO IA, GEO e llms.txt"
     },
     {
      "id": "igknbmbiemjdmoigcblgikpjncaneobb",
@@ -9933,8 +9933,8 @@
      "name": "SiteGrader — SEO, AEO & GEO Audit"
     },
     {
-     "id": "phnblopjnmhgdolmdeehklicckcbegom",
-     "name": "SEO AEO GEO Checker"
+     "id": "mckajigbobaeohkieabmmoloceenacfi",
+     "name": "AI-SEO Page Auditor"
     }
    ]
   },
@@ -9944,6 +9944,10 @@
    "scanned": 100,
    "ok": true,
    "top": [
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: audyt AI SEO, GEO i llms.txt"
+    },
     {
      "id": "hfacnjbjlibdljaocclackojneegkbgh",
      "name": "SEO / AEO / GEO Checker by PPCBlogPro"
@@ -9971,10 +9975,6 @@
     {
      "id": "gmmliebciophkjngpdomhdfehfgcfdee",
      "name": "AEO Analyzer: AI Website Optimizer"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: audyt AI SEO, GEO i llms.txt"
     },
     {
      "id": "bbgmbofeglplaaamnfgmiejbeacokfbn",
@@ -10049,12 +10049,12 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "nblbceehggefmhkioijdbppdboimoicg",
-     "name": "AI SEO & GEO Site Audit"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "nblbceehggefmhkioijdbppdboimoicg",
+     "name": "AI SEO & GEO Site Audit"
     },
     {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
@@ -10073,12 +10073,12 @@
      "name": "Writesonic - SEO Keywords & AI Search Insights"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
      "name": "AI SEO AEO Optimizer"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     }
    ]
   },
@@ -10105,12 +10105,12 @@
      "name": "SEO META in 1 CLICK"
     },
     {
-     "id": "cokmobldpihbibodplbdfhkbiibganfh",
-     "name": "Plerdy SEO Analyzer"
-    },
-    {
      "id": "akdgnmcogleenhbclghghlkkdndkjdjc",
      "name": "SEOquake: On-Page SEO Checker"
+    },
+    {
+     "id": "cokmobldpihbibodplbdfhkbiibganfh",
+     "name": "Plerdy SEO Analyzer"
     },
     {
      "id": "kbhghidlilegihmipoohlboebekiigli",
@@ -10157,6 +10157,10 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: audyt AI SEO, GEO i llms.txt"
+    },
+    {
      "id": "lbpdfmgalegdooajgbdiniajmdjceooa",
      "name": "GEO Metrics Query Extractor"
     },
@@ -10171,17 +10175,13 @@
     {
      "id": "fiaifciaeodokchkkgjndmmjpelkcbpb",
      "name": "Sorank SEO & GEO Audit - Search Console & Speed Insight"
-    },
-    {
-     "id": "dbckaneobldjifocakfojpebfkpbeghn",
-     "name": "Geo Tier Builder — Tiery krajów i listy GEO"
     }
    ]
   },
   {
    "market": "PL",
    "keyword": "aeo audit",
-   "scanned": 89,
+   "scanned": 90,
    "ok": true,
    "top": [
     {
@@ -10195,10 +10195,6 @@
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "Checker AEO i GEO + audyt SEO - Widoczność w wyszukiwarkach AI"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: audyt AI SEO, GEO i llms.txt"
     },
     {
      "id": "ehhgkikhbnpblhfalbggjcpboighdijd",
@@ -10219,6 +10215,10 @@
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
      "name": "AEO & SEO Linter - Full SEO, GEO & AEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: audyt AI SEO, GEO i llms.txt"
     },
     {
      "id": "hhnaciohedaejlgcfdgdpnnfblbdmpal",
@@ -10325,13 +10325,9 @@
   {
    "market": "PL",
    "keyword": "free aeo audit",
-   "scanned": 37,
+   "scanned": 38,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: audyt AI SEO, GEO i llms.txt"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "Checker AEO i GEO + audyt SEO - Widoczność w wyszukiwarkach AI"
@@ -10343,6 +10339,10 @@
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
      "name": "AEO Quick Check — AI search visibility"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: audyt AI SEO, GEO i llms.txt"
     },
     {
      "id": "igknbmbiemjdmoigcblgikpjncaneobb",
@@ -10405,12 +10405,12 @@
      "name": "AEO Audit Pro"
     },
     {
-     "id": "bjjhdfofkppcajpiheekikagfhhcnhml",
-     "name": "SEOLensAI — SEO, AEO & GEO Checker"
-    },
-    {
      "id": "pimhmeagnhepckniikojblilglbjngal",
      "name": "RankSEO - AEO & GEO Expert"
+    },
+    {
+     "id": "bjjhdfofkppcajpiheekikagfhhcnhml",
+     "name": "SEOLensAI — SEO, AEO & GEO Checker"
     },
     {
      "id": "kfjkiopgiagibgdbkffdpkjipejcllah",
@@ -10449,12 +10449,12 @@
      "name": "AI Visibility Checker & SEO Analyser · CMO Works · Free"
     },
     {
-     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
-     "name": "AI Visibility Auditor"
-    },
-    {
      "id": "odhjoplggcgjmgicckgnaamelnmbdikl",
      "name": "AI Visibility Checker: ChatGPT & AI SEO"
+    },
+    {
+     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
+     "name": "AI Visibility Auditor"
     },
     {
      "id": "mpmlmhennngidjplnndmbgibalaigiic",
@@ -10481,12 +10481,12 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "nblbceehggefmhkioijdbppdboimoicg",
-     "name": "AI SEO & GEO Site Audit"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "nblbceehggefmhkioijdbppdboimoicg",
+     "name": "AI SEO & GEO Site Audit"
     },
     {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
@@ -10505,12 +10505,12 @@
      "name": "Writesonic - SEO Keywords & AI Search Insights"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
      "name": "AI SEO AEO Optimizer"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     }
    ]
   },
@@ -10521,24 +10521,24 @@
    "ok": true,
    "top": [
     {
-     "id": "bjogjfinolnhfhkbipphpdlldadpnmhc",
-     "name": "SEO META in 1 CLICK"
-    },
-    {
      "id": "akdgnmcogleenhbclghghlkkdndkjdjc",
      "name": "SEOquake: On-Page SEO Checker"
+    },
+    {
+     "id": "bjogjfinolnhfhkbipphpdlldadpnmhc",
+     "name": "SEO META in 1 CLICK"
     },
     {
      "id": "giihipjfimkajhlcilipnjeohabimjhi",
      "name": "SEO Minion"
     },
     {
-     "id": "lajfdngpocmchpihjecojjllfjeehgnl",
-     "name": "SEO Pro Extension"
-    },
-    {
      "id": "kbhghidlilegihmipoohlboebekiigli",
      "name": "SEO Pilot"
+    },
+    {
+     "id": "lajfdngpocmchpihjecojjllfjeehgnl",
+     "name": "SEO Pro Extension"
     },
     {
      "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
@@ -10553,12 +10553,12 @@
      "name": "Open SEO Stats(Formerly: PageRank Status)"
     },
     {
-     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
-     "name": "SEO Search Simulator by Nightwatch"
-    },
-    {
      "id": "pfjdepjjfjjahkjfpkcgfmfhmnakjfba",
      "name": "Detailed SEO Extension"
+    },
+    {
+     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
+     "name": "SEO Search Simulator by Nightwatch"
     }
    ]
   },
@@ -10601,19 +10601,19 @@
      "name": "GEO Checker"
     },
     {
-     "id": "khaempjoofaoicpajnkggmabpldhbdek",
-     "name": "SEO/GEO Analyzer"
+     "id": "odfojkkhknhhifgmjffhlaocllkeicjm",
+     "name": "GEO Score"
     },
     {
-     "id": "kcnljjabgbbilgnllmdhogiajcoehcan",
-     "name": "Glippy - GEO- & Agent-Readiness-kontroll"
+     "id": "khaempjoofaoicpajnkggmabpldhbdek",
+     "name": "SEO/GEO Analyzer"
     }
    ]
   },
   {
    "market": "SE",
    "keyword": "aeo audit",
-   "scanned": 88,
+   "scanned": 90,
    "ok": true,
    "top": [
     {
@@ -10629,16 +10629,16 @@
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
     },
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
-    {
      "id": "ehhgkikhbnpblhfalbggjcpboighdijd",
      "name": "SEO & AEO Audit by Omnibound"
     },
     {
      "id": "bdkkjpbipgolopjhndknigaaokdabnad",
      "name": "AEO/GEO Auditor"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
@@ -10757,13 +10757,9 @@
   {
    "market": "SE",
    "keyword": "free aeo audit",
-   "scanned": 36,
+   "scanned": 37,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
@@ -10771,6 +10767,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
@@ -10833,12 +10833,12 @@
      "name": "SEOLensAI — SEO, AEO & GEO Checker"
     },
     {
-     "id": "fdjhpdhkngglkpbgagbfacljkodofedl",
-     "name": "AEO Visibility Tracking"
-    },
-    {
      "id": "pimhmeagnhepckniikojblilglbjngal",
      "name": "RankSEO - AEO & GEO Expert"
+    },
+    {
+     "id": "fdjhpdhkngglkpbgagbfacljkodofedl",
+     "name": "AEO Visibility Tracking"
     },
     {
      "id": "bbgmbofeglplaaamnfgmiejbeacokfbn",
@@ -10881,12 +10881,12 @@
      "name": "AI Visibility Checker & SEO Analyser · CMO Works · Free"
     },
     {
-     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
-     "name": "AI Visibility Auditor"
-    },
-    {
      "id": "odhjoplggcgjmgicckgnaamelnmbdikl",
      "name": "AI Visibility Checker: ChatGPT & AI SEO"
+    },
+    {
+     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
+     "name": "AI Visibility Auditor"
     },
     {
      "id": "mpmlmhennngidjplnndmbgibalaigiic",
@@ -10913,12 +10913,12 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "nblbceehggefmhkioijdbppdboimoicg",
-     "name": "AI SEO & GEO Site Audit"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "nblbceehggefmhkioijdbppdboimoicg",
+     "name": "AI SEO & GEO Site Audit"
     },
     {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
@@ -10937,12 +10937,12 @@
      "name": "Writesonic - SEO Keywords & AI Search Insights"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
      "name": "AI SEO AEO Optimizer"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     }
    ]
   },
@@ -11021,31 +11021,31 @@
      "name": "GEO Checker"
     },
     {
-     "id": "fiaifciaeodokchkkgjndmmjpelkcbpb",
-     "name": "Sorank SEO & GEO Audit - Search Console & Speed Insight"
-    },
-    {
      "id": "ihdobppgelceaoeojmhpmbnaljhhmhlc",
      "name": "Spoof Geolocation"
+    },
+    {
+     "id": "fiaifciaeodokchkkgjndmmjpelkcbpb",
+     "name": "Sorank SEO & GEO Audit - Search Console & Speed Insight"
     },
     {
      "id": "lbpdfmgalegdooajgbdiniajmdjceooa",
      "name": "GEO Metrics Query Extractor"
     },
     {
-     "id": "kcnljjabgbbilgnllmdhogiajcoehcan",
-     "name": "Glippy - GEO & Agent-Readiness Checker"
+     "id": "odfojkkhknhhifgmjffhlaocllkeicjm",
+     "name": "GEO Score"
     },
     {
-     "id": "pimhmeagnhepckniikojblilglbjngal",
-     "name": "RankSEO - AEO & GEO Expert"
+     "id": "kcnljjabgbbilgnllmdhogiajcoehcan",
+     "name": "Glippy - GEO & Agent-Readiness Checker"
     }
    ]
   },
   {
    "market": "NO",
    "keyword": "aeo audit",
-   "scanned": 85,
+   "scanned": 86,
    "ok": true,
    "top": [
     {
@@ -11059,10 +11059,6 @@
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "bdkkjpbipgolopjhndknigaaokdabnad",
@@ -11079,6 +11075,10 @@
     {
      "id": "igfipamcggmbdfmnppkhlbpbphchfgnb",
      "name": "AEO, GEO & AI SEO Audit - Cited Scan"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
@@ -11189,13 +11189,9 @@
   {
    "market": "NO",
    "keyword": "free aeo audit",
-   "scanned": 36,
+   "scanned": 37,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
@@ -11203,6 +11199,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
@@ -11313,12 +11313,12 @@
      "name": "AI Visibility Checker & SEO Analyser · CMO Works · Free"
     },
     {
-     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
-     "name": "AI Visibility Auditor"
-    },
-    {
      "id": "odhjoplggcgjmgicckgnaamelnmbdikl",
      "name": "AI Visibility Checker: ChatGPT & AI SEO"
+    },
+    {
+     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
+     "name": "AI Visibility Auditor"
     },
     {
      "id": "mpmlmhennngidjplnndmbgibalaigiic",
@@ -11345,12 +11345,12 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "nblbceehggefmhkioijdbppdboimoicg",
-     "name": "AI SEO & GEO Site Audit"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "nblbceehggefmhkioijdbppdboimoicg",
+     "name": "AI SEO & GEO Site Audit"
     },
     {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
@@ -11369,12 +11369,12 @@
      "name": "Writesonic - SEO Keywords & AI Search Insights"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
      "name": "AI SEO AEO Optimizer"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     }
    ]
   },
@@ -11385,12 +11385,12 @@
    "ok": true,
    "top": [
     {
-     "id": "bjogjfinolnhfhkbipphpdlldadpnmhc",
-     "name": "SEO META in 1 CLICK"
-    },
-    {
      "id": "akdgnmcogleenhbclghghlkkdndkjdjc",
      "name": "SEOquake: On-Page SEO Checker"
+    },
+    {
+     "id": "bjogjfinolnhfhkbipphpdlldadpnmhc",
+     "name": "SEO META in 1 CLICK"
     },
     {
      "id": "lajfdngpocmchpihjecojjllfjeehgnl",
@@ -11401,12 +11401,12 @@
      "name": "SEO Minion"
     },
     {
-     "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
-     "name": "SEO | ASO | Search Ranking & Keyword Tool"
-    },
-    {
      "id": "kbhghidlilegihmipoohlboebekiigli",
      "name": "SEO Pilot"
+    },
+    {
+     "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
+     "name": "SEO | ASO | Search Ranking & Keyword Tool"
     },
     {
      "id": "nljcdkjpjnhlilgepggmmagnmebhadnk",
@@ -11417,12 +11417,12 @@
      "name": "Detailed SEO Extension"
     },
     {
-     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
-     "name": "SEO Search Simulator by Nightwatch"
-    },
-    {
      "id": "hbdkkfheckcdppiaiabobmennhijkknn",
      "name": "Open SEO Stats(Formerly: PageRank Status)"
+    },
+    {
+     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
+     "name": "SEO Search Simulator by Nightwatch"
     }
    ]
   },
@@ -11469,15 +11469,15 @@
      "name": "RankSEO - AEO & GEO Expert"
     },
     {
-     "id": "ablhbljopihdfjeglkoicekjnhdlboei",
-     "name": "AI GEO Source Collector"
+     "id": "odfojkkhknhhifgmjffhlaocllkeicjm",
+     "name": "GEO Score"
     }
    ]
   },
   {
    "market": "DK",
    "keyword": "aeo audit",
-   "scanned": 89,
+   "scanned": 90,
    "ok": true,
    "top": [
     {
@@ -11491,10 +11491,6 @@
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "bdkkjpbipgolopjhndknigaaokdabnad",
@@ -11511,6 +11507,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "igfipamcggmbdfmnppkhlbpbphchfgnb",
@@ -11621,13 +11621,9 @@
   {
    "market": "DK",
    "keyword": "free aeo audit",
-   "scanned": 36,
+   "scanned": 37,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
@@ -11635,6 +11631,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
@@ -11777,12 +11777,12 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "nblbceehggefmhkioijdbppdboimoicg",
-     "name": "AI SEO & GEO Site Audit"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "nblbceehggefmhkioijdbppdboimoicg",
+     "name": "AI SEO & GEO Site Audit"
     },
     {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
@@ -11801,12 +11801,12 @@
      "name": "Writesonic - SEO Keywords & AI Search Insights"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
      "name": "AI SEO AEO Optimizer"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     }
    ]
   },
@@ -11841,20 +11841,20 @@
      "name": "SEO Minion"
     },
     {
-     "id": "hbdkkfheckcdppiaiabobmennhijkknn",
-     "name": "Open SEO Stats(Formerly: PageRank Status)"
-    },
-    {
      "id": "nljcdkjpjnhlilgepggmmagnmebhadnk",
      "name": "Website SEO Checker"
+    },
+    {
+     "id": "hbdkkfheckcdppiaiabobmennhijkknn",
+     "name": "Open SEO Stats(Formerly: PageRank Status)"
     },
     {
      "id": "oaknplagkdlkngpgdnbhjjeciiknaiaf",
      "name": "SEO Specialist Extension"
     },
     {
-     "id": "lbdmhogemagmcahkchkpjkfhonkminck",
-     "name": "Smart SEO"
+     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
+     "name": "SEO Search Simulator by Nightwatch"
     }
    ]
   },
@@ -11889,10 +11889,6 @@
      "name": "SEO AI Assistant: SEO Checker, AEO & GEO Audit"
     },
     {
-     "id": "lcgnkjdmhfjbimfhjflliopapnmflibo",
-     "name": "Sho SERP - Sijoitusten seuranta ja GEO SERP -esikatselu Googlessa"
-    },
-    {
      "id": "bjjhdfofkppcajpiheekikagfhhcnhml",
      "name": "SEOLensAI — SEO, AEO & GEO Checker"
     },
@@ -11903,13 +11899,17 @@
     {
      "id": "khaempjoofaoicpajnkggmabpldhbdek",
      "name": "SEO/GEO Analyzer"
+    },
+    {
+     "id": "ldeicpgfgebmokkcbpoclggdimfoadff",
+     "name": "GEO Checker"
     }
    ]
   },
   {
    "market": "FI",
    "keyword": "aeo audit",
-   "scanned": 85,
+   "scanned": 86,
    "ok": true,
    "top": [
     {
@@ -11919,10 +11919,6 @@
     {
      "id": "bbgmbofeglplaaamnfgmiejbeacokfbn",
      "name": "Zicy – AEO/GEO Audit & AI Consultant"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
@@ -11937,6 +11933,10 @@
      "name": "SEO & AEO Audit by Omnibound"
     },
     {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
+    },
+    {
      "id": "hhnaciohedaejlgcfdgdpnnfblbdmpal",
      "name": "AEO Audit by Cintra"
     },
@@ -11949,8 +11949,8 @@
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
     },
     {
-     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
-     "name": "SEO AI Assistant: SEO Checker, AEO & GEO Audit"
+     "id": "igfipamcggmbdfmnppkhlbpbphchfgnb",
+     "name": "AEO, GEO & AI SEO Audit - Cited Scan"
     }
    ]
   },
@@ -12053,13 +12053,9 @@
   {
    "market": "FI",
    "keyword": "free aeo audit",
-   "scanned": 36,
+   "scanned": 37,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
@@ -12067,6 +12063,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
@@ -12177,12 +12177,12 @@
      "name": "AI Visibility Checker & SEO Analyser · CMO Works · Free"
     },
     {
-     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
-     "name": "AI Visibility Auditor"
-    },
-    {
      "id": "odhjoplggcgjmgicckgnaamelnmbdikl",
      "name": "AI Visibility Checker: ChatGPT & AI SEO"
+    },
+    {
+     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
+     "name": "AI Visibility Auditor"
     },
     {
      "id": "mpmlmhennngidjplnndmbgibalaigiic",
@@ -12209,12 +12209,12 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "nblbceehggefmhkioijdbppdboimoicg",
-     "name": "AI SEO & GEO Site Audit"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "nblbceehggefmhkioijdbppdboimoicg",
+     "name": "AI SEO & GEO Site Audit"
     },
     {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
@@ -12233,12 +12233,12 @@
      "name": "Writesonic - SEO Keywords & AI Search Insights"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
      "name": "AI SEO AEO Optimizer"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     }
    ]
   },
@@ -12261,12 +12261,12 @@
      "name": "SEOquake: On-Page SEO Checker"
     },
     {
-     "id": "aklhdocmgpelkhpokopkcepgofimmooc",
-     "name": "Kontrola SEO na stránce"
-    },
-    {
      "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
      "name": "SEO | ASO | Search Ranking & Keyword Tool"
+    },
+    {
+     "id": "aklhdocmgpelkhpokopkcepgofimmooc",
+     "name": "Kontrola SEO na stránce"
     },
     {
      "id": "kbhghidlilegihmipoohlboebekiigli",
@@ -12341,7 +12341,7 @@
   {
    "market": "CZ",
    "keyword": "aeo audit",
-   "scanned": 84,
+   "scanned": 85,
    "ok": true,
    "top": [
     {
@@ -12355,10 +12355,6 @@
     {
      "id": "bdkkjpbipgolopjhndknigaaokdabnad",
      "name": "AEO/GEO Auditor"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
@@ -12375,6 +12371,10 @@
     {
      "id": "hhnaciohedaejlgcfdgdpnnfblbdmpal",
      "name": "AEO Audit by Cintra"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "igfipamcggmbdfmnppkhlbpbphchfgnb",
@@ -12485,13 +12485,9 @@
   {
    "market": "CZ",
    "keyword": "free aeo audit",
-   "scanned": 35,
+   "scanned": 36,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
@@ -12499,6 +12495,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
@@ -12561,6 +12561,10 @@
      "name": "Zicy – AEO/GEO Audit & AI Consultant"
     },
     {
+     "id": "pimhmeagnhepckniikojblilglbjngal",
+     "name": "RankSEO - AEO & GEO Expert"
+    },
+    {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
      "name": "AI SEO AEO Optimizer"
     },
@@ -12571,10 +12575,6 @@
     {
      "id": "fdjhpdhkngglkpbgagbfacljkodofedl",
      "name": "AEO Visibility Tracking"
-    },
-    {
-     "id": "pimhmeagnhepckniikojblilglbjngal",
-     "name": "RankSEO - AEO & GEO Expert"
     }
    ]
   },
@@ -12609,12 +12609,12 @@
      "name": "AI Visibility Checker & SEO Analyser · CMO Works · Free"
     },
     {
-     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
-     "name": "AI Visibility Auditor"
-    },
-    {
      "id": "odhjoplggcgjmgicckgnaamelnmbdikl",
      "name": "AI Visibility Checker: ChatGPT & AI SEO"
+    },
+    {
+     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
+     "name": "AI Visibility Auditor"
     },
     {
      "id": "mpmlmhennngidjplnndmbgibalaigiic",
@@ -12641,8 +12641,8 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
      "id": "nblbceehggefmhkioijdbppdboimoicg",
@@ -12657,12 +12657,12 @@
      "name": "OnPageSEO.ai SEO Chrome Extension with Ai & Best SEO Tools"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
      "name": "AI SEO AEO Optimizer"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     },
     {
      "id": "mkllojoidmbbhmjlpjabpfhklgancdnj",
@@ -12717,8 +12717,8 @@
      "name": "Detailed SEO Extension"
     },
     {
-     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
-     "name": "SEO Search Simulator by Nightwatch"
+     "id": "hbdkkfheckcdppiaiabobmennhijkknn",
+     "name": "Open SEO Stats(Formerly: PageRank Status)"
     }
    ]
   },
@@ -12765,15 +12765,15 @@
      "name": "AI SEO & GEO Site Audit"
     },
     {
-     "id": "kcnljjabgbbilgnllmdhogiajcoehcan",
-     "name": "Glippy - GEO & Agent-Readiness Checker"
+     "id": "odfojkkhknhhifgmjffhlaocllkeicjm",
+     "name": "GEO Score"
     }
    ]
   },
   {
    "market": "RO",
    "keyword": "aeo audit",
-   "scanned": 84,
+   "scanned": 85,
    "ok": true,
    "top": [
     {
@@ -12785,20 +12785,20 @@
      "name": "AEO Audit Pro"
     },
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
+     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
+     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
     },
     {
      "id": "bdkkjpbipgolopjhndknigaaokdabnad",
      "name": "AEO/GEO Auditor"
     },
     {
-     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
-     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
-    },
-    {
      "id": "ehhgkikhbnpblhfalbggjcpboighdijd",
      "name": "SEO & AEO Audit by Omnibound"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
@@ -12917,13 +12917,9 @@
   {
    "market": "RO",
    "keyword": "free aeo audit",
-   "scanned": 35,
+   "scanned": 36,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
@@ -12931,6 +12927,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
@@ -13041,12 +13041,12 @@
      "name": "AI Visibility Checker & SEO Analyser · CMO Works · Free"
     },
     {
-     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
-     "name": "AI Visibility Auditor"
-    },
-    {
      "id": "odhjoplggcgjmgicckgnaamelnmbdikl",
      "name": "AI Visibility Checker: ChatGPT & AI SEO"
+    },
+    {
+     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
+     "name": "AI Visibility Auditor"
     },
     {
      "id": "mpmlmhennngidjplnndmbgibalaigiic",
@@ -13073,12 +13073,12 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "nblbceehggefmhkioijdbppdboimoicg",
-     "name": "AI SEO & GEO Site Audit"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "nblbceehggefmhkioijdbppdboimoicg",
+     "name": "AI SEO & GEO Site Audit"
     },
     {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
@@ -13097,12 +13097,12 @@
      "name": "Writesonic - SEO Keywords & AI Search Insights"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
      "name": "AI SEO AEO Optimizer"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     }
    ]
   },
@@ -13113,12 +13113,12 @@
    "ok": true,
    "top": [
     {
-     "id": "bjogjfinolnhfhkbipphpdlldadpnmhc",
-     "name": "SEO META in 1 CLICK"
-    },
-    {
      "id": "kbhghidlilegihmipoohlboebekiigli",
      "name": "SEO Pilot"
+    },
+    {
+     "id": "bjogjfinolnhfhkbipphpdlldadpnmhc",
+     "name": "SEO META in 1 CLICK"
     },
     {
      "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
@@ -13145,12 +13145,12 @@
      "name": "Detailed SEO Extension"
     },
     {
-     "id": "oaknplagkdlkngpgdnbhjjeciiknaiaf",
-     "name": "SEO Specialist Extension"
-    },
-    {
      "id": "edfjfgjklednkencfhnokmkajbgfhpon",
      "name": "SEO Search Simulator by Nightwatch"
+    },
+    {
+     "id": "oaknplagkdlkngpgdnbhjjeciiknaiaf",
+     "name": "SEO Specialist Extension"
     }
    ]
   },
@@ -13177,20 +13177,16 @@
      "name": "SEO / AEO / GEO Checker by PPCBlogPro"
     },
     {
-     "id": "lcgnkjdmhfjbimfhjflliopapnmflibo",
-     "name": "Sho SERP - Rangkövető és GEO SERP előnézet a Google-höz"
-    },
-    {
      "id": "lbpdfmgalegdooajgbdiniajmdjceooa",
      "name": "GEO Metrics Query Extractor"
     },
     {
-     "id": "fiaifciaeodokchkkgjndmmjpelkcbpb",
-     "name": "Sorank SEO & GEO Audit - Search Console & Speed Insight"
-    },
-    {
      "id": "ldeicpgfgebmokkcbpoclggdimfoadff",
      "name": "GEO Checker"
+    },
+    {
+     "id": "fiaifciaeodokchkkgjndmmjpelkcbpb",
+     "name": "Sorank SEO & GEO Audit - Search Console & Speed Insight"
     },
     {
      "id": "pimhmeagnhepckniikojblilglbjngal",
@@ -13199,13 +13195,17 @@
     {
      "id": "jcphgamhhcbmijffgmfnlbdokgeibcfo",
      "name": "Geo Dash Wall Jump Online"
+    },
+    {
+     "id": "kcnljjabgbbilgnllmdhogiajcoehcan",
+     "name": "Glippy - GEO & Agent-Readiness Checker"
     }
    ]
   },
   {
    "market": "HU",
    "keyword": "aeo audit",
-   "scanned": 84,
+   "scanned": 85,
    "ok": true,
    "top": [
     {
@@ -13225,16 +13225,16 @@
      "name": "AEO/GEO Auditor"
     },
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
-    {
      "id": "ehhgkikhbnpblhfalbggjcpboighdijd",
      "name": "SEO & AEO Audit by Omnibound"
     },
     {
      "id": "hhnaciohedaejlgcfdgdpnnfblbdmpal",
      "name": "AEO Audit by Cintra"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "igfipamcggmbdfmnppkhlbpbphchfgnb",
@@ -13349,13 +13349,9 @@
   {
    "market": "HU",
    "keyword": "free aeo audit",
-   "scanned": 36,
+   "scanned": 37,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
@@ -13363,6 +13359,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
@@ -13473,12 +13473,12 @@
      "name": "AI Visibility Checker & SEO Analyser · CMO Works · Free"
     },
     {
-     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
-     "name": "AI Visibility Auditor"
-    },
-    {
      "id": "odhjoplggcgjmgicckgnaamelnmbdikl",
      "name": "AI Visibility Checker: ChatGPT & AI SEO"
+    },
+    {
+     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
+     "name": "AI Visibility Auditor"
     },
     {
      "id": "mpmlmhennngidjplnndmbgibalaigiic",
@@ -13505,8 +13505,8 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
      "id": "nblbceehggefmhkioijdbppdboimoicg",
@@ -13525,16 +13525,16 @@
      "name": "SEO AI Assistant: SEO Checker, AEO & GEO Audit"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
      "name": "AI SEO AEO Optimizer"
     },
     {
      "id": "mkllojoidmbbhmjlpjabpfhklgancdnj",
      "name": "AI SEO Analyzer"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     }
    ]
   },
@@ -13577,12 +13577,12 @@
      "name": "SEO Specialist Extension"
     },
     {
-     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
-     "name": "SEO Search Simulator by Nightwatch"
-    },
-    {
      "id": "pfjdepjjfjjahkjfpkcgfmfhmnakjfba",
      "name": "Detailed SEO Extension"
+    },
+    {
+     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
+     "name": "SEO Search Simulator by Nightwatch"
     }
    ]
   },
@@ -13637,7 +13637,7 @@
   {
    "market": "GR",
    "keyword": "aeo audit",
-   "scanned": 91,
+   "scanned": 94,
    "ok": true,
    "top": [
     {
@@ -13649,16 +13649,12 @@
      "name": "Zicy – AEO/GEO Audit & AI Consultant"
     },
     {
-     "id": "bdkkjpbipgolopjhndknigaaokdabnad",
-     "name": "AEO/GEO Auditor"
-    },
-    {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
     },
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
+     "id": "bdkkjpbipgolopjhndknigaaokdabnad",
+     "name": "AEO/GEO Auditor"
     },
     {
      "id": "ehhgkikhbnpblhfalbggjcpboighdijd",
@@ -13667,6 +13663,10 @@
     {
      "id": "hhnaciohedaejlgcfdgdpnnfblbdmpal",
      "name": "AEO Audit by Cintra"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
@@ -13781,13 +13781,9 @@
   {
    "market": "GR",
    "keyword": "free aeo audit",
-   "scanned": 35,
+   "scanned": 36,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
@@ -13795,6 +13791,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
@@ -13869,8 +13869,8 @@
      "name": "TheQuantumSEO: AEO | GEO | AIO"
     },
     {
-     "id": "bbgmbofeglplaaamnfgmiejbeacokfbn",
-     "name": "Zicy – AEO/GEO Audit & AI Consultant"
+     "id": "pimhmeagnhepckniikojblilglbjngal",
+     "name": "RankSEO - AEO & GEO Expert"
     }
    ]
   },
@@ -13905,20 +13905,20 @@
      "name": "AI Visibility Checker & SEO Analyser · CMO Works · Free"
     },
     {
-     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
-     "name": "AI Visibility Auditor"
-    },
-    {
      "id": "odhjoplggcgjmgicckgnaamelnmbdikl",
      "name": "AI Visibility Checker: ChatGPT & AI SEO"
+    },
+    {
+     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
+     "name": "AI Visibility Auditor"
     },
     {
      "id": "mpmlmhennngidjplnndmbgibalaigiic",
      "name": "Yolando AI Visibility Score (GEO)"
     },
     {
-     "id": "iekkdpnpomfbldpebhnfjhmpmhgcfjag",
-     "name": "AI Content Visibility Checker"
+     "id": "olhjmljioknnjhmmcdbmhhngcjjkpcdn",
+     "name": "AI Visibility Checker"
     }
    ]
   },
@@ -13937,8 +13937,8 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
      "id": "nblbceehggefmhkioijdbppdboimoicg",
@@ -13961,12 +13961,12 @@
      "name": "Writesonic - SEO Keywords & AI Search Insights"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
      "name": "AI SEO AEO Optimizer"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     }
    ]
   },
@@ -13985,12 +13985,12 @@
      "name": "SEOquake: On-Page SEO Checker"
     },
     {
-     "id": "lajfdngpocmchpihjecojjllfjeehgnl",
-     "name": "SEO Pro Extension"
-    },
-    {
      "id": "kbhghidlilegihmipoohlboebekiigli",
      "name": "SEO Pilot"
+    },
+    {
+     "id": "lajfdngpocmchpihjecojjllfjeehgnl",
+     "name": "SEO Pro Extension"
     },
     {
      "id": "giihipjfimkajhlcilipnjeohabimjhi",
@@ -14061,15 +14061,15 @@
      "name": "Generative Engine Optimization Scanner - GEO Audit Tool"
     },
     {
-     "id": "pikobfabafpnghdneenpgogijcbipkfb",
-     "name": "GEO Analyzer"
+     "id": "odfojkkhknhhifgmjffhlaocllkeicjm",
+     "name": "GEO Score"
     }
    ]
   },
   {
    "market": "TR",
    "keyword": "aeo audit",
-   "scanned": 78,
+   "scanned": 80,
    "ok": true,
    "top": [
     {
@@ -14079,10 +14079,6 @@
     {
      "id": "bbgmbofeglplaaamnfgmiejbeacokfbn",
      "name": "Zicy – AEO/GEO Audit & AI Consultant"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
@@ -14095,6 +14091,10 @@
     {
      "id": "hhnaciohedaejlgcfdgdpnnfblbdmpal",
      "name": "AEO Audit by Cintra"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
@@ -14213,13 +14213,9 @@
   {
    "market": "TR",
    "keyword": "free aeo audit",
-   "scanned": 35,
+   "scanned": 36,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO ve GEO Denetleyici + SEO Denetimi - Yapay Zekâ Arama Görünürlüğü"
@@ -14227,6 +14223,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
@@ -14285,12 +14285,12 @@
      "name": "SEO AI Assistant: SEO-аналіз та аудит AEO і GEO"
     },
     {
-     "id": "nifnkfllpenejgiockmebhkaapfbklce",
-     "name": "AEO Audit Pro"
-    },
-    {
      "id": "pimhmeagnhepckniikojblilglbjngal",
      "name": "RankSEO - AEO & GEO Expert"
+    },
+    {
+     "id": "nifnkfllpenejgiockmebhkaapfbklce",
+     "name": "AEO Audit Pro"
     },
     {
      "id": "bbgmbofeglplaaamnfgmiejbeacokfbn",
@@ -14337,12 +14337,12 @@
      "name": "AI Visibility Checker & SEO Analyser · CMO Works · Free"
     },
     {
-     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
-     "name": "AI Visibility Auditor"
-    },
-    {
      "id": "odhjoplggcgjmgicckgnaamelnmbdikl",
      "name": "AI Visibility Checker: ChatGPT & AI SEO"
+    },
+    {
+     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
+     "name": "AI Visibility Auditor"
     },
     {
      "id": "mpmlmhennngidjplnndmbgibalaigiic",
@@ -14369,12 +14369,12 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "nblbceehggefmhkioijdbppdboimoicg",
-     "name": "AI SEO & GEO Site Audit"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "nblbceehggefmhkioijdbppdboimoicg",
+     "name": "AI SEO & GEO Site Audit"
     },
     {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
@@ -14393,12 +14393,12 @@
      "name": "Writesonic - SEO Keywords & AI Search Insights"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
      "name": "AI SEO AEO Optimizer"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     }
    ]
   },
@@ -14441,12 +14441,12 @@
      "name": "SEO Specialist Extension"
     },
     {
-     "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
-     "name": "SEO | ASO | Search Ranking & Keyword Tool"
+     "id": "pfjdepjjfjjahkjfpkcgfmfhmnakjfba",
+     "name": "Detailed SEO Extension"
     },
     {
-     "id": "pchdjfphepablonpcppmolebmpebgjia",
-     "name": "SEO-tools"
+     "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
+     "name": "SEO | ASO | Search Ranking & Keyword Tool"
     }
    ]
   },
@@ -14501,7 +14501,7 @@
   {
    "market": "UA",
    "keyword": "aeo audit",
-   "scanned": 81,
+   "scanned": 82,
    "ok": true,
    "top": [
     {
@@ -14515,10 +14515,6 @@
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "ehhgkikhbnpblhfalbggjcpboighdijd",
@@ -14535,6 +14531,10 @@
     {
      "id": "igfipamcggmbdfmnppkhlbpbphchfgnb",
      "name": "AEO, GEO & AI SEO Audit - Cited Scan"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
@@ -14585,12 +14585,12 @@
      "name": "AI Audit Tool by Kuhnic"
     },
     {
-     "id": "hnncefiapdhgepkopljcddpojicakdij",
-     "name": "SEO Audit, Schema & H-Tag Validator (Optimax AI)"
+     "id": "ndgoifpfieiefdegeagkbflonoiefhch",
+     "name": "SEO Аудит і Перевірка Сайту by AIO.com.ai"
     },
     {
-     "id": "bbgmbofeglplaaamnfgmiejbeacokfbn",
-     "name": "Zicy – AEO/GEO Audit & AI Consultant"
+     "id": "hnncefiapdhgepkopljcddpojicakdij",
+     "name": "SEO Audit, Schema & H-Tag Validator (Optimax AI)"
     }
    ]
   },
@@ -14645,13 +14645,9 @@
   {
    "market": "UA",
    "keyword": "free aeo audit",
-   "scanned": 35,
+   "scanned": 36,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
@@ -14659,6 +14655,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
@@ -14729,19 +14729,19 @@
      "name": "Zicy – AEO/GEO Audit & AI Consultant"
     },
     {
-     "id": "fdjhpdhkngglkpbgagbfacljkodofedl",
-     "name": "AEO Visibility Tracking"
+     "id": "pimhmeagnhepckniikojblilglbjngal",
+     "name": "RankSEO - AEO & GEO Expert"
     },
     {
-     "id": "kfjkiopgiagibgdbkffdpkjipejcllah",
-     "name": "GEO/AEO Readiness Check"
+     "id": "fdjhpdhkngglkpbgagbfacljkodofedl",
+     "name": "AEO Visibility Tracking"
     }
    ]
   },
   {
    "market": "RU",
    "keyword": "ai visibility",
-   "scanned": 100,
+   "scanned": 10,
    "ok": true,
    "top": [
     {
@@ -14801,8 +14801,8 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
      "id": "nblbceehggefmhkioijdbppdboimoicg",
@@ -14817,12 +14817,12 @@
      "name": "SEO AI Assistant: SEO-анализ и аудит AEO и GEO"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
      "name": "ProfilePro - AI SEO Tool for Google Business Profile SEO"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     },
     {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
@@ -14869,16 +14869,16 @@
      "name": "Open SEO Stats(Formerly: PageRank Status)"
     },
     {
-     "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
-     "name": "SEO & ASO | Инструмент Ранжирования и Ключевых Слов"
-    },
-    {
      "id": "akdgnmcogleenhbclghghlkkdndkjdjc",
      "name": "SEOquake: On-Page SEO Checker"
     },
     {
-     "id": "giihipjfimkajhlcilipnjeohabimjhi",
-     "name": "SEO Minion"
+     "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
+     "name": "SEO & ASO | Инструмент Ранжирования и Ключевых Слов"
+    },
+    {
+     "id": "kbhghidlilegihmipoohlboebekiigli",
+     "name": "SEO Pilot"
     }
    ]
   },
@@ -14949,10 +14949,6 @@
      "name": "Проверка AEO и GEO + SEO-аудит - видимость в ИИ-поиске"
     },
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
-    {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
     },
@@ -14969,12 +14965,16 @@
      "name": "AEO & SEO Linter - Full SEO, GEO & AEO Audit"
     },
     {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
+    },
+    {
      "id": "igfipamcggmbdfmnppkhlbpbphchfgnb",
      "name": "AEO, GEO & AI SEO Audit - Cited Scan"
     },
     {
-     "id": "jkighkknlhjojnojklhobfplknldkoic",
-     "name": "GrackerAI AEO Audit"
+     "id": "bdkkjpbipgolopjhndknigaaokdabnad",
+     "name": "AEO/GEO Auditor"
     }
    ]
   },
@@ -15077,24 +15077,24 @@
   {
    "market": "RU",
    "keyword": "free aeo audit",
-   "scanned": 37,
+   "scanned": 38,
    "ok": true,
    "top": [
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
+     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
+     "name": "Проверка AEO и GEO + SEO-аудит - видимость в ИИ-поиске"
     },
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
     },
     {
-     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
-     "name": "Проверка AEO и GEO + SEO-аудит - видимость в ИИ-поиске"
-    },
-    {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
      "name": "AEO Quick Check — AI search visibility"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "igknbmbiemjdmoigcblgikpjncaneobb",
@@ -15165,8 +15165,8 @@
      "name": "AEO Visibility Tracking"
     },
     {
-     "id": "nifnkfllpenejgiockmebhkaapfbklce",
-     "name": "AEO Audit Pro"
+     "id": "pimhmeagnhepckniikojblilglbjngal",
+     "name": "RankSEO - AEO & GEO Expert"
     }
    ]
   },
@@ -15201,12 +15201,12 @@
      "name": "AI Visibility Checker & SEO Analyser · CMO Works · Free"
     },
     {
-     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
-     "name": "AI Visibility Auditor"
-    },
-    {
      "id": "odhjoplggcgjmgicckgnaamelnmbdikl",
      "name": "AI Visibility Checker: ChatGPT & AI SEO"
+    },
+    {
+     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
+     "name": "AI Visibility Auditor"
     },
     {
      "id": "mpmlmhennngidjplnndmbgibalaigiic",
@@ -15233,8 +15233,8 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
      "id": "nblbceehggefmhkioijdbppdboimoicg",
@@ -15253,16 +15253,16 @@
      "name": "SEO AI Assistant: SEO Checker, AEO & GEO Audit"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
      "name": "AI SEO AEO Optimizer"
     },
     {
      "id": "kchaponcodemjigejilffhfchecpgdpf",
      "name": "Writesonic - SEO Keywords & AI Search Insights"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     }
    ]
   },
@@ -15289,12 +15289,12 @@
      "name": "SEO Pilot"
     },
     {
-     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
-     "name": "SEO Search Simulator by Nightwatch"
-    },
-    {
      "id": "lajfdngpocmchpihjecojjllfjeehgnl",
      "name": "SEO Pro Extension"
+    },
+    {
+     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
+     "name": "SEO Search Simulator by Nightwatch"
     },
     {
      "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
@@ -15365,7 +15365,7 @@
   {
    "market": "IL",
    "keyword": "aeo audit",
-   "scanned": 89,
+   "scanned": 90,
    "ok": true,
    "top": [
     {
@@ -15379,10 +15379,6 @@
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "ehhgkikhbnpblhfalbggjcpboighdijd",
@@ -15403,6 +15399,10 @@
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
      "name": "AEO & SEO Linter - Full SEO, GEO & AEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "hhnaciohedaejlgcfdgdpnnfblbdmpal",
@@ -15509,13 +15509,9 @@
   {
    "market": "IL",
    "keyword": "free aeo audit",
-   "scanned": 35,
+   "scanned": 36,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
@@ -15523,6 +15519,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
@@ -15593,12 +15593,12 @@
      "name": "SEO AI Assistant: فحص السيو وتدقيق AEO وGEO"
     },
     {
-     "id": "bbgmbofeglplaaamnfgmiejbeacokfbn",
-     "name": "Zicy – أداة تدقيق AEO/GEO ومستشار الذكاء الاصطناعي"
+     "id": "pimhmeagnhepckniikojblilglbjngal",
+     "name": "RankSEO - AEO & GEO Expert"
     },
     {
-     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
-     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
+     "id": "bbgmbofeglplaaamnfgmiejbeacokfbn",
+     "name": "Zicy – أداة تدقيق AEO/GEO ومستشار الذكاء الاصطناعي"
     }
    ]
   },
@@ -15665,8 +15665,8 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
      "id": "mjecmfhofeojemjhbecidfkfpopikokg",
@@ -15681,12 +15681,12 @@
      "name": "SEO AI Assistant: فحص السيو وتدقيق AEO وGEO"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
      "name": "ProfilePro - AI SEO Tool for Google Business Profile SEO"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     },
     {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
@@ -15721,12 +15721,12 @@
      "name": "SEO Pro Extension"
     },
     {
-     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
-     "name": "SEO Search Simulator by Nightwatch"
-    },
-    {
      "id": "kbhghidlilegihmipoohlboebekiigli",
      "name": "SEO Pilot"
+    },
+    {
+     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
+     "name": "SEO Search Simulator by Nightwatch"
     },
     {
      "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
@@ -15789,15 +15789,15 @@
      "name": "Generative Engine Optimization Scanner - GEO Audit Tool"
     },
     {
-     "id": "pikobfabafpnghdneenpgogijcbipkfb",
-     "name": "GEO Analyzer"
+     "id": "odfojkkhknhhifgmjffhlaocllkeicjm",
+     "name": "GEO Score"
     }
    ]
   },
   {
    "market": "SA",
    "keyword": "aeo audit",
-   "scanned": 89,
+   "scanned": 90,
    "ok": true,
    "top": [
     {
@@ -15807,10 +15807,6 @@
     {
      "id": "nifnkfllpenejgiockmebhkaapfbklce",
      "name": "AEO Audit Pro"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
@@ -15831,6 +15827,10 @@
     {
      "id": "bdkkjpbipgolopjhndknigaaokdabnad",
      "name": "AEO/GEO Auditor"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "hnncphmffhilfkjehbknjchjfpbnfhon",
@@ -15941,20 +15941,20 @@
   {
    "market": "SA",
    "keyword": "free aeo audit",
-   "scanned": 35,
+   "scanned": 36,
    "ok": true,
    "top": [
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
+     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
+     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
     },
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
     },
     {
-     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
-     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "igknbmbiemjdmoigcblgikpjncaneobb",
@@ -16025,12 +16025,12 @@
      "name": "SEO AI Assistant: فحص السيو وتدقيق AEO وGEO"
     },
     {
-     "id": "bbgmbofeglplaaamnfgmiejbeacokfbn",
-     "name": "Zicy – أداة تدقيق AEO/GEO ومستشار الذكاء الاصطناعي"
+     "id": "pimhmeagnhepckniikojblilglbjngal",
+     "name": "RankSEO - AEO & GEO Expert"
     },
     {
-     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
-     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
+     "id": "bbgmbofeglplaaamnfgmiejbeacokfbn",
+     "name": "Zicy – أداة تدقيق AEO/GEO ومستشار الذكاء الاصطناعي"
     }
    ]
   },
@@ -16097,8 +16097,8 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
      "id": "mjecmfhofeojemjhbecidfkfpopikokg",
@@ -16113,12 +16113,12 @@
      "name": "SEO AI Assistant: فحص السيو وتدقيق AEO وGEO"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
      "name": "ProfilePro - AI SEO Tool for Google Business Profile SEO"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     },
     {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
@@ -16153,12 +16153,12 @@
      "name": "SEO Pro Extension"
     },
     {
-     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
-     "name": "SEO Search Simulator by Nightwatch"
-    },
-    {
      "id": "kbhghidlilegihmipoohlboebekiigli",
      "name": "SEO Pilot"
+    },
+    {
+     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
+     "name": "SEO Search Simulator by Nightwatch"
     },
     {
      "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
@@ -16221,15 +16221,15 @@
      "name": "Generative Engine Optimization Scanner - GEO Audit Tool"
     },
     {
-     "id": "pikobfabafpnghdneenpgogijcbipkfb",
-     "name": "GEO Analyzer"
+     "id": "odfojkkhknhhifgmjffhlaocllkeicjm",
+     "name": "GEO Score"
     }
    ]
   },
   {
    "market": "AE",
    "keyword": "aeo audit",
-   "scanned": 89,
+   "scanned": 90,
    "ok": true,
    "top": [
     {
@@ -16239,10 +16239,6 @@
     {
      "id": "nifnkfllpenejgiockmebhkaapfbklce",
      "name": "AEO Audit Pro"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
@@ -16263,6 +16259,10 @@
     {
      "id": "bdkkjpbipgolopjhndknigaaokdabnad",
      "name": "AEO/GEO Auditor"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "hnncphmffhilfkjehbknjchjfpbnfhon",
@@ -16373,20 +16373,20 @@
   {
    "market": "AE",
    "keyword": "free aeo audit",
-   "scanned": 35,
+   "scanned": 36,
    "ok": true,
    "top": [
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
+     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
+     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
     },
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
     },
     {
-     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
-     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "igknbmbiemjdmoigcblgikpjncaneobb",
@@ -16457,12 +16457,12 @@
      "name": "SEO AI Assistant: فحص السيو وتدقيق AEO وGEO"
     },
     {
-     "id": "bbgmbofeglplaaamnfgmiejbeacokfbn",
-     "name": "Zicy – أداة تدقيق AEO/GEO ومستشار الذكاء الاصطناعي"
+     "id": "pimhmeagnhepckniikojblilglbjngal",
+     "name": "RankSEO - AEO & GEO Expert"
     },
     {
-     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
-     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
+     "id": "bbgmbofeglplaaamnfgmiejbeacokfbn",
+     "name": "Zicy – أداة تدقيق AEO/GEO ومستشار الذكاء الاصطناعي"
     }
    ]
   },
@@ -16529,8 +16529,8 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
      "id": "mjecmfhofeojemjhbecidfkfpopikokg",
@@ -16545,12 +16545,12 @@
      "name": "SEO AI Assistant: فحص السيو وتدقيق AEO وGEO"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
      "name": "ProfilePro - AI SEO Tool for Google Business Profile SEO"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     },
     {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
@@ -16585,12 +16585,12 @@
      "name": "SEO Pro Extension"
     },
     {
-     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
-     "name": "SEO Search Simulator by Nightwatch"
-    },
-    {
      "id": "kbhghidlilegihmipoohlboebekiigli",
      "name": "SEO Pilot"
+    },
+    {
+     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
+     "name": "SEO Search Simulator by Nightwatch"
     },
     {
      "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
@@ -16653,15 +16653,15 @@
      "name": "Generative Engine Optimization Scanner - GEO Audit Tool"
     },
     {
-     "id": "pikobfabafpnghdneenpgogijcbipkfb",
-     "name": "GEO Analyzer"
+     "id": "odfojkkhknhhifgmjffhlaocllkeicjm",
+     "name": "GEO Score"
     }
    ]
   },
   {
    "market": "EG",
    "keyword": "aeo audit",
-   "scanned": 89,
+   "scanned": 90,
    "ok": true,
    "top": [
     {
@@ -16671,10 +16671,6 @@
     {
      "id": "nifnkfllpenejgiockmebhkaapfbklce",
      "name": "AEO Audit Pro"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
@@ -16695,6 +16691,10 @@
     {
      "id": "bdkkjpbipgolopjhndknigaaokdabnad",
      "name": "AEO/GEO Auditor"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "hnncphmffhilfkjehbknjchjfpbnfhon",
@@ -16805,20 +16805,20 @@
   {
    "market": "EG",
    "keyword": "free aeo audit",
-   "scanned": 35,
+   "scanned": 36,
    "ok": true,
    "top": [
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
+     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
+     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
     },
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
     },
     {
-     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
-     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "igknbmbiemjdmoigcblgikpjncaneobb",
@@ -16893,8 +16893,8 @@
      "name": "AEO Visibility Tracking"
     },
     {
-     "id": "kfjkiopgiagibgdbkffdpkjipejcllah",
-     "name": "GEO/AEO Readiness Check"
+     "id": "pimhmeagnhepckniikojblilglbjngal",
+     "name": "RankSEO - AEO & GEO Expert"
     }
    ]
   },
@@ -16961,8 +16961,8 @@
      "name": "SAGE - AI SEO・AEO・GEOエンジン"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
      "id": "nblbceehggefmhkioijdbppdboimoicg",
@@ -16977,12 +16977,12 @@
      "name": "SEO AI Assistant：SEOチェッカー＆AEO・GEO監査"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
      "name": "ProfilePro - AI SEO Tool for Google Business Profile SEO"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     },
     {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
@@ -17033,8 +17033,8 @@
      "name": "Open SEO Stats(Formerly: PageRank Status)"
     },
     {
-     "id": "pfdemlpmcgaabgdldjfklmaeieaamaap",
-     "name": "SEO分析ツール：ワンクリックのウェブサイト監査"
+     "id": "kbhghidlilegihmipoohlboebekiigli",
+     "name": "SEO Pilot"
     },
     {
      "id": "edfjfgjklednkencfhnokmkajbgfhpon",
@@ -17113,10 +17113,6 @@
      "name": "Audito: SEO, AEO & AI Content Audit"
     },
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
-    {
      "id": "ehhgkikhbnpblhfalbggjcpboighdijd",
      "name": "SEO & AEO Audit by Omnibound"
     },
@@ -17131,6 +17127,10 @@
     {
      "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
      "name": "SEO AI Assistant：SEOチェッカー＆AEO・GEO監査"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
@@ -17237,20 +17237,20 @@
   {
    "market": "JP",
    "keyword": "free aeo audit",
-   "scanned": 36,
+   "scanned": 37,
    "ok": true,
    "top": [
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
+     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
+     "name": "AEO・GEOチェッカー＋SEO監査 - AI検索での可視性"
     },
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
     },
     {
-     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
-     "name": "AEO・GEOチェッカー＋SEO監査 - AI検索での可視性"
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "igknbmbiemjdmoigcblgikpjncaneobb",
@@ -17317,16 +17317,16 @@
      "name": "Zicy – AEO/GEO 감사 도구 및 AI 컨설턴트"
     },
     {
+     "id": "pimhmeagnhepckniikojblilglbjngal",
+     "name": "RankSEO - AEO & GEO Expert"
+    },
+    {
      "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
      "name": "SEO AI Assistant: SEO 검사 및 AEO·GEO 진단"
     },
     {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
      "name": "AI SEO AEO Optimizer"
-    },
-    {
-     "id": "bjjhdfofkppcajpiheekikagfhhcnhml",
-     "name": "SEOLensAI — SEO, AEO & GEO Checker"
     }
    ]
   },
@@ -17393,8 +17393,8 @@
      "name": "SAGE - AI SEO, AEO & GEO 엔진"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
      "id": "nblbceehggefmhkioijdbppdboimoicg",
@@ -17409,12 +17409,12 @@
      "name": "OnPageSEO.ai SEO Chrome Extension with Ai & Best SEO Tools"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
      "name": "ProfilePro - AI SEO Tool for Google Business Profile SEO"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     },
     {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
@@ -17445,32 +17445,32 @@
      "name": "SEO Pro Extension"
     },
     {
-     "id": "giihipjfimkajhlcilipnjeohabimjhi",
-     "name": "SEO Minion"
-    },
-    {
      "id": "kbhghidlilegihmipoohlboebekiigli",
      "name": "SEO Pilot"
     },
     {
-     "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
-     "name": "텍스트: 검색 엔진 최적화 | 앱 스토어 최적화 | 검색 순위 및 키워드 도구"
+     "id": "giihipjfimkajhlcilipnjeohabimjhi",
+     "name": "SEO Minion"
     },
     {
      "id": "nljcdkjpjnhlilgepggmmagnmebhadnk",
      "name": "Website SEO Checker"
     },
     {
+     "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
+     "name": "텍스트: 검색 엔진 최적화 | 앱 스토어 최적화 | 검색 순위 및 키워드 도구"
+    },
+    {
      "id": "aklhdocmgpelkhpokopkcepgofimmooc",
      "name": "SEO Checker"
     },
     {
-     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
-     "name": "SEO Search Simulator by Nightwatch"
+     "id": "pfjdepjjfjjahkjfpkcgfmfhmnakjfba",
+     "name": "Detailed SEO Extension"
     },
     {
-     "id": "hgmoccdbjhknikckedaaebbpdeebhiei",
-     "name": "Ahrefs SEO Toolbar"
+     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
+     "name": "SEO Search Simulator by Nightwatch"
     }
    ]
   },
@@ -17513,19 +17513,19 @@
      "name": "생성형 엔진 최적화 (GEO) – AI SEO"
     },
     {
-     "id": "pikobfabafpnghdneenpgogijcbipkfb",
-     "name": "GEO Analyzer"
-    },
-    {
      "id": "khaempjoofaoicpajnkggmabpldhbdek",
      "name": "SEO/GEO Analyzer"
+    },
+    {
+     "id": "pikobfabafpnghdneenpgogijcbipkfb",
+     "name": "GEO Analyzer"
     }
    ]
   },
   {
    "market": "KR",
    "keyword": "aeo audit",
-   "scanned": 89,
+   "scanned": 90,
    "ok": true,
    "top": [
     {
@@ -17535,10 +17535,6 @@
     {
      "id": "nifnkfllpenejgiockmebhkaapfbklce",
      "name": "AEO Audit Pro"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
@@ -17559,6 +17555,10 @@
     {
      "id": "bdkkjpbipgolopjhndknigaaokdabnad",
      "name": "AEO/GEO Auditor"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "hnncphmffhilfkjehbknjchjfpbnfhon",
@@ -17669,20 +17669,20 @@
   {
    "market": "KR",
    "keyword": "free aeo audit",
-   "scanned": 35,
+   "scanned": 36,
    "ok": true,
    "top": [
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
+     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
+     "name": "AEO·GEO 검사기 + SEO 감사 - AI 검색 가시성"
     },
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
     },
     {
-     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
-     "name": "AEO·GEO 검사기 + SEO 감사 - AI 검색 가시성"
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
@@ -17749,12 +17749,12 @@
      "name": "SEOLensAI — SEO, AEO & GEO Checker"
     },
     {
-     "id": "fdjhpdhkngglkpbgagbfacljkodofedl",
-     "name": "AEO Visibility Tracking"
-    },
-    {
      "id": "pimhmeagnhepckniikojblilglbjngal",
      "name": "RankSEO - AEO & GEO Expert"
+    },
+    {
+     "id": "fdjhpdhkngglkpbgagbfacljkodofedl",
+     "name": "AEO Visibility Tracking"
     },
     {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
@@ -17797,12 +17797,12 @@
      "name": "AI Visibility Checker & SEO Analyser · CMO Works · Free"
     },
     {
-     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
-     "name": "AI Visibility Auditor"
-    },
-    {
      "id": "odhjoplggcgjmgicckgnaamelnmbdikl",
      "name": "AI Visibility Checker: ChatGPT & AI SEO"
+    },
+    {
+     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
+     "name": "AI Visibility Auditor"
     },
     {
      "id": "mpmlmhennngidjplnndmbgibalaigiic",
@@ -17825,12 +17825,12 @@
      "name": "SAGE - AI SEO、AEO和GEO引擎"
     },
     {
-     "id": "nblbceehggefmhkioijdbppdboimoicg",
-     "name": "AI SEO & GEO Site Audit"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "nblbceehggefmhkioijdbppdboimoicg",
+     "name": "AI SEO & GEO Site Audit"
     },
     {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
@@ -17849,12 +17849,12 @@
      "name": "Writesonic - SEO Keywords & AI Search Insights"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
      "name": "AI SEO AEO Optimizer"
+    },
+    {
+     "id": "mkllojoidmbbhmjlpjabpfhklgancdnj",
+     "name": "AI SEO Analyzer"
     }
    ]
   },
@@ -17889,16 +17889,16 @@
      "name": "Website SEO Checker"
     },
     {
+     "id": "kbhghidlilegihmipoohlboebekiigli",
+     "name": "SEO Pilot"
+    },
+    {
      "id": "ibkclpciafdglkjkcibmohobjkcfkaef",
      "name": "META SEO inspector"
     },
     {
      "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
      "name": "文本：搜索引擎优化 | 应用商店优化 | 搜索排名和关键词工具"
-    },
-    {
-     "id": "kbhghidlilegihmipoohlboebekiigli",
-     "name": "SEO Pilot"
     },
     {
      "id": "pfjdepjjfjjahkjfpkcgfmfhmnakjfba",
@@ -17957,7 +17957,7 @@
   {
    "market": "CN",
    "keyword": "aeo audit",
-   "scanned": 89,
+   "scanned": 90,
    "ok": true,
    "top": [
     {
@@ -17971,10 +17971,6 @@
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO 与 GEO 检测器 + SEO 审计 - AI 搜索可见性"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "ehhgkikhbnpblhfalbggjcpboighdijd",
@@ -17995,6 +17991,10 @@
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
      "name": "AEO & SEO Linter - Full SEO, GEO & AEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "hhnaciohedaejlgcfdgdpnnfblbdmpal",
@@ -18101,13 +18101,9 @@
   {
    "market": "CN",
    "keyword": "free aeo audit",
-   "scanned": 35,
+   "scanned": 36,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO 与 GEO 检测器 + SEO 审计 - AI 搜索可见性"
@@ -18117,6 +18113,10 @@
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
     },
     {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
+    },
+    {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
      "name": "AEO Quick Check — AI search visibility"
     },
@@ -18181,12 +18181,12 @@
      "name": "SEOLensAI — SEO, AEO & GEO Checker"
     },
     {
-     "id": "fdjhpdhkngglkpbgagbfacljkodofedl",
-     "name": "AEO Visibility Tracking"
-    },
-    {
      "id": "pimhmeagnhepckniikojblilglbjngal",
      "name": "RankSEO - AEO & GEO Expert"
+    },
+    {
+     "id": "fdjhpdhkngglkpbgagbfacljkodofedl",
+     "name": "AEO Visibility Tracking"
     },
     {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
@@ -18229,12 +18229,12 @@
      "name": "AI Visibility Checker & SEO Analyser · CMO Works · Free"
     },
     {
-     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
-     "name": "AI Visibility Auditor"
-    },
-    {
      "id": "odhjoplggcgjmgicckgnaamelnmbdikl",
      "name": "AI Visibility Checker: ChatGPT & AI SEO"
+    },
+    {
+     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
+     "name": "AI Visibility Auditor"
     },
     {
      "id": "mpmlmhennngidjplnndmbgibalaigiic",
@@ -18257,12 +18257,12 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "nblbceehggefmhkioijdbppdboimoicg",
-     "name": "AI SEO & GEO Site Audit"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "nblbceehggefmhkioijdbppdboimoicg",
+     "name": "AI SEO & GEO Site Audit"
     },
     {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
@@ -18281,12 +18281,12 @@
      "name": "Writesonic - SEO Keywords & AI Search Insights"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
      "name": "AI SEO AEO Optimizer"
+    },
+    {
+     "id": "mkllojoidmbbhmjlpjabpfhklgancdnj",
+     "name": "AI SEO Analyzer"
     }
    ]
   },
@@ -18321,16 +18321,16 @@
      "name": "Website SEO Checker"
     },
     {
+     "id": "kbhghidlilegihmipoohlboebekiigli",
+     "name": "SEO Pilot"
+    },
+    {
      "id": "ibkclpciafdglkjkcibmohobjkcfkaef",
      "name": "META SEO inspector"
     },
     {
      "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
      "name": "文字：搜尋引擎最佳化 | 應用程式商店優化 | 搜尋排名與關鍵字工具"
-    },
-    {
-     "id": "kbhghidlilegihmipoohlboebekiigli",
-     "name": "SEO Pilot"
     },
     {
      "id": "pfjdepjjfjjahkjfpkcgfmfhmnakjfba",
@@ -18389,7 +18389,7 @@
   {
    "market": "TW",
    "keyword": "aeo audit",
-   "scanned": 89,
+   "scanned": 90,
    "ok": true,
    "top": [
     {
@@ -18403,10 +18403,6 @@
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "ehhgkikhbnpblhfalbggjcpboighdijd",
@@ -18427,6 +18423,10 @@
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
      "name": "AEO & SEO Linter - Full SEO, GEO & AEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "hhnaciohedaejlgcfdgdpnnfblbdmpal",
@@ -18533,13 +18533,9 @@
   {
    "market": "TW",
    "keyword": "free aeo audit",
-   "scanned": 35,
+   "scanned": 36,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
@@ -18547,6 +18543,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
@@ -18613,12 +18613,12 @@
      "name": "SEOLensAI — SEO, AEO & GEO Checker"
     },
     {
-     "id": "fdjhpdhkngglkpbgagbfacljkodofedl",
-     "name": "AEO Visibility Tracking"
-    },
-    {
      "id": "pimhmeagnhepckniikojblilglbjngal",
      "name": "RankSEO - AEO & GEO Expert"
+    },
+    {
+     "id": "fdjhpdhkngglkpbgagbfacljkodofedl",
+     "name": "AEO Visibility Tracking"
     },
     {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
@@ -18661,12 +18661,12 @@
      "name": "AI Visibility Checker & SEO Analyser · CMO Works · Free"
     },
     {
-     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
-     "name": "AI Visibility Auditor"
-    },
-    {
      "id": "odhjoplggcgjmgicckgnaamelnmbdikl",
      "name": "AI Visibility Checker: ChatGPT & AI SEO"
+    },
+    {
+     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
+     "name": "AI Visibility Auditor"
     },
     {
      "id": "mpmlmhennngidjplnndmbgibalaigiic",
@@ -18689,12 +18689,12 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "nblbceehggefmhkioijdbppdboimoicg",
-     "name": "AI SEO & GEO Site Audit"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "nblbceehggefmhkioijdbppdboimoicg",
+     "name": "AI SEO & GEO Site Audit"
     },
     {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
@@ -18713,12 +18713,12 @@
      "name": "Writesonic - SEO Keywords & AI Search Insights"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
      "name": "AI SEO AEO Optimizer"
+    },
+    {
+     "id": "mkllojoidmbbhmjlpjabpfhklgancdnj",
+     "name": "AI SEO Analyzer"
     }
    ]
   },
@@ -18753,16 +18753,16 @@
      "name": "Website SEO Checker"
     },
     {
-     "id": "ibkclpciafdglkjkcibmohobjkcfkaef",
-     "name": "META SEO inspector"
+     "id": "kbhghidlilegihmipoohlboebekiigli",
+     "name": "SEO Pilot"
     },
     {
      "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
      "name": "文字：搜尋引擎最佳化 | 應用程式商店優化 | 搜尋排名與關鍵字工具"
     },
     {
-     "id": "kbhghidlilegihmipoohlboebekiigli",
-     "name": "SEO Pilot"
+     "id": "ibkclpciafdglkjkcibmohobjkcfkaef",
+     "name": "META SEO inspector"
     },
     {
      "id": "pfjdepjjfjjahkjfpkcgfmfhmnakjfba",
@@ -18821,7 +18821,7 @@
   {
    "market": "HK",
    "keyword": "aeo audit",
-   "scanned": 89,
+   "scanned": 90,
    "ok": true,
    "top": [
     {
@@ -18835,10 +18835,6 @@
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "ehhgkikhbnpblhfalbggjcpboighdijd",
@@ -18859,6 +18855,10 @@
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
      "name": "AEO & SEO Linter - Full SEO, GEO & AEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "hhnaciohedaejlgcfdgdpnnfblbdmpal",
@@ -18965,13 +18965,9 @@
   {
    "market": "HK",
    "keyword": "free aeo audit",
-   "scanned": 35,
+   "scanned": 36,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
@@ -18979,6 +18975,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
@@ -19025,6 +19025,10 @@
      "name": "Pemeriksa AEO & GEO + Audit SEO - Visibilitas di Pencarian AI"
     },
     {
+     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "name": "SEO AI Assistant: Cek SEO, Audit AEO & GEO"
+    },
+    {
      "id": "hfacnjbjlibdljaocclackojneegkbgh",
      "name": "SEO / AEO / GEO Checker by PPCBlogPro"
     },
@@ -19051,10 +19055,6 @@
     {
      "id": "fdjhpdhkngglkpbgagbfacljkodofedl",
      "name": "AEO Visibility Tracking"
-    },
-    {
-     "id": "pimhmeagnhepckniikojblilglbjngal",
-     "name": "RankSEO - AEO & GEO Expert"
     }
    ]
   },
@@ -19121,8 +19121,8 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
      "id": "nblbceehggefmhkioijdbppdboimoicg",
@@ -19137,12 +19137,12 @@
      "name": "OnPageSEO.ai SEO Chrome Extension with Ai & Best SEO Tools"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "gllhamnkpecmfhgdbildlgbbopofnnoe",
      "name": "ProfilePro - AI SEO Tool for Google Business Profile SEO"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     },
     {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
@@ -19173,16 +19173,16 @@
      "name": "SEO Minion"
     },
     {
+     "id": "kbhghidlilegihmipoohlboebekiigli",
+     "name": "SEO Pilot"
+    },
+    {
      "id": "lajfdngpocmchpihjecojjllfjeehgnl",
      "name": "SEO Pro Extension"
     },
     {
      "id": "edfjfgjklednkencfhnokmkajbgfhpon",
      "name": "SEO Search Simulator by Nightwatch"
-    },
-    {
-     "id": "kbhghidlilegihmipoohlboebekiigli",
-     "name": "SEO Pilot"
     },
     {
      "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
@@ -19229,6 +19229,10 @@
      "name": "SEO / AEO / GEO Checker by PPCBlogPro"
     },
     {
+     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "name": "SEO AI Assistant: Cek SEO, Audit AEO & GEO"
+    },
+    {
      "id": "lbpdfmgalegdooajgbdiniajmdjceooa",
      "name": "GEO Metrics Query Extractor"
     },
@@ -19243,17 +19247,13 @@
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "Pemeriksa AEO & GEO + Audit SEO - Visibilitas di Pencarian AI"
-    },
-    {
-     "id": "nblbceehggefmhkioijdbppdboimoicg",
-     "name": "Audit Situs SEO & GEO dengan AI"
     }
    ]
   },
   {
    "market": "ID",
    "keyword": "aeo audit",
-   "scanned": 89,
+   "scanned": 91,
    "ok": true,
    "top": [
     {
@@ -19269,24 +19269,24 @@
      "name": "Zicy – Alat Audit AEO/GEO & Konsultan AI"
     },
     {
-     "id": "bdkkjpbipgolopjhndknigaaokdabnad",
-     "name": "AEO/GEO Auditor"
+     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "name": "SEO AI Assistant: Cek SEO, Audit AEO & GEO"
     },
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
+     "id": "bdkkjpbipgolopjhndknigaaokdabnad",
+     "name": "AEO/GEO Auditor"
     },
     {
      "id": "ehhgkikhbnpblhfalbggjcpboighdijd",
      "name": "SEO & AEO Audit by Omnibound"
     },
     {
-     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
-     "name": "SEO AI Assistant: Cek SEO, Audit AEO & GEO"
-    },
-    {
      "id": "hhnaciohedaejlgcfdgdpnnfblbdmpal",
      "name": "AEO Audit by Cintra"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "jkighkknlhjojnojklhobfplknldkoic",
@@ -19309,20 +19309,20 @@
      "name": "Audit Situs SEO & GEO dengan AI"
     },
     {
+     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "name": "SEO AI Assistant: Cek SEO, Audit AEO & GEO"
+    },
+    {
      "id": "bbgmbofeglplaaamnfgmiejbeacokfbn",
      "name": "Zicy – Alat Audit AEO/GEO & Konsultan AI"
     },
     {
-     "id": "ffhkhmcjmbjkhfgjlnpndcpmljedfimd",
-     "name": "SEO Checker & Audit AI Halaman — SEORANKLINK"
+     "id": "nebfhaompfealoafenbaholmppfgonen",
+     "name": "Presenc AI Audit"
     },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "Pemeriksa AEO & GEO + Audit SEO - Visibilitas di Pencarian AI"
-    },
-    {
-     "id": "nebfhaompfealoafenbaholmppfgonen",
-     "name": "Presenc AI Audit"
     },
     {
      "id": "mbmdfnnlkdhbgpbgcnokjjniagnkbhdh",
@@ -19397,7 +19397,7 @@
   {
    "market": "ID",
    "keyword": "free aeo audit",
-   "scanned": 70,
+   "scanned": 71,
    "ok": true,
    "top": [
     {
@@ -19433,12 +19433,12 @@
      "name": "SEO & AEO Audit by Omnibound"
     },
     {
-     "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
-     "name": "SEO AI Assistant: Cek SEO, Audit AEO & GEO"
-    },
-    {
      "id": "jkighkknlhjojnojklhobfplknldkoic",
      "name": "GrackerAI AEO Audit"
+    },
+    {
+     "id": "hhnaciohedaejlgcfdgdpnnfblbdmpal",
+     "name": "AEO Audit by Cintra"
     }
    ]
   },
@@ -19453,40 +19453,40 @@
      "name": "AEO Tool"
     },
     {
-     "id": "hfacnjbjlibdljaocclackojneegkbgh",
-     "name": "SEO / AEO / GEO Checker by PPCBlogPro"
-    },
-    {
      "id": "bbgmbofeglplaaamnfgmiejbeacokfbn",
      "name": "Zicy – เครื่องมือตรวจสอบ AEO/GEO และที่ปรึกษา AI"
     },
     {
-     "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
-     "name": "AEO Quick Check — AI search visibility"
+     "id": "hfacnjbjlibdljaocclackojneegkbgh",
+     "name": "SEO / AEO / GEO Checker by PPCBlogPro"
     },
     {
      "id": "hjnhkojlmnmnfnajhcdlihimhaaimigi",
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "gmmliebciophkjngpdomhdfehfgcfdee",
-     "name": "AEO Analyzer: AI Website Optimizer"
+     "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
+     "name": "AEO Quick Check — AI search visibility"
     },
     {
-     "id": "nifnkfllpenejgiockmebhkaapfbklce",
-     "name": "AEO Audit Pro"
+     "id": "gmmliebciophkjngpdomhdfehfgcfdee",
+     "name": "AEO Analyzer: AI Website Optimizer"
     },
     {
      "id": "pimhmeagnhepckniikojblilglbjngal",
      "name": "RankSEO - AEO & GEO Expert"
     },
     {
-     "id": "fdjhpdhkngglkpbgagbfacljkodofedl",
-     "name": "AEO Visibility Tracking"
+     "id": "nifnkfllpenejgiockmebhkaapfbklce",
+     "name": "AEO Audit Pro"
     },
     {
      "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
      "name": "SEO AI Assistant: ตรวจ SEO และออดิต AEO และ GEO"
+    },
+    {
+     "id": "fdjhpdhkngglkpbgagbfacljkodofedl",
+     "name": "AEO Visibility Tracking"
     }
    ]
   },
@@ -19521,12 +19521,12 @@
      "name": "AI Visibility Checker & SEO Analyser · CMO Works · Free"
     },
     {
-     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
-     "name": "AI Visibility Auditor"
-    },
-    {
      "id": "odhjoplggcgjmgicckgnaamelnmbdikl",
      "name": "AI Visibility Checker: ChatGPT & AI SEO"
+    },
+    {
+     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
+     "name": "AI Visibility Auditor"
     },
     {
      "id": "mpmlmhennngidjplnndmbgibalaigiic",
@@ -19573,8 +19573,8 @@
      "name": "Digispot AI - SEO Insights"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
      "id": "mkllojoidmbbhmjlpjabpfhklgancdnj",
@@ -19613,20 +19613,20 @@
      "name": "Website SEO Checker"
     },
     {
-     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
-     "name": "SEO Search Simulator by Nightwatch"
-    },
-    {
      "id": "lajfdngpocmchpihjecojjllfjeehgnl",
      "name": "SEO Pro Extension"
     },
     {
-     "id": "aklhdocmgpelkhpokopkcepgofimmooc",
-     "name": "SEO Checker"
+     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
+     "name": "SEO Search Simulator by Nightwatch"
     },
     {
      "id": "kbhghidlilegihmipoohlboebekiigli",
      "name": "SEO Pilot"
+    },
+    {
+     "id": "aklhdocmgpelkhpokopkcepgofimmooc",
+     "name": "SEO Checker"
     },
     {
      "id": "pfjdepjjfjjahkjfpkcgfmfhmnakjfba",
@@ -19685,7 +19685,7 @@
   {
    "market": "TH",
    "keyword": "aeo audit",
-   "scanned": 82,
+   "scanned": 83,
    "ok": true,
    "top": [
     {
@@ -19701,10 +19701,6 @@
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
     },
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
-    {
      "id": "ehhgkikhbnpblhfalbggjcpboighdijd",
      "name": "SEO & AEO Audit by Omnibound"
     },
@@ -19715,6 +19711,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
@@ -19833,16 +19833,12 @@
    "ok": true,
    "top": [
     {
-     "id": "igknbmbiemjdmoigcblgikpjncaneobb",
-     "name": "AuditBeacon — Free SEO/AEO/GEO Auditor"
-    },
-    {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
     },
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
+     "id": "igknbmbiemjdmoigcblgikpjncaneobb",
+     "name": "AuditBeacon — Free SEO/AEO/GEO Auditor"
     },
     {
      "id": "cnooidbfijmlelofbifefdbieieegnga",
@@ -19851,6 +19847,10 @@
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
@@ -19897,12 +19897,12 @@
      "name": "SEO AI Assistant: Kiểm tra SEO, kiểm định AEO & GEO"
     },
     {
-     "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
-     "name": "AEO Quick Check — AI search visibility"
-    },
-    {
      "id": "pimhmeagnhepckniikojblilglbjngal",
      "name": "RankSEO - AEO & GEO Expert"
+    },
+    {
+     "id": "kdjkndbpcaoiechiclpbeipnfbcjaflh",
+     "name": "AEO Quick Check — AI search visibility"
     },
     {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
@@ -19953,12 +19953,12 @@
      "name": "AI Visibility Checker & SEO Analyser · CMO Works · Free"
     },
     {
-     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
-     "name": "AI Visibility Auditor"
-    },
-    {
      "id": "odhjoplggcgjmgicckgnaamelnmbdikl",
      "name": "AI Visibility Checker: ChatGPT & AI SEO"
+    },
+    {
+     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
+     "name": "AI Visibility Auditor"
     },
     {
      "id": "mpmlmhennngidjplnndmbgibalaigiic",
@@ -19993,8 +19993,8 @@
      "name": "SEO AI Assistant: Kiểm tra SEO, kiểm định AEO & GEO"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
      "id": "mkllojoidmbbhmjlpjabpfhklgancdnj",
@@ -20033,36 +20033,36 @@
      "name": "SEO Minion"
     },
     {
-     "id": "bjogjfinolnhfhkbipphpdlldadpnmhc",
-     "name": "SEO META in 1 CLICK"
-    },
-    {
      "id": "akdgnmcogleenhbclghghlkkdndkjdjc",
      "name": "SEOquake: On-Page SEO Checker"
+    },
+    {
+     "id": "bjogjfinolnhfhkbipphpdlldadpnmhc",
+     "name": "SEO META in 1 CLICK"
     },
     {
      "id": "lajfdngpocmchpihjecojjllfjeehgnl",
      "name": "SEO Pro Extension"
     },
     {
-     "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
-     "name": "Công cụ SEO | Công cụ ASO | Xếp hạng & Từ khóa"
-    },
-    {
      "id": "nljcdkjpjnhlilgepggmmagnmebhadnk",
      "name": "Website SEO Checker"
+    },
+    {
+     "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
+     "name": "Công cụ SEO | Công cụ ASO | Xếp hạng & Từ khóa"
     },
     {
      "id": "icpghblbbdlnpffddjekoohofejmjfkg",
      "name": "SEO Doctor"
     },
     {
-     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
-     "name": "SEO Search Simulator by Nightwatch"
-    },
-    {
      "id": "kbhghidlilegihmipoohlboebekiigli",
      "name": "SEO Pilot"
+    },
+    {
+     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
+     "name": "SEO Search Simulator by Nightwatch"
     }
    ]
   },
@@ -20117,7 +20117,7 @@
   {
    "market": "VN",
    "keyword": "aeo audit",
-   "scanned": 86,
+   "scanned": 88,
    "ok": true,
    "top": [
     {
@@ -20131,10 +20131,6 @@
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
-    },
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "bdkkjpbipgolopjhndknigaaokdabnad",
@@ -20159,6 +20155,10 @@
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
      "name": "AEO & SEO Linter - Full SEO, GEO & AEO Audit"
+    },
+    {
+     "id": "hhnaciohedaejlgcfdgdpnnfblbdmpal",
+     "name": "AEO Audit by Cintra"
     }
    ]
   },
@@ -20261,7 +20261,7 @@
   {
    "market": "VN",
    "keyword": "free aeo audit",
-   "scanned": 34,
+   "scanned": 35,
    "ok": true,
    "top": [
     {
@@ -20273,16 +20273,16 @@
      "name": "AEO Quick Check — AI search visibility"
     },
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
-    {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "name": "SEO Checker • AI SEO, AEO & GEO Audit"
     },
     {
      "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
      "name": "SEO AI Assistant: Kiểm tra SEO, kiểm định AEO & GEO"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "cnooidbfijmlelofbifefdbieieegnga",
@@ -20349,8 +20349,8 @@
      "name": "AEO Visibility Tracking"
     },
     {
-     "id": "bjjhdfofkppcajpiheekikagfhhcnhml",
-     "name": "SEOLensAI — SEO, AEO & GEO Checker"
+     "id": "pimhmeagnhepckniikojblilglbjngal",
+     "name": "RankSEO - AEO & GEO Expert"
     }
    ]
   },
@@ -20385,20 +20385,20 @@
      "name": "AI Visibility Checker & SEO Analyser · CMO Works · Free"
     },
     {
-     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
-     "name": "AI Visibility Auditor"
-    },
-    {
      "id": "odhjoplggcgjmgicckgnaamelnmbdikl",
      "name": "AI Visibility Checker: ChatGPT & AI SEO"
+    },
+    {
+     "id": "pdfccbiffiihohnjfiofidldfjnahlkh",
+     "name": "AI Visibility Auditor"
     },
     {
      "id": "mpmlmhennngidjplnndmbgibalaigiic",
      "name": "Yolando AI Visibility Score (GEO)"
     },
     {
-     "id": "iekkdpnpomfbldpebhnfjhmpmhgcfjag",
-     "name": "AI Content Visibility Checker"
+     "id": "olhjmljioknnjhmmcdbmhhngcjjkpcdn",
+     "name": "AI Visibility Checker"
     }
    ]
   },
@@ -20417,8 +20417,8 @@
      "name": "SAGE - AI SEO, AEO & GEO Engine"
     },
     {
-     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
-     "name": "AI SEO Pro"
+     "id": "omadefoihnikgnonaiofoaojohhfonii",
+     "name": "AI SEO Extension by RadarKit"
     },
     {
      "id": "nblbceehggefmhkioijdbppdboimoicg",
@@ -20433,16 +20433,16 @@
      "name": "OnPageSEO.ai SEO Chrome Extension with Ai & Best SEO Tools"
     },
     {
-     "id": "omadefoihnikgnonaiofoaojohhfonii",
-     "name": "AI SEO Extension by RadarKit"
-    },
-    {
      "id": "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
      "name": "SEO AI Assistant: SEO Checker, AEO & GEO Audit"
     },
     {
      "id": "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
      "name": "AI SEO AEO Optimizer"
+    },
+    {
+     "id": "hibekmnkhfhcackknkfikaeidhfoohpl",
+     "name": "AI SEO Pro"
     },
     {
      "id": "kchaponcodemjigejilffhfchecpgdpf",
@@ -20473,12 +20473,12 @@
      "name": "SEO Pilot"
     },
     {
-     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
-     "name": "SEO Search Simulator by Nightwatch"
-    },
-    {
      "id": "lajfdngpocmchpihjecojjllfjeehgnl",
      "name": "SEO Pro Extension"
+    },
+    {
+     "id": "edfjfgjklednkencfhnokmkajbgfhpon",
+     "name": "SEO Search Simulator by Nightwatch"
     },
     {
      "id": "pjjlpohgclhhnmbjfhijoeikehadbohd",
@@ -20549,7 +20549,7 @@
   {
    "market": "MY",
    "keyword": "aeo audit",
-   "scanned": 86,
+   "scanned": 87,
    "ok": true,
    "top": [
     {
@@ -20561,6 +20561,10 @@
      "name": "Zicy – Alat Audit AEO/GEO & Perunding AI"
     },
     {
+     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
+     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
+    },
+    {
      "id": "bdkkjpbipgolopjhndknigaaokdabnad",
      "name": "AEO/GEO Auditor"
     },
@@ -20569,20 +20573,16 @@
      "name": "SEO & AEO Audit by Omnibound"
     },
     {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
-    {
-     "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
-     "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
-    },
-    {
      "id": "hhnaciohedaejlgcfdgdpnnfblbdmpal",
      "name": "AEO Audit by Cintra"
     },
     {
      "id": "jlemmhbnehjbffnhnjinjpenpdfinlmc",
      "name": "AEO & SEO Linter - Full SEO, GEO & AEO Audit"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "jkighkknlhjojnojklhobfplknldkoic",
@@ -20693,13 +20693,9 @@
   {
    "market": "MY",
    "keyword": "free aeo audit",
-   "scanned": 34,
+   "scanned": 35,
    "ok": true,
    "top": [
-    {
-     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
-     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
-    },
     {
      "id": "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "name": "AEO & GEO Checker + SEO Audit - AI Search Visibility"
@@ -20707,6 +20703,10 @@
     {
      "id": "igknbmbiemjdmoigcblgikpjncaneobb",
      "name": "AuditBeacon — Free SEO/AEO/GEO Auditor"
+    },
+    {
+     "id": "mdnainkcjffkffbmonkaeohpgepgfini",
+     "name": "AEO Checker: AI SEO, GEO & llms.txt Audit"
     },
     {
      "id": "ldgndehfafnmmjfjhpnfppaecgliggeg",
