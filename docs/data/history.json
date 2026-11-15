@@ -1,72 +1,84 @@
 {
  "dates": [
   "2026-11-13",
-  "2026-11-14"
+  "2026-11-14",
+  "2026-11-15"
  ],
  "series": {
   "aeo": {
    "US": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      14,
-     15
+     15,
+     14
     ]
    },
    "GB": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      17,
-     14
+     14,
+     12
     ]
    },
    "CA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      14,
-     15
+     15,
+     14
     ]
    },
    "AU": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      17,
-     14
+     14,
+     12
     ]
    },
    "IN": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      14,
-     15
+     15,
+     14
     ]
    },
    "IE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      17,
-     14
+     14,
+     12
     ]
    },
    "SG": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      14,
-     15
+     15,
+     14
     ]
    },
    "ZA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      14,
-     15
+     15,
+     14
     ]
    },
    "NG": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      14,
-     15
+     15,
+     14
     ]
    },
    "PH": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      14,
-     15
+     15,
+     14
     ]
    },
    "DE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     5,
      5,
      5
     ]
@@ -74,11 +86,13 @@
    "AT": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      5,
+     5,
      5
     ]
    },
    "CH": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     5,
      5,
      5
     ]
@@ -86,17 +100,20 @@
    "FR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      7,
-     7
+     7,
+     6
     ]
    },
    "BE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      7,
-     7
+     7,
+     6
     ]
    },
    "NL": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     1,
      1,
      1
     ]
@@ -104,29 +121,34 @@
    "ES": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      6,
-     6
+     6,
+     5
     ]
    },
    "MX": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      11,
-     14
+     14,
+     13
     ]
    },
    "AR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      11,
-     14
+     14,
+     13
     ]
    },
    "CO": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      11,
-     14
+     14,
+     13
     ]
    },
    "IT": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     3,
      3,
      3
     ]
@@ -134,11 +156,13 @@
    "PT": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      7,
+     8,
      8
     ]
    },
    "BR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     5,
      5,
      5
     ]
@@ -146,11 +170,13 @@
    "PL": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
-     3
+     3,
+     2
     ]
    },
    "SE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     13,
      13,
      13
     ]
@@ -158,47 +184,55 @@
    "NO": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      12,
+     13,
      13
     ]
    },
    "DK": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      11,
-     14
+     14,
+     11
     ]
    },
    "FI": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      11,
-     15
+     15,
+     11
     ]
    },
    "CZ": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      16,
-     16
+     16,
+     11
     ]
    },
    "RO": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      13,
-     13
+     13,
+     8
     ]
    },
    "HU": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      14,
-     14
+     14,
+     9
     ]
    },
    "GR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      16,
-     16
+     16,
+     12
     ]
    },
    "TR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     2,
      2,
      2
     ]
@@ -206,41 +240,48 @@
    "UA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      15,
-     15
+     15,
+     14
     ]
    },
    "RU": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      6,
-     6
+     6,
+     5
     ]
    },
    "IL": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      11,
-     15
+     15,
+     10
     ]
    },
    "SA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      10,
-     15
+     15,
+     13
     ]
    },
    "AE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      10,
-     15
+     15,
+     13
     ]
    },
    "EG": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      10,
-     15
+     15,
+     13
     ]
    },
    "JP": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     1,
      1,
      1
     ]
@@ -248,29 +289,34 @@
    "KR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      3,
+     3,
      3
     ]
    },
    "CN": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      14,
-     14
+     14,
+     9
     ]
    },
    "TW": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      14,
-     14
+     14,
+     9
     ]
    },
    "HK": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      14,
-     14
+     14,
+     9
     ]
    },
    "ID": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     2,
      2,
      2
     ]
@@ -278,19 +324,22 @@
    "TH": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      14,
-     17
+     17,
+     14
     ]
    },
    "VN": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      11,
-     14
+     14,
+     12
     ]
    },
    "MY": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      14,
-     16
+     16,
+     14
     ]
    }
   },
@@ -298,11 +347,13 @@
    "US": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      99,
+     0,
      0
     ]
    },
    "GB": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -310,11 +361,13 @@
    "CA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      99,
+     0,
      0
     ]
    },
    "AU": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -322,11 +375,13 @@
    "IN": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      99,
+     0,
      0
     ]
    },
    "IE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -334,47 +389,55 @@
    "SG": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      99,
+     0,
      0
     ]
    },
    "ZA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      98,
+     0,
      0
     ]
    },
    "NG": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      98,
+     0,
      0
     ]
    },
    "PH": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      98,
+     0,
      0
     ]
    },
    "DE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      98,
+     0,
      0
     ]
    },
    "AT": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      98,
+     0,
      0
     ]
    },
    "CH": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      97,
+     0,
      0
     ]
    },
    "FR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -382,17 +445,20 @@
    "BE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "NL": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      98,
+     0,
      0
     ]
    },
    "ES": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -400,11 +466,13 @@
    "MX": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "AR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -412,11 +480,13 @@
    "CO": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "IT": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -424,11 +494,13 @@
    "PT": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "BR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -436,41 +508,48 @@
    "PL": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      99,
+     0,
      0
     ]
    },
    "SE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      97,
+     0,
      0
     ]
    },
    "NO": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      97,
+     0,
      0
     ]
    },
    "DK": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      97,
+     0,
      0
     ]
    },
    "FI": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      97,
+     0,
      0
     ]
    },
    "CZ": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      96,
+     0,
      0
     ]
    },
    "RO": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -478,29 +557,34 @@
    "HU": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      97,
+     0,
      0
     ]
    },
    "GR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      96,
+     0,
      0
     ]
    },
    "TR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      97,
+     0,
      0
     ]
    },
    "UA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      96,
+     0,
      0
     ]
    },
    "RU": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -508,11 +592,13 @@
    "IL": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      96,
+     0,
      0
     ]
    },
    "SA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -520,11 +606,13 @@
    "AE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "EG": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -532,11 +620,13 @@
    "JP": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "KR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -544,23 +634,27 @@
    "CN": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      97,
+     0,
      0
     ]
    },
    "TW": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      96,
+     0,
      0
     ]
    },
    "HK": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      96,
+     0,
      0
     ]
    },
    "ID": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -568,18 +662,21 @@
    "TH": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      96,
+     0,
      0
     ]
    },
    "VN": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      96,
+     0,
      0
     ]
    },
    "MY": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      95,
+     0,
      0
     ]
    }
@@ -588,101 +685,118 @@
    "US": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      65,
-     94
+     94,
+     85
     ]
    },
    "GB": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
-     99
+     99,
+     92
     ]
    },
    "CA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      65,
-     94
+     94,
+     85
     ]
    },
    "AU": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
-     99
+     99,
+     92
     ]
    },
    "IN": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      65,
-     94
+     94,
+     85
     ]
    },
    "IE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
-     99
+     99,
+     92
     ]
    },
    "SG": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      65,
-     92
+     92,
+     85
     ]
    },
    "ZA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      65,
-     94
+     94,
+     85
     ]
    },
    "NG": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      65,
-     94
+     94,
+     84
     ]
    },
    "PH": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      65,
-     94
+     94,
+     85
     ]
    },
    "DE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      75,
+     0,
      0
     ]
    },
    "AT": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      75,
+     0,
      0
     ]
    },
    "CH": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      75,
+     0,
      0
     ]
    },
    "FR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      80,
+     0,
      0
     ]
    },
    "BE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      81,
+     0,
      0
     ]
    },
    "NL": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      43,
-     43
+     43,
+     46
     ]
    },
    "ES": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -690,11 +804,13 @@
    "MX": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "AR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -702,125 +818,146 @@
    "CO": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      95,
+     0,
      0
     ]
    },
    "IT": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      75,
+     0,
      0
     ]
    },
    "PT": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      84,
+     0,
      0
     ]
    },
    "BR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
-     0
+     0,
+     88
     ]
    },
    "PL": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      53,
-     54
+     54,
+     53
     ]
    },
    "SE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      69,
-     0
+     0,
+     94
     ]
    },
    "NO": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      69,
-     0
+     0,
+     93
     ]
    },
    "DK": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      70,
-     0
+     0,
+     94
     ]
    },
    "FI": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      68,
-     0
+     0,
+     93
     ]
    },
    "CZ": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      69,
-     0
+     0,
+     95
     ]
    },
    "RO": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      98,
+     0,
      0
     ]
    },
    "HU": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      72,
+     0,
      0
     ]
    },
    "GR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      81,
+     0,
      0
     ]
    },
    "TR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      70,
-     0
+     0,
+     99
     ]
    },
    "UA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      70,
-     0
+     0,
+     98
     ]
    },
    "RU": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      74,
+     0,
      0
     ]
    },
    "IL": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      81,
+     0,
      0
     ]
    },
    "SA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      86,
+     0,
      0
     ]
    },
    "AE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      85,
+     0,
      0
     ]
    },
    "EG": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      86,
+     0,
      0
     ]
    },
    "JP": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -828,48 +965,56 @@
    "KR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      70,
-     69
+     69,
+     72
     ]
    },
    "CN": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      70,
-     0
+     0,
+     94
     ]
    },
    "TW": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      70,
-     0
+     0,
+     94
     ]
    },
    "HK": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      70,
-     0
+     0,
+     94
     ]
    },
    "ID": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      37,
-     36
+     36,
+     39
     ]
    },
    "TH": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      54,
-     79
+     79,
+     72
     ]
    },
    "VN": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      98,
+     0,
      0
     ]
    },
    "MY": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      82,
+     81,
      81
     ]
    }
@@ -878,11 +1023,13 @@
    "US": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "GB": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -890,11 +1037,13 @@
    "CA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "AU": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -902,11 +1051,13 @@
    "IN": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "IE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -914,11 +1065,13 @@
    "SG": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "ZA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -926,11 +1079,13 @@
    "NG": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "PH": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -938,11 +1093,13 @@
    "DE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "AT": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -950,11 +1107,13 @@
    "CH": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "FR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -962,11 +1121,13 @@
    "BE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "NL": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -974,11 +1135,13 @@
    "ES": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "MX": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -986,11 +1149,13 @@
    "AR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "CO": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -998,11 +1163,13 @@
    "IT": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "PT": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -1010,11 +1177,13 @@
    "BR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "PL": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -1022,11 +1191,13 @@
    "SE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "NO": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -1034,11 +1205,13 @@
    "DK": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "FI": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -1046,11 +1219,13 @@
    "CZ": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "RO": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -1058,11 +1233,13 @@
    "HU": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "GR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -1070,11 +1247,13 @@
    "TR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "UA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -1082,11 +1261,13 @@
    "RU": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "IL": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -1094,11 +1275,13 @@
    "SA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "AE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -1106,11 +1289,13 @@
    "EG": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "JP": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -1118,11 +1303,13 @@
    "KR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "CN": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -1130,11 +1317,13 @@
    "TW": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "HK": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -1142,11 +1331,13 @@
    "ID": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "TH": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -1154,11 +1345,13 @@
    "VN": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "MY": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -1168,125 +1361,146 @@
    "US": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      32,
-     64
+     64,
+     55
     ]
    },
    "GB": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      76,
-     76
+     76,
+     66
     ]
    },
    "CA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      32,
-     64
+     64,
+     55
     ]
    },
    "AU": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      76,
-     76
+     76,
+     66
     ]
    },
    "IN": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      32,
-     64
+     64,
+     55
     ]
    },
    "IE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      76,
-     76
+     76,
+     66
     ]
    },
    "SG": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      32,
-     64
+     64,
+     55
     ]
    },
    "ZA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      32,
-     64
+     64,
+     55
     ]
    },
    "NG": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      32,
-     64
+     64,
+     55
     ]
    },
    "PH": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      32,
-     63
+     63,
+     55
     ]
    },
    "DE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      15,
-     14
+     14,
+     15
     ]
    },
    "AT": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      15,
-     14
+     14,
+     15
     ]
    },
    "CH": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      15,
-     14
+     14,
+     15
     ]
    },
    "FR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      11,
+     10,
      10
     ]
    },
    "BE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      11,
+     10,
      10
     ]
    },
    "NL": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      13,
-     14
+     14,
+     13
     ]
    },
    "ES": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      10,
-     10
+     10,
+     11
     ]
    },
    "MX": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      12,
-     13
+     13,
+     14
     ]
    },
    "AR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      12,
-     13
+     13,
+     14
     ]
    },
    "CO": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      12,
-     13
+     13,
+     14
     ]
    },
    "IT": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     9,
      9,
      9
     ]
@@ -1294,11 +1508,13 @@
    "PT": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      13,
-     13
+     13,
+     12
     ]
    },
    "BR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     9,
      9,
      9
     ]
@@ -1306,65 +1522,76 @@
    "PL": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      8,
-     9
+     9,
+     8
     ]
    },
    "SE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      36,
-     53
+     53,
+     48
     ]
    },
    "NO": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      46,
-     65
+     65,
+     61
     ]
    },
    "DK": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      38,
-     65
+     65,
+     60
     ]
    },
    "FI": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      33,
-     46
+     46,
+     43
     ]
    },
    "CZ": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      35,
-     50
+     50,
+     47
     ]
    },
    "RO": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      34,
+     52,
      52
     ]
    },
    "HU": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      43,
-     69
+     69,
+     61
     ]
    },
    "GR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      39,
-     67
+     67,
+     62
     ]
    },
    "TR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      11,
+     12,
      12
     ]
    },
    "UA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     27,
      27,
      27
     ]
@@ -1372,35 +1599,41 @@
    "RU": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      11,
+     11,
      11
     ]
    },
    "IL": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      36,
-     47
+     47,
+     48
     ]
    },
    "SA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      36,
-     55
+     55,
+     52
     ]
    },
    "AE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      36,
-     56
+     56,
+     52
     ]
    },
    "EG": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      36,
-     56
+     56,
+     52
     ]
    },
    "JP": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     5,
      5,
      5
     ]
@@ -1408,48 +1641,56 @@
    "KR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      13,
-     13
+     13,
+     11
     ]
    },
    "CN": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      39,
-     45
+     45,
+     38
     ]
    },
    "TW": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      39,
-     45
+     45,
+     38
     ]
    },
    "HK": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      39,
-     45
+     45,
+     38
     ]
    },
    "ID": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      9,
-     10
+     10,
+     9
     ]
    },
    "TH": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      26,
-     40
+     40,
+     36
     ]
    },
    "VN": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      37,
-     58
+     58,
+     51
     ]
    },
    "MY": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      38,
+     39,
      39
     ]
    }
@@ -1458,17 +1699,20 @@
    "US": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      3,
+     3,
      3
     ]
    },
    "GB": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      5,
+     3,
      3
     ]
    },
    "CA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     3,
      3,
      3
     ]
@@ -1476,11 +1720,13 @@
    "AU": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      5,
+     3,
      3
     ]
    },
    "IN": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     3,
      3,
      3
     ]
@@ -1488,11 +1734,13 @@
    "IE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      5,
+     3,
      3
     ]
    },
    "SG": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     3,
      3,
      3
     ]
@@ -1500,11 +1748,13 @@
    "ZA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      3,
+     3,
      3
     ]
    },
    "NG": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     3,
      3,
      3
     ]
@@ -1512,11 +1762,13 @@
    "PH": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      3,
+     3,
      3
     ]
    },
    "DE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     3,
      3,
      3
     ]
@@ -1524,11 +1776,13 @@
    "AT": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      3,
+     3,
      3
     ]
    },
    "CH": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     3,
      3,
      3
     ]
@@ -1536,11 +1790,13 @@
    "FR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      4,
+     4,
      4
     ]
    },
    "BE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     4,
      4,
      4
     ]
@@ -1548,11 +1804,13 @@
    "NL": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     2,
      2
     ]
    },
    "ES": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     3,
      3,
      3
     ]
@@ -1560,11 +1818,13 @@
    "MX": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      3,
+     3,
      3
     ]
    },
    "AR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     3,
      3,
      3
     ]
@@ -1572,17 +1832,20 @@
    "CO": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      3,
+     3,
      3
     ]
    },
    "IT": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     3,
      3
     ]
    },
    "PT": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     3,
      3,
      3
     ]
@@ -1590,11 +1853,13 @@
    "BR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      4,
+     3,
      3
     ]
    },
    "PL": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     3,
      3,
      3
     ]
@@ -1602,11 +1867,13 @@
    "SE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      3,
+     3,
      3
     ]
    },
    "NO": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     3,
      3,
      3
     ]
@@ -1614,29 +1881,34 @@
    "DK": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      3,
+     3,
      3
     ]
    },
    "FI": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      4,
+     3,
      3
     ]
    },
    "CZ": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      5,
+     4,
      4
     ]
    },
    "RO": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      5,
+     3,
      3
     ]
    },
    "HU": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     3,
      3,
      3
     ]
@@ -1644,17 +1916,20 @@
    "GR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      4,
+     3,
      3
     ]
    },
    "TR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      4,
+     3,
      3
     ]
    },
    "UA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     3,
      3,
      3
     ]
@@ -1662,11 +1937,13 @@
    "RU": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      3,
+     3,
      3
     ]
    },
    "IL": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     3,
      3,
      3
     ]
@@ -1674,23 +1951,27 @@
    "SA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      4,
+     3,
      3
     ]
    },
    "AE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      4,
+     3,
      3
     ]
    },
    "EG": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      4,
+     3,
      3
     ]
    },
    "JP": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     3,
      3,
      3
     ]
@@ -1698,11 +1979,13 @@
    "KR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      4,
+     3,
      3
     ]
    },
    "CN": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     3,
      3,
      3
     ]
@@ -1710,11 +1993,13 @@
    "TW": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      3,
+     3,
      3
     ]
    },
    "HK": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     3,
      3,
      3
     ]
@@ -1722,11 +2007,13 @@
    "ID": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     2,
      2
     ]
    },
    "TH": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     3,
      3,
      3
     ]
@@ -1734,12 +2021,14 @@
    "VN": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      3,
+     3,
      3
     ]
    },
    "MY": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      6,
+     3,
      3
     ]
    }
@@ -1748,95 +2037,111 @@
    "US": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      17,
+     19,
      19
     ]
    },
    "GB": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      38,
-     24
+     24,
+     21
     ]
    },
    "CA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      17,
+     19,
      19
     ]
    },
    "AU": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      38,
-     24
+     24,
+     21
     ]
    },
    "IN": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      17,
+     19,
      19
     ]
    },
    "IE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      38,
-     24
+     24,
+     21
     ]
    },
    "SG": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      17,
+     19,
      19
     ]
    },
    "ZA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      17,
+     19,
      19
     ]
    },
    "NG": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      17,
+     19,
      19
     ]
    },
    "PH": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      17,
+     19,
      19
     ]
    },
    "DE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      23,
-     26
+     26,
+     24
     ]
    },
    "AT": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      23,
-     26
+     26,
+     24
     ]
    },
    "CH": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      23,
-     26
+     26,
+     24
     ]
    },
    "FR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      22,
-     31
+     31,
+     27
     ]
    },
    "BE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      22,
-     31
+     31,
+     27
     ]
    },
    "NL": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     4,
      4,
      4
     ]
@@ -1844,193 +2149,225 @@
    "ES": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      20,
-     28
+     28,
+     26
     ]
    },
    "MX": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      20,
-     28
+     28,
+     26
     ]
    },
    "AR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      20,
-     28
+     28,
+     26
     ]
    },
    "CO": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      20,
-     28
+     28,
+     26
     ]
    },
    "IT": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      21,
+     28,
      28
     ]
    },
    "PT": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      21,
-     30
+     30,
+     29
     ]
    },
    "BR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      31,
-     46
+     46,
+     33
     ]
    },
    "PL": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      18,
-     22
+     22,
+     20
     ]
    },
    "SE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      18,
-     22
+     22,
+     20
     ]
    },
    "NO": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      18,
-     23
+     23,
+     20
     ]
    },
    "DK": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      19,
-     23
+     23,
+     21
     ]
    },
    "FI": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      18,
-     22
+     22,
+     20
     ]
    },
    "CZ": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      18,
-     24
+     24,
+     21
     ]
    },
    "RO": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      23,
-     26
+     26,
+     25
     ]
    },
    "HU": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      19,
-     25
+     25,
+     21
     ]
    },
    "GR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      18,
-     22
+     22,
+     20
     ]
    },
    "TR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      20,
-     24
+     24,
+     22
     ]
    },
    "UA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      20,
-     26
+     26,
+     22
     ]
    },
    "RU": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      24,
-     32
+     32,
+     30
     ]
    },
    "IL": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      18,
-     22
+     22,
+     20
     ]
    },
    "SA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      20,
-     27
+     27,
+     25
     ]
    },
    "AE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      20,
-     27
+     27,
+     25
     ]
    },
    "EG": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      20,
-     27
+     27,
+     25
     ]
    },
    "JP": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      27,
-     28
+     28,
+     31
     ]
    },
    "KR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      45,
-     45
+     45,
+     50
     ]
    },
    "CN": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      19,
-     22
+     22,
+     20
     ]
    },
    "TW": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      19,
-     22
+     22,
+     20
     ]
    },
    "HK": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      19,
-     22
+     22,
+     20
     ]
    },
    "ID": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      4,
-     5
+     5,
+     3
     ]
    },
    "TH": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      18,
-     22
+     22,
+     20
     ]
    },
    "VN": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      18,
-     22
+     22,
+     20
     ]
    },
    "MY": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      20,
-     21
+     21,
+     22
     ]
    }
   },
@@ -2038,11 +2375,13 @@
    "US": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "GB": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -2050,11 +2389,13 @@
    "CA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "AU": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -2062,11 +2403,13 @@
    "IN": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "IE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -2074,11 +2417,13 @@
    "SG": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "ZA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -2086,11 +2431,13 @@
    "NG": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "PH": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -2098,11 +2445,13 @@
    "DE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "AT": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -2110,11 +2459,13 @@
    "CH": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "FR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -2122,11 +2473,13 @@
    "BE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "NL": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -2134,11 +2487,13 @@
    "ES": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "MX": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -2146,11 +2501,13 @@
    "AR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "CO": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -2158,11 +2515,13 @@
    "IT": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "PT": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -2170,11 +2529,13 @@
    "BR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "PL": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -2182,11 +2543,13 @@
    "SE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "NO": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -2194,11 +2557,13 @@
    "DK": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "FI": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -2206,11 +2571,13 @@
    "CZ": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "RO": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -2218,11 +2585,13 @@
    "HU": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "GR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -2230,11 +2599,13 @@
    "TR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "UA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -2242,11 +2613,13 @@
    "RU": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "IL": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -2254,11 +2627,13 @@
    "SA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "AE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -2266,11 +2641,13 @@
    "EG": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "JP": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -2278,11 +2655,13 @@
    "KR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "CN": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -2290,11 +2669,13 @@
    "TW": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "HK": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -2302,11 +2683,13 @@
    "ID": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "TH": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -2314,11 +2697,13 @@
    "VN": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      0,
+     0,
      0
     ]
    },
    "MY": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     0,
      0,
      0
     ]
@@ -2328,269 +2713,314 @@
    "US": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "GB": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      3,
+     1,
      1
     ]
    },
    "CA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "AU": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      3,
+     1,
      1
     ]
    },
    "IN": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "IE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      3,
+     1,
      1
     ]
    },
    "SG": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "ZA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "NG": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "PH": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "DE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "AT": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "CH": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "FR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      5,
-     2
+     2,
+     1
     ]
    },
    "BE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      5,
-     2
+     2,
+     1
     ]
    },
    "NL": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "ES": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      3,
+     1,
      1
     ]
    },
    "MX": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      3,
+     1,
      1
     ]
    },
    "AR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      3,
+     1,
      1
     ]
    },
    "CO": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      3,
+     1,
      1
     ]
    },
    "IT": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      3,
+     1,
      1
     ]
    },
    "PT": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "BR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      3,
+     2,
      2
     ]
    },
    "PL": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "SE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "NO": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "DK": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "FI": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "CZ": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "RO": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "HU": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "GR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "TR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "UA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "RU": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      3,
+     1,
      1
     ]
    },
    "IL": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "SA": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      3,
+     1,
      1
     ]
    },
    "AE": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      3,
+     1,
      1
     ]
    },
    "EG": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      3,
+     1,
      1
     ]
    },
    "JP": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      3,
+     1,
      1
     ]
    },
    "KR": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      3,
+     1,
      1
     ]
    },
    "CN": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "TW": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "HK": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "ID": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     1,
      1,
      1
     ]
@@ -2598,11 +3028,13 @@
    "TH": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    },
    "VN": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
+     1,
      1,
      1
     ]
@@ -2610,11 +3042,12 @@
    "MY": {
     "mmiagdcijcmncoifmehfodelnkdbfcoo": [
      2,
+     1,
      1
     ]
    }
   }
  },
  "depth": 100,
- "updated": "2026-11-14T11:55:19.163Z"
+ "updated": "2026-11-15T12:24:12.666Z"
 }
