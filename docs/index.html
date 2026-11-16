@@ -28,7 +28,7 @@
   [hidden] { display: none !important; }
   body { margin: 0; background: var(--bg); color: var(--text); font: 14px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
   a { color: var(--accent); }
-  header { display: flex; align-items: center; gap: 12px; padding: 16px 20px; border-bottom: 1px solid var(--border); background: var(--surface); position: sticky; top: 0; z-index: 5; }
+  header { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; padding: 16px 20px; border-bottom: 1px solid var(--border); background: var(--surface); position: sticky; top: 0; z-index: 5; }
   header img { width: 36px; height: 36px; border-radius: 8px; }
   header h1 { font-size: 17px; margin: 0; font-weight: 650; }
   header .sub { color: var(--text-2); font-size: 12.5px; }
@@ -103,6 +103,10 @@
   .msg { font-size: 13px; }
   .msg.err { color: var(--bad); } .msg.ok { color: var(--good); }
   details summary { cursor: pointer; color: var(--text-2); }
+  #projSel { max-width: min(260px, 100%); }
+  .exports { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  .exports p { margin: 0 0 10px; color: var(--text-2); width: 100%; }
+  button.danger { color: var(--bad); border-color: var(--bad); background: transparent; margin-left: auto; }
   .sr { position: absolute; left: -9999px; }
 </style>
 </head>
@@ -114,6 +118,7 @@
     <div class="sub" id="subtitle">Loading…</div>
   </div>
   <div class="spacer"></div>
+  <select id="projSel" aria-label="Switch extension"></select>
   <button id="openSettings">Settings</button>
 </header>
 
@@ -164,17 +169,26 @@
     </section>
   </div>
 
+  <section class="card" id="exportCard">
+    <h2>Export for analysis <span class="hint">JSON files you can give to Claude or any other tool</span></h2>
+    <div class="exports">
+      <button id="expRank">⬇ Keyword rankings</button>
+      <button id="expComp">⬇ Competitor set</button>
+      <button id="expAll">⬇ Everything</button>
+    </div>
+  </section>
+
   <p class="muted" style="text-align:center;font-size:12px">
     Open source · <a id="repoLink" href="https://github.com/vipulawl/cws-rank-tracker">get your own copy</a> · runs daily on GitHub Actions
   </p>
 </main>
 
 <dialog id="settings">
-  <div class="dlg-head"><h2>Settings</h2><button id="closeSettings" aria-label="Close">✕</button></div>
+  <div class="dlg-head"><h2 id="dlgTitle">Settings</h2><button id="closeSettings" aria-label="Close">✕</button></div>
   <div class="dlg-body">
     <div id="setupIntro" class="banner" hidden>
-      Welcome! Paste your extension's Chrome Web Store link, add keywords and choose markets, then save.
-      Rankings are collected once a day; the first run starts right after you save.
+      <span id="introText">Welcome! Paste your extension's Chrome Web Store link, add keywords and choose markets, then save.
+      Rankings are collected once a day; the first run starts right after you save.</span>
     </div>
     <label class="field"><span>Your extension</span>
       <input type="text" id="cfgExt" placeholder="https://chromewebstore.google.com/detail/name/abcdefghijklmnopabcdefghijklmnop">
@@ -217,6 +231,7 @@
     <button class="primary" id="save">Save &amp; start tracking</button>
     <button id="runNow">Run now</button>
     <span class="msg" id="saveMsg"></span>
+    <button class="danger" id="removeProj" hidden>Remove this extension</button>
   </div>
 </dialog>
 
@@ -231,6 +246,7 @@ const store = {
 };
 const extractId = (s) => { const m = String(s || '').match(/([a-p]{32})/); return m ? m[1] : null; };
 
+let fullConfig = {}, projects = [], curId = null;
 let config = {}, markets = [], history = { dates: [], series: {} }, latest = { results: [] }, exts = {}, status = null;
 const state = { mode: 'keywords', market: null, keyword: null, range: 30 };
 let chart;
@@ -247,15 +263,53 @@ function guessRepo() {
   return '';
 }
 
+// Config holds { projects: [...] }; the original single-extension format is still accepted.
+function normalizeProjects(c) {
+  const list = Array.isArray(c.projects) ? c.projects : c.extension ? [c] : [];
+  const seen = new Set();
+  return list.filter((p) => { const id = extractId(p.extension); return id && !seen.has(id) && seen.add(id); })
+    .map(({ extension, keywords, markets, competitors, depth }) => ({ extension, keywords: keywords || [], markets: markets || ['US'], competitors: competitors || [], depth: depth || 100 }));
+}
+async function loadHistory(id) {
+  const empty = { dates: [], series: {} };
+  if (!id) return empty;
+  const h = await getJson(`data/projects/${id}.json`, null);
+  if (h) return h;
+  // data from before multi-extension support lives in data/history.json until the next run moves it
+  return projects.length && extractId(projects[0].extension) === id ? getJson('data/history.json', empty) : empty;
+}
+async function selectProject(id) {
+  curId = id; config = projects.find((p) => extractId(p.extension) === id) || {};
+  store.set('cws.project', id);
+  if (location.hash !== '#' + id && id) history_replace(id);
+  history = await loadHistory(id);
+  state.keyword = state.market = null;
+  renderProjSel(); render();
+}
+function history_replace(id) { try { window.history.replaceState(null, '', '#' + id); } catch {} }
+function renderProjSel() {
+  const sel = $('#projSel');
+  sel.innerHTML = projects.map((p) => { const id = extractId(p.extension); return `<option value="${id}">${esc((exts[id] && exts[id].name) || id)}</option>`; }).join('')
+    + '<option value="__add">+ Add an extension…</option>';
+  sel.value = curId || '__add';
+  sel.hidden = !projects.length;
+}
+$('#projSel').addEventListener('change', (e) => {
+  if (e.target.value === '__add') { e.target.value = curId; openSettings(false, true); }
+  else selectProject(e.target.value);
+});
 async function load() {
-  [config, markets, history, latest, exts, status] = await Promise.all([
-    getJson('config.json', {}), getJson('markets.json', []), getJson('data/history.json', { dates: [], series: {} }),
+  [fullConfig, markets, latest, exts, status] = await Promise.all([
+    getJson('config.json', {}), getJson('markets.json', []),
     getJson('data/latest.json', { results: [] }), getJson('data/extensions.json', {}), getJson('data/status.json', null),
   ]);
+  projects = normalizeProjects(fullConfig);
+  const ids = projects.map((p) => extractId(p.extension));
+  const want = [location.hash.slice(1), store.get('cws.project')].find((x) => ids.includes(x)) || ids[0] || null;
   const repo = guessRepo();
   if (repo) $('#repoLink').href = 'https://github.com/' + repo;
-  render();
-  if (!extractId(config.extension)) openSettings(true);
+  await selectProject(want);
+  if (!projects.length) openSettings(true);
   else watchRuns();
 }
 
@@ -299,7 +353,7 @@ function render() {
   else if (status && status.failed) { b.hidden = false; b.className = 'banner warn'; b.textContent = `Last run: ${status.failed} of ${status.searches} searches failed (${status.date}). They'll be retried on the next run.`; }
   else b.hidden = true;
   const hasData = activeKeywords().length > 0 && activeMarkets().length > 0;
-  $('#chartCard').hidden = !hasData; $('#tablesRow').hidden = !hasData;
+  $('#chartCard').hidden = !hasData; $('#tablesRow').hidden = !hasData; $('#exportCard').hidden = !hasData;
 
   const ks = activeKeywords(), ms = activeMarkets();
   if (!ks.includes(state.keyword)) state.keyword = ks[0] || null;
@@ -435,7 +489,7 @@ function renderTop() {
   if (!r || !r.top || !r.top.length) { $('#top').innerHTML = '<div class="muted">No results for this search yet.</div>'; return; }
   const comps = new Set((config.competitors || []).map(extractId));
   const myRank = (seriesFor(state.keyword, state.market)[lastIdx(seriesFor(state.keyword, state.market))]);
-  $('#top').innerHTML = '<ol class="top">' + r.top.map((t) =>
+  $('#top').innerHTML = '<ol class="top">' + r.top.slice(0, 10).map((t) =>
     `<li class="${t.id === mainId() ? 'me' : comps.has(t.id) ? 'comp' : ''}"><a href="https://chromewebstore.google.com/detail/${t.id}" target="_blank" rel="noopener">${esc(t.name || t.id)}</a>${t.id === mainId() ? ' ← you' : ''}</li>`
   ).join('') + '</ol>' + (myRank > 10 ? `<p class="muted">You: #${myRank}</p>` : myRank === 0 ? `<p class="muted">You: not in top ${depth()}</p>` : '');
 }
@@ -450,11 +504,19 @@ $('#selKeyword').addEventListener('change', (e) => { state.keyword = e.target.va
 
 /* ---------------- Settings ---------------- */
 let draft;
-function openSettings(first = false) {
-  draft = { extension: config.extension || '', keywords: [...(config.keywords || [])],
+let addingNew = false;
+function openSettings(first = false, isNew = false) {
+  addingNew = isNew || !projects.length;
+  // a new extension starts with the current keywords and markets, which can then be edited
+  draft = { extension: addingNew ? '' : config.extension || '', keywords: [...(config.keywords || [])],
     markets: config.markets === 'all' ? markets.map((m) => m.code) : [...(config.markets || ['US'])],
-    competitors: [...(config.competitors || [])], depth: config.depth || 100 };
-  $('#setupIntro').hidden = !first;
+    competitors: addingNew ? [] : [...(config.competitors || [])], depth: config.depth || 100 };
+  const name = (exts[curId] && exts[curId].name) || 'your extension';
+  $('#dlgTitle').textContent = addingNew ? (projects.length ? 'Add an extension' : 'Set up tracking') : `Settings · ${name}`;
+  $('#setupIntro').hidden = !(first || (isNew && projects.length));
+  if (isNew && projects.length) $('#introText').textContent = 'Paste the store link of another extension to track. Keywords and markets are copied from the current one; change them as you like.';
+  $('#removeProj').hidden = addingNew || projects.length < 1;
+  $('#save').textContent = addingNew ? 'Add & start tracking' : 'Save & start tracking';
   $('#cfgExt').value = draft.extension; $('#cfgComp').value = draft.competitors.join('\n'); $('#cfgDepth').value = draft.depth;
   $('#cfgRepo').value = guessRepo(); $('#cfgToken').value = store.get('cws.token') || '';
   $('#authBox').open = !store.get('cws.token');
@@ -474,11 +536,23 @@ function addKeywords() {
   for (const p of parts) if (!draft.keywords.includes(p)) draft.keywords.push(p);
   $('#kwInput').value = ''; drawChips(); estimate();
 }
+function uniqueSearches(list) {
+  const set = new Set();
+  for (const p of list) {
+    const ms = p.markets === 'all' ? markets.map((m) => m.code) : p.markets || [];
+    for (const k of p.keywords || []) for (const m of ms) set.add(k + '|' + m);
+  }
+  return set.size;
+}
 function estimate() {
   const n = draft.keywords.length * draft.markets.length;
-  const mins = Math.max(1, Math.round(n * 4.2 / 60));
+  const others = projects.filter((p) => addingNew || extractId(p.extension) !== curId);
+  const total = uniqueSearches([...others, draft]);
+  const mins = Math.max(1, Math.round(total * 4.2 / 60));
   $('#mCount').textContent = `${draft.markets.length} selected`;
-  $('#estimate').innerHTML = `<b>${n}</b> searches per day (${draft.keywords.length} keywords × ${draft.markets.length} markets) · about <b>${mins} min</b> per run.` +
+  $('#estimate').innerHTML = `<b>${n}</b> searches for this extension (${draft.keywords.length} keywords × ${draft.markets.length} markets)` +
+    (others.length ? ` · <b>${total}</b> per day across all ${others.length + 1} extensions (shared searches run once)` : ' per day') +
+    ` · about <b>${mins} min</b> per run.` +
     (mins > 240 ? ' <span class="down">That is close to GitHub’s 6-hour job limit. Reduce keywords or markets.</span>' : '');
 }
 function checkExt() {
@@ -511,6 +585,8 @@ $('#save').addEventListener('click', async () => {
   if (!extractId(ext)) return msg('Enter a valid extension link or ID.', 'err');
   if (!draft.keywords.length) return msg('Add at least one keyword.', 'err');
   if (!draft.markets.length) return msg('Pick at least one market.', 'err');
+  const newId = extractId(ext);
+  if (addingNew && projects.some((p) => extractId(p.extension) === newId)) return msg('That extension is already being tracked. Pick it from the menu at the top.', 'err');
   const next = {
     extension: ext,
     keywords: draft.keywords,
@@ -520,12 +596,29 @@ $('#save').addEventListener('click', async () => {
   };
   $('#save').disabled = true; msg('Saving…');
   try {
-    const cur = await gh('/contents/docs/config.json');
-    await gh('/contents/docs/config.json', { method: 'PUT', body: JSON.stringify({ message: 'Update tracking settings', content: b64(JSON.stringify(next, null, 2) + '\n'), sha: cur.sha }) });
-    config = next; render(); watchRuns(true);
-    msg('Saved. A tracking run has started. Results appear in a few minutes (refresh the page).', 'ok');
+    const list = addingNew ? [...projects, next] : projects.map((p) => (extractId(p.extension) === curId ? next : p));
+    await saveProjects(list, addingNew ? 'Add extension to tracking' : 'Update tracking settings');
+    await selectProject(newId); watchRuns(true);
+    msg('Saved. A tracking run has started; progress is shown on the dashboard.', 'ok');
   } catch (e) { msg(e.message, 'err'); }
   finally { $('#save').disabled = false; }
+});
+async function saveProjects(list, message) {
+  const cur = await gh('/contents/docs/config.json');
+  await gh('/contents/docs/config.json', { method: 'PUT', body: JSON.stringify({ message, content: b64(JSON.stringify({ projects: list }, null, 2) + '\n'), sha: cur.sha }) });
+  projects = list; fullConfig = { projects: list };
+}
+$('#removeProj').addEventListener('click', async () => {
+  const name = (exts[curId] && exts[curId].name) || curId;
+  if (!window.confirm(`Stop tracking “${name}”? Its past data stays in the repo but won’t be updated.`)) return;
+  $('#removeProj').disabled = true; msg('Removing…');
+  try {
+    await saveProjects(projects.filter((p) => extractId(p.extension) !== curId), 'Remove extension from tracking');
+    $('#settings').close();
+    await selectProject(projects.length ? extractId(projects[0].extension) : null);
+    if (!projects.length) openSettings(true);
+  } catch (e) { msg(e.message, 'err'); }
+  finally { $('#removeProj').disabled = false; }
 });
 $('#runNow').addEventListener('click', async () => {
   $('#runNow').disabled = true; msg('Starting run…');
@@ -534,12 +627,111 @@ $('#runNow').addEventListener('click', async () => {
   finally { $('#runNow').disabled = false; }
 });
 window.matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', () => render());
+/* ---------------- JSON exports ---------------- */
+function downloadJson(filename, obj) {
+  const blob = new Blob([JSON.stringify(obj, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = filename;
+  document.body.appendChild(a); a.click(); a.remove(); setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+}
+const slug = (s) => String(s || 'extension').toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40) || 'extension';
+const extInfo = (id) => ({ id, name: (exts[id] && exts[id].name) || id, url: `https://chromewebstore.google.com/detail/${id}` });
+const projMarkets = () => (config.markets === 'all' ? markets.map((m) => m.code) : config.markets || []);
+function rankHistory(arr) {
+  const out = {};
+  history.dates.forEach((d, i) => { if (arr[i] != null) out[d] = arr[i] || null; });
+  return out;
+}
+function rankDaysAgo(arr, days) {
+  const i = lastIdx(arr); if (i < 0) return undefined;
+  const target = new Date(history.dates[i]); target.setDate(target.getDate() - days);
+  for (let x = i - 1; x >= 0; x--) if (new Date(history.dates[x]) <= target && arr[x] != null) return arr[x] || null;
+  return undefined; // not enough history
+}
+function rankRow(k, m, id) {
+  const arr = seriesFor(k, m, id); const i = lastIdx(arr);
+  if (i < 0) return null;
+  const latestRank = arr[i] || null;
+  const ago7 = rankDaysAgo(arr, 7), ago30 = rankDaysAgo(arr, 30);
+  const ranked = arr.map((v, j) => [v, history.dates[j]]).filter(([v]) => v);
+  const best = ranked.reduce((b, x) => (!b || x[0] < b[0] ? x : b), null);
+  return {
+    keyword: k, market: m, market_name: marketName(m),
+    latest_rank: latestRank, latest_date: history.dates[i],
+    rank_7_days_ago: ago7 === undefined ? 'not enough history' : ago7,
+    change_7d: latestRank && ago7 ? ago7 - latestRank : null,
+    rank_30_days_ago: ago30 === undefined ? 'not enough history' : ago30,
+    change_30d: latestRank && ago30 ? ago30 - latestRank : null,
+    best_rank: best ? best[0] : null, best_rank_date: best ? best[1] : null,
+    days_tracked: arr.filter((v) => v != null).length, days_ranked: ranked.length,
+    history: rankHistory(arr),
+  };
+}
+function exportRankings() {
+  const id = mainId(); const rows = [];
+  for (const k of config.keywords || []) for (const m of projMarkets()) { const r = rankRow(k, m, id); if (r) rows.push(r); }
+  return {
+    about: `Daily Chrome Web Store search rankings for one extension, per keyword and market. latest_rank and history values are 1-based positions in search results; null means the extension was not in the top ${depth()} results that day. Days with no measurement are left out of history. change_7d / change_30d are positions gained (positive = moved up).`,
+    generated_at: new Date().toISOString(),
+    extension: extInfo(id),
+    search_depth: depth(),
+    date_range: history.dates.length ? { from: history.dates[0], to: history.dates[history.dates.length - 1], days: history.dates.length } : null,
+    keywords: config.keywords || [],
+    markets: Object.fromEntries(projMarkets().map((m) => [m, marketName(m)])),
+    rankings: rows,
+  };
+}
+function exportCompetitors() {
+  const id = mainId();
+  const comps = (config.competitors || []).map(extractId).filter(Boolean);
+  const compSet = new Set(comps);
+  const kws = new Set(config.keywords || []), ms = new Set(projMarkets());
+  const results = (latest.results || []).filter((r) => kws.has(r.keyword) && ms.has(r.market) && r.ok);
+  // extensions that show up in the top results of your searches
+  const agg = new Map();
+  for (const r of results) r.top.forEach((t, i) => {
+    const a = agg.get(t.id) || { id: t.id, name: t.name, appearances: 0, positions: [], keywords: new Set(), markets: new Set() };
+    a.appearances++; a.positions.push(i + 1); a.keywords.add(r.keyword); a.markets.add(r.market); if (!a.name && t.name) a.name = t.name;
+    agg.set(t.id, a);
+  });
+  const topN = Math.max(0, ...results.map((r) => r.top.length));
+  const visible = [...agg.values()].map((a) => ({
+    id: a.id, name: a.name, url: `https://chromewebstore.google.com/detail/${a.id}`,
+    is_you: a.id === id, is_tracked_competitor: compSet.has(a.id),
+    appearances: a.appearances, share_of_searches: +(a.appearances / (results.length || 1)).toFixed(3),
+    average_position: +(a.positions.reduce((x, y) => x + y, 0) / a.positions.length).toFixed(1), best_position: Math.min(...a.positions),
+    keywords: [...a.keywords], markets: [...a.markets],
+  })).sort((x, y) => y.appearances - x.appearances || x.average_position - y.average_position).slice(0, 60);
+  const headToHead = [];
+  for (const k of config.keywords || []) for (const m of projMarkets()) {
+    const arr = seriesFor(k, m, id); const i = lastIdx(arr); if (i < 0) continue;
+    const row = { keyword: k, market: m, date: history.dates[i], you: arr[i] || null };
+    for (const c of comps) { const ca = seriesFor(k, m, c); row[(exts[c] && exts[c].name) || c] = ca[i] == null ? 'not measured' : ca[i] || null; }
+    headToHead.push(row);
+  }
+  return {
+    about: `Competitive landscape for one extension in Chrome Web Store search. Positions are 1-based; null means not in the top ${depth()} results. most_visible_extensions counts how often each extension appears in the top ${topN} results across all your keyword × market searches on the latest run. head_to_head compares your latest rank with each tracked competitor. tracked_competitors includes their full daily rank history.`,
+    generated_at: new Date().toISOString(),
+    extension: extInfo(id),
+    latest_search_date: latest.date || null,
+    searches_considered: results.length,
+    most_visible_extensions: visible,
+    tracked_competitors: comps.map((c) => ({ ...extInfo(c), rankings: (config.keywords || []).flatMap((k) => projMarkets().map((m) => rankRow(k, m, c))).filter(Boolean) })),
+    head_to_head: headToHead,
+    top_results: results.map((r) => ({ keyword: r.keyword, market: r.market, results_scanned: r.scanned,
+      results: r.top.map((t, i) => ({ position: i + 1, id: t.id, name: t.name, is_you: t.id === id, is_tracked_competitor: compSet.has(t.id) })) })),
+  };
+}
+function exportName(kind) { return `${slug((exts[mainId()] || {}).name)}-${kind}-${new Date().toISOString().slice(0, 10)}.json`; }
+$('#expRank').addEventListener('click', () => downloadJson(exportName('keyword-rankings'), exportRankings()));
+$('#expComp').addEventListener('click', () => downloadJson(exportName('competitors'), exportCompetitors()));
+$('#expAll').addEventListener('click', () => {
+  const r = exportRankings(), c = exportCompetitors();
+  downloadJson(exportName('all'), { about: 'Keyword rankings and competitive landscape for one extension in Chrome Web Store search. See the about field in each section.', generated_at: r.generated_at, extension: r.extension, keyword_rankings: r, competitors: c });
+});
+
 /* ---------------- Live run progress ---------------- */
 const run = { active: null, timer: null, tick: null, lastDataStamp: null, expectStart: false };
-function totalSearches() {
-  const m = config.markets === 'all' ? markets.length : (config.markets || []).length;
-  return (config.keywords || []).length * m;
-}
+function totalSearches() { return uniqueSearches(projects); }
 function estimateSecs() {
   // learn speed from the last run if we have one; first runs use a conservative default
   const per = status && status.searches && status.seconds ? Math.max(0.8, status.seconds / status.searches) : 4.2;

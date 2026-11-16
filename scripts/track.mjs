@@ -165,28 +165,56 @@ async function pool(items, size, fn) {
   return out;
 }
 
+// Accepts both the multi-extension format { projects: [...] } and the original single-extension format.
+export function normalizeProjects(config) {
+  const list = Array.isArray(config.projects) ? config.projects : config.extension ? [config] : [];
+  const seen = new Set();
+  return list.map((p) => ({ ...p, id: extractId(p.extension) })).filter((p) => p.id && !seen.has(p.id) && seen.add(p.id));
+}
+
+function addDate(history, date) {
+  let di = history.dates.indexOf(date);
+  if (di !== -1) return di;
+  history.dates.push(date);
+  history.dates.sort();
+  di = history.dates.indexOf(date);
+  // insert a null slot for every existing series at the new position
+  for (const k of Object.keys(history.series)) for (const m of Object.keys(history.series[k]))
+    for (const id of Object.keys(history.series[k][m])) history.series[k][m][id].splice(di, 0, null);
+  return di;
+}
+
 async function main() {
   const config = await readJson(path.join(DOCS, 'config.json'), {});
   const allMarkets = await readJson(path.join(DOCS, 'markets.json'), []);
-  const mainId = extractId(config.extension);
-  if (!mainId) {
-    console.log('No extension configured in docs/config.json - nothing to do.');
-    return;
-  }
-  const competitorIds = (config.competitors || []).map(extractId).filter((x) => x && x !== mainId);
-  const tracked = [mainId, ...new Set(competitorIds)];
-  const keywords = [...new Set((config.keywords || []).map((k) => String(k).trim()).filter(Boolean))];
-  const wanted = config.markets === 'all' ? allMarkets.map((m) => m.code) : (config.markets || ['US']);
-  const markets = allMarkets.filter((m) => wanted.includes(m.code));
-  const depth = Math.max(10, Math.min(Number(config.depth) || 100, 300));
   const concurrency = Math.max(1, Math.min(Number(process.env.CONCURRENCY) || 4, 8));
-  if (!keywords.length || !markets.length) {
-    console.log('Add at least one keyword and one market in docs/config.json.');
+  const projects = normalizeProjects(config).map((p) => {
+    const wanted = p.markets === 'all' ? allMarkets.map((m) => m.code) : (p.markets || ['US']);
+    return {
+      id: p.id,
+      tracked: [p.id, ...new Set((p.competitors || []).map(extractId).filter((x) => x && x !== p.id))],
+      keywords: [...new Set((p.keywords || []).map((k) => String(k).trim()).filter(Boolean))],
+      markets: allMarkets.filter((m) => wanted.includes(m.code)).map((m) => m.code),
+      depth: Math.max(10, Math.min(Number(p.depth) || 100, 300)),
+    };
+  }).filter((p) => p.keywords.length && p.markets.length);
+  if (!projects.length) {
+    console.log('No extension with keywords and markets in docs/config.json - nothing to do.');
     return;
   }
 
+  // One search per unique keyword x market, shared by every extension that tracks it.
+  const jobMap = new Map();
+  for (const p of projects) for (const m of p.markets) for (const k of p.keywords) {
+    const key = `${k}\u0000${m}`;
+    const job = jobMap.get(key) || { keyword: k, market: allMarkets.find((x) => x.code === m), depth: 0, ids: new Set() };
+    job.depth = Math.max(job.depth, p.depth);
+    p.tracked.forEach((id) => job.ids.add(id));
+    jobMap.set(key, job);
+  }
+  const jobs = [...jobMap.values()];
   const date = new Date().toISOString().slice(0, 10);
-  console.log(`Tracking ${tracked.length} extension(s), ${keywords.length} keyword(s), ${markets.length} market(s), depth ${depth}.`);
+  console.log(`Tracking ${projects.length} extension(s): ${jobs.length} unique searches.`);
 
   const browser = await chromium.launch(process.env.CHROME_PATH ? { executablePath: process.env.CHROME_PATH } : {});
   const context = await browser.newContext({
@@ -201,67 +229,69 @@ async function main() {
 
   // Extension names / icons
   const extensions = await readJson(path.join(DATA, 'extensions.json'), {});
-  for (const id of tracked) {
+  for (const id of new Set(projects.flatMap((p) => p.tracked))) {
     if (!extensions[id] || extensions[id].name === id || !extensions[id].fetched || extensions[id].fetched < date.slice(0, 7)) {
       extensions[id] = { ...(await fetchMeta(context, id)), fetched: date.slice(0, 7) };
     }
   }
 
-  const jobs = [];
-  for (const market of markets) for (const keyword of keywords) jobs.push({ market, keyword });
   const errors = [];
   const started = Date.now();
-  const results = await pool(jobs, concurrency, async ({ market, keyword }, idx) => {
+  const results = await pool(jobs, concurrency, async ({ market, keyword, depth, ids }, idx) => {
     await sleep(jitter(400));
     try {
       const { results } = await search(context, keyword, market, depth);
       const ranks = {};
-      for (const id of tracked) {
+      for (const id of ids) {
         const pos = results.findIndex((r) => r.id === id);
         ranks[id] = pos === -1 ? 0 : pos + 1; // 0 = not found within depth
       }
-      if (idx % 10 === 0) console.log(`[${idx + 1}/${jobs.length}] ${market.code} "${keyword}" -> ${ranks[mainId] || '-'} (${results.length} results)`);
-      return { market: market.code, keyword, ranks, scanned: results.length, top: results.slice(0, 10) };
+      if (idx % 10 === 0) console.log(`[${idx + 1}/${jobs.length}] ${market.code} "${keyword}" (${results.length} results)`);
+      return { market: market.code, keyword, ranks, scanned: results.length, top: results.slice(0, 20) };
     } catch (e) {
       errors.push({ market: market.code, keyword, error: String(e.message || e).slice(0, 200) });
       return { market: market.code, keyword, ranks: null, scanned: 0, top: [] };
     }
   });
   await browser.close();
+  const updated = new Date().toISOString();
 
-  // ---- history: { dates: [...], series: { keyword: { market: { extId: [rank|null] } } } }
-  const history = await readJson(path.join(DATA, 'history.json'), { dates: [], series: {} });
-  let di = history.dates.indexOf(date);
-  if (di === -1) {
-    history.dates.push(date);
-    history.dates.sort();
-    di = history.dates.indexOf(date);
-    // insert a null slot for every existing series at the new position
-    for (const k of Object.keys(history.series)) for (const m of Object.keys(history.series[k]))
-      for (const id of Object.keys(history.series[k][m])) history.series[k][m][id].splice(di, 0, null);
-  }
-  for (const r of results) {
-    if (!r.ranks) continue; // keep previous value (or null) for failed searches
-    const byMarket = (history.series[r.keyword] ||= {});
-    const byExt = (byMarket[r.market] ||= {});
-    for (const [id, rank] of Object.entries(r.ranks)) {
-      const arr = (byExt[id] ||= new Array(history.dates.length).fill(null));
-      while (arr.length < history.dates.length) arr.push(null);
-      arr[di] = rank;
+  // ---- per-extension history: docs/data/projects/<id>.json
+  //      { dates: [...], series: { keyword: { market: { extId: [rank|null per date] } } } }
+  await fs.mkdir(path.join(DATA, 'projects'), { recursive: true });
+  const legacyFile = path.join(DATA, 'history.json');
+  const legacy = await readJson(legacyFile, null);
+  for (const [pi, p] of projects.entries()) {
+    const file = path.join(DATA, 'projects', `${p.id}.json`);
+    let history = await readJson(file, null);
+    if (!history && legacy && pi === 0) history = legacy; // migrate data from the single-extension version
+    history ||= { dates: [], series: {} };
+    const di = addDate(history, date);
+    for (const r of results) {
+      if (!r.ranks || !p.keywords.includes(r.keyword) || !p.markets.includes(r.market)) continue; // failed searches keep null
+      const byExt = ((history.series[r.keyword] ||= {})[r.market] ||= {});
+      for (const id of p.tracked) {
+        const arr = (byExt[id] ||= new Array(history.dates.length).fill(null));
+        while (arr.length < history.dates.length) arr.push(null);
+        arr[di] = r.ranks[id] ?? null;
+      }
     }
+    history.depth = p.depth;
+    history.updated = updated;
+    await writeJson(file, history);
   }
-  history.depth = depth;
-  history.updated = new Date().toISOString();
+  if (legacy) await fs.rm(legacyFile, { force: true });
 
+  // ---- latest top results, shared by all extensions
   const latest = {
     date,
-    updated: history.updated,
+    updated,
     results: results.map(({ market, keyword, scanned, top, ranks }) => ({ market, keyword, scanned, ok: !!ranks, top })),
   };
   const ok = results.filter((r) => r.ranks).length;
   const status = {
     date,
-    updated: history.updated,
+    updated,
     searches: jobs.length,
     succeeded: ok,
     failed: errors.length,
@@ -270,8 +300,6 @@ async function main() {
     errors: errors.slice(0, 50),
   };
 
-  await fs.mkdir(DATA, { recursive: true });
-  await writeJson(path.join(DATA, 'history.json'), history);
   await writeJson(path.join(DATA, 'latest.json'), latest);
   await writeJson(path.join(DATA, 'extensions.json'), extensions);
   await writeJson(path.join(DATA, 'status.json'), status);

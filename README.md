@@ -13,6 +13,8 @@ It's free and open source, and there's no server to run. GitHub Actions does the
 - **A heatmap** of your latest rank for every keyword × market pair, with the change over 7 days.
 - **The top 10** for any search, so you can see who ranks above you.
 - **In-browser settings**: paste your store link, add keywords and choose markets. No code to edit.
+- **Several extensions in one dashboard.** Switch between them from the menu at the top. If two extensions track the same keyword in the same market, that search runs only once.
+- **JSON exports** of keyword rankings and the competitor set, ready to give to Claude or any other analysis tool.
 
 ## Setup (about 5 minutes)
 
@@ -36,17 +38,23 @@ The first run starts as soon as you save and takes a few minutes. After that it 
 
 ## Configuration
 
-`docs/config.json`:
+`docs/config.json` lists one entry per extension you track:
 
 ```json
 {
-  "extension": "https://chromewebstore.google.com/detail/your-extension/abcdefghijklmnopabcdefghijklmnop",
-  "keywords": ["tab manager", "save tabs"],
-  "markets": ["US", "GB", "DE"],
-  "competitors": [],
-  "depth": 100
+  "projects": [
+    {
+      "extension": "https://chromewebstore.google.com/detail/your-extension/abcdefghijklmnopabcdefghijklmnop",
+      "keywords": ["tab manager", "save tabs"],
+      "markets": ["US", "GB", "DE"],
+      "competitors": [],
+      "depth": 100
+    }
+  ]
 }
 ```
+
+The original single-extension format (the same fields without the `projects` wrapper) still works.
 
 | Field | Meaning |
 |---|---|
@@ -56,14 +64,28 @@ The first run starts as soon as you save and takes a few minutes. After that it 
 | `competitors` | Other extensions (links or IDs) to track on the same searches |
 | `depth` | How many results to scan per search (10–300). If you're not in that many, you're recorded as "not ranked". |
 
-**Runtime:** each search takes about 5–8 seconds, and 4 run in parallel. For example, 20 keywords × 48 markets is about 960 searches, or roughly 30 minutes a day.
+**Runtime:** each unique keyword × market search takes about 5–8 seconds, and 4 run in parallel. For example, 20 keywords × 48 markets is about 960 searches, or roughly 30 minutes a day.
+
+## Exporting data
+
+The **Export for analysis** section of the dashboard downloads JSON for the extension you're viewing:
+
+- **Keyword rankings:** each keyword × market pair with its latest rank, change over 7 and 30 days, best rank, and full daily history.
+- **Competitor set:**
+  - the extensions that appear most often in the top 20 results for your keywords
+  - a head-to-head table of your rank against each tracked competitor
+  - your competitors' daily rank histories
+  - the latest top 20 for every search
+- **Everything:** both files in one.
+
+Each file starts with an `about` field explaining what the fields mean, so you can hand it straight to Claude with a question such as *"Which keywords and markets should I focus on, and who is beating me there?"*
 
 ## How it works
 
 1. `.github/workflows/track.yml` runs daily, whenever `docs/config.json` changes, and when you click **Run now**.
 2. `scripts/track.mjs` opens `chromewebstore.google.com/search/<keyword>?hl=<lang>&gl=<country>` in headless Chromium. It loads results until it reaches `depth`, and records each tracked extension's position.
 3. Results are committed to `docs/data/`:
-   - `history.json`: daily rank series
+   - `projects/<extension-id>.json`: daily rank series for each extension
    - `latest.json`: today's top results
    - `status.json`: run health
    - `extensions.json`: names and icons
