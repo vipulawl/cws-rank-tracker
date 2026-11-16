@@ -1,17 +1,35 @@
 {
-  "extension": "https://chromewebstore.google.com/detail/aeo-geo-checker-+-seo-aud/mmiagdcijcmncoifmehfodelnkdbfcoo?authuser=0&hl=en-GB",
-  "keywords": [
-    "aeo",
-    "ai visibility",
-    "ai seo",
-    "seo",
-    "geo",
-    "aeo audit",
-    "ai audit",
-    "ai readability",
-    "free aeo audit"
-  ],
-  "markets": "all",
-  "competitors": [],
-  "depth": 100
+  "projects": [
+    {
+      "extension": "https://chromewebstore.google.com/detail/aeo-geo-checker-+-seo-aud/mmiagdcijcmncoifmehfodelnkdbfcoo?authuser=0&hl=en-GB",
+      "keywords": [
+        "aeo",
+        "ai visibility",
+        "ai seo",
+        "seo",
+        "geo",
+        "aeo audit",
+        "ai audit",
+        "ai readability",
+        "free aeo audit"
+      ],
+      "markets": "all",
+      "competitors": [],
+      "depth": 100
+    },
+    {
+      "extension": "https://chromewebstore.google.com/detail/free-reddit-scraper-analy/ngnplckfmgkmjgeonfmhifhccibdpdaj?authuser=0&hl=en-GB",
+      "keywords": [
+        "reddit scrapper",
+        "reddit scraper",
+        "free reddit scraper",
+        "reddit posts scraper",
+        "reddit comments scraper",
+        "subreddit scraper"
+      ],
+      "markets": "all",
+      "competitors": [],
+      "depth": 100
+    }
+  ]
 }
