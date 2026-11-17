@@ -62,7 +62,10 @@ async function collectResults(page) {
       const lines = [a.getAttribute('aria-label'), a.innerText, card.innerText]
         .flatMap((t) => String(t || '').split('\n')).map((t) => t.trim())
         .filter((t) => t.length > 1 && !/^[\d.,\s★()kKmM+]+$/.test(t));
-      out.push({ id: m[1], name: lines[0] || '' });
+      const name = lines[0] || '';
+      // the card's short description is its longest line of text
+      const desc = lines.filter((t) => t !== name && t.length > 25).sort((x, y) => y.length - x.length)[0] || '';
+      out.push({ id: m[1], name, desc });
     }
     return out;
   }, ID_RE.source);
@@ -135,22 +138,112 @@ async function search(context, keyword, market, depth) {
   throw lastErr;
 }
 
+// Read an extension's store page (in English): name, icon, users, ratings, category.
+export function parseDetailText(text) {
+  const num = (s, suffix) => {
+    const n = parseFloat(String(s).replace(/,/g, ''));
+    return Math.round(n * ({ K: 1e3, M: 1e6, B: 1e9 }[String(suffix || '').toUpperCase()] || 1));
+  };
+  const u = text.match(/([\d,]+)\+?\s+users?\b/i);
+  const rc = text.match(/\(\s*([\d.,]+)\s*([KMB]?)\s+ratings?\s*\)/i);
+  const rv = text.match(/(?:^|\n)\s*(\d(?:\.\d)?)\s*\n\s*\(\s*[\d.,]+\s*[KMB]?\s+ratings?/i);
+  const lines = text.split('\n').map((t) => t.trim()).filter(Boolean);
+  const ei = lines.findIndex((l) => /^(Extension|Theme)$/.test(l));
+  const cat = ei >= 0 && lines[ei + 1] && !/users?$/i.test(lines[ei + 1]) ? lines[ei + 1] : '';
+  return {
+    users: u ? num(u[1]) : 0,
+    ratings: rc ? num(rc[1], rc[2]) : 0,
+    rating: rv ? parseFloat(rv[1]) : null,
+    category: cat,
+  };
+}
+
 async function fetchMeta(context, id) {
   const page = await context.newPage();
   try {
     await page.goto(`${STORE}/detail/${id}?hl=en`, { waitUntil: 'domcontentloaded', timeout: 45000 });
     await acceptConsentIfShown(page);
+    await page.waitForFunction(() => /\busers?\b/i.test(document.body.innerText), null, { timeout: 10000 }).catch(() => {});
     const meta = await page.evaluate(() => {
       const og = (p) => document.querySelector(`meta[property="og:${p}"]`)?.content || '';
-      return { title: og('title') || document.title, image: og('image') };
+      return { title: og('title') || document.title, image: og('image'), text: document.body.innerText };
     });
     const name = meta.title.replace(/\s*[-–]\s*Chrome Web Store\s*$/i, '').trim();
-    return { name: name || id, icon: meta.image || '', url: `${STORE}/detail/${id}` };
+    return { name: name || id, icon: meta.image || '', url: `${STORE}/detail/${id}`, ...parseDetailText(meta.text), ok: true };
   } catch {
-    return { name: id, icon: '', url: `${STORE}/detail/${id}` };
+    return { name: id, icon: '', url: `${STORE}/detail/${id}`, ok: false };
   } finally {
     await page.close().catch(() => {});
   }
+}
+
+// The store's search box suggests extensions (not search phrases) while you type.
+// We type the keyword and read the suggestion response: names (+ ids when given).
+async function storeSuggestions(context, keyword) {
+  const page = await context.newPage();
+  const found = [];
+  try {
+    page.on('response', async (r) => {
+      if (!/rpcids=QcU9bc/.test(r.url())) return;
+      let typed = null;
+      try { typed = JSON.parse(JSON.parse(new URLSearchParams(r.request().postData() || '').get('f.req'))[0][0][1])[0]; } catch {}
+      if (typeof typed !== 'string' || typed.trim().toLowerCase() !== keyword.trim().toLowerCase()) return;
+      try {
+        const body = await r.text();
+        const line = body.split('\n').find((l) => l.startsWith('[["wrb.fr"'));
+        const payload = JSON.parse(JSON.parse(line)[0][2]);
+        found.length = 0;
+        for (const e of payload[0] || []) {
+          if (e && e[0] && e[0][0]) found.push({ name: e[0][0] });
+          else if (e && e[1]) found.push({ name: e[1][0], id: e[1][1] });
+        }
+      } catch {}
+    });
+    await page.goto(`${STORE}/?hl=en`, { waitUntil: 'domcontentloaded', timeout: 45000 });
+    await acceptConsentIfShown(page);
+    const input = page.locator('input[aria-label="Search Chrome Web Store"]').first();
+    await input.waitFor({ state: 'visible', timeout: 15000 });
+    await input.click();
+    await input.pressSequentially(keyword, { delay: 90 });
+    await sleep(2500);
+    return [...found];
+  } catch {
+    return [...found];
+  } finally {
+    await page.close().catch(() => {});
+  }
+}
+
+// ---- keyword ideas: phrases that many of the store's relevant extensions use in their name or description
+const STOP = new Set(('a an and are as at be by for from get has have in into is it its of on or our the this to with your you all any can more most one only than that their them then there these they using use via will just also very new now best free top easy fast simple quick one-click click chrome extension extensions browser tool tools app apps plugin addon add-on page pages web website site sites online ' +
+  'de la le les et des du en un une el los las y para con por die der das und für mit von zu ein eine').split(/\s+/));
+export function mineKeywordIdeas(docs, tracked, limit = 40) {
+  // docs: [{ id, text, weight }]; returns phrases (1-3 words) used by several distinct extensions
+  const have = new Set(tracked.map((k) => k.toLowerCase()));
+  const score = new Map();
+  for (const d of docs) {
+    const words = d.text.toLowerCase().replace(/[^a-z0-9.+#\s-]/g, ' ').split(/\s+/).map((w) => w.replace(/^[.\-]+|[.\-]+$/g, '')).filter(Boolean);
+    const seen = new Set();
+    for (let n = 1; n <= 3; n++) for (let i = 0; i + n <= words.length; i++) {
+      const g = words.slice(i, i + n);
+      if (g.some((w) => STOP.has(w) || w.length < 2 || /^\d+$/.test(w))) continue;
+      if (n === 1 && g[0].length < 3) continue;
+      seen.add(g.join(' '));
+    }
+    for (const ph of seen) {
+      const s = score.get(ph) || { phrase: ph, extensions: 0, weight: 0 };
+      s.extensions++; s.weight += d.weight; score.set(ph, s);
+    }
+  }
+  return [...score.values()]
+    // skip what you already track, and bare parts of it ("audit" when you track "geo audit")
+    .filter((s) => s.extensions >= 3 && !have.has(s.phrase) && ![...have].some((k) => (' ' + k + ' ').includes(' ' + s.phrase + ' ')))
+    .map((s) => ({ ...s, rank: s.weight * (s.phrase.includes(' ') ? 1 : 0.6) })) // single words are usually too broad
+    .sort((a, b) => b.rank - a.rank)
+    // drop phrases that are just a part of a stronger phrase used by the same extensions
+    .filter((s, i, arr) => !arr.slice(0, i).some((t) => t.phrase.includes(s.phrase) && t.extensions >= s.extensions * 0.8))
+    .slice(0, limit)
+    .map(({ rank, ...s }) => s);
 }
 
 async function pool(items, size, fn) {
@@ -236,6 +329,7 @@ async function main() {
   }
 
   const errors = [];
+  const descs = new Map(); // short descriptions from English search cards, used for keyword ideas
   const started = Date.now();
   const results = await pool(jobs, concurrency, async ({ market, keyword, depth, ids }, idx) => {
     await sleep(jitter(400));
@@ -247,12 +341,81 @@ async function main() {
         ranks[id] = pos === -1 ? 0 : pos + 1; // 0 = not found within depth
       }
       if (idx % 10 === 0) console.log(`[${idx + 1}/${jobs.length}] ${market.code} "${keyword}" (${results.length} results)`);
-      return { market: market.code, keyword, ranks, scanned: results.length, top: results.slice(0, 20) };
+      for (const r of results.slice(0, 20)) if (r.desc && !descs.has(r.id) && market.hl.startsWith('en')) descs.set(r.id, r.desc);
+      return { market: market.code, keyword, ranks, scanned: results.length, top: results.slice(0, 20).map(({ id, name }) => ({ id, name })) };
     } catch (e) {
       errors.push({ market: market.code, keyword, error: String(e.message || e).slice(0, 200) });
       return { market: market.code, keyword, ranks: null, scanned: 0, top: [] };
     }
   });
+
+  // ---- store page stats (users, ratings) for the extensions in every top 10; refreshed weekly
+  const stats = await readJson(path.join(DATA, 'stats.json'), {});
+  const weekAgo = new Date(Date.now() - 7 * 864e5).toISOString().slice(0, 10);
+  const statsLimit = Number(process.env.STATS_LIMIT) || 900;
+  let statsFetched = 0;
+  const refreshStats = async (ids) => {
+    const todo = [...new Set(ids)].filter((id) => !stats[id] || !stats[id].fetched || stats[id].fetched < weekAgo)
+      .sort((a, b) => (stats[a] ? 1 : 0) - (stats[b] ? 1 : 0)) // never-seen first
+      .slice(0, Math.max(0, statsLimit - statsFetched));
+    statsFetched += todo.length;
+    await pool(todo, concurrency, async (id) => {
+      await sleep(jitter(300));
+      const m = await fetchMeta(context, id);
+      if (m.ok) stats[id] = { name: m.name, users: m.users, ratings: m.ratings, rating: m.rating, category: m.category, fetched: date };
+      else if (stats[id]) stats[id].fetched = date; // gone or unavailable: keep old numbers, retry next week
+    });
+  };
+  await refreshStats([...projects.flatMap((p) => p.tracked), ...results.flatMap((r) => r.top.slice(0, 10).map((t) => t.id))]);
+  for (const id of new Set(projects.flatMap((p) => p.tracked))) {
+    if (stats[id] && extensions[id]) Object.assign(extensions[id], { name: stats[id].name || extensions[id].name });
+  }
+  for (const [id, d] of descs) if (stats[id]) stats[id].desc = d;
+  console.log(`Store page stats: ${statsFetched} pages read, ${Object.keys(stats).length} extensions known.`);
+
+  // ---- keyword ideas per extension, from an English-language market
+  await fs.mkdir(path.join(DATA, 'ideas'), { recursive: true });
+  const ideaEvalCount = Math.max(0, Number(process.env.IDEAS_TO_TEST) || 12);
+  for (const p of projects) {
+    const code = p.markets.includes('US') ? 'US' : p.markets.find((c) => (allMarkets.find((m) => m.code === c) || {}).hl?.startsWith('en')) || p.markets[0];
+    const market = allMarkets.find((m) => m.code === code);
+    try {
+      const suggested = {};
+      for (const k of p.keywords) suggested[k] = await storeSuggestions(context, k);
+      await refreshStats(Object.values(suggested).flat().map((s) => s.id).filter(Boolean));
+      const weight = (id) => Math.log10(((stats[id] && stats[id].users) || 0) + 10);
+      const docs = new Map();
+      for (const r of results) if (r.market === code && p.keywords.includes(r.keyword))
+        for (const t of r.top) docs.set(t.id, { id: t.id, text: `${t.name} ${(stats[t.id] && stats[t.id].desc) || descs.get(t.id) || ''}`, weight: weight(t.id) });
+      for (const s of Object.values(suggested).flat()) {
+        const key = s.id || 'name:' + s.name;
+        if (!docs.has(key)) docs.set(key, { id: key, text: s.name, weight: s.id ? weight(s.id) : 1.5 });
+      }
+      const ideas = mineKeywordIdeas([...docs.values()], p.keywords, 40);
+      // test the strongest ideas with a real search to measure demand and your position
+      await pool(ideas.slice(0, ideaEvalCount), concurrency, async (idea) => {
+        try {
+          const { results: res } = await search(context, idea.phrase, market, 50);
+          const pos = res.findIndex((r) => r.id === p.id);
+          idea.tested = { date, market: code, scanned: res.length, top: res.slice(0, 10).map((r) => r.id), your_rank: pos === -1 ? null : pos + 1 };
+          for (const r of res.slice(0, 10)) if (r.desc && stats[r.id] && !stats[r.id].desc) stats[r.id].desc = r.desc;
+        } catch {}
+      });
+      await refreshStats(ideas.flatMap((i) => (i.tested ? i.tested.top : [])));
+      const prev = await readJson(path.join(DATA, 'ideas', `${p.id}.json`), null);
+      await writeJson(path.join(DATA, 'ideas', `${p.id}.json`), {
+        date, market: code,
+        ideas: ideas.map((i) => {
+          const old = prev && prev.ideas && prev.ideas.find((o) => o.phrase === i.phrase);
+          return { ...i, weight: +i.weight.toFixed(2), tested: i.tested || (old && old.tested) || null };
+        }),
+        store_suggestions: Object.fromEntries(Object.entries(suggested).map(([k, v]) => [k, v.map((s) => s.name)])),
+      });
+      console.log(`Keyword ideas for ${p.id}: ${ideas.length} found, ${ideas.filter((i) => i.tested).length} tested in ${code}.`);
+    } catch (e) {
+      console.log(`Keyword ideas for ${p.id} failed: ${e.message || e}`);
+    }
+  }
   await browser.close();
   const updated = new Date().toISOString();
 
@@ -302,6 +465,7 @@ async function main() {
 
   await writeJson(path.join(DATA, 'latest.json'), latest);
   await writeJson(path.join(DATA, 'extensions.json'), extensions);
+  await writeJson(path.join(DATA, 'stats.json'), stats);
   await writeJson(path.join(DATA, 'status.json'), status);
   console.log(`Done: ${ok}/${jobs.length} searches succeeded in ${status.seconds}s.`);
   if (ok === 0) process.exitCode = 1;

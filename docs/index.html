@@ -106,6 +106,17 @@
   #projSel { max-width: min(260px, 100%); }
   .exports { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
   .exports p { margin: 0 0 10px; color: var(--text-2); width: 100%; }
+  table.opp { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; font-size: 13px; }
+  table.opp th { text-align: left; font-weight: 600; font-size: 12px; color: var(--text-2); padding: 6px 8px; border-bottom: 1px solid var(--border); white-space: nowrap; cursor: pointer; user-select: none; }
+  table.opp td { padding: 7px 8px; border-bottom: 1px solid var(--grid); vertical-align: middle; }
+  table.opp td.num { text-align: right; white-space: nowrap; }
+  .dbar { display: inline-block; height: 6px; border-radius: 3px; background: var(--accent); vertical-align: middle; margin-right: 6px; }
+  .tag { display: inline-block; padding: 1px 8px; border-radius: 999px; font-size: 11.5px; border: 1px solid var(--border); white-space: nowrap; }
+  .tag.good { border-color: var(--good); color: var(--good); }
+  .tag.bad { border-color: var(--bad); color: var(--bad); }
+  .tag.lead { background: var(--good); border-color: var(--good); color: #fff; }
+  .card .bar-row { display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-bottom: 10px; }
+  .note-s { font-size: 12px; color: var(--muted); margin: 8px 0 0; }
   button.danger { color: var(--bad); border-color: var(--bad); background: transparent; margin-left: auto; }
   .sr { position: absolute; left: -9999px; }
 </style>
@@ -169,11 +180,29 @@
     </section>
   </div>
 
+  <section class="card" id="oppCard">
+    <h2>Keyword demand <span class="hint">how much interest each keyword can bring, and how hard it is to rank</span></h2>
+    <div class="bar-row">
+      <label class="muted" style="font-size:12px">Market <select id="oppMarket"></select></label>
+    </div>
+    <div class="table-scroll" id="opp"></div>
+    <p class="note-s">The Chrome Web Store doesn't publish search volumes. <b>Demand</b> is the total users of the top 10 extensions for that search, a good stand-in for how many people want that kind of extension.
+      <b>Competition</b> is the typical (median) user count of those top 10: the bigger they are, the harder it is to outrank them. User counts are read weekly from each extension's store page.</p>
+  </section>
+
+  <section class="card" id="ideasCard">
+    <h2>Keyword ideas <span class="hint" id="ideasHint"></span></h2>
+    <div class="table-scroll" id="ideas"></div>
+    <div class="bar-row" style="margin-top:10px"><button id="ideasAdd" disabled>Track selected keywords</button><span class="muted" style="font-size:12px" id="ideasSel"></span></div>
+    <details id="sugBox"><summary>What the store suggests as people type your keywords</summary><div id="sug" style="margin-top:8px;font-size:13px"></div></details>
+  </section>
+
   <section class="card" id="exportCard">
     <h2>Export for analysis <span class="hint">JSON files you can give to Claude or any other tool</span></h2>
     <div class="exports">
       <button id="expRank">⬇ Keyword rankings</button>
       <button id="expComp">⬇ Competitor set</button>
+      <button id="expIdeas">⬇ Keyword demand &amp; ideas</button>
       <button id="expAll">⬇ Everything</button>
     </div>
   </section>
@@ -247,6 +276,7 @@ const store = {
 const extractId = (s) => { const m = String(s || '').match(/([a-p]{32})/); return m ? m[1] : null; };
 
 let fullConfig = {}, projects = [], curId = null;
+let stats = {}, ideas = null, oppSort = 'demand';
 let config = {}, markets = [], history = { dates: [], series: {} }, latest = { results: [] }, exts = {}, status = null;
 const state = { mode: 'keywords', market: null, keyword: null, range: 30 };
 let chart;
@@ -282,7 +312,7 @@ async function selectProject(id) {
   curId = id; config = projects.find((p) => extractId(p.extension) === id) || {};
   store.set('cws.project', id);
   if (location.hash !== '#' + id && id) history_replace(id);
-  history = await loadHistory(id);
+  [history, ideas] = await Promise.all([loadHistory(id), id ? getJson(`data/ideas/${id}.json`, null) : null]);
   state.keyword = state.market = null;
   renderProjSel(); render();
 }
@@ -299,9 +329,10 @@ $('#projSel').addEventListener('change', (e) => {
   else selectProject(e.target.value);
 });
 async function load() {
-  [fullConfig, markets, latest, exts, status] = await Promise.all([
+  [fullConfig, markets, latest, exts, status, stats] = await Promise.all([
     getJson('config.json', {}), getJson('markets.json', []),
     getJson('data/latest.json', { results: [] }), getJson('data/extensions.json', {}), getJson('data/status.json', null),
+    getJson('data/stats.json', {}),
   ]);
   projects = normalizeProjects(fullConfig);
   const ids = projects.map((p) => extractId(p.extension));
@@ -354,6 +385,8 @@ function render() {
   else b.hidden = true;
   const hasData = activeKeywords().length > 0 && activeMarkets().length > 0;
   $('#chartCard').hidden = !hasData; $('#tablesRow').hidden = !hasData; $('#exportCard').hidden = !hasData;
+  renderOpp(); renderIdeas();
+  if (!hasData) { $('#oppCard').hidden = true; $('#ideasCard').hidden = true; }
 
   const ks = activeKeywords(), ms = activeMarkets();
   if (!ks.includes(state.keyword)) state.keyword = ks[0] || null;
@@ -627,6 +660,99 @@ $('#runNow').addEventListener('click', async () => {
   finally { $('#runNow').disabled = false; }
 });
 window.matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', () => render());
+/* ---------------- Demand & ideas ---------------- */
+const fmtN = (n) => n == null ? '–' : n >= 1e6 ? (n / 1e6).toFixed(n >= 1e7 ? 0 : 1).replace(/\.0$/, '') + 'M' : n >= 1e3 ? (n / 1e3).toFixed(n >= 1e4 ? 0 : 1).replace(/\.0$/, '') + 'K' : String(n);
+const median = (a) => { if (!a.length) return 0; const s = [...a].sort((x, y) => x - y); const m = s.length >> 1; return s.length % 2 ? s[m] : Math.round((s[m - 1] + s[m]) / 2); };
+// demand & competition for one search, from its top-10 extension ids
+function demandOf(topIds, scanned, yourRank, searchDepth) {
+  const known = topIds.slice(0, 10).map((id) => stats[id]).filter((s) => s && s.users != null);
+  const users = known.map((s) => s.users || 0);
+  const leaderId = topIds.slice(0, 10).reduce((b, id) => ((stats[id] && stats[id].users) || 0) > ((stats[b] && stats[b].users) || 0) ? id : b, topIds[0]);
+  const demand = users.reduce((x, y) => x + y, 0), comp = median(users);
+  let verdict;
+  if (yourRank && yourRank <= 3) verdict = ['You lead', 'lead'];
+  else if (!known.length) verdict = ['Not measured yet', ''];
+  else if (demand < 10000) verdict = ['Low demand', 'bad'];
+  else if (comp < 10000) verdict = ['Opportunity', 'good'];
+  else if (comp >= 100000) verdict = ['Crowded', 'bad'];
+  else verdict = ['Competitive', ''];
+  return {
+    demand_top10_users: known.length ? demand : null, competition_median_users: known.length ? comp : null,
+    results: scanned, results_capped: scanned >= searchDepth, measured: known.length,
+    leader: leaderId ? { id: leaderId, name: (stats[leaderId] && stats[leaderId].name) || leaderId, users: (stats[leaderId] && stats[leaderId].users) || null } : null,
+    your_rank: yourRank, verdict: verdict[0], verdict_class: verdict[1],
+  };
+}
+function oppRows(market) {
+  return (config.keywords || []).map((k) => {
+    const r = (latest.results || []).find((x) => x.keyword === k && x.market === market && x.ok);
+    if (!r) return { keyword: k, demand_top10_users: null, verdict: 'Not measured yet', verdict_class: '' };
+    const arr = seriesFor(k, market); const i = lastIdx(arr);
+    return { keyword: k, ...demandOf(r.top.map((t) => t.id), r.scanned, i >= 0 ? arr[i] || null : null, depth()) };
+  });
+}
+function renderOpp() {
+  const ms = activeMarkets(); const sel = $('#oppMarket');
+  const want = sel.value && ms.includes(sel.value) ? sel.value : ms.includes('US') ? 'US' : ms[0];
+  sel.innerHTML = ms.map((m) => `<option value="${m}">${esc(marketName(m))}</option>`).join(''); sel.value = want || '';
+  const rows = want ? oppRows(want) : [];
+  const anyStats = rows.some((r) => r.demand_top10_users != null);
+  $('#oppCard').hidden = !rows.length;
+  if (!anyStats) { $('#opp').innerHTML = '<div class="muted">Demand is measured on the next run (it reads the user counts of the top extensions for each keyword).</div>'; return; }
+  const key = { demand: (r) => -(r.demand_top10_users ?? -1), comp: (r) => r.competition_median_users ?? 1e12, rank: (r) => r.your_rank || 1e9, kw: (r) => r.keyword }[oppSort];
+  rows.sort((a, b) => (key(a) < key(b) ? -1 : key(a) > key(b) ? 1 : 0));
+  const maxD = Math.max(1, ...rows.map((r) => r.demand_top10_users || 0));
+  $('#opp').innerHTML = `<table class="opp"><thead><tr>
+      <th data-s="kw">Keyword</th><th data-s="demand">Demand ▾</th><th data-s="comp">Competition</th><th>Results</th><th data-s="rank">Your rank</th><th>Verdict</th><th>Biggest extension in top 10</th></tr></thead><tbody>` +
+    rows.map((r) => `<tr><td>${esc(r.keyword)}</td>
+      <td class="num" style="text-align:left"><span class="dbar" style="width:${Math.max(2, Math.round(70 * Math.sqrt((r.demand_top10_users || 0) / maxD)))}px"></span>${fmtN(r.demand_top10_users)}</td>
+      <td class="num">${fmtN(r.competition_median_users)}</td>
+      <td class="num">${r.results == null ? '–' : r.results + (r.results_capped ? '+' : '')}</td>
+      <td class="num">${r.your_rank ? '#' + r.your_rank : r.results != null ? '–' : ''}</td>
+      <td><span class="tag ${r.verdict_class}">${esc(r.verdict)}</span></td>
+      <td>${r.leader ? `<a href="https://chromewebstore.google.com/detail/${r.leader.id}" target="_blank" rel="noopener">${esc(r.leader.name)}</a> <span class="muted">${fmtN(r.leader.users)}</span>` : ''}</td></tr>`).join('') + '</tbody></table>';
+  $('#opp').querySelectorAll('th[data-s]').forEach((th) => th.addEventListener('click', () => { oppSort = th.dataset.s; renderOpp(); }));
+}
+$('#oppMarket').addEventListener('change', renderOpp);
+let ideaPick = new Set();
+function ideaRows() {
+  if (!ideas || !ideas.ideas) return [];
+  return ideas.ideas.filter((i) => !(config.keywords || []).includes(i.phrase)).map((i) => ({
+    phrase: i.phrase, used_by_extensions: i.extensions,
+    ...(i.tested ? demandOf(i.tested.top, i.tested.scanned, i.tested.your_rank, 50) : { demand_top10_users: null, verdict: 'Not tested yet', verdict_class: '' }),
+    tested_in: i.tested ? i.tested.market : null,
+  }));
+}
+function renderIdeas() {
+  const rows = ideaRows();
+  $('#ideasCard').hidden = !mainId();
+  if (!rows.length) { $('#ideas').innerHTML = '<div class="muted">Ideas appear after the next run. They come from phrases the leading extensions for your keywords use in their names and descriptions.</div>'; $('#sugBox').hidden = true; return; }
+  $('#ideasHint').textContent = `phrases used by the extensions that rank for your keywords · the top ones are test-searched in ${marketName(ideas.market)} every day`;
+  rows.sort((a, b) => (b.demand_top10_users ?? -1) - (a.demand_top10_users ?? -1) || b.used_by_extensions - a.used_by_extensions);
+  const maxD = Math.max(1, ...rows.map((r) => r.demand_top10_users || 0));
+  $('#ideas').innerHTML = `<table class="opp"><thead><tr><th></th><th>Phrase</th><th>Demand</th><th>Competition</th><th>Your rank</th><th>Verdict</th><th>Used by</th></tr></thead><tbody>` +
+    rows.slice(0, 25).map((r) => `<tr><td><input type="checkbox" data-p="${esc(r.phrase)}" ${ideaPick.has(r.phrase) ? 'checked' : ''} aria-label="Select ${esc(r.phrase)}"></td><td>${esc(r.phrase)}</td>
+      <td class="num" style="text-align:left">${r.demand_top10_users == null ? '<span class="muted">–</span>' : `<span class="dbar" style="width:${Math.max(2, Math.round(70 * Math.sqrt(r.demand_top10_users / maxD)))}px"></span>${fmtN(r.demand_top10_users)}`}</td>
+      <td class="num">${fmtN(r.competition_median_users)}</td>
+      <td class="num">${r.your_rank ? '#' + r.your_rank : r.tested_in ? '<span class="muted">not in top 50</span>' : ''}</td>
+      <td><span class="tag ${r.verdict_class}">${esc(r.verdict)}</span></td>
+      <td class="num">${r.used_by_extensions} ext.</td></tr>`).join('') + '</tbody></table>';
+  $('#ideas').querySelectorAll('input[data-p]').forEach((c) => c.addEventListener('change', () => { c.checked ? ideaPick.add(c.dataset.p) : ideaPick.delete(c.dataset.p); updPick(); }));
+  updPick();
+  const sug = ideas.store_suggestions || {};
+  $('#sugBox').hidden = !Object.values(sug).some((v) => v.length);
+  $('#sug').innerHTML = Object.entries(sug).filter(([, v]) => v.length).map(([k, v]) => `<p style="margin:0 0 6px"><b>${esc(k)}</b>: <span class="muted">${v.map(esc).join(' · ')}</span></p>`).join('') +
+    '<p class="note-s">The store suggests popular extension names, not search phrases. These are the extensions people see first when they type your keyword.</p>';
+}
+function updPick() { $('#ideasAdd').disabled = !ideaPick.size; $('#ideasSel').textContent = ideaPick.size ? `${ideaPick.size} selected` : ''; }
+$('#ideasAdd').addEventListener('click', () => {
+  openSettings(false);
+  for (const p of ideaPick) if (!draft.keywords.includes(p)) draft.keywords.push(p);
+  drawChips(); estimate();
+  msg(`Added ${ideaPick.size} keyword${ideaPick.size > 1 ? 's' : ''}. Review and save to start tracking.`, 'ok');
+  ideaPick = new Set(); updPick();
+});
+
 /* ---------------- JSON exports ---------------- */
 function downloadJson(filename, obj) {
   const blob = new Blob([JSON.stringify(obj, null, 2)], { type: 'application/json' });
@@ -696,6 +822,7 @@ function exportCompetitors() {
   const topN = Math.max(0, ...results.map((r) => r.top.length));
   const visible = [...agg.values()].map((a) => ({
     id: a.id, name: a.name, url: `https://chromewebstore.google.com/detail/${a.id}`,
+    users: (stats[a.id] && stats[a.id].users) ?? null, ratings: (stats[a.id] && stats[a.id].ratings) ?? null, rating: (stats[a.id] && stats[a.id].rating) ?? null, category: (stats[a.id] && stats[a.id].category) || null,
     is_you: a.id === id, is_tracked_competitor: compSet.has(a.id),
     appearances: a.appearances, share_of_searches: +(a.appearances / (results.length || 1)).toFixed(3),
     average_position: +(a.positions.reduce((x, y) => x + y, 0) / a.positions.length).toFixed(1), best_position: Math.min(...a.positions),
@@ -724,9 +851,22 @@ function exportCompetitors() {
 function exportName(kind) { return `${slug((exts[mainId()] || {}).name)}-${kind}-${new Date().toISOString().slice(0, 10)}.json`; }
 $('#expRank').addEventListener('click', () => downloadJson(exportName('keyword-rankings'), exportRankings()));
 $('#expComp').addEventListener('click', () => downloadJson(exportName('competitors'), exportCompetitors()));
+function exportIdeas() {
+  const strip = ({ verdict_class, ...r }) => r;
+  return {
+    about: 'Keyword demand for one extension in Chrome Web Store search. The store publishes no search volumes, so demand_top10_users (total users of the top 10 extensions for the search) stands in for interest, and competition_median_users (median users of those top 10) for how hard it is to rank. results is how many results were scanned (+ means more exist). keyword_ideas are phrases that several of the store\'s relevant extensions use in their names and descriptions; the strongest are test-searched daily. store_suggestions are the extension names the store suggests as people type each keyword.',
+    generated_at: new Date().toISOString(),
+    extension: extInfo(mainId()),
+    tracked_keywords: projMarkets().flatMap((m) => oppRows(m).map((r) => strip({ market: m, market_name: marketName(m), ...r }))),
+    keyword_ideas: ideaRows().map(strip),
+    ideas_tested_in: ideas ? ideas.market : null,
+    store_suggestions: (ideas && ideas.store_suggestions) || {},
+  };
+}
+$('#expIdeas').addEventListener('click', () => downloadJson(exportName('keyword-demand'), exportIdeas()));
 $('#expAll').addEventListener('click', () => {
   const r = exportRankings(), c = exportCompetitors();
-  downloadJson(exportName('all'), { about: 'Keyword rankings and competitive landscape for one extension in Chrome Web Store search. See the about field in each section.', generated_at: r.generated_at, extension: r.extension, keyword_rankings: r, competitors: c });
+  downloadJson(exportName('all'), { about: 'Keyword rankings, keyword demand and competitive landscape for one extension in Chrome Web Store search. See the about field in each section.', generated_at: r.generated_at, extension: r.extension, keyword_rankings: r, keyword_demand: exportIdeas(), competitors: c });
 });
 
 /* ---------------- Live run progress ---------------- */
@@ -798,6 +938,7 @@ async function reloadData() {
     getJson('data/history.json', { dates: [], series: {} }), getJson('data/latest.json', { results: [] }),
     getJson('data/extensions.json', {}), getJson('data/status.json', null),
   ]);
+  [stats, ideas] = await Promise.all([getJson('data/stats.json', {}), getJson(`data/ideas/${curId}.json`, null)]);
   render();
 }
 function showRun() {

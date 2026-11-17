@@ -14,6 +14,8 @@ It's free and open source, and there's no server to run. GitHub Actions does the
 - **The top 10** for any search, so you can see who ranks above you.
 - **In-browser settings**: paste your store link, add keywords and choose markets. No code to edit.
 - **Several extensions in one dashboard.** Switch between them from the menu at the top. If two extensions track the same keyword in the same market, that search runs only once.
+- **Keyword demand.** For every keyword you see how much demand it has and how hard it is to rank, plus a verdict such as *Opportunity*, *Crowded* or *Low demand*.
+- **Keyword ideas.** Phrases the leading extensions in your space use in their names and descriptions. The strongest ones are test-searched daily, so you can see their demand before you start tracking them.
 - **JSON exports** of keyword rankings and the competitor set, ready to give to Claude or any other analysis tool.
 
 ## Setup (about 5 minutes)
@@ -66,6 +68,16 @@ The original single-extension format (the same fields without the `projects` wra
 
 **Runtime:** each unique keyword × market search takes about 5–8 seconds, and 4 run in parallel. For example, 20 keywords × 48 markets is about 960 searches, or roughly 30 minutes a day.
 
+## How demand is measured
+
+The Chrome Web Store doesn't publish search volumes, so the tracker estimates them:
+
+- **Demand** is the total number of users of the top 10 extensions for a search. A keyword whose top results have millions of users has far more interest than one whose leaders have a few hundred.
+- **Competition** is the median user count of those top 10. Big incumbents are harder to outrank.
+- **Where the numbers come from:** user counts are read from each extension's store page and refreshed weekly (`docs/data/stats.json`).
+
+**Keyword ideas** are built from phrases that at least three relevant extensions use in their name or description. Extensions with more users count for more. The store's search-box suggestions (which are extension names, not search phrases) are also included. Every day the 12 strongest ideas are searched in one English-language market to measure their demand and your position (`docs/data/ideas/<extension-id>.json`).
+
 ## Exporting data
 
 The **Export for analysis** section of the dashboard downloads JSON for the extension you're viewing:
@@ -76,7 +88,8 @@ The **Export for analysis** section of the dashboard downloads JSON for the exte
   - a head-to-head table of your rank against each tracked competitor
   - your competitors' daily rank histories
   - the latest top 20 for every search
-- **Everything:** both files in one.
+- **Keyword demand & ideas:** demand, competition and verdict for each tracked keyword in each market, plus the keyword ideas and the store's suggestions.
+- **Everything:** all of the above in one file.
 
 Each file starts with an `about` field explaining what the fields mean, so you can hand it straight to Claude with a question such as *"Which keywords and markets should I focus on, and who is beating me there?"*
 
