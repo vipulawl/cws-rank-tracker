@@ -1,0 +1,478 @@
+=== SEARCH PAGE TEXT (first 2500) === chrome web store
+AEO & GEO Checker + SEO Audit - AI Search Visibility
+Extension
+SEO Checker • AI SEO, AEO & GEO Audit
+Extension
+SEO AI Assistant: SEO Checker, AEO & GEO Audit
+CrawlHunt SEO & AEO Audit
+AEO Audit Pro
+Rankify: SEO, GEO & AEO Page Auditor
+AI Rank Inspector – SEO, AEO & GEO Audit
+SEO & AEO Audit by Omnibound
+AEO & SEO Linter - Full SEO, GEO & AEO Audit
+Audito: SEO, AEO & AI Content Audit
+Sign in
+Discover
+Extensions
+Themes
+Type
+Extensions
+Themes
+Filter by
+Featured extensions
+Established publishers
+Ratings
+& up
+& up
+& up
+Clear all
+Reset your filter options.
+Search results
+Zicy – AEO/GEO Audit & AI Consultant
+
+zicy.com
+
+4.4
+
+Analyze any webpage's readiness to be cited by AI answer engines like ChatGPT, Perplexity, and Gemini.
+
+AEO Audit Pro
+
+aeoaudit-pro.com
+
+5.0
+
+Real-time AI Engine Optimization (AEO) visibility & RAG signature auditor.
+
+AEO & GEO Checker + SEO Audit - AI Search Visibility
+
+sellonllm.com
+Featured
+
+4.0
+
+Free AEO & GEO checker + SEO audit: meta tags, schema, llms.txt & AI crawlers. See if ChatGPT, Perplexity & Gemini cite you.
+
+SEO & AEO Audit by Omnibound
+
+www.omnibound.ai/
+
+5.0
+
+Instant AI citation readiness audit for any page: crawler access, answer structure, trust signals and buyer question coverage.
+
+AEO/GEO Auditor
+
+advancelabs.dev
+
+5.0
+
+Client-side AEO/GEO audit of the active tab: meta, structured data, robots.txt, sitemap, llms.txt, AI-bot rules. Exports a PDF.
+
+SEO Checker • AI SEO, AEO & GEO Audit
+
+5.0
+
+Free SEO, AEO & GEO audit extension with optional AI suggestions. Fast, private and easy to use.
+
+SEO AI Assistant: SEO Checker, AEO & GEO Audit
+
+5.0
+
+Score any page for Google and AI search in one click, see what to change and where, and copy the code that fixes it.
+
+AEO Checker: AI SEO, GEO & llms.txt Audit
+
+aeoindex.co
+
+5.0
+
+Free AEO and GEO checker. See if ChatGPT, Perplexity and Google AI can read any page: AI crawlers, llms.txt, schema, score.
+
+AEO & SEO Linter - Full SEO, GEO & AEO Audit
+
+pauloriveiro.com
+
+5.0
+
+Lighthouse-style audit suite for Technical SEO, Generative Engine Optimization (GEO), and Answer Engine Optimization (AEO).
+
+AEO/SEO/GEO Auditor
+
+5.0
+
+Audit any page for SEO, Answer Engine, and Generative Engine optimization.
+
+Load more
+About Chrome Web Store
+Developer Dashboard
+Privacy Policy
+Terms of Service
+Help
+Page loaded.
+
+=== FIRST CARD HTML === <div class="T4LgNb" jsname="a9kxte"><div class="l25Mzb" jscontroller="Ek0TAf" jslog="154609; metadata:W251bGwsbnVsbCxudWxsLG51bGwsbnVsbCxbImFlbyUyMGF1ZGl0Il1d;"><section class="bSxf9e"><form class="BahVqc"><div class="rQcR8d" jsaction="JIbuQc:HI6JVc;"><h2 class="Vlt6Vd">Type</h2><div class="FFw9Se-XPtOyb-FCjw3e" jscontroller="a5Zsr" jsaction="aPyGgf:X6BBU;yAaqO:hb90bd;P7Z0yf:G5O9wc;myoAif:X6BBU;rKF7he:hb90bd;EIciff:G5O9wc;" aria-label="Filter items by extension type" aria-labelledby="search-category-filters" role="toolbar" jsname="r6CfGc"><div class="d2selb"><span class="Rju2Ue-XPtOyb Rju2Ue-XPtOyb-OWXEXe-Kb3HCc Rju2Ue-XPtOyb-OWXEXe-SfQLQb-ssJRIf-Bd00G Rju2Ue-XPtOyb-OWXEXe-YTm5k JY6MEf" jsname="XPtOyb" id="ucj-2" jscontroller="jXJrVd" jsaction="ZQT3xf:abzYvb;CdX1Re:xlbhsd;JsEYVe:abzYvb;xjL7ge:xlbhsd; animationend:L9dL9d; transitionend:e204de;; " data-name="EXTENSION"><button id="ucj-3" class="Rju2Ue-jPmIDe Rju2Ue-jPmIDe-OWXEXe-ssJRIf Rju2Ue-jPmIDe-OWXEXe-ssJRIf-hXIJHe" jsname="JIbuQc" jscontroller="Fr9X0e" jsaction="click:h5M12e;clickmod:h5M12e;pointerdown:FEiYhc;pointerup:mF5Elf;pointerenter:EX0mI;pointerleave:vpvbp;pointercancel:xyn4sd;contextmenu:xexox;keydown:uYT2Vb;focus:h06R8;blur:zjh6rb;mlnRJb:fLiPzd;" tabindex="0" type="button" aria-pressed="false" aria-label="Extensions" data-is-primary="true"><span class="Rju2Ue-jPmIDe-dgl2Hf"></span><span class="UTNHae" jscontroller="LBaJxb" jsname="m9ZlFb"></span><span class="XjoK4b"></span><span class="Rju2Ue-LatNUc"><svg class="Rju2Ue-PvL5qd" viewBox="0 0 18 18"><path class="Rju2Ue-PvL5qd-Jt5cK" fill="none" stroke="black" d="M3 9.23529L6.84 13L15 5"></path></svg></span><span class="Rju2Ue-TfeOUb-V67aGc" jsname="ODzDMd">Extensions</span></button></span></div><div class="d2selb"><span class="Rju2Ue-XPtOyb Rju2Ue-XPtOyb-OWXEXe-Kb3HCc Rju2Ue-XPtOyb-OWXEXe-SfQLQb-ssJRIf-Bd00G Rju2Ue-XPtOyb-OWXEXe-YTm5k JY6MEf" jsname="XPtOyb" id="ucj-4" jscontroller="jXJrVd" jsaction="ZQT3xf:abzYvb;CdX1Re:xlbhsd;JsEYVe:abzYvb;xjL7ge:xlbhsd; animationend:L9dL9d; transitionend:e204de;; " data-name="THEME"><button id="ucj-5" class="Rju2Ue-jPmIDe Rju2Ue-jPmIDe-OWXEXe-ssJRIf Rju2Ue-jPmIDe-OWXEXe-ssJRIf-hXIJHe" jsname="JIbuQc" jscontroller="Fr9X0e" jsaction="click:h5M12e;clickmod:h5M12e;pointerdown:FEiYhc;pointerup:mF5Elf;pointerenter:EX0mI;pointerleave:vpvbp;pointercancel:xyn4sd;contextmenu:xexox;keydown:uYT2Vb;focus:h06R8;blur:zjh6rb;mlnRJb:fLiPzd;" tabindex="-1" type="button" aria-pressed="false" aria-label="Themes" data-is-primary="true"><span class="Rju2Ue-jPmIDe-dgl2Hf"></span><span class="UTNHae" jscontroller="LBaJxb" jsname="m9ZlFb"></span><span class="XjoK4b"></span><span class="Rju2Ue-LatNUc"><svg class="Rju2Ue-PvL5qd" viewBox="0 0 18 18"><path class="Rju2Ue-PvL5qd-Jt5cK" fill="none" stroke="black" d="M3 9.23529L6.84 13L15 5"></path></svg></span><span class="Rju2Ue-TfeOUb-V67aGc" jsname="ODzDMd">Themes</span></button></span></div></div></div><div class="gNksSd"><h2 class="B8heTd">Filter by</h2><div jsaction="JIbuQc:CfyyEd"><div class="fliwXd-OWXEXe-I9GLp-yrriRe KGC9Kd-hJ4r2e-yrriRe pfgZbe"><div class="KGC9Kd-MPu53c KGC9Kd-MPu53c-OWXEXe-dgl2Hf" jsname="jbhFQb" jscontroller="XL71df" jsaction="click:h5M12e;clickmod:h5M12e;pointerdown:FEiYhc;pointerup:mF5Elf;pointerenter:EX0mI;pointerleave:vpvbp;pointercancel:xyn4sd;contextmenu:xexox;animationend:L9dL9d;dyRcpb:dyRcpb;" data-indeterminate="false" data-sync-idom-state="true"><input class="KGC9Kd-muHVFf-bMcfAe" type="checkbox" jsname="YPqjbf" jsaction="change:WPi0i;" data-indeterminate="false" id="c1" value="featured" aria-label="Featured extensions"><div class="KGC9Kd-YQoJzd"><svg aria-hidden="true" class="KGC9Kd-HUofsb" viewBox="0 0 24 24"><path class="KGC9Kd-HUofsb-Jt5cK" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59"></path></svg><div class="KGC9Kd-SJnn3d"></div></div><span class="UTNHae KGC9Kd-OYHm6b" jscontroller="LBaJxb" jsname="m9ZlFb"></span><span class="XjoK4b KGC9Kd-NxYnee"></span></div><label for="c1" class="fliwXd-OWXEXe-V67aGc KGC9Kd-YBO6pd"><div class="aH8fEd">Featured extensions</div></label></div></div><div jsaction="JIbuQc:qE6m3c"><div class="fliwXd-OWXEXe-I9GLp-yrriRe KGC9Kd-hJ4r2e-yrriRe pfgZbe"><div class="KGC9Kd-MPu53c KGC9Kd-MPu53c-OWXEXe-dgl2Hf" jsname="rq7E8c" jscontroller="XL71df" jsaction="click:h5M12e;clickmod:h5M12e;pointerdown:FEiYhc;pointerup:mF5Elf;pointerenter:EX0mI;pointerleave:vpvbp;pointercancel:xyn4sd;contextmenu:xexox;animationend:L9dL9d;dyRcpb:dyRcpb;" data-indeterminate="false" data-sync-idom-state="true"><input class="KGC9Kd-muHVFf-bMcfAe" type="checkbox" jsname="YPqjbf" jsaction="change:WPi0i;" data-indeterminate="false" id="c2" value="establishedPublisher" aria-label="Established publishers"><div class="KGC9Kd-YQoJzd"><svg aria-hidden="true" class="KGC9Kd-HUofsb" viewBox="0 0 24 24"><path class="KGC9Kd-HUofsb-Jt5cK" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59"></path></svg><div class="KGC9Kd-SJnn3d"></div></div><span class="UTNHae KGC9Kd-OYHm6b" jscontroller="LBaJxb" jsname="m9ZlFb"></s
+
+=== RESULT COUNT TEXT === [
+ "",
+ "Type",
+ "Filter by",
+ "Ratings",
+ "Search results",
+ "Zicy – AEO/GEO Audit & AI Consultant",
+ "AEO Audit Pro",
+ "AEO & GEO Checker + SEO Audit - AI Search Visibility",
+ "SEO & AEO Audit by Omnibound",
+ "AEO/GEO Auditor"
+]
+
+=== DETAIL mmiagdcijcmncoifmehfodelnkdbfcoo TEXT === chrome web store
+Sign in
+Discover
+Extensions
+Themes
+Item currently unavailable. Please check the troubleshooting guide.
+View guide
+AEO & GEO Checker + SEO Audit - AI Search Visibility
+sellonllm.com
+Featured
+4.0
+(
+
+4 ratings
+
+)
+Share
+Extension
+Tools
+826 users
+Add to Chrome
+Overview
+
+Free AEO & GEO checker + SEO audit: meta tags, schema, llms.txt & AI crawlers. See if ChatGPT, Perplexity & Gemini cite you.
+
+Free SEO checker and AEO / GEO analyzer. See whether ChatGPT, Claude, Perplexity, Gemini and Google AI Overviews can reach, read and cite your page, and get copy-paste fixes for what is wrong.
+
+FREE: Page audit
+Click the extension on any page. A full report opens in a new tab with a score from 0 to 100, a letter grade, and the issues sorted by what to fix first.
+
+SEO (search engine optimization)
+• Meta tags: title, meta description and canonical URL
+• Open Graph and social preview tags
+• Heading hierarchy, image alt text and mobile viewport
+• Sitemap coverage, internal links and hreflang
+
+AEO (answer engine optimization)
+• Question-style headings and FAQ structure
+• Author and freshness signals
+• Structured data: JSON-LD schema with the fields each page type needs, such as price and availability for products
+
+GEO (generative engine optimization)
+• robots.txt rules for GPTBot, ClaudeBot, PerplexityBot and Google-Extended, plus noindex tags and headers
+• llms.txt at the site root
+• Readable without JavaScript: we compare what crawlers receive with what you see, so content and schema added by scripts do not go unnoticed
+
+FREE: Crawler check
+We fetch your page the way AI crawlers do and tell you when a firewall or CDN blocks them. It is shown separately, so it never lowers your score.
+
+FREE: Copy-paste fixes
+Most failing checks come with the exact code to paste, plus where to paste it when your site runs on Shopify, WordPress or another common site builder.
+
+FREE: Site scan
+Scan up to 25 pages from your sitemap and see which issues repeat across the site, and on which pages.
+
+Reports
+Download a PDF report that includes the site scan, or export the results to share with your team.
+
+UNLIMITED: Citation tracking ($10/month)
+Check whether answer engines cite your site for the questions your buyers ask, compare yourself with competitors, and follow the trend over time. Your first check is free, no login needed.
+
+Privacy
+The page is analyzed in your browser. Each audit sends only the page URL to SellOnLLM so our server can run the crawler check. Citation tracking s
+
+=== DETAIL META === [
+ "referrer=origin",
+ "viewport=width=device-width, initial-scale=1.0",
+ "google-site-verification=y8ofCL7zPXbfh5-PgY_375n5CS14iEI-on-dmD21tIk",
+ "og:type=website",
+ "description=Free AEO & GEO checker + SEO audit: meta tags, schema, llms.txt & AI crawlers. See if ChatGPT, Perplexity & Gemini cite you.",
+ "og:title=AEO & GEO Checker + SEO Audit - AI Search Visibility - Chrome Web Store",
+ "og:description=Free AEO & GEO checker + SEO audit: meta tags, schema, llms.txt & AI crawlers. See if ChatGPT, Perplexity & Gemini cite you.",
+ "og:image=https://lh3.googleusercontent.com/sXYP7TfarZbNRAX-__EFFZqgmNNVkiOMu6KrhF53XVh_bRTxxuVDl_Cq6Xgo19A228uA9w8ApmK8HlTDFtyQ2V53Vg=s128-rj-sc0x00ffffff",
+ "og:image:width=128",
+ "og:image:height=128",
+ "og:url=https://chromewebstore.google.com/detail/aeo-geo-checker-+-seo-aud/mmiagdcijcmncoifmehfodelnkdbfcoo"
+]
+
+=== JSON-LD === []
+
+=== DETAIL chphlpgkkbolifaimnlloiipkdnihall TEXT === chrome web store
+Sign in
+Discover
+Extensions
+Themes
+Item currently unavailable. Please check the troubleshooting guide.
+View guide
+OneTab
+OneTab Ltd
+Featured
+3.8
+(
+
+14.6K ratings
+
+)
+Share
+Extension
+Functionality & UI
+2,000,000 users
+Add to Chrome
+Overview
+
+Save up to 95% memory and reduce tab clutter
+
+Whenever you find yourself with too many tabs, click the OneTab icon to convert all of your tabs into a list. When you need to access the tabs again, you can either restore them individually or all at once.
+
+When your tabs are in the OneTab list, you will save up to 95% of memory because you will have reduced the number of tabs open in your web browser.
+
+Privacy assurance
+
+OneTab is designed for privacy. Your tab URLs are never transmitted or disclosed to either the OneTab developers or any other party, and icons for tab URL domains are generated by Google. The only exception to this is if you intentionally click on our 'share as a web page' feature that allows you to upload your list of tabs into a web page in order to share them with others. Tabs are never shared unless you specifically use the 'share as a web page' feature.
+
+Additional Benefits
+
+Storing tabs in OneTab can also speed up your computer by reducing the CPU load and memory (RAM) usage of your browser. Even a high-end computer can become sluggish when many browser windows are open, because each open browser window may constantly consume resources.
+
+See more
+3.8 out of 5
+14.6K ratings
+
+Learn more about results and reviews.
+
+See all reviews
+Details
+Version
+2.24
+Updated
+October 11, 2026
+Flag concern
+Size
+2.87MiB
+Languages
+48 languages
+Developer
+OneTab Ltd
+35 College Avenue Harrow HA3 6EY GB
+Website
+Email
+Phone
+Trader
+This developer has identified itself as a trader per the definition from the European Union and committed to only offer products or services that comply with EU laws.
+D-U-N-S
+210013284
+Privacy
+The developer has disclosed that it will not collect or use your data. To learn more, see the developer’s privacy policy.
+This developer declares that your data is
+Not being sold to third parties, outside of the approved use cases
+Not being used or transferred for purposes that are unrelated to the item's core functionality
+Not being used or transferred to determine creditworthiness or for lending purposes
+Support
+Visit support hub
+Related
+
+TooManyTabs for Chrome
+
+3.5
+
+Manage your tabs, improve your browsing, and maintain your sanity when you have many tabs open.
+
+Extension Manager
+
+4.1
+
+Manage e
+
+=== DETAIL META === [
+ "referrer=origin",
+ "viewport=width=device-width, initial-scale=1.0",
+ "google-site-verification=y8ofCL7zPXbfh5-PgY_375n5CS14iEI-on-dmD21tIk",
+ "og:type=website",
+ "description=Save up to 95% memory and reduce tab clutter",
+ "og:title=OneTab - Chrome Web Store",
+ "og:description=Save up to 95% memory and reduce tab clutter",
+ "og:image=https://lh3.googleusercontent.com/r9pG6yBSmqm_GGM9c2Q2JJvHQ6WXr9FTphOwvxS1PwrPpjfKeu1b9ha6OXqx8ALeGqtnRElPtZzdiCWD-4yUwA_LBVM=s128-rj-sc0x00ffffff",
+ "og:image:width=128",
+ "og:image:height=128",
+ "og:url=https://chromewebstore.google.com/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall"
+]
+
+=== JSON-LD === []
+
+=== INPUTS (en) === [
+ {
+  "type": "text",
+  "aria": null,
+  "ph": "",
+  "vis": true
+ },
+ {
+  "type": "text",
+  "aria": "Search Chrome Web Store",
+  "ph": "",
+  "vis": true
+ }
+]
+
+click err TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[type="search"], input[aria-label*="earch"], input[aria-label*="uche"], input').first()
+    - locator resolved to <input dir="ltr" disabled="true" jsname="A51lKb" aria-hidden="true" class="yNVtPc ZAGvjd Ny5lGc" value="Search extensions and themes"/>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not enabled
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not enabled
+    - retrying click action
+      - waiting 100ms
+    58 × waiting for element to be visible, enabled and stable
+       - element is not enabled
+     - retrying click action
+       - waiting 500ms
+
+
+=== SUGGESTION DOM (en "reddit") === [
+ "Reddit Enhancement Suite\nExtension",
+ "Old Reddit Redirect\nExtension",
+ "UI Changer for Reddit\nExtension",
+ "Reddit Promoted Ad Blocker\nExtension",
+ "Reddit Enhancer\nExtension",
+ "Reddit Comment Collapser\nExtension",
+ "Reddit UI Redirector\nExtension",
+ "Reddit Liberation: Feed Blocker\nExtension",
+ "Bulk Delete Reddits Posts & Comments Extension\nExtension",
+ "Reddit Untranslate",
+ "My extensions & themes",
+ "Appearance",
+ "Developer Dashboard",
+ "Give feedback",
+ "About Chrome Web Store",
+ "Developer Dashboard",
+ "Privacy Policy",
+ "Terms of Service",
+ "Help"
+]
+
+=== SUGGEST NET === [
+ {
+  "u": "https://chromewebstore.google.com/_/ChromeWebStoreConsumerFeUi/data/batchexecute?rpcids=QcU9bc&source-path=%2F&f.sid=-4117734032791991895&bl=boq_chrome-webstore-consumerfe-ui_20261110.07_p0&hl=en&soc-app=1&soc-platform=1&soc-device=1&_reqid=229054&rt=c",
+  "post": "f.req=%5B%5B%5B%22QcU9bc%22%2C%22%5B%5C%22r%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&",
+  "body": ")]}'\n\n1513\n[[\"wrb.fr\",\"QcU9bc\",\"[[[[\\\"Honey: Automated Coupons \\\\u0026 Rewards\\\"]],[[\\\"Ready X: Starknet wallet\\\"]],[null,[\\\"Rakuten: Get Cash Back For Shopping\\\",\\\"chhjbpecpncaggjpdakmflnfcopglcmi\\\",1,\\\"https://lh3.googleusercontent.com/R3pk1oNclcQ0t5eJxAdQxv9A3SOtKdmycyA1ODSNBf0ILn1VxV2VG6t4XVyAnBQ3gLB5ETiv1AHCziEZmEtwpriyUFs\\\"]],[null,[\\\"RoPro - Enhance Your Roblox Experience\\\",\\\"adbacgifemdbhdkfppmeilbgppmhaobf\\\",1,\\\"https://lh3.googleusercontent.com/sjjtFHF4aAg9ayj__-AQGcpsUU-68uU23mI7_VhveT77i3XngBsrjrPV82APBWdLuZDmBEVapsA\\\"]],[null,[\\\"Auto Refresh Plus | Page Monitor\\\",\\\"hgeljhfekpckiiplhkigfehkdpldcggm\\\",1,\\\"https://lh3.googleusercontent.com/1ZcMKYPTg5m-f9X8Ug-8LoWRkmKxi9DZceHn1FwnG7-ABLUq6TxCiHlE36M_X9A1RJZmDzEpU7efaGSS5pzFfLQMOA\\\"]],[null,[\\\"Awesome Screen Recorder \\\\u0026 Screenshot\\\",\\\"nlipoenfbbikpbjkfpfillcgkoblgpmj\\\",1,\\\"https://lh3.googleusercontent.com/9q6_biGbJRBzZ1q4er_4X85b60TdnJRwM4vTBAMeBydjEuQbA0EMRJ6bZY_-4_OkGudYbPMZkBIZ_UrtmvKBiubufg\\\"]],[[\\\"Rocket Sender for WA Web\\\"]],[[\\\"Return YouTube Dislike\\\"]],[null,[\\\"RoValra - Roblox Improved\\\",\\\"njcickgebhnpgmoodjdgohkclfplejli\\\",1,\\\"https://lh3.googleusercontent.com/PbzM04wxPISugiB3zAhNCLMMELw6-Ykt7S0pHEr4gQ5FDR22lvu5Hg1tI7I0V53K7FYKfK3yHKys7FhwZ1jXbPeCCQ\\\"]],[null,[\\\"Dark Reader\\\",\\\"eimadpbcbfnmbkopoojfekhnkhdbieeh\\\",1,\\\"https://lh3.googleusercontent.com/T66wTLk-gpBBGsMm0SDJJ3VaI8YM0Utr8NaGCSANmXOfb84K-9GmyXORLKoslfxtasKtQ4spDCdq_zlp_t3QQ6SI0A\\\"]]]]\",null,null,null,\"generic\"],[\"di\",27],[\"af.httprm\",27,\"-61"
+ },
+ {
+  "u": "https://chromewebstore.google.com/_/ChromeWebStoreConsumerFeUi/data/batchexecute?rpcids=QcU9bc&source-path=%2F&f.sid=-4117734032791991895&bl=boq_chrome-webstore-consumerfe-ui_20261110.07_p0&hl=en&soc-app=1&soc-platform=1&soc-device=1&_reqid=329054&rt=c",
+  "post": "f.req=%5B%5B%5B%22QcU9bc%22%2C%22%5B%5C%22re%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&",
+  "body": ")]}'\n\n1713\n[[\"wrb.fr\",\"QcU9bc\",\"[[[[\\\"Honey: Automated Coupons \\\\u0026 Rewards\\\"]],[[\\\"Ready X: Starknet wallet\\\"]],[null,[\\\"Auto Refresh Plus | Page Monitor\\\",\\\"hgeljhfekpckiiplhkigfehkdpldcggm\\\",1,\\\"https://lh3.googleusercontent.com/1ZcMKYPTg5m-f9X8Ug-8LoWRkmKxi9DZceHn1FwnG7-ABLUq6TxCiHlE36M_X9A1RJZmDzEpU7efaGSS5pzFfLQMOA\\\"]],[null,[\\\"Awesome Screen Recorder \\\\u0026 Screenshot\\\",\\\"nlipoenfbbikpbjkfpfillcgkoblgpmj\\\",1,\\\"https://lh3.googleusercontent.com/9q6_biGbJRBzZ1q4er_4X85b60TdnJRwM4vTBAMeBydjEuQbA0EMRJ6bZY_-4_OkGudYbPMZkBIZ_UrtmvKBiubufg\\\"]],[[\\\"Return YouTube Dislike\\\"]],[null,[\\\"Dark Reader\\\",\\\"eimadpbcbfnmbkopoojfekhnkhdbieeh\\\",1,\\\"https://lh3.googleusercontent.com/T66wTLk-gpBBGsMm0SDJJ3VaI8YM0Utr8NaGCSANmXOfb84K-9GmyXORLKoslfxtasKtQ4spDCdq_zlp_t3QQ6SI0A\\\"]],[null,[\\\"Screen Recorder \\\\u0026 Screenshot App for Chrome | Scrnli\\\",\\\"ijejnggjjphlenbhmjhhgcdpehhacaal\\\",1,\\\"https://lh3.googleusercontent.com/tNq5Ibob_ZxRTq-PLl46wKkxYY3ZLB2FMskbKwAfMvAGri4Cbobn3if_FN_ko6wPjH4V3GZCFSxO7WGwnQyk9UuqSw\\\"]],[null,[\\\"RightInbox: Email Reminders, Tracking, Notes\\\",\\\"mflnemhkomgploogccdmcloekbloobgb\\\",1,\\\"https://lh3.googleusercontent.com/AapenUWQDcaFXyLGIL4ntq3OaEhlMcBbddAMZkENuzorfXKO7DX-XVFqB0MknCOsWYS56ovYFpgtneAF55XgejPU\\\"]],[null,[\\\"Mobile Simulator – Responsive Testing Tool\\\",\\\"ckejmhbmlajgoklhgbapkiccekfoccmk\\\",1,\\\"https://lh3.googleusercontent.com/AdZGgDWDCE3zyp1t_rJo1VT_9ge6l7QeFftWKrr2opJc4IgOmbQY82_4s44rGpHqZjw6ALtEsjlY8Sv1nERN-nAJEA\\\"]],[null,[\\\"Loom – Screen Recorder \\\\"
+ },
+ {
+  "u": "https://chromewebstore.google.com/_/ChromeWebStoreConsumerFeUi/data/batchexecute?rpcids=QcU9bc&source-path=%2F&f.sid=-4117734032791991895&bl=boq_chrome-webstore-consumerfe-ui_20261110.07_p0&hl=en&soc-app=1&soc-platform=1&soc-device=1&_reqid=429054&rt=c",
+  "post": "f.req=%5B%5B%5B%22QcU9bc%22%2C%22%5B%5C%22red%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&",
+  "body": ")]}'\n\n1678\n[[\"wrb.fr\",\"QcU9bc\",\"[[[null,[\\\"Reddit Enhancement Suite\\\",\\\"kbmfpngjjgdllneeigpgjifpgocmfgmb\\\",1,\\\"https://lh3.googleusercontent.com/0SvxWpFT-d9CLNWqKIjV7_2jOtnBpU8tXCPPqWTr_MvlaFkKlAm5CDpo1uDX1SXWVnrrninjuGsjhF02MDVHWXb3\\\"]],[null,[\\\"Chrometana Pro - Redirect Cortana and Bing\\\",\\\"lllggmgeiphnciplalhefnbpddbadfdi\\\",1,\\\"https://lh3.googleusercontent.com/7Sq-Kzzxa2E5cLRrEbhAP8M81cKITNCvqjwC-AL5ubcm5qIMiPG2VsOz-EMxBQs8O72RFCmW2uH2FKyZ6DDTHTDnHw\\\"]],[[\\\"RoRegion – Reduce Lag, Ping \\\\u0026 Boost FPS: Roblox Region Selector\\\"]],[[\\\"Redux DevTools\\\"]],[null,[\\\"YouTube Redux\\\",\\\"mdgdgieddpndgjlmeblhjgljejejkikf\\\",1,\\\"https://lh3.googleusercontent.com/69cGDQtjlOh5-gMd7v92Rn1LFeoF_V5vcue0_Xr8tfUqjMLOIPqpWMGmznPtosb5Z_aWX_42MojM1FEV160X3GDyUpg\\\"]],[null,[\\\"Link Redirect Trace\\\",\\\"nnpljppamoaalgkieeciijbcccohlpoh\\\",1,\\\"https://lh3.googleusercontent.com/uNu-9rtn3yJ5qUl6nE7t9Rf0RD5PwCDi7_7qeWdgOzQeD_z1a9QNX7qFI83oRpUAfUwpUM8v7STV7gAdGlSo1eu6\\\"]],[null,[\\\"Reddot share your status\\\",\\\"nhhehfhpgjdikgkfkkphlfapimgcboif\\\",1,\\\"https://lh3.googleusercontent.com/7xfjXTBnf1_Q3WqzIq1t2vUZ1JBm_0XHis8y7wU7x_P1f7UtJh1hqyY8at-KYSpquIBHnkbEvwasKjoLuvTbKPOX8g\\\"]],[null,[\\\"Old Reddit Redirect\\\",\\\"dneaehbmnbhcippjikoajpoabadpodje\\\",1,\\\"https://lh3.googleusercontent.com/2OD_PSC5ZddfBgtiSAnRUuPV9SL-wNaG2GjO1k31yHZ1gSLCY2YkW7HpN_b03aVBSby3_Dg595dS0g9iwhaeChpx-Ew\\\"]],[[\\\"GradeTransferer - Transfer, Scale \\\\u0026 Sort Grades | Save Time, Reduce Errors\\\"]],[null,[\\\"UI Changer for Reddit\\\",\\\"bfcldjodnn"
+ },
+ {
+  "u": "https://chromewebstore.google.com/_/ChromeWebStoreConsumerFeUi/data/batchexecute?rpcids=QcU9bc&source-path=%2F&f.sid=-4117734032791991895&bl=boq_chrome-webstore-consumerfe-ui_20261110.07_p0&hl=en&soc-app=1&soc-platform=1&soc-device=1&_reqid=529054&rt=c",
+  "post": "f.req=%5B%5B%5B%22QcU9bc%22%2C%22%5B%5C%22redd%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&",
+  "body": ")]}'\n\n1918\n[[\"wrb.fr\",\"QcU9bc\",\"[[[null,[\\\"Reddit Enhancement Suite\\\",\\\"kbmfpngjjgdllneeigpgjifpgocmfgmb\\\",1,\\\"https://lh3.googleusercontent.com/0SvxWpFT-d9CLNWqKIjV7_2jOtnBpU8tXCPPqWTr_MvlaFkKlAm5CDpo1uDX1SXWVnrrninjuGsjhF02MDVHWXb3\\\"]],[null,[\\\"Reddot share your status\\\",\\\"nhhehfhpgjdikgkfkkphlfapimgcboif\\\",1,\\\"https://lh3.googleusercontent.com/7xfjXTBnf1_Q3WqzIq1t2vUZ1JBm_0XHis8y7wU7x_P1f7UtJh1hqyY8at-KYSpquIBHnkbEvwasKjoLuvTbKPOX8g\\\"]],[null,[\\\"Old Reddit Redirect\\\",\\\"dneaehbmnbhcippjikoajpoabadpodje\\\",1,\\\"https://lh3.googleusercontent.com/2OD_PSC5ZddfBgtiSAnRUuPV9SL-wNaG2GjO1k31yHZ1gSLCY2YkW7HpN_b03aVBSby3_Dg595dS0g9iwhaeChpx-Ew\\\"]],[null,[\\\"UI Changer for Reddit\\\",\\\"bfcldjodnnkndfccfjndmdlppfkmccgh\\\",1,\\\"https://lh3.googleusercontent.com/re_HNppCk2hIJEvIDKBd1ns_klxPobMsyCvwQTxBYG7c3rcDie_mfKtag7w_BUCd011mDPAsPNJQ1iroIR4AbmuFQw\\\"]],[[\\\"Reddit Untranslate\\\"]],[null,[\\\"Reddit Promoted Ad Blocker\\\",\\\"mmnhjecbajmgkapcinkhdnjabclcnfpg\\\",1,\\\"https://lh3.googleusercontent.com/InTCIQiFkPgDHAFN27noLfECu6zt9LWx6E8ooWjRv8lVvlHL2FNWWnXnVNNMu-1FtQ8EEAPSxCoOBHdgxmwn5HHlAw\\\"]],[null,[\\\"Reddit Enhancer\\\",\\\"onglbklimdjicpdadjieknodkkmjldoa\\\",1,\\\"https://lh3.googleusercontent.com/SI7doGj2xw0vCIpdO6wAf3W4vuooer4FuvKtXx25Y8sjlnzHuu0vhIMRfRA1owyIP80WFHJSsjzGfE5qqnbzOytK4Q\\\"]],[null,[\\\"Reddit Comment Collapser\\\",\\\"njmimaecgocggclbecipdimilidimlpl\\\",1,\\\"https://lh3.googleusercontent.com/UZFZMHj1cTSC2rTflunUGvtKg8c9gnN8sbdRk63SMCAZwk6KFRn4JALIZfCPe1PEHJXJ5lKqQ4La7AiYJ8VpgKyU\\\"]],[null,[\\\"Reddit"
+ },
+ {
+  "u": "https://chromewebstore.google.com/_/ChromeWebStoreConsumerFeUi/data/batchexecute?rpcids=QcU9bc&source-path=%2F&f.sid=-4117734032791991895&bl=boq_chrome-webstore-consumerfe-ui_20261110.07_p0&hl=en&soc-app=1&soc-platform=1&soc-device=1&_reqid=629054&rt=c",
+  "post": "f.req=%5B%5B%5B%22QcU9bc%22%2C%22%5B%5C%22reddi%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&",
+  "body": ")]}'\n\n1946\n[[\"wrb.fr\",\"QcU9bc\",\"[[[null,[\\\"Reddit Enhancement Suite\\\",\\\"kbmfpngjjgdllneeigpgjifpgocmfgmb\\\",1,\\\"https://lh3.googleusercontent.com/0SvxWpFT-d9CLNWqKIjV7_2jOtnBpU8tXCPPqWTr_MvlaFkKlAm5CDpo1uDX1SXWVnrrninjuGsjhF02MDVHWXb3\\\"]],[null,[\\\"Old Reddit Redirect\\\",\\\"dneaehbmnbhcippjikoajpoabadpodje\\\",1,\\\"https://lh3.googleusercontent.com/2OD_PSC5ZddfBgtiSAnRUuPV9SL-wNaG2GjO1k31yHZ1gSLCY2YkW7HpN_b03aVBSby3_Dg595dS0g9iwhaeChpx-Ew\\\"]],[null,[\\\"UI Changer for Reddit\\\",\\\"bfcldjodnnkndfccfjndmdlppfkmccgh\\\",1,\\\"https://lh3.googleusercontent.com/re_HNppCk2hIJEvIDKBd1ns_klxPobMsyCvwQTxBYG7c3rcDie_mfKtag7w_BUCd011mDPAsPNJQ1iroIR4AbmuFQw\\\"]],[[\\\"Reddit Untranslate\\\"]],[null,[\\\"Reddit Promoted Ad Blocker\\\",\\\"mmnhjecbajmgkapcinkhdnjabclcnfpg\\\",1,\\\"https://lh3.googleusercontent.com/InTCIQiFkPgDHAFN27noLfECu6zt9LWx6E8ooWjRv8lVvlHL2FNWWnXnVNNMu-1FtQ8EEAPSxCoOBHdgxmwn5HHlAw\\\"]],[null,[\\\"Reddit Enhancer\\\",\\\"onglbklimdjicpdadjieknodkkmjldoa\\\",1,\\\"https://lh3.googleusercontent.com/SI7doGj2xw0vCIpdO6wAf3W4vuooer4FuvKtXx25Y8sjlnzHuu0vhIMRfRA1owyIP80WFHJSsjzGfE5qqnbzOytK4Q\\\"]],[null,[\\\"Reddit Comment Collapser\\\",\\\"njmimaecgocggclbecipdimilidimlpl\\\",1,\\\"https://lh3.googleusercontent.com/UZFZMHj1cTSC2rTflunUGvtKg8c9gnN8sbdRk63SMCAZwk6KFRn4JALIZfCPe1PEHJXJ5lKqQ4La7AiYJ8VpgKyU\\\"]],[null,[\\\"Reddit UI Redirector\\\",\\\"nkoapgdkoheaadbeijfdlnogkjlgcimc\\\",1,\\\"https://lh3.googleusercontent.com/R_wDuWgBKUVP6LhQVbJglOJYm5lr8eZHLkYkewct8sVeJ3lheYR_25e1TCokATF0OLAvxT54a5UPbKdDCsdHvotz5w\\\"]],[null,[\\\"Reddit Lib"
+ },
+ {
+  "u": "https://chromewebstore.google.com/_/ChromeWebStoreConsumerFeUi/data/batchexecute?rpcids=QcU9bc&source-path=%2F&f.sid=-4117734032791991895&bl=boq_chrome-webstore-consumerfe-ui_20261110.07_p0&hl=en&soc-app=1&soc-platform=1&soc-device=1&_reqid=729054&rt=c",
+  "post": "f.req=%5B%5B%5B%22QcU9bc%22%2C%22%5B%5C%22reddit%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&",
+  "body": ")]}'\n\n1946\n[[\"wrb.fr\",\"QcU9bc\",\"[[[null,[\\\"Reddit Enhancement Suite\\\",\\\"kbmfpngjjgdllneeigpgjifpgocmfgmb\\\",1,\\\"https://lh3.googleusercontent.com/0SvxWpFT-d9CLNWqKIjV7_2jOtnBpU8tXCPPqWTr_MvlaFkKlAm5CDpo1uDX1SXWVnrrninjuGsjhF02MDVHWXb3\\\"]],[null,[\\\"Old Reddit Redirect\\\",\\\"dneaehbmnbhcippjikoajpoabadpodje\\\",1,\\\"https://lh3.googleusercontent.com/2OD_PSC5ZddfBgtiSAnRUuPV9SL-wNaG2GjO1k31yHZ1gSLCY2YkW7HpN_b03aVBSby3_Dg595dS0g9iwhaeChpx-Ew\\\"]],[null,[\\\"UI Changer for Reddit\\\",\\\"bfcldjodnnkndfccfjndmdlppfkmccgh\\\",1,\\\"https://lh3.googleusercontent.com/re_HNppCk2hIJEvIDKBd1ns_klxPobMsyCvwQTxBYG7c3rcDie_mfKtag7w_BUCd011mDPAsPNJQ1iroIR4AbmuFQw\\\"]],[[\\\"Reddit Untranslate\\\"]],[null,[\\\"Reddit Promoted Ad Blocker\\\",\\\"mmnhjecbajmgkapcinkhdnjabclcnfpg\\\",1,\\\"https://lh3.googleusercontent.com/InTCIQiFkPgDHAFN27noLfECu6zt9LWx6E8ooWjRv8lVvlHL2FNWWnXnVNNMu-1FtQ8EEAPSxCoOBHdgxmwn5HHlAw\\\"]],[null,[\\\"Reddit Enhancer\\\",\\\"onglbklimdjicpdadjieknodkkmjldoa\\\",1,\\\"https://lh3.googleusercontent.com/SI7doGj2xw0vCIpdO6wAf3W4vuooer4FuvKtXx25Y8sjlnzHuu0vhIMRfRA1owyIP80WFHJSsjzGfE5qqnbzOytK4Q\\\"]],[null,[\\\"Reddit Comment Collapser\\\",\\\"njmimaecgocggclbecipdimilidimlpl\\\",1,\\\"https://lh3.googleusercontent.com/UZFZMHj1cTSC2rTflunUGvtKg8c9gnN8sbdRk63SMCAZwk6KFRn4JALIZfCPe1PEHJXJ5lKqQ4La7AiYJ8VpgKyU\\\"]],[null,[\\\"Reddit UI Redirector\\\",\\\"nkoapgdkoheaadbeijfdlnogkjlgcimc\\\",1,\\\"https://lh3.googleusercontent.com/R_wDuWgBKUVP6LhQVbJglOJYm5lr8eZHLkYkewct8sVeJ3lheYR_25e1TCokATF0OLAvxT54a5UPbKdDCsdHvotz5w\\\"]],[null,[\\\"Reddit Lib"
+ }
+]
+
+=== INPUTS (de) === [
+ {
+  "type": "text",
+  "aria": null,
+  "ph": "",
+  "vis": true
+ },
+ {
+  "type": "text",
+  "aria": "Im Chrome Web Store suchen",
+  "ph": "",
+  "vis": true
+ }
+]
+
+click err TimeoutError: locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator('input[type="search"], input[aria-label*="earch"], input[aria-label*="uche"], input').first()
+    - locator resolved to <input dir="ltr" disabled="true" jsname="A51lKb" aria-hidden="true" class="yNVtPc ZAGvjd Ny5lGc" value="Erweiterungen und Designs suchen"/>
+  - attempting click action
+    2 × waiting for element to be visible, enabled and stable
+      - element is not enabled
+    - retrying click action
+    - waiting 20ms
+    2 × waiting for element to be visible, enabled and stable
+      - element is not enabled
+    - retrying click action
+      - waiting 100ms
+    58 × waiting for element to be visible, enabled and stable
+       - element is not enabled
+     - retrying click action
+       - waiting 500ms
+
+
+=== SUGGESTION DOM (de "tab") === [
+ "Speed Dial [FVD] - New Tab Page, 3D, Sync...\nErweiterung",
+ "Bonjourr · Minimalistischer Neuer Tab\nErweiterung",
+ "Session Buddy - Tab & Bookmark Manager\nErweiterung",
+ "Homey: New Tab\nErweiterung",
+ "IE Tab\nErweiterung",
+ "Awesome New Tab Page™\nErweiterung",
+ "Infinity New Tab (Pro)",
+ "Infinity New Tab",
+ "Wallsflow Neuer Tab: animierte Hintergründe, Widgets & Fokusmusik",
+ "GNTD: Glass New Tab Dashboard",
+ "Meine Erweiterungen und Designs",
+ "Erscheinungsbild",
+ "Entwickler-Dashboard",
+ "Feedback geben",
+ "Über den Chrome Web Store",
+ "Entwickler-Dashboard",
+ "Datenschutzerklärung",
+ "Impressum",
+ "Nutzungsbedingungen",
+ "Hilfe"
+]
+
+=== SUGGEST NET === [
+ {
+  "u": "https://chromewebstore.google.com/_/ChromeWebStoreConsumerFeUi/data/batchexecute?rpcids=QcU9bc&source-path=%2F&f.sid=-5644760033063687707&bl=boq_chrome-webstore-consumerfe-ui_20261110.07_p0&hl=de&soc-app=1&soc-platform=1&soc-device=1&_reqid=29090&rt=c",
+  "post": "f.req=%5B%5B%5B%22QcU9bc%22%2C%22%5B%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&",
+  "body": ")]}'\n\n105\n[[\"wrb.fr\",\"QcU9bc\",\"[]\",null,null,null,\"generic\"],[\"di\",11],[\"af.httprm\",11,\"-4056359634292364273\",3]]\n25\n[[\"e\",4,null,null,141]]\n"
+ },
+ {
+  "u": "https://chromewebstore.google.com/_/ChromeWebStoreConsumerFeUi/data/batchexecute?rpcids=QcU9bc&source-path=%2F&f.sid=-5644760033063687707&bl=boq_chrome-webstore-consumerfe-ui_20261110.07_p0&hl=de&soc-app=1&soc-platform=1&soc-device=1&_reqid=229090&rt=c",
+  "post": "f.req=%5B%5B%5B%22QcU9bc%22%2C%22%5B%5C%22t%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&",
+  "body": ")]}'\n\n1859\n[[\"wrb.fr\",\"QcU9bc\",\"[[[null,[\\\"AdBlock — block ads across the web\\\",\\\"gighmmpiobklfepjocnamgkkbiglidom\\\",1,\\\"https://lh3.googleusercontent.com/mgNKV-3VMXD556WVUiWSbcukQQN-il4Zlqq03efTjG2B5j9YP7Fxr3idTQ_G0JFD7E6o4TMwvTQTleDn_8UdFLf5VQ\\\"]],[null,[\\\"Google Translate\\\",\\\"aapbdbdomjkkjkaonfhkkikfgjllcleb\\\",1,\\\"https://lh3.googleusercontent.com/3ZU5aHnsnQUl9ySPrGBqe5LXz_z9DK05DEfk10tpKHv5cvG19elbOr0BdW_k8GjLMFDexT2QHlDwAmW62iLVdek--Q\\\"]],[null,[\\\"Speed Dial [FVD] - New Tab Page, 3D, Sync...\\\",\\\"llaficoajjainaijghjlofdfmbjpebpa\\\",1,\\\"https://lh3.googleusercontent.com/w3K2CDl4n-0LZVksR5dwGR4Su5USBhNXQQc1-1isyFxaaGGsja7_8_NntP_Gy5bu6gzLS3Kv0pHRM13ZmohkLTAOn4w\\\"]],[null,[\\\"Tampermonkey\\\",\\\"dhdgffkkebhmkfjojejmpbldmpobfkfo\\\",1,\\\"https://lh3.googleusercontent.com/zoY8FwoOqPlBgFxcmFdNSK2Q4CcLmv-gw7vTjF2KMR9cEabwBsGNrHBTEMitn0Ba6OmCVJ0NcLnFGu3N97BP8Phu0g\\\"]],[null,[\\\"Touch VPN – Kostenloses VPN und kostenloser Proxy\\\",\\\"bihmplhobchoageeokmgbdihknkjbknd\\\",1,\\\"https://lh3.googleusercontent.com/9BPdK9qaCNhUgFGa8ZU706Mkh3B6U8ddKrJyEVq_HXPzIbtV5eAdcKVXP_UmdKOqIFkmO-KNjReUnEflnzTlv5sT\\\"]],[null,[\\\"Todoist für Chrome: Planer \\\\u0026 Kalender\\\",\\\"jldhpllghnbhlbpcmnajkpdmadaolakh\\\",1,\\\"https://lh3.googleusercontent.com/zqKRvf52hI5Yk6N5C8k6NJnDT7bsEW6whE3wf1UqfpES79AtnrO2ykLgqwciE-bca6QghdXNFJDYe_9xO6iYsvK7\\\"]],[[\\\"Infinity New Tab (Pro)\\\"]],[null,[\\\"Bonjourr · Minimalistischer Neuer Tab\\\",\\\"dlnejlppicbjfcfcedcflplfjajinajd\\\",1,\\\"https://lh3.googleusercontent.com/ARAA8if0Lq3o9OkRVNf0wLcw"
+ },
+ {
+  "u": "https://chromewebstore.google.com/_/ChromeWebStoreConsumerFeUi/data/batchexecute?rpcids=QcU9bc&source-path=%2F&f.sid=-5644760033063687707&bl=boq_chrome-webstore-consumerfe-ui_20261110.07_p0&hl=de&soc-app=1&soc-platform=1&soc-device=1&_reqid=329090&rt=c",
+  "post": "f.req=%5B%5B%5B%22QcU9bc%22%2C%22%5B%5C%22ta%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&",
+  "body": ")]}'\n\n1532\n[[\"wrb.fr\",\"QcU9bc\",\"[[[null,[\\\"Speed Dial [FVD] - New Tab Page, 3D, Sync...\\\",\\\"llaficoajjainaijghjlofdfmbjpebpa\\\",1,\\\"https://lh3.googleusercontent.com/w3K2CDl4n-0LZVksR5dwGR4Su5USBhNXQQc1-1isyFxaaGGsja7_8_NntP_Gy5bu6gzLS3Kv0pHRM13ZmohkLTAOn4w\\\"]],[null,[\\\"Tampermonkey\\\",\\\"dhdgffkkebhmkfjojejmpbldmpobfkfo\\\",1,\\\"https://lh3.googleusercontent.com/zoY8FwoOqPlBgFxcmFdNSK2Q4CcLmv-gw7vTjF2KMR9cEabwBsGNrHBTEMitn0Ba6OmCVJ0NcLnFGu3N97BP8Phu0g\\\"]],[[\\\"Infinity New Tab (Pro)\\\"]],[null,[\\\"Bonjourr · Minimalistischer Neuer Tab\\\",\\\"dlnejlppicbjfcfcedcflplfjajinajd\\\",1,\\\"https://lh3.googleusercontent.com/ARAA8if0Lq3o9OkRVNf0wLcwvn9VZYfydKXoAw1jIavuAdtq7MmK1OOzwsq7swf51KRdzYmxQ_e23V4FQ7Nah9op2A\\\"]],[null,[\\\"Session Buddy - Tab \\\\u0026 Bookmark Manager\\\",\\\"edacconmaakjimmfgnblocblbcdcpbko\\\",1,\\\"https://lh3.googleusercontent.com/zazW2wMEVcOpHAPq-MqRI_7aq6Oy0nqz5BT5QkySaxCqwSfSv1rl0EwYCSMpcWoMJzJcm3e6yDNtPWNq7xO7CdFuFQ\\\"]],[[\\\"Infinity New Tab\\\"]],[[\\\"Wallsflow Neuer Tab: animierte Hintergründe, Widgets \\\\u0026 Fokusmusik\\\"]],[null,[\\\"Homey: New Tab\\\",\\\"lllnjdmfnfjifcfpppjmcnanpokikcpl\\\",1,\\\"https://lh3.googleusercontent.com/71weua4fHqAqjJkfwpK1oUJMYAysd6M0FYZo6bqxJo-bN5w6hshxk1a5_pu-i9-tQcTheMQrydsGFoNv_-XNOGAsK6A\\\"]],[null,[\\\"IE Tab\\\",\\\"hehijbfgiekmjfkfjpbkbammjbdenadd\\\",1,\\\"https://lh3.googleusercontent.com/ta5laqxO7rOd7LqLeCDJCkM-V-OJrMDNdfjN6CBLMYAeEtXJMqwCRXuL_hGTRgTVXXf_87J2QegMU3JnxOQv2GuMJrk\\\"]],[[\\\"GNTD: Glass New Tab Dashboard\\\"]]]]\",null,null,null,\"generic\"],[\"di\",24],["
+ },
+ {
+  "u": "https://chromewebstore.google.com/_/ChromeWebStoreConsumerFeUi/data/batchexecute?rpcids=QcU9bc&source-path=%2F&f.sid=-5644760033063687707&bl=boq_chrome-webstore-consumerfe-ui_20261110.07_p0&hl=de&soc-app=1&soc-platform=1&soc-device=1&_reqid=429090&rt=c",
+  "post": "f.req=%5B%5B%5B%22QcU9bc%22%2C%22%5B%5C%22tab%5C%22%5D%22%2Cnull%2C%22generic%22%5D%5D%5D&",
+  "body": ")]}'\n\n1500\n[[\"wrb.fr\",\"QcU9bc\",\"[[[null,[\\\"Speed Dial [FVD] - New Tab Page, 3D, Sync...\\\",\\\"llaficoajjainaijghjlofdfmbjpebpa\\\",1,\\\"https://lh3.googleusercontent.com/w3K2CDl4n-0LZVksR5dwGR4Su5USBhNXQQc1-1isyFxaaGGsja7_8_NntP_Gy5bu6gzLS3Kv0pHRM13ZmohkLTAOn4w\\\"]],[[\\\"Infinity New Tab (Pro)\\\"]],[null,[\\\"Bonjourr · Minimalistischer Neuer Tab\\\",\\\"dlnejlppicbjfcfcedcflplfjajinajd\\\",1,\\\"https://lh3.googleusercontent.com/ARAA8if0Lq3o9OkRVNf0wLcwvn9VZYfydKXoAw1jIavuAdtq7MmK1OOzwsq7swf51KRdzYmxQ_e23V4FQ7Nah9op2A\\\"]],[null,[\\\"Session Buddy - Tab \\\\u0026 Bookmark Manager\\\",\\\"edacconmaakjimmfgnblocblbcdcpbko\\\",1,\\\"https://lh3.googleusercontent.com/zazW2wMEVcOpHAPq-MqRI_7aq6Oy0nqz5BT5QkySaxCqwSfSv1rl0EwYCSMpcWoMJzJcm3e6yDNtPWNq7xO7CdFuFQ\\\"]],[[\\\"Infinity New Tab\\\"]],[[\\\"Wallsflow Neuer Tab: animierte Hintergründe, Widgets \\\\u0026 Fokusmusik\\\"]],[null,[\\\"Homey: New Tab\\\",\\\"lllnjdmfnfjifcfpppjmcnanpokikcpl\\\",1,\\\"https://lh3.googleusercontent.com/71weua4fHqAqjJkfwpK1oUJMYAysd6M0FYZo6bqxJo-bN5w6hshxk1a5_pu-i9-tQcTheMQrydsGFoNv_-XNOGAsK6A\\\"]],[null,[\\\"IE Tab\\\",\\\"hehijbfgiekmjfkfjpbkbammjbdenadd\\\",1,\\\"https://lh3.googleusercontent.com/ta5laqxO7rOd7LqLeCDJCkM-V-OJrMDNdfjN6CBLMYAeEtXJMqwCRXuL_hGTRgTVXXf_87J2QegMU3JnxOQv2GuMJrk\\\"]],[[\\\"GNTD: Glass New Tab Dashboard\\\"]],[null,[\\\"Awesome New Tab Page™\\\",\\\"mgmiemnjjchgkmgbeljfocdjjnpjnmcg\\\",1,\\\"https://lh3.googleusercontent.com/Lp0M-wScGorFzNqKSB_vaDi5FztVlSCCLljwiSlku7LQlIcXVmK8900sQHnbOtwkbPAyxlPqow6ERzArhs55nPFPuWA\\\"]]]]\",null,null,null,\"generic\"],["
+ }
+]
