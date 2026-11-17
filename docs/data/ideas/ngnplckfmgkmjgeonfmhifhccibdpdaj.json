@@ -13,8 +13,8 @@
     "top": [
      "ahjjidbbielmekkaklabocljkljbmnlm",
      "jpkbcfdgjeonipdpnoelcdpipgamcfhl",
-     "gnbjoglonbpoliaffgdkploogmpkboda",
      "mplmeaaphohfiacaahmbhpnpodpibkld",
+     "gnbjoglonbpoliaffgdkploogmpkboda",
      "doncegejbminedlkellckafhbekdiaee",
      "boelpejhcjaadefljbmgecklannljajn",
      "fapilkpfimgomhijjcjpdjomihnbeikj",
@@ -27,8 +27,8 @@
   },
   {
    "phrase": "csv json",
-   "extensions": 11,
-   "weight": 19.36,
+   "extensions": 10,
+   "weight": 17.86,
    "tested": {
     "date": "2026-11-17",
     "market": "US",
@@ -40,18 +40,18 @@
      "gdfliikdmfdjjcijgcpaijkajpcfcohe",
      "lgapdabmcijnfobnocanmbdjlopncefm",
      "ooocckmjpnadmncfonogifcadcnkpifc",
+     "ljmjfkenfdbnjjogomjomdjemkfecgbh",
      "afcnkcoempmipgnobjegmilfmglciipj",
      "ebkhdpijgjfcppomllgombjmfdgfgjhk",
-     "dpajdgienkfblebmemcndfobcelfmdcl",
-     "dcoegfodcnjofhjfbhegcgjgapeichlf"
+     "dpajdgienkfblebmemcndfobcelfmdcl"
     ],
     "your_rank": null
    }
   },
   {
    "phrase": "reddit comment",
-   "extensions": 9,
-   "weight": 16.4,
+   "extensions": 8,
+   "weight": 15.4,
    "tested": {
     "date": "2026-11-17",
     "market": "US",
@@ -68,7 +68,7 @@
      "jeodebnjeecpbmbgimbpinccfkihhjid",
      "njalndcfgcolndhkmdkjihclbcnmomjl"
     ],
-    "your_rank": 37
+    "your_rank": 36
    }
   },
   {
@@ -84,12 +84,12 @@
      "afnlbnejacdepppkphiidadbpjammaoj",
      "jpkbcfdgjeonipdpnoelcdpipgamcfhl",
      "llcgplklkdgffjmhlidafnajbhbohgen",
-     "cddgiejchlkeedmhjeodlcjdiddlcdld",
      "hibmbaejnfibgkcflmhkdokfdbgapbad",
      "ikhgaepfjohjkiofcfepblfnodgboijp",
+     "ldhjpljmgnggmkpcgaicmocfoefbcojl",
      "boelpejhcjaadefljbmgecklannljajn",
      "ngigmhodcdcjohafngokbkmleidkigfn",
-     "ddhapigfimgikaeghanpacikpdiakgbk"
+     "cddgiejchlkeedmhjeodlcjdiddlcdld"
     ],
     "your_rank": 29
    }
@@ -187,9 +187,78 @@
    }
   },
   {
-   "phrase": "scraper csv",
+   "phrase": "scraper export",
    "extensions": 4,
-   "weight": 5.51,
+   "weight": 4.75,
+   "tested": {
+    "date": "2026-11-17",
+    "market": "US",
+    "scanned": 50,
+    "top": [
+     "egkjbeenmmhlljfplbpgpdhjejliekik",
+     "gjkbeionfpaaikoiajieenooolipjnai",
+     "ddijhlpnokdnogjedjpemidaoicflael",
+     "cinikecpmlfmfgdhdljljaopkfgabimh",
+     "fgknakhoebmapgknmhmgnkfjckbdkcnm",
+     "dgmlaagkkammabndpinijldigpgnhkip",
+     "eciaciflmimalakhkcfkcfigdinianki",
+     "kdpkkclmglikjnbdjilhlkiohkphlogo",
+     "llogocfjnpmiphagakjaldpfiakhbcfo",
+     "hfkbeccdhnjgebkogghipljafdjhicln"
+    ],
+    "your_rank": null
+   }
+  },
+  {
+   "phrase": "reddit thread",
+   "extensions": 3,
+   "weight": 4.58,
+   "tested": {
+    "date": "2026-11-17",
+    "market": "US",
+    "scanned": 50,
+    "top": [
+     "hoolgoecmeegpbidbbcefgkjegdejibd",
+     "kiggnkckiglahmnikkilmngphgingclp",
+     "jccgjnbkibbigimcfohndjbakjhelfoo",
+     "doncegejbminedlkellckafhbekdiaee",
+     "ejagljedopdmbdfekndjkocalcbnndbe",
+     "ahjjidbbielmekkaklabocljkljbmnlm",
+     "kamnakncpfpgjoimaonmcnmiaankkgmg",
+     "gmighghmhmgnedooeeigolihplifgljh",
+     "kmgilglelhaocnibjheflbooamdmdddd",
+     "jdceogapnjfcfdklbpnllbmnjbfmfejk"
+    ],
+    "your_rank": null
+   }
+  },
+  {
+   "phrase": "export reddit",
+   "extensions": 3,
+   "weight": 4.14,
+   "tested": {
+    "date": "2026-11-17",
+    "market": "US",
+    "scanned": 50,
+    "top": [
+     "mhophmekcaellddobbhpnagdanpplghb",
+     "lnblpminojaaelpbaijpgpdkijkobcge",
+     "boelpejhcjaadefljbmgecklannljajn",
+     "jdceogapnjfcfdklbpnllbmnjbfmfejk",
+     "jpkbcfdgjeonipdpnoelcdpipgamcfhl",
+     "clfjpihcilcibmeeemjmelifpiifigah",
+     "ahjjidbbielmekkaklabocljkljbmnlm",
+     "ccfnedaejoheigfdcjnnfmpppmijopio",
+     "efniilegnnepodaopmkbjaggfikpoobm",
+     "ejagljedopdmbdfekndjkocalcbnndbe"
+    ],
+    "your_rank": 12
+   }
+  },
+  {
+   "phrase": "scraper csv",
+   "extensions": 3,
+   "weight": 4.01,
    "tested": {
     "date": "2026-11-17",
     "market": "US",
@@ -198,21 +267,21 @@
      "ofaokhiedipichpaobibbnahnkdoiiah",
      "ddlpcandmdagknjmlmokglimgepcgpjo",
      "nndknepjnldbdbepjfgmncbggmopgden",
-     "fmdnlcggjjlfimafoocabeghllidbopg",
      "ohhaggaagolandkankmgonjbbcaiecoo",
+     "fmdnlcggjjlfimafoocabeghllidbopg",
      "pdeldjlcnhallaapdggcmhpailpnnkmg",
      "iljlcicnmledkiggpimpohacbbahllmh",
      "jlpbcipnblkplgadjnmhnoglncgafpho",
-     "menehnmlonblpnndcgncehnmhmggjgmc",
-     "dhmnoogboolmehljgkmoigbldodbkfhi"
+     "dhmnoogboolmehljgkmoigbldodbkfhi",
+     "menehnmlonblpnndcgncehnmhmggjgmc"
     ],
     "your_rank": null
    }
   },
   {
    "phrase": "posts comments",
-   "extensions": 4,
-   "weight": 5.07,
+   "extensions": 3,
+   "weight": 3.57,
    "tested": {
     "date": "2026-11-17",
     "market": "US",
@@ -231,64 +300,6 @@
     ],
     "your_rank": null
    }
-  },
-  {
-   "phrase": "scraper export",
-   "extensions": 4,
-   "weight": 4.75,
-   "tested": {
-    "date": "2026-11-17",
-    "market": "US",
-    "scanned": 50,
-    "top": [
-     "egkjbeenmmhlljfplbpgpdhjejliekik",
-     "gjkbeionfpaaikoiajieenooolipjnai",
-     "cinikecpmlfmfgdhdljljaopkfgabimh",
-     "dgmlaagkkammabndpinijldigpgnhkip",
-     "eciaciflmimalakhkcfkcfigdinianki",
-     "ddijhlpnokdnogjedjpemidaoicflael",
-     "fgknakhoebmapgknmhmgnkfjckbdkcnm",
-     "hfkbeccdhnjgebkogghipljafdjhicln",
-     "kdpkkclmglikjnbdjilhlkiohkphlogo",
-     "llogocfjnpmiphagakjaldpfiakhbcfo"
-    ],
-    "your_rank": null
-   }
-  },
-  {
-   "phrase": "reddit thread",
-   "extensions": 3,
-   "weight": 4.58,
-   "tested": {
-    "date": "2026-11-17",
-    "market": "US",
-    "scanned": 50,
-    "top": [
-     "hoolgoecmeegpbidbbcefgkjegdejibd",
-     "kiggnkckiglahmnikkilmngphgingclp",
-     "jccgjnbkibbigimcfohndjbakjhelfoo",
-     "doncegejbminedlkellckafhbekdiaee",
-     "kamnakncpfpgjoimaonmcnmiaankkgmg",
-     "ahjjidbbielmekkaklabocljkljbmnlm",
-     "cillldhgdpndlpjncolefcdhcgajalah",
-     "jdceogapnjfcfdklbpnllbmnjbfmfejk",
-     "kmgilglelhaocnibjheflbooamdmdddd",
-     "gmighghmhmgnedooeeigolihplifgljh"
-    ],
-    "your_rank": null
-   }
-  },
-  {
-   "phrase": "scraper csv json",
-   "extensions": 3,
-   "weight": 4.51,
-   "tested": null
-  },
-  {
-   "phrase": "export reddit",
-   "extensions": 3,
-   "weight": 4.14,
-   "tested": null
   }
  ],
  "store_suggestions": {
@@ -296,11 +307,7 @@
   "reddit scraper": [],
   "free reddit scraper": [],
   "reddit posts scraper": [],
-  "reddit comments scraper": [
-   "Reddit Comment Scraper & Comments Exporter",
-   "Free Reddit Scraper & Analyzer – Export Posts, Comments to CSV | Subsift",
-   "Reddit Comments Scraper - CSV & JSON"
-  ],
+  "reddit comments scraper": [],
   "subreddit scraper": []
  }
 }
