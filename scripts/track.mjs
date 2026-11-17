@@ -205,7 +205,12 @@ async function storeSuggestions(context, keyword) {
     await input.waitFor({ state: 'visible', timeout: 15000 });
     await input.click();
     await input.pressSequentially(keyword, { delay: 90 });
-    await sleep(2500);
+    for (let t = 0; t < 10 && !found.length; t++) await sleep(500);
+    if (!found.length) {
+      // fall back to reading the dropdown itself
+      const opts = await page.evaluate(() => [...document.querySelectorAll('[role=option]')].map((o) => (o.innerText || '').split('\n')[0].trim()).filter(Boolean)).catch(() => []);
+      opts.forEach((name) => found.push({ name }));
+    }
     return [...found];
   } catch {
     return [...found];
@@ -216,6 +221,7 @@ async function storeSuggestions(context, keyword) {
 
 // ---- keyword ideas: phrases that many of the store's relevant extensions use in their name or description
 const STOP = new Set(('a an and are as at be by for from get has have in into is it its of on or our the this to with your you all any can more most one only than that their them then there these they using use via will just also very new now best free top easy fast simple quick one-click click chrome extension extensions browser tool tools app apps plugin addon add-on page pages web website site sites online ' +
+  'see make help helps let lets want need know like over every each other within without about after before while when what which who how why where here instantly automatically directly ' +
   'de la le les et des du en un une el los las y para con por die der das und für mit von zu ein eine').split(/\s+/));
 export function mineKeywordIdeas(docs, tracked, limit = 40) {
   // docs: [{ id, text, weight }]; returns phrases (1-3 words) used by several distinct extensions
@@ -227,7 +233,9 @@ export function mineKeywordIdeas(docs, tracked, limit = 40) {
     for (let n = 1; n <= 3; n++) for (let i = 0; i + n <= words.length; i++) {
       const g = words.slice(i, i + n);
       if (g.some((w) => STOP.has(w) || w.length < 2 || /^\d+$/.test(w))) continue;
-      if (n === 1 && g[0].length < 3) continue;
+      // single words are too broad, e.g. google or checker; keep only technical ones such as llms.txt
+      if (n === 1 && !/[.+#\d]/.test(g[0])) continue;
+      if (new Set(g.map((w) => w.slice(0, 5))).size < n) continue; // repeated stems, e.g. scraper scrape
       seen.add(g.join(' '));
     }
     for (const ph of seen) {
@@ -238,12 +246,10 @@ export function mineKeywordIdeas(docs, tracked, limit = 40) {
   return [...score.values()]
     // skip what you already track, and bare parts of it ("audit" when you track "geo audit")
     .filter((s) => s.extensions >= 3 && !have.has(s.phrase) && ![...have].some((k) => (' ' + k + ' ').includes(' ' + s.phrase + ' ')))
-    .map((s) => ({ ...s, rank: s.weight * (s.phrase.includes(' ') ? 1 : 0.6) })) // single words are usually too broad
-    .sort((a, b) => b.rank - a.rank)
+    .sort((a, b) => b.weight - a.weight)
     // drop phrases that are just a part of a stronger phrase used by the same extensions
     .filter((s, i, arr) => !arr.slice(0, i).some((t) => t.phrase.includes(s.phrase) && t.extensions >= s.extensions * 0.8))
-    .slice(0, limit)
-    .map(({ rank, ...s }) => s);
+    .slice(0, limit);
 }
 
 async function pool(items, size, fn) {
