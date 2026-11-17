@@ -1,1214 +1,1455 @@
 {
  "dates": [
-  "2026-11-16"
+  "2026-11-16",
+  "2026-11-17"
  ],
  "series": {
   "reddit scrapper": {
    "US": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     9,
      9
     ]
    },
    "GB": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     0,
      0
     ]
    },
    "CA": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     9,
      9
     ]
    },
    "AU": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     0,
      0
     ]
    },
    "IN": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     9,
      9
     ]
    },
    "IE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     0,
      0
     ]
    },
    "SG": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     9,
      9
     ]
    },
    "ZA": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     9,
      9
     ]
    },
    "NG": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     9,
      9
     ]
    },
    "PH": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     9,
      9
     ]
    },
    "DE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "AT": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "CH": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "FR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "BE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "NL": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "ES": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "MX": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "AR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "CO": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "IT": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "PT": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "BR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     0,
      0
     ]
    },
    "PL": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "SE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "NO": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "DK": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "FI": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "CZ": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "RO": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "HU": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "GR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "TR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "UA": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "RU": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "IL": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "SA": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "AE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "EG": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "JP": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "KR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "CN": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "TW": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "HK": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     10
+     10,
+     12
     ]
    },
    "ID": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     10
+     10,
+     13
     ]
    },
    "TH": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     10
+     10,
+     12
     ]
    },
    "VN": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     10
+     10,
+     12
     ]
    },
    "MY": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     10
+     10,
+     13
     ]
    }
   },
   "reddit scraper": {
    "US": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     8,
      8
     ]
    },
    "GB": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     8,
      8
     ]
    },
    "CA": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     8,
      8
     ]
    },
    "AU": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     8,
      8
     ]
    },
    "IN": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     8,
      8
     ]
    },
    "IE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     8,
      8
     ]
    },
    "SG": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     8,
      8
     ]
    },
    "ZA": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     8,
      8
     ]
    },
    "NG": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     8,
      8
     ]
    },
    "PH": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     8,
      8
     ]
    },
    "DE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "AT": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "CH": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "FR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     9,
      9
     ]
    },
    "BE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     9,
      9
     ]
    },
    "NL": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "ES": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     9,
      9
     ]
    },
    "MX": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     9,
      9
     ]
    },
    "AR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     9,
      9
     ]
    },
    "CO": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     9,
      9
     ]
    },
    "IT": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     9,
      9
     ]
    },
    "PT": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "BR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "PL": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "SE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "NO": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "DK": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "FI": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "CZ": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "RO": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "HU": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "GR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "TR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "UA": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "RU": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     9,
      9
     ]
    },
    "IL": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "SA": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     9,
      9
     ]
    },
    "AE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     9,
      9
     ]
    },
    "EG": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     9,
      9
     ]
    },
    "JP": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     8,
      8
     ]
    },
    "KR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     8,
      8
     ]
    },
    "CN": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "TW": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "HK": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     10,
      10
     ]
    },
    "ID": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     9
+     9,
+     13
     ]
    },
    "TH": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     10
+     10,
+     12
     ]
    },
    "VN": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     10
+     10,
+     12
     ]
    },
    "MY": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     7
+     7,
+     10
     ]
    }
   },
   "free reddit scraper": {
    "US": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "GB": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "CA": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "AU": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "IN": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "IE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "SG": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "ZA": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "NG": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "PH": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "DE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "AT": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "CH": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "FR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "BE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "NL": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "ES": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "MX": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "AR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "CO": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "IT": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "PT": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "BR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "PL": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "SE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "NO": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "DK": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "FI": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "CZ": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "RO": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "HU": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "GR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "TR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "UA": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "RU": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "IL": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "SA": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "AE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "EG": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "JP": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "KR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "CN": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "TW": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "HK": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     2,
      2
     ]
    },
    "ID": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     2
+     2,
+     4
     ]
    },
    "TH": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     2
+     2,
+     4
     ]
    },
    "VN": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     2
+     2,
+     4
     ]
    },
    "MY": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     2
+     2,
+     3
     ]
    }
   },
   "reddit posts scraper": {
    "US": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     3,
      3
     ]
    },
    "GB": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     3,
      3
     ]
    },
    "CA": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     3,
      3
     ]
    },
    "AU": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     3,
      3
     ]
    },
    "IN": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     3,
      3
     ]
    },
    "IE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     3,
      3
     ]
    },
    "SG": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     3,
      3
     ]
    },
    "ZA": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     3,
      3
     ]
    },
    "NG": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     3,
      3
     ]
    },
    "PH": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     3,
      3
     ]
    },
    "DE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     4
+     4,
+     5
     ]
    },
    "AT": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     4
+     4,
+     5
     ]
    },
    "CH": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     4
+     4,
+     5
     ]
    },
    "FR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "BE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "NL": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     4
+     4,
+     5
     ]
    },
    "ES": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "MX": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "AR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "CO": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "IT": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "PT": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "BR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "PL": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     4
+     4,
+     5
     ]
    },
    "SE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "NO": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "DK": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "FI": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "CZ": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "RO": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "HU": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "GR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     4
+     4,
+     5
     ]
    },
    "TR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "UA": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "RU": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "IL": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "SA": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "AE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "EG": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "JP": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "KR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "CN": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "TW": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "HK": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     4
+     4,
+     8
     ]
    },
    "ID": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     4
+     4,
+     9
     ]
    },
    "TH": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     4
+     4,
+     8
     ]
    },
    "VN": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     4
+     4,
+     9
     ]
    },
    "MY": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     3
+     3,
+     9
     ]
    }
   },
   "reddit comments scraper": {
    "US": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "GB": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "CA": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "AU": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "IN": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "IE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "SG": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "ZA": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "NG": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "PH": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "DE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "AT": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "CH": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "FR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "BE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "NL": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "ES": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "MX": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "AR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "CO": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "IT": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "PT": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     7
+     7,
+     6
     ]
    },
    "BR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     5,
      5
     ]
    },
    "PL": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "SE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "NO": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "DK": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "FI": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "CZ": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "RO": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "HU": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "GR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "TR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "UA": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "RU": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "IL": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "SA": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "AE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "EG": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "JP": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "KR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "CN": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "TW": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "HK": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "ID": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     7
+     7,
+     10
     ]
    },
    "TH": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "VN": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    },
    "MY": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     7,
      7
     ]
    }
@@ -1216,246 +1457,294 @@
   "subreddit scraper": {
    "US": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "GB": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     5,
      5
     ]
    },
    "CA": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "AU": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     5,
      5
     ]
    },
    "IN": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "IE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     5,
      5
     ]
    },
    "SG": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "ZA": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "NG": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "PH": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "DE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "AT": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "CH": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "FR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     5,
      5
     ]
    },
    "BE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     5,
      5
     ]
    },
    "NL": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "ES": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     5,
      5
     ]
    },
    "MX": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     5,
      5
     ]
    },
    "AR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     5,
      5
     ]
    },
    "CO": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     5,
      5
     ]
    },
    "IT": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     5,
      5
     ]
    },
    "PT": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     5,
      5
     ]
    },
    "BR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     4,
      4
     ]
    },
    "PL": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "SE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "NO": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "DK": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "FI": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "CZ": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "RO": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "HU": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "GR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "TR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "UA": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "RU": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     5,
      5
     ]
    },
    "IL": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "SA": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     5,
      5
     ]
    },
    "AE": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     5,
      5
     ]
    },
    "EG": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     5,
      5
     ]
    },
    "JP": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     5,
      5
     ]
    },
    "KR": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     5,
      5
     ]
    },
    "CN": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "TW": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "HK": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
+     6,
      6
     ]
    },
    "ID": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     5
+     5,
+     13
     ]
    },
    "TH": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     6
+     6,
+     11
     ]
    },
    "VN": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     6
+     6,
+     11
     ]
    },
    "MY": {
     "ngnplckfmgkmjgeonfmhifhccibdpdaj": [
-     6
+     6,
+     10
     ]
    }
   }
  },
  "depth": 100,
- "updated": "2026-11-16T14:03:38.180Z"
+ "updated": "2026-11-17T09:06:50.771Z"
 }
