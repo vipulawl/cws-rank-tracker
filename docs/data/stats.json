@@ -3220,7 +3220,8 @@
   "ratings": 16,
   "rating": 2.1,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-17",
+  "desc": "YouTube - Easy data extraction tools of Videos, Comments"
  },
  "ehheehdbnpeaedppgmcidomodlfggjkg": {
   "name": "1 Click Google Docs",
@@ -3354,7 +3355,8 @@
   "ratings": 5,
   "rating": 5,
   "category": "Social Networking",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-17",
+  "desc": "Bulk scrape & export Facebook posts and comments from groups, profiles & pages to Excel/CSV/JSON for market research & AI analysis."
  },
  "inooeahlmjlhjdblojocgcoohmpjbhif": {
   "name": "Post Comments Exporter",
@@ -3362,7 +3364,8 @@
   "ratings": 373,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-17",
+  "desc": "Export Comments and Replies from any Facebook post to CSV."
  },
  "gkmbefmceinncpamijjdheeiikaeehdn": {
   "name": "Post Comment",
@@ -3370,7 +3373,8 @@
   "ratings": 5,
   "rating": 5,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-17",
+  "desc": "Post Comment - AI-powered LinkedIn comment suggestions"
  },
  "nbfdoajmaaohkohdnbpjakamhcaaleco": {
   "name": "Bulk Delete Reddits Posts & Comments Extension",
@@ -3378,7 +3382,8 @@
   "ratings": 182,
   "rating": 3.7,
   "category": "Social Networking",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-17",
+  "desc": "This extension allows you to bulk/mass delete your post & comment history from Reddit."
  },
  "aepgokioibdanpehhcpdmmddhfnombaa": {
   "name": "Bulk Cleaner for LinkedIn™ - Posts, Comments & Likes",
@@ -3386,7 +3391,8 @@
   "ratings": 7,
   "rating": 3.9,
   "category": "Developer Tools",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-17",
+  "desc": "Bulk delete LinkedIn posts & comments, unlike posts, remove reposts, and bulk like feed posts. Safe, local & automated."
  },
  "eijnemhbkmmcajfeeekiajbhpkiphpba": {
   "name": "Social Post — AI Comments & Viral Posts for LinkedIn & X",
@@ -3394,7 +3400,8 @@
   "ratings": 1,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-17",
+  "desc": "AI copilot for LinkedIn & X: find viral posts and generate posts, ideas & one-click comments. 100% local, bring your own key."
  },
  "nlcnmpciiiaghfdpfamfkojnlbkpgdmo": {
   "name": "Comment Exporter for Facebook - Export CSV & Excel",
@@ -3402,7 +3409,8 @@
   "ratings": 31,
   "rating": 4.8,
   "category": "Tools",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-17",
+  "desc": "Free Facebook comment exporter with unlimited exports. Save comments from posts, reels, videos, photos, and groups to CSV or Excel."
  },
  "jgkoaddflfipbdaehbocggkjnecbpjce": {
   "name": "SortIn: Sort LinkedIn Posts by Likes & Comments",
@@ -3410,7 +3418,8 @@
   "ratings": 3,
   "rating": 3.7,
   "category": "Communication",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-17",
+  "desc": "Plan LinkedIn content with better examples. Sort posts by reactions, comments and reposts. Export your research"
  },
  "eidnbginjcjghpkliiobmokbedlhicnf": {
   "name": "LinkedReply - AI LinkedIn Comments & Posts",
@@ -3418,7 +3427,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Tools",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-17",
+  "desc": "Draft LinkedIn comments, posts, connection messages, and replies with AI that matches your voice."
  },
  "gjkbeionfpaaikoiajieenooolipjnai": {
   "name": "AuctionData Scraper: Export Listings & Product Data",
@@ -3630,7 +3640,8 @@
   "ratings": 3,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-17",
+  "desc": "Reveal ChatGPT, Claude, and Perplexity search fanout in real time."
  },
  "claajpcgaehlepegbiibddifpnlokckb": {
   "name": "Pre-AI Search - Remove AI from Google",
@@ -3638,7 +3649,8 @@
   "ratings": 57,
   "rating": 4.3,
   "category": "Tools",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-17",
+  "desc": "Remove AI Overviews and filter Google for pre-AI content."
  },
  "clfjpihcilcibmeeemjmelifpiifigah": {
   "name": "RExporter - Export Reddit Comments",
@@ -3646,7 +3658,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Tools",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-17",
+  "desc": "Export comments from Reddit posts and threads for analysis."
  },
  "ejagljedopdmbdfekndjkocalcbnndbe": {
   "name": "Reddit Thread Exporter",
@@ -3654,7 +3667,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Tools",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-17",
+  "desc": "Export any Reddit thread to Markdown in one click"
  },
  "ljmjfkenfdbnjjogomjomdjemkfecgbh": {
   "name": "Convert JSON to CSV",
@@ -3662,7 +3676,8 @@
   "ratings": 5,
   "rating": 3.4,
   "category": "Tools",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-17",
+  "desc": "Easily transform json to csv with Convert JSON to CSV tool. Ideal for quick json converter needs, making json format to csv smooth."
  },
  "lnblpminojaaelpbaijpgpdkijkobcge": {
   "name": "Reddit Exporter",
@@ -3670,7 +3685,8 @@
   "ratings": 3,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-17",
+  "desc": "Export your Reddit saved posts, upvoted posts, comments and more"
  },
  "ccfnedaejoheigfdcjnnfmpppmijopio": {
   "name": "ThreadExtract: Reddit Comments to CSV",
@@ -3678,6 +3694,99 @@
   "ratings": 0,
   "rating": null,
   "category": "Tools",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-17",
+  "desc": "Export Reddit comments and discussions directly to clean CSV or JSON files with one click."
+ },
+ "dpbhdakddgikieibkcmijakoppldpapi": {
+  "name": "AI Crawl Accuracy, by VisibilityStack",
+  "users": 24,
+  "ratings": 1,
+  "rating": 5,
+  "category": "Developer Tools",
+  "fetched": "2026-11-18",
+  "desc": "Score any page for AI search. See how ChatGPT, Gemini and AI Overviews read it, and what to fix to get cited."
+ },
+ "gpodhncmajgcadmcenlljknilkhehdik": {
+  "name": "GEO Ready SEO: GEO & AEO audit for AI search",
+  "users": 0,
+  "ratings": 0,
+  "rating": null,
+  "category": "Developer Tools",
+  "fetched": "2026-11-18",
+  "desc": "GEO and AEO checker: can ChatGPT, Perplexity and Google AI Overviews quote this page? 70+ checks, fixes and on-page highlights."
+ },
+ "gdmkcblhddhhfejpfbjomilpgpbpjhhg": {
+  "name": "All in One SEO Analyzer by AIOSEO",
+  "users": 50000,
+  "ratings": 339,
+  "rating": 4.9,
+  "category": "Developer Tools",
+  "fetched": "2026-11-18",
+  "desc": "The All in One SEO Analyzer is a free SEO tool that helps analyze your website and optimize it for search engines."
+ },
+ "llnbcghdpnelcbocadbbbkhgmfacblia": {
+  "name": "SEARCH-FACTORY - GEO Analyseur",
+  "users": 45,
+  "ratings": 3,
+  "rating": 5,
+  "category": "Communication",
+  "fetched": "2026-11-18"
+ },
+ "kehjgcedjhnepkjnnmlajcadbodeejpm": {
+  "name": "geochecks GEO SEO AI Search Checker",
+  "users": 6,
+  "ratings": 0,
+  "rating": null,
+  "category": "Tools",
+  "fetched": "2026-11-18"
+ },
+ "gblklncgcjcinpjaaeafmmkjnfkihmfn": {
+  "name": "Reddit Comment Scraper – Export to CSV + AI Brief",
+  "users": 23,
+  "ratings": 2,
+  "rating": 4,
+  "category": "Tools",
+  "fetched": "2026-11-18",
+  "desc": "Export Reddit and Hacker News threads to CSV, JSON or Markdown, with an AI brief that cites comments. Not affiliated with Reddit."
+ },
+ "flkflbljppplfbfjfdpmocikbabcopld": {
+  "name": "NFW Audit: free SEO and AI audit of any site",
+  "users": 4,
+  "ratings": 0,
+  "rating": null,
+  "category": "Developer Tools",
+  "fetched": "2026-11-18"
+ },
+ "pclikachjdgaabokjaffogihmhcllhek": {
+  "name": "SEO Auditor",
+  "users": 182,
+  "ratings": 1,
+  "rating": 5,
+  "category": "Developer Tools",
+  "fetched": "2026-11-18"
+ },
+ "cmieehnbepanbodfemngddghfbdijebf": {
+  "name": "Google Docs Quick Write",
+  "users": 126,
+  "ratings": 0,
+  "rating": null,
+  "category": "Workflow & Planning",
+  "fetched": "2026-11-18"
+ },
+ "kpffhggoghnmcbofgjdccdgflkodakkj": {
+  "name": "readReddit, Readable text posts on reddit",
+  "users": 439,
+  "ratings": 7,
+  "rating": 4.4,
+  "category": "Accessibility",
+  "fetched": "2026-11-18"
+ },
+ "cjdnpofpilepklmoghcjaahebghjpfpk": {
+  "name": "Reddit Posts for Websites",
+  "users": 33,
+  "ratings": 1,
+  "rating": 1,
+  "category": "News & Weather",
+  "fetched": "2026-11-18"
  }
 }
