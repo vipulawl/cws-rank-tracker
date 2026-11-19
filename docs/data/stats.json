@@ -3686,7 +3686,7 @@
   "rating": 5,
   "category": "Tools",
   "fetched": "2026-11-17",
-  "desc": "Export your Reddit saved posts, upvoted posts, comments and more"
+  "desc": "Export Reddit saved and upvoted posts, comments, subreddits, search results and chats to CSV, Markdown or ZIP with media."
  },
  "ccfnedaejoheigfdcjnnfmpppmijopio": {
   "name": "ThreadExtract: Reddit Comments to CSV",
@@ -3763,7 +3763,8 @@
   "ratings": 1,
   "rating": 5,
   "category": "Developer Tools",
-  "fetched": "2026-11-18"
+  "fetched": "2026-11-18",
+  "desc": "SEO Auditor is a SEO analyzer & checker app. Audits title, meta tags, accessibility, robots.txt, sitemap inclusion & indexability."
  },
  "cmieehnbepanbodfemngddghfbdijebf": {
   "name": "Google Docs Quick Write",
@@ -3779,7 +3780,8 @@
   "ratings": 7,
   "rating": 4.4,
   "category": "Accessibility",
-  "fetched": "2026-11-18"
+  "fetched": "2026-11-18",
+  "desc": "Takes any text post and reformats it to a pleasant to read format."
  },
  "cjdnpofpilepklmoghcjaahebghjpfpk": {
   "name": "Reddit Posts for Websites",
@@ -3787,6 +3789,48 @@
   "ratings": 1,
   "rating": 1,
   "category": "News & Weather",
-  "fetched": "2026-11-18"
+  "fetched": "2026-11-18",
+  "desc": "When visiting a website, see if the URL has ever been posted on Reddit. Made by Agency Enterprise."
+ },
+ "gamgjpbikmeajffnfligjfoaimbnndji": {
+  "name": "QuotedBy: GEO & AI Visibility Tracker for ChatGPT, Gemini & Perplexity",
+  "users": 11,
+  "ratings": 0,
+  "rating": null,
+  "category": "Tools",
+  "fetched": "2026-11-19"
+ },
+ "gaemghpifaannmkkpingmblbjibfigmb": {
+  "name": "MyEssayWriter: AI Writing Assistant, Paraphraser, and Content Detector",
+  "users": 237,
+  "ratings": 21,
+  "rating": 4.6,
+  "category": "Tools",
+  "fetched": "2026-11-19",
+  "desc": "Generate essays, detect AI content, and paraphrase smarter with this all-in-one writing assistant!"
+ },
+ "jcnfkjjanbdfabigknbedgkfjkljhbdn": {
+  "name": "fatrank: SEO rank checker + AI visibility",
+  "users": 50000,
+  "ratings": 228,
+  "rating": 4,
+  "category": "Tools",
+  "fetched": "2026-11-19"
+ },
+ "haokbiapnfpfkhmpipbabhkcgjkjkaol": {
+  "name": "SEO Meta Tags - On Page Checker - Check Website SEO",
+  "users": 162,
+  "ratings": 11,
+  "rating": 4.9,
+  "category": "Tools",
+  "fetched": "2026-11-19"
+ },
+ "kaclmpcocfnfkkkgjgmljjphigpalcpl": {
+  "name": "Reddit Search - Find Related Discussions Across Subreddits",
+  "users": 0,
+  "ratings": 0,
+  "rating": null,
+  "category": "Workflow & Planning",
+  "fetched": "2026-11-19"
  }
 }
