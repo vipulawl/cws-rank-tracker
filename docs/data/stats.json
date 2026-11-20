@@ -894,7 +894,8 @@
   "ratings": 7,
   "rating": 4.6,
   "category": "Developer Tools",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-17",
+  "desc": "AI SEO & Generative Engine Optimization (GEO) scanner for ChatGPT, Claude & Perplexity. Audit schema, robots.txt, llms.txt & fixes."
  },
  "plapfpdidbiggnbbalgenioachaaomdp": {
   "name": "SEO Audit Pro 5.1",
@@ -1184,7 +1185,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Tools",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-17",
+  "desc": "The Eye into AI Readiness. We help you see how AI perceives your digital presence. 100% local analysis."
  },
  "idkdnjinmoheapbfcfjhohklpbfbhmfo": {
   "name": "AuditLamp: SEO & AI audit in one click",
@@ -3580,7 +3582,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Tools",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-17",
+  "desc": "Copy a Reddit comment link that opens with its parent conversation visible."
  },
  "ahlhebeohindihglfenlmpiamkgadnoi": {
   "name": "SEO CENTER Extension",
@@ -3823,7 +3826,8 @@
   "ratings": 11,
   "rating": 4.9,
   "category": "Tools",
-  "fetched": "2026-11-19"
+  "fetched": "2026-11-19",
+  "desc": "Check website SEO meta info, including title, description, headers, and more. Optimize your pages for better search rankings!"
  },
  "kaclmpcocfnfkkkgjgmljjphigpalcpl": {
   "name": "Reddit Search - Find Related Discussions Across Subreddits",
@@ -3832,5 +3836,178 @@
   "rating": null,
   "category": "Workflow & Planning",
   "fetched": "2026-11-19"
+ },
+ "ncdpnmgmadfdaampfpajbponomfccieh": {
+  "name": "AI Visibility Checker",
+  "users": 3,
+  "ratings": 0,
+  "rating": null,
+  "category": "Tools",
+  "fetched": "2026-11-20"
+ },
+ "nodnlpecbohjikeljkdcmkpagokdhike": {
+  "name": "Lumi GEO – AI SEO & AI Search Visibility Checker",
+  "users": 19,
+  "ratings": 3,
+  "rating": 5,
+  "category": "Developer Tools",
+  "fetched": "2026-11-20"
+ },
+ "keggbgohcnoednbnadpceifejcfgghpp": {
+  "name": "Prism – AI Website Audit & Inspector",
+  "users": 28,
+  "ratings": 0,
+  "rating": null,
+  "category": "Developer Tools",
+  "fetched": "2026-11-20",
+  "desc": "Audit accessibility, SEO, UX, performance and security. Inspect elements, extract design tokens and get AI-powered fixes."
+ },
+ "jpeibdgbdmjkiomdimhlfahicpmalefo": {
+  "name": "Indexability and LLM readability checker",
+  "users": 52,
+  "ratings": 10,
+  "rating": 5,
+  "category": "Developer Tools",
+  "fetched": "2026-11-20",
+  "desc": "One click: can Google crawl and index this page, and how well can LLMs read it? Verdict, LLM score and a copy-ready report."
+ },
+ "bhffjofpifphiefoilpgeooccgcdampm": {
+  "name": "SEO & AI Visibility Checker by RankZero: can AI read this page?",
+  "users": 3,
+  "ratings": 0,
+  "rating": null,
+  "category": "Developer Tools",
+  "fetched": "2026-11-20",
+  "desc": "Free SEO and AI visibility check in one click: can ChatGPT, Claude and Perplexity read this page, and what should you fix first?"
+ },
+ "nnponfbgcdabilfcofkjbggkokjhgpbg": {
+  "name": "SPE TRACE — AI Brand Intelligence",
+  "users": 12,
+  "ratings": 0,
+  "rating": null,
+  "category": "Tools",
+  "fetched": "2026-11-20",
+  "desc": "See how AI understands your website — and why it may prefer your competitors. One click. 100% local, zero tracking."
+ },
+ "nhnklpmacmdgkajkfkfojdjfnhabkdii": {
+  "name": "SEO Scanner",
+  "users": 527,
+  "ratings": 7,
+  "rating": 4.4,
+  "category": "Developer Tools",
+  "fetched": "2026-11-20"
+ },
+ "joghhmillegffhdickcggppidiheckgl": {
+  "name": "ThreadMine - Comment & Market Research Scraper",
+  "users": 74,
+  "ratings": 0,
+  "rating": null,
+  "category": "Tools",
+  "fetched": "2026-11-20",
+  "desc": "Export public discussion threads and comments into clean CSV, JSON, and LLM-ready research data."
+ },
+ "icodamibmdjlmjklomcgpdidfmcdbpee": {
+  "name": "AuraCite GEO Readiness Inspector",
+  "users": 0,
+  "ratings": 0,
+  "rating": null,
+  "category": "Developer Tools",
+  "fetched": "2026-11-20"
+ },
+ "olojnljecagonhmcdffmmglfdkjhlclj": {
+  "name": "Geodit — Generative Engine Optimization Checker",
+  "users": 3,
+  "ratings": 0,
+  "rating": null,
+  "category": "Tools",
+  "fetched": "2026-11-20"
+ },
+ "dobnelanjomanaocpgnilpailjcogfbi": {
+  "name": "Check Page SEO | On-Page SEO Checker",
+  "users": 37,
+  "ratings": 0,
+  "rating": null,
+  "category": "Tools",
+  "fetched": "2026-11-20"
+ },
+ "bibfinddpbkgpilbbdanhepppeglccok": {
+  "name": "Generative Engine Optimization Checklist — ORM24",
+  "users": 0,
+  "ratings": 0,
+  "rating": null,
+  "category": "Tools",
+  "fetched": "2026-11-20"
+ },
+ "kihpekapchagbloaihlngmibbagoaefd": {
+  "name": "AEO GEO SEO Inspector",
+  "users": 31,
+  "ratings": 3,
+  "rating": 5,
+  "category": "Tools",
+  "fetched": "2026-11-20"
+ },
+ "gojpceecidcihnceohabpajddgjleaak": {
+  "name": "AI Search Engine Optimization Checklist",
+  "users": 39,
+  "ratings": 0,
+  "rating": null,
+  "category": "Education",
+  "fetched": "2026-11-20"
+ },
+ "mlekchanjjcfofiailbiikcmiadjlihf": {
+  "name": "GEO Analyzer — Generative Engine Optimization",
+  "users": 42,
+  "ratings": 4,
+  "rating": 5,
+  "category": "Tools",
+  "fetched": "2026-11-20"
+ },
+ "foiagcgiioemhiplimbjigkcadipihkc": {
+  "name": "AEO Insight - AI Engine Optimization",
+  "users": 8,
+  "ratings": 2,
+  "rating": 3,
+  "category": "Developer Tools",
+  "fetched": "2026-11-20"
+ },
+ "laiblfcnkladijadmobehlggbcabkibd": {
+  "name": "AI GEO Score Checker: Generative Engine Optimization Audit Tool",
+  "users": 11,
+  "ratings": 1,
+  "rating": 5,
+  "category": "Tools",
+  "fetched": "2026-11-20"
+ },
+ "jgikcdimpmdoofakjbggakjhbpidjbeo": {
+  "name": "Folder Manager for Google Docs, Sheets & Slides",
+  "users": 1000,
+  "ratings": 17,
+  "rating": 4.6,
+  "category": "Workflow & Planning",
+  "fetched": "2026-11-20"
+ },
+ "ihkakaeigoickmeikiliahhgfcmnlema": {
+  "name": "Reddit Thread → LLM",
+  "users": 82,
+  "ratings": 3,
+  "rating": 4.7,
+  "category": "Tools",
+  "fetched": "2026-11-20"
+ },
+ "medmnaolpcggfcaibpgccpfecgbbhnfj": {
+  "name": "Manual Web Scraper CSV",
+  "users": 5,
+  "ratings": 0,
+  "rating": null,
+  "category": "Tools",
+  "fetched": "2026-11-20"
+ },
+ "fbbmjeboomogbgmjoebimebkjhicgmjj": {
+  "name": "Recover & Export Saved Posts for Reddit",
+  "users": 8,
+  "ratings": 0,
+  "rating": null,
+  "category": "Tools",
+  "fetched": "2026-11-20"
  }
 }
