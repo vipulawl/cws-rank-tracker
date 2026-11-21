@@ -3835,7 +3835,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-19"
+  "fetched": "2026-11-19",
+  "desc": "Find semantically related Reddit discussions from any post."
  },
  "ncdpnmgmadfdaampfpajbponomfccieh": {
   "name": "AI Visibility Checker",
@@ -3843,7 +3844,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Tools",
-  "fetched": "2026-11-20"
+  "fetched": "2026-11-20",
+  "desc": "AI readiness checker for the page you have open. Find technical barriers to AI search and get recommendations."
  },
  "nodnlpecbohjikeljkdcmkpagokdhike": {
   "name": "Lumi GEO – AI SEO & AI Search Visibility Checker",
@@ -3928,7 +3930,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Tools",
-  "fetched": "2026-11-20"
+  "fetched": "2026-11-20",
+  "desc": "Real-time SEO audit tool. Analyze pages, compare with competitors, and optimize your content."
  },
  "bibfinddpbkgpilbbdanhepppeglccok": {
   "name": "Generative Engine Optimization Checklist — ORM24",
@@ -3944,7 +3947,8 @@
   "ratings": 3,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-20"
+  "fetched": "2026-11-20",
+  "desc": "See your page the way AI bots and Google do: AEO/GEO and SEO checks, SSR diff, llms.txt, schema and copy-paste fixes."
  },
  "gojpceecidcihnceohabpajddgjleaak": {
   "name": "AI Search Engine Optimization Checklist",
@@ -3984,7 +3988,8 @@
   "ratings": 17,
   "rating": 4.6,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-20"
+  "fetched": "2026-11-20",
+  "desc": "Organize Google Docs, Sheets, and Slides with custom folders. Manage and sort your workspace effortlessly with a smart sidebar."
  },
  "ihkakaeigoickmeikiliahhgfcmnlema": {
   "name": "Reddit Thread → LLM",
@@ -3992,7 +3997,8 @@
   "ratings": 3,
   "rating": 4.7,
   "category": "Tools",
-  "fetched": "2026-11-20"
+  "fetched": "2026-11-20",
+  "desc": "Export the current Reddit post and its full comment tree as clean Markdown, ready to paste into an LLM."
  },
  "medmnaolpcggfcaibpgccpfecgbbhnfj": {
   "name": "Manual Web Scraper CSV",
@@ -4000,7 +4006,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Tools",
-  "fetched": "2026-11-20"
+  "fetched": "2026-11-20",
+  "desc": "Manually scrape web elements into a CSV intuitively."
  },
  "fbbmjeboomogbgmjoebimebkjhicgmjj": {
   "name": "Recover & Export Saved Posts for Reddit",
@@ -4008,6 +4015,96 @@
   "ratings": 0,
   "rating": null,
   "category": "Tools",
-  "fetched": "2026-11-20"
+  "fetched": "2026-11-20",
+  "desc": "Export your visible saved posts free. Recover your full archive past Reddit's 1,000-save limit from your own data export."
+ },
+ "ggnnihoahgjhdgealcpdbdnbelcjlmkl": {
+  "name": "GEO-инспектор — AI аудит сайта",
+  "users": 11,
+  "ratings": 0,
+  "rating": null,
+  "category": "Tools",
+  "fetched": "2026-11-21"
+ },
+ "eddibchfjpehgekmlcjdgajpbjmgeace": {
+  "name": "Extension SEO NOIISE",
+  "users": 524,
+  "ratings": 14,
+  "rating": 5,
+  "category": "Tools",
+  "fetched": "2026-11-21"
+ },
+ "edofdmagoenlofkchbnclldojhjmhoda": {
+  "name": "SEO & GEO Helper by Farbentour",
+  "users": 22,
+  "ratings": 0,
+  "rating": null,
+  "category": "Developer Tools",
+  "fetched": "2026-11-21"
+ },
+ "gkkhpjiicjfoblocffiigpbbphbbojom": {
+  "name": "a14y (Agent Readability)",
+  "users": 59,
+  "ratings": 0,
+  "rating": null,
+  "category": "Developer Tools",
+  "fetched": "2026-11-21",
+  "desc": "Score how well any website is readable by AI agents like ChatGPT, Claude, Copilot, and Cursor."
+ },
+ "gdiehgedkajfceipdgjebiijaplaeddl": {
+  "name": "RisetPilot — AI Research & Academic Writing Assistant",
+  "users": 4,
+  "ratings": 0,
+  "rating": null,
+  "category": "Education",
+  "fetched": "2026-11-21"
+ },
+ "okojjmbkkbdgjdoojmhjfmhoigkenace": {
+  "name": "SEO Checker by Sekhlo",
+  "users": 1000,
+  "ratings": 14,
+  "rating": 4.7,
+  "category": "Developer Tools",
+  "fetched": "2026-11-21"
+ },
+ "cikjldfjpiffkjmcnhfiknpipknijpep": {
+  "name": "RingGPT - Manage ChatGPT | Claude | Perplexity Conversations",
+  "users": 32,
+  "ratings": 10,
+  "rating": 4.6,
+  "category": "Tools",
+  "fetched": "2026-11-21"
+ },
+ "eoaanleoocpcjnappnbkgcklfddaihhp": {
+  "name": "Reddit Comment Search",
+  "users": null,
+  "ratings": 0,
+  "rating": null,
+  "category": "Tools",
+  "fetched": "2026-11-21"
+ },
+ "nogopabibhapbfcnlfeandndkalcjkik": {
+  "name": "Comments Exporter",
+  "users": 5000,
+  "ratings": 30,
+  "rating": 4.7,
+  "category": "Tools",
+  "fetched": "2026-11-21"
+ },
+ "cjfnjomdphkfpgojobdpfjokdkmegagi": {
+  "name": "Listing Scraper: Export Marketplace Items to CSV/Excel",
+  "users": 356,
+  "ratings": 1,
+  "rating": 5,
+  "category": "Tools",
+  "fetched": "2026-11-21"
+ },
+ "ffcbhipkjioeiejkpeagiiadmckhoffl": {
+  "name": "V-Thrift Scraper: Export Listings, Sellers, Reviews & More",
+  "users": 492,
+  "ratings": 3,
+  "rating": 3,
+  "category": "Tools",
+  "fetched": "2026-11-21"
  }
 }
