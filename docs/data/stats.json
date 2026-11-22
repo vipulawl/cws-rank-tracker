@@ -806,7 +806,8 @@
   "ratings": 10,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-17",
+  "desc": "Optimize your site for AI search visibility with AI agent. See what ChatGPT cites, analyze competitors and find gaps with GEO & AEO."
  },
  "lajfdngpocmchpihjecojjllfjeehgnl": {
   "name": "SEO Pro Extension",
@@ -3115,7 +3116,8 @@
   "ratings": 1,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-17",
+  "desc": "Save, organize, and instantly insert prompts into ChatGPT, Claude, Gemini, Mistral, and Perplexity. Use /shortcuts for quick access."
  },
  "fkdmcmcfifcfliohhcocpmnoiimcijdl": {
   "name": "Awesome Prompts: Prompt Manager for ChatGPT, Claude, Gemini & Perplexity",
@@ -4065,7 +4067,8 @@
   "ratings": 14,
   "rating": 4.7,
   "category": "Developer Tools",
-  "fetched": "2026-11-21"
+  "fetched": "2026-11-21",
+  "desc": "Analyze on-page SEO, technical signals, schema, performance, links, SSL, and AI-readiness. Optional APIs add DA/PA and AI tips."
  },
  "cikjldfjpiffkjmcnhfiknpipknijpep": {
   "name": "RingGPT - Manage ChatGPT | Claude | Perplexity Conversations",
@@ -4081,7 +4084,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Tools",
-  "fetched": "2026-11-21"
+  "fetched": "2026-11-21",
+  "desc": "Use Reddit Comment Search to find comments and posts by exact words, subreddit, user and date, hide bots and export results to CSV."
  },
  "nogopabibhapbfcnlfeandndkalcjkik": {
   "name": "Comments Exporter",
@@ -4097,7 +4101,8 @@
   "ratings": 1,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-21"
+  "fetched": "2026-11-21",
+  "desc": "Export marketplace listings to CSV/Excel in seconds. No coding needed. All processing happens locally."
  },
  "ffcbhipkjioeiejkpeagiiadmckhoffl": {
   "name": "V-Thrift Scraper: Export Listings, Sellers, Reviews & More",
@@ -4106,5 +4111,47 @@
   "rating": 3,
   "category": "Tools",
   "fetched": "2026-11-21"
+ },
+ "bjhkjnaghcljganalfkabaaedkolofja": {
+  "name": "One Click GEO",
+  "users": 5,
+  "ratings": 0,
+  "rating": null,
+  "category": "Developer Tools",
+  "fetched": "2026-11-22"
+ },
+ "gggbpphhnmmdbcadgeaaidmnjncmcbca": {
+  "name": "AI SEO Audit & SEO Inspector – AI Visibility Check",
+  "users": 16,
+  "ratings": 3,
+  "rating": 5,
+  "category": "Developer Tools",
+  "fetched": "2026-11-22",
+  "desc": "AI SEO checker for any page: meta, headings, schema, hreflang and sitemaps, plus an AI visibility audit of its site."
+ },
+ "elalpifhkopbcobekhiaglgkpfogojcn": {
+  "name": "Page Lens: Credibility & AI Check",
+  "users": 3,
+  "ratings": 0,
+  "rating": null,
+  "category": "Tools",
+  "fetched": "2026-11-22",
+  "desc": "See how trustworthy a page is: credibility, AI likelihood, readability and tone scores. Runs locally, sends nothing."
+ },
+ "nhgjbajgfmnpgodnmikmobfogdodbdgn": {
+  "name": "Threadcrate for Reddit: Export Threads, Comments & Subreddits",
+  "users": 0,
+  "ratings": 0,
+  "rating": null,
+  "category": "Tools",
+  "fetched": "2026-11-22"
+ },
+ "lbcpionhfmakbodlmiaffgjdcgelhlcn": {
+  "name": "A-Wholesale Scraper: Export Products, Suppliers, Reviews & More",
+  "users": 550,
+  "ratings": 5,
+  "rating": 4,
+  "category": "Tools",
+  "fetched": "2026-11-22"
  }
 }
