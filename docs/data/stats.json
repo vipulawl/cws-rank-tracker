@@ -4144,7 +4144,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Tools",
-  "fetched": "2026-11-22"
+  "fetched": "2026-11-22",
+  "desc": "Save Reddit threads, subreddits past the 1000-post limit, profiles and searches as CSV, JSON and Markdown. Free and open source."
  },
  "lbcpionhfmakbodlmiaffgjdcgelhlcn": {
   "name": "A-Wholesale Scraper: Export Products, Suppliers, Reviews & More",
@@ -4152,6 +4153,31 @@
   "ratings": 5,
   "rating": 4,
   "category": "Tools",
-  "fetched": "2026-11-22"
+  "fetched": "2026-11-22",
+  "desc": "Alibaba Scraper: Extract Alibaba product details, supplier profiles & more. Export to CSV, JSON, XLSX effortlessly."
+ },
+ "hcpopknkidccgaabpljldkobdbdjpkbf": {
+  "name": "TextHumanize — AI Text Humanizer",
+  "users": 54,
+  "ratings": 1,
+  "rating": 5,
+  "category": "Tools",
+  "fetched": "2026-11-23"
+ },
+ "cnhgacpobmplammjbgckcbeggaljmdfo": {
+  "name": "SEO Champ - Extension for On-Page SEO, Structured Data & Technical Checks",
+  "users": 51,
+  "ratings": 5,
+  "rating": 4.8,
+  "category": "Tools",
+  "fetched": "2026-11-23"
+ },
+ "iddhhffcelpfhabboefminahhedcfamc": {
+  "name": "ReddPost: Reddit Post Assistant & Subreddit Manager",
+  "users": 5,
+  "ratings": 1,
+  "rating": 5,
+  "category": "Workflow & Planning",
+  "fetched": "2026-11-23"
  }
 }

@@ -1,23 +1,23 @@
 {
- "date": "2026-11-22",
+ "date": "2026-11-23",
  "market": "US",
  "ideas": [
   {
    "phrase": "ai search",
-   "extensions": 27,
-   "weight": 57.46,
+   "extensions": 28,
+   "weight": 58.96,
    "tested": {
-    "date": "2026-11-22",
+    "date": "2026-11-23",
     "market": "US",
-    "scanned": 49,
+    "scanned": 50,
     "top": [
      "bfaijiabgmdblmhbnangkgiboefomdfj",
      "claajpcgaehlepegbiibddifpnlokckb",
      "kchaponcodemjigejilffhfchecpgdpf",
      "fjjkihnjlinkjpfeooipegebcakeocef",
+     "concnmjiafnmilakbhbomhfmgdmpgcgc",
      "pkdmfoabhnkpkcacnmgilaeghiggdbgf",
      "mcdiacckfmgdocmnlmhklhkkgapllllo",
-     "concnmjiafnmilakbhbomhfmgdmpgcgc",
      "padcpabfckdbahodkfkincpaaeinejik",
      "pmbmfhhbllfiifceolpogjoagoiollkc",
      "cehogifnhjgccoinociimejiccaejnpn"
@@ -27,33 +27,33 @@
   },
   {
    "phrase": "aeo geo",
-   "extensions": 20,
-   "weight": 43.51,
+   "extensions": 24,
+   "weight": 49.51,
    "tested": {
-    "date": "2026-11-22",
+    "date": "2026-11-23",
     "market": "US",
     "scanned": 50,
     "top": [
      "hjnhkojlmnmnfnajhcdlihimhaaimigi",
      "hfacnjbjlibdljaocclackojneegkbgh",
+     "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "phnblopjnmhgdolmdeehklicckcbegom",
      "bjjhdfofkppcajpiheekikagfhhcnhml",
      "bbgmbofeglplaaamnfgmiejbeacokfbn",
      "hkeelbkmlchogkllemeggnjodgpmimjl",
      "ldgndehfafnmmjfjhpnfppaecgliggeg",
-     "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "kihpekapchagbloaihlngmibbagoaefd",
      "bcnpcnhekmlhbppnkcdjnnilgiaeicep"
     ],
-    "your_rank": 8
+    "your_rank": 3
    }
   },
   {
    "phrase": "seo checker",
-   "extensions": 12,
-   "weight": 37.83,
+   "extensions": 16,
+   "weight": 48.33,
    "tested": {
-    "date": "2026-11-22",
+    "date": "2026-11-23",
     "market": "US",
     "scanned": 50,
     "top": [
@@ -73,25 +73,25 @@
   },
   {
    "phrase": "seo aeo",
-   "extensions": 18,
-   "weight": 36.55,
+   "extensions": 22,
+   "weight": 42.89,
    "tested": {
-    "date": "2026-11-22",
+    "date": "2026-11-23",
     "market": "US",
-    "scanned": 20,
+    "scanned": 50,
     "top": [
      "hjnhkojlmnmnfnajhcdlihimhaaimigi",
      "hfacnjbjlibdljaocclackojneegkbgh",
      "hfhfhmjmahcmfnpoheijkhhlicgjabmk",
      "phnblopjnmhgdolmdeehklicckcbegom",
      "bjjhdfofkppcajpiheekikagfhhcnhml",
+     "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
      "kihpekapchagbloaihlngmibbagoaefd",
-     "pikkfgkljegabdiodamblgjapfmhccbn",
      "pimhmeagnhepckniikojblilglbjngal"
     ],
-    "your_rank": 12
+    "your_rank": 6
    }
   },
   {
@@ -99,7 +99,7 @@
    "extensions": 9,
    "weight": 31.64,
    "tested": {
-    "date": "2026-11-22",
+    "date": "2026-11-23",
     "market": "US",
     "scanned": 50,
     "top": [
@@ -111,8 +111,8 @@
      "nljcdkjpjnhlilgepggmmagnmebhadnk",
      "dhplnknnchhpcoeikdjhlcjfbhmgphma",
      "dbnglnnbljaecjccjdigofnpfpjmefcg",
-     "dlochbbpenhmgcaaikpofpicfgnejfdb",
-     "dobnelanjomanaocpgnilpailjcogfbi"
+     "cnhgacpobmplammjbgckcbeggaljmdfo",
+     "dlochbbpenhmgcaaikpofpicfgnejfdb"
     ],
     "your_rank": null
    }
@@ -122,7 +122,7 @@
    "extensions": 13,
    "weight": 29.47,
    "tested": {
-    "date": "2026-11-22",
+    "date": "2026-11-23",
     "market": "US",
     "scanned": 50,
     "top": [
@@ -133,88 +133,65 @@
      "fkohhhbagonaphljihlmmchcjiegnfdo",
      "nljcdkjpjnhlilgepggmmagnmebhadnk",
      "nblbceehggefmhkioijdbppdboimoicg",
-     "hbpjmhilkbaaiipjopfnbiffeebcfpgf",
      "bkgpmdgdehhncelfaajelmnbmlefmnim",
+     "hfaogcocddbcafkdeemcdphdjhllfmof",
      "eneohehdbadflaenpfheabnaikhdkkfa"
     ],
     "your_rank": null
    }
   },
   {
-   "phrase": "seo aeo geo",
-   "extensions": 11,
-   "weight": 25.52,
+   "phrase": "geo audit",
+   "extensions": 16,
+   "weight": 28.38,
    "tested": {
-    "date": "2026-11-22",
+    "date": "2026-11-23",
+    "market": "US",
+    "scanned": 50,
+    "top": [
+     "nblbceehggefmhkioijdbppdboimoicg",
+     "mmiagdcijcmncoifmehfodelnkdbfcoo",
+     "bbgmbofeglplaaamnfgmiejbeacokfbn",
+     "lbnlokippcnpafcjbglcmaehkkiokcei",
+     "fiaifciaeodokchkkgjndmmjpelkcbpb",
+     "ldgndehfafnmmjfjhpnfppaecgliggeg",
+     "iaehnkikdaojjffhpaknfnfdggdepjdl",
+     "lnpkabecobcgijkkccjahggchhlcjeia",
+     "nhommoahpjgkbkhphkbfbbfaieafbjpj",
+     "kndoaclncpgnigicgdbdbllnaadbalff"
+    ],
+    "your_rank": 2
+   }
+  },
+  {
+   "phrase": "seo aeo geo",
+   "extensions": 12,
+   "weight": 27.02,
+   "tested": {
+    "date": "2026-11-23",
     "market": "US",
     "scanned": 50,
     "top": [
      "hjnhkojlmnmnfnajhcdlihimhaaimigi",
      "hfacnjbjlibdljaocclackojneegkbgh",
      "bjjhdfofkppcajpiheekikagfhhcnhml",
+     "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "phnblopjnmhgdolmdeehklicckcbegom",
      "ldgndehfafnmmjfjhpnfppaecgliggeg",
      "kihpekapchagbloaihlngmibbagoaefd",
      "gioaennlbdoddfnacdkplbkdndehabbd",
      "pimhmeagnhepckniikojblilglbjngal",
-     "mmiagdcijcmncoifmehfodelnkdbfcoo",
      "bcnpcnhekmlhbppnkcdjnnilgiaeicep"
     ],
-    "your_rank": 9
-   }
-  },
-  {
-   "phrase": "geo audit",
-   "extensions": 14,
-   "weight": 24.88,
-   "tested": {
-    "date": "2026-11-22",
-    "market": "US",
-    "scanned": 50,
-    "top": [
-     "nblbceehggefmhkioijdbppdboimoicg",
-     "bbgmbofeglplaaamnfgmiejbeacokfbn",
-     "lbnlokippcnpafcjbglcmaehkkiokcei",
-     "fiaifciaeodokchkkgjndmmjpelkcbpb",
-     "iaehnkikdaojjffhpaknfnfdggdepjdl",
-     "ldgndehfafnmmjfjhpnfppaecgliggeg",
-     "lnpkabecobcgijkkccjahggchhlcjeia",
-     "mmiagdcijcmncoifmehfodelnkdbfcoo",
-     "nhommoahpjgkbkhphkbfbbfaieafbjpj",
-     "kndoaclncpgnigicgdbdbllnaadbalff"
-    ],
-    "your_rank": 8
-   }
-  },
-  {
-   "phrase": "meta tags",
-   "extensions": 9,
-   "weight": 24.19,
-   "tested": {
-    "date": "2026-11-22",
-    "market": "US",
-    "scanned": 50,
-    "top": [
-     "miihmfdpfdioogfbfofbnagblnjbjomg",
-     "bjogjfinolnhfhkbipphpdlldadpnmhc",
-     "hdkkhhoelnbnoljknkcnniakpgljojhi",
-     "kddgndaiifjhgbmidlplplkcnfbpidlj",
-     "mekjdhoenipabelfjjhgmoccjpllinkk",
-     "ibkclpciafdglkjkcibmohobjkcfkaef",
-     "lhiejihflnfdchbppgiiojflapngoiid",
-     "fpmonichemgmfodehndmehkkkdjaaadj",
-     "dggmapjanngfjjakfgeoegfmgpmcamfh",
-     "haokbiapnfpfkhmpipbabhkcgjkjkaol"
-    ],
-    "your_rank": null
+    "your_rank": 4
    }
   },
   {
    "phrase": "visibility checker",
-   "extensions": 10,
-   "weight": 22.94,
+   "extensions": 11,
+   "weight": 24.44,
    "tested": {
-    "date": "2026-11-22",
+    "date": "2026-11-23",
     "market": "US",
     "scanned": 50,
     "top": [
@@ -233,13 +210,36 @@
    }
   },
   {
-   "phrase": "chatgpt perplexity",
-   "extensions": 11,
-   "weight": 21.95,
+   "phrase": "meta tags",
+   "extensions": 9,
+   "weight": 24.19,
    "tested": {
-    "date": "2026-11-22",
+    "date": "2026-11-23",
     "market": "US",
-    "scanned": 49,
+    "scanned": 50,
+    "top": [
+     "miihmfdpfdioogfbfofbnagblnjbjomg",
+     "bjogjfinolnhfhkbipphpdlldadpnmhc",
+     "hdkkhhoelnbnoljknkcnniakpgljojhi",
+     "kddgndaiifjhgbmidlplplkcnfbpidlj",
+     "mekjdhoenipabelfjjhgmoccjpllinkk",
+     "ibkclpciafdglkjkcibmohobjkcfkaef",
+     "lhiejihflnfdchbppgiiojflapngoiid",
+     "fpmonichemgmfodehndmehkkkdjaaadj",
+     "haokbiapnfpfkhmpipbabhkcgjkjkaol",
+     "dggmapjanngfjjakfgeoegfmgpmcamfh"
+    ],
+    "your_rank": null
+   }
+  },
+  {
+   "phrase": "chatgpt perplexity",
+   "extensions": 10,
+   "weight": 20.95,
+   "tested": {
+    "date": "2026-11-23",
+    "market": "US",
+    "scanned": 50,
     "top": [
      "eanggfilgoajaocelnaflolkadkeghjp",
      "cncjjijmlopjnnghbjkcpageobbiciaf",
@@ -249,10 +249,33 @@
      "iinhdoboeeojoagbiegcdbkphoklegle",
      "ohcacdjapcfifeminommoikidkpcckdn",
      "kkigojimlgomdjfjpnhaphpnhlicmpfe",
-     "naclcfdeibgphnojjpigfhgmnbinnjgd",
-     "iicgbopdlbbodahjajoomfndkeapafin"
+     "iicgbopdlbbodahjajoomfndkeapafin",
+     "naclcfdeibgphnojjpigfhgmnbinnjgd"
     ],
     "your_rank": null
+   }
+  },
+  {
+   "phrase": "aeo geo audit",
+   "extensions": 12,
+   "weight": 20.16,
+   "tested": {
+    "date": "2026-11-23",
+    "market": "US",
+    "scanned": 50,
+    "top": [
+     "mmiagdcijcmncoifmehfodelnkdbfcoo",
+     "bbgmbofeglplaaamnfgmiejbeacokfbn",
+     "ldgndehfafnmmjfjhpnfppaecgliggeg",
+     "bcnpcnhekmlhbppnkcdjnnilgiaeicep",
+     "fnljlfppfckehkcapdmdegeoingojcnn",
+     "mnobfojleonkghkhadfncgimmgobgaoc",
+     "bdkkjpbipgolopjhndknigaaokdabnad",
+     "hjnhkojlmnmnfnajhcdlihimhaaimigi",
+     "mdnainkcjffkffbmonkaeohpgepgfini",
+     "hfacnjbjlibdljaocclackojneegkbgh"
+    ],
+    "your_rank": 1
    }
   },
   {
@@ -279,9 +302,15 @@
    }
   },
   {
+   "phrase": "seo geo",
+   "extensions": 11,
+   "weight": 19.79,
+   "tested": null
+  },
+  {
    "phrase": "engine optimization",
-   "extensions": 10,
-   "weight": 18.15,
+   "extensions": 11,
+   "weight": 19.65,
    "tested": {
     "date": "2026-11-20",
     "market": "US",
@@ -308,21 +337,15 @@
    "tested": null
   },
   {
-   "phrase": "seo geo",
-   "extensions": 9,
-   "weight": 16.79,
+   "phrase": "geo aeo",
+   "extensions": 11,
+   "weight": 15.58,
    "tested": null
   },
   {
    "phrase": "structured data",
-   "extensions": 7,
-   "weight": 16.49,
-   "tested": null
-  },
-  {
-   "phrase": "aeo geo audit",
-   "extensions": 9,
-   "weight": 15.66,
+   "extensions": 6,
+   "weight": 15.49,
    "tested": null
   },
   {
@@ -356,6 +379,12 @@
    "tested": null
   },
   {
+   "phrase": "visibility audit",
+   "extensions": 8,
+   "weight": 14.79,
+   "tested": null
+  },
+  {
    "phrase": "seo analyzer",
    "extensions": 5,
    "weight": 14.56,
@@ -386,9 +415,9 @@
    "tested": null
   },
   {
-   "phrase": "visibility audit",
+   "phrase": "ai visibility checker",
    "extensions": 7,
-   "weight": 13.29,
+   "weight": 13.18,
    "tested": null
   },
   {
@@ -404,26 +433,32 @@
    "tested": null
   },
   {
-   "phrase": "geo aeo",
-   "extensions": 9,
-   "weight": 12.58,
-   "tested": null
-  },
-  {
    "phrase": "audit ai",
    "extensions": 6,
    "weight": 12.03,
    "tested": null
   },
   {
-   "phrase": "ai seo aeo",
-   "extensions": 5,
-   "weight": 11.68,
+   "phrase": "ai visibility audit",
+   "extensions": 7,
+   "weight": 11.78,
    "tested": null
   },
   {
-   "phrase": "ai visibility checker",
-   "extensions": 6,
+   "phrase": "generative engine",
+   "extensions": 7,
+   "weight": 11.75,
+   "tested": null
+  },
+  {
+   "phrase": "generative engine optimization",
+   "extensions": 7,
+   "weight": 11.75,
+   "tested": null
+  },
+  {
+   "phrase": "ai seo aeo",
+   "extensions": 5,
    "weight": 11.68,
    "tested": null
   },
@@ -444,24 +479,6 @@
    "extensions": 3,
    "weight": 10.31,
    "tested": null
-  },
-  {
-   "phrase": "ai visibility audit",
-   "extensions": 6,
-   "weight": 10.28,
-   "tested": null
-  },
-  {
-   "phrase": "generative engine",
-   "extensions": 6,
-   "weight": 10.25,
-   "tested": null
-  },
-  {
-   "phrase": "generative engine optimization",
-   "extensions": 6,
-   "weight": 10.25,
-   "tested": null
   }
  ],
  "store_suggestions": {
@@ -478,33 +495,66 @@
    "EODHD Ticker Prices Stock Crypto Market FOREX"
   ],
   "ai visibility": [],
-  "ai seo": [],
+  "ai seo": [
+   "Writesonic - SEO Keywords & AI Search Insights",
+   "Similarweb - Website Traffic, AI Traffic & SEO Checker",
+   "ProfilePro - AI SEO Tool for Google Business Profile SEO",
+   "AI Visibility Checker & SEO Analyser · CMO Works · Free",
+   "fatrank: SEO rank checker + AI visibility",
+   "seotools.pro SEO Audit & AI Tools",
+   "AI SEO Assistant",
+   "RankingsFactor: AI SEO & Search Visibility",
+   "SEOLOK: SEO Tools, SEO Checker & AI Visibility",
+   "Digispot AI - SEO Insights"
+  ],
   "seo": [
-   "Wombat - Gaming Wallet for Ethereum & EOS",
-   "Tool EOP",
-   "Công cụ đặt hàng của eorder",
-   "FPT AI EOS",
-   "EOFLOW — browser VPN",
-   "Eofent Capture: Screenshot & Screen Recorder, Video & PDF Editor, AI Notes",
-   "Eolink APIKit Plugin",
-   "eology site metrics",
-   "eOffice (MFU) อัตโนมัติ",
-   "EODHD Ticker Prices Stock Crypto Market FOREX"
+   "Open SEO Stats(Formerly: PageRank Status)",
+   "Writesonic - SEO Keywords & AI Search Insights",
+   "SEO Search Simulator by Nightwatch",
+   "Similarweb - Website Traffic, AI Traffic & SEO Checker",
+   "SEOquake: On-Page SEO Checker",
+   "SEO META in 1 CLICK",
+   "Checkbot: SEO, Web Speed & Security Tester 🚀",
+   "Ubersuggest - SEO and Keyword Discovery",
+   "Analysis SEO & Website Checker - PR-CY",
+   "RankKW – Etsy SEO, Keyword & Product Research"
   ],
   "geo": [
-   "Wombat - Gaming Wallet for Ethereum & EOS",
-   "Tool EOP",
-   "Công cụ đặt hàng của eorder",
-   "FPT AI EOS",
-   "EOFLOW — browser VPN",
-   "Eofent Capture: Screenshot & Screen Recorder, Video & PDF Editor, AI Notes",
-   "Eolink APIKit Plugin",
-   "eology site metrics",
-   "eOffice (MFU) อัตโนมัติ",
-   "EODHD Ticker Prices Stock Crypto Market FOREX"
+   "GeoProxy - Free Proxy",
+   "Geotrack Email Tracking with Geolocation",
+   "RankSEO - AEO & GEO Expert",
+   "Geometry Dash Lite Game",
+   "Spoof Geolocation",
+   "FanoutFox: AI Answer & GEO Inspector",
+   "Geolocation Spoofing. Fake Location for Google Maps & Search by GTrack",
+   "GeoSpoof: Spoof Geolocation & Timezone",
+   "Sorank SEO & GEO Audit - Search Console & Speed Insight",
+   "IP Address & Geolocation"
   ],
-  "aeo audit": [],
-  "ai audit": [],
+  "aeo audit": [
+   "SEO AI Assistant: SEO Checker, AEO & GEO Audit",
+   "CrawlHunt SEO & AEO Audit",
+   "AEO & GEO Checker + SEO Audit - AI Search Visibility",
+   "AEO Audit Pro",
+   "Rankify: SEO, GEO & AEO Page Auditor",
+   "AI Rank Inspector – SEO, AEO & GEO Audit",
+   "SEO & AEO Audit by Omnibound",
+   "SEO Checker • AI SEO, AEO & GEO Audit",
+   "AI Readiness Checker: Schema Markup, AEO & GEO Audit",
+   "AEO & SEO Linter - Full SEO, GEO & AEO Audit"
+  ],
+  "ai audit": [
+   "seotools.pro SEO Audit & AI Tools",
+   "AI SEO & GEO Site Audit",
+   "SEO AI Assistant: SEO Checker, AEO & GEO Audit",
+   "slicer.dev - Copy components & AI UX audits",
+   "SEO Checker & AI Overview Audit — SEORANKLINK",
+   "Generative Engine Optimization (GEO) & AI SEO – ChatGPT & Search Auditor",
+   "Zicy – AEO/GEO Audit & AI Consultant",
+   "Senuto AI Overview auditor",
+   "AI Visibility Audit · inocta.io",
+   "OctoCheck: GEO & AI Search Audit"
+  ],
   "ai readability": [
    "Temso AI LLM Readability Checker",
    "ExactSite AI Readability Checker",
