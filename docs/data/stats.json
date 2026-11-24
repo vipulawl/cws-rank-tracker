@@ -4170,7 +4170,8 @@
   "ratings": 5,
   "rating": 4.8,
   "category": "Tools",
-  "fetched": "2026-11-23"
+  "fetched": "2026-11-23",
+  "desc": "All-in-one SEO audit tool: on-page SEO, broken links, page speed, server response & SERP analysis, all in one click."
  },
  "iddhhffcelpfhabboefminahhedcfamc": {
   "name": "ReddPost: Reddit Post Assistant & Subreddit Manager",
@@ -4179,5 +4180,37 @@
   "rating": 5,
   "category": "Workflow & Planning",
   "fetched": "2026-11-23"
+ },
+ "fhjfafmclkkligpnfmdehiklekgnkkdm": {
+  "name": "AI SEO & GEO Checker by webentity.ai",
+  "users": 80,
+  "ratings": 1,
+  "rating": 5,
+  "category": "Tools",
+  "fetched": "2026-11-24"
+ },
+ "elofmphoehdbhkibcelahonkmpgchkgi": {
+  "name": "Meta Tag Fetcher",
+  "users": 150,
+  "ratings": 2,
+  "rating": 5,
+  "category": "Developer Tools",
+  "fetched": "2026-11-24"
+ },
+ "objkcakdcilfaphifjfcgfamlnnbinjc": {
+  "name": "Free AI Exporter: Export ChatGPT, Claude, Gemini & DeepSeek to PDF & Word",
+  "users": 502,
+  "ratings": 14,
+  "rating": 4.9,
+  "category": "Tools",
+  "fetched": "2026-11-24"
+ },
+ "aedbhppfjmagggfkhpbpfeahebjkdenk": {
+  "name": "Facebook Reset: Bulk Delete Old Posts & Comments, Leave Groups",
+  "users": 146,
+  "ratings": 3,
+  "rating": 3.7,
+  "category": "Tools",
+  "fetched": "2026-11-24"
  }
 }
