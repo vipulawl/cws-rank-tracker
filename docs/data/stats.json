@@ -356,7 +356,8 @@
   "ratings": 128,
   "rating": 4.9,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Free browser extension that helps you analyze website content, detect and fix all SEO-errors (links, images, meta, content, etc.)."
  },
  "lbnlokippcnpafcjbglcmaehkkiokcei": {
   "name": "GEO Auditor",
@@ -504,11 +505,11 @@
  },
  "hnncefiapdhgepkopljcddpojicakdij": {
   "name": "SEO Audit, Schema & H-Tag Validator (Optimax AI)",
-  "users": 220,
+  "users": 226,
   "ratings": 8,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-17",
+  "fetched": "2026-11-26",
   "desc": "Visualize H-tag structures, validate Schema JSON-LD, and fix Meta tags with local AI. A 100% private, all-in-one technical SEO audit"
  },
  "nmbdmhhbihficmgjnfnohnpkgpjkhfll": {
@@ -670,7 +671,8 @@
   "ratings": 1,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "See what AI assistants can actually read and understand on your website - in just one click"
  },
  "njjbmbinhpipcdocojjniahjgdoljohg": {
   "name": "Digispot AI - SEO Insights",
@@ -800,11 +802,11 @@
  },
  "komgifhbgjbdoklelodmjppkcdkjofak": {
   "name": "AI Search Visibility Agent – ChatGPT SEO (GEO/AEO)",
-  "users": 52,
+  "users": 46,
   "ratings": 10,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-17",
+  "fetched": "2026-11-26",
   "desc": "Optimize your site for AI search visibility with AI agent. See what ChatGPT cites, analyze competitors and find gaps with GEO & AEO."
  },
  "lajfdngpocmchpihjecojjllfjeehgnl": {
@@ -1196,11 +1198,11 @@
  },
  "jcphgamhhcbmijffgmfnlbdokgeibcfo": {
   "name": "Geo Dash Wall Jump Game",
-  "users": 450,
+  "users": 449,
   "ratings": 0,
   "rating": null,
   "category": "Games",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-26"
  },
  "afmlfldepapopjagipdjglobhdalkdgm": {
   "name": "SEO X-Ray",
@@ -1450,29 +1452,28 @@
  },
  "fkjpaldgjghidgiboillcfkkgecjcmcj": {
   "name": "Reddit Scraper",
-  "users": 18,
+  "users": 14,
   "ratings": 0,
   "rating": null,
   "category": "Tools",
-  "fetched": "2026-11-17",
+  "fetched": "2026-11-26",
   "desc": "Export Reddit comments to CSV, JSON, or Google Docs. Send to ChatGPT/Claude for AI analysis with one click."
  },
  "dagohlmlhagincbfilmkadjgmdnkjinl": {
   "name": "Checkbot: SEO, Web Speed & Security Tester 🚀",
   "users": 70000,
-  "ratings": 956,
+  "ratings": 955,
   "rating": 4.9,
   "category": "Developer Tools",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-26"
  },
  "loeablglhbnehkeoeebemilfeelpcoma": {
   "name": "Analysis SEO & Website Checker - PR-CY",
   "users": 8000,
-  "ratings": 591,
+  "ratings": 602,
   "rating": 5,
   "category": "Developer Tools",
-  "fetched": "2026-11-17",
-  "desc": "Check your website on technical, seo content and popularity aspects."
+  "fetched": "2026-11-26"
  },
  "hoklmmgfnpapgjgcpechhaamimifchmp": {
   "name": "Similarweb - Website Traffic, AI Traffic & SEO Checker",
@@ -1480,16 +1481,15 @@
   "ratings": 3800,
   "rating": 4.5,
   "category": "Developer Tools",
-  "fetched": "2026-11-17",
-  "desc": "Instant website analysis, AI traffic insights, and SEO metrics at your fingertips."
+  "fetched": "2026-11-26"
  },
  "knedhblahbcfbdelhblenebocdpmhmcc": {
   "name": "RankKW – Etsy SEO, Keyword & Product Research",
   "users": 5000,
-  "ratings": 507,
+  "ratings": 508,
   "rating": 5,
   "category": "Shopping",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-26"
  },
  "oeopbcgkkoapgobdbedcemjljbihmemj": {
   "name": "Checker Plus for Gmail™",
@@ -1569,7 +1569,8 @@
   "ratings": 4,
   "rating": 4,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Unlock smarter browsing with ai search engine. Leverage google ai and search gpt for precise, fast, and powerful insights."
  },
  "ndgklmlnheedegipcohgcbjhhgddendc": {
   "name": "Linguix: Grammar Checker and AI Writing App",
@@ -1585,7 +1586,8 @@
   "ratings": 13,
   "rating": 4.2,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "SEO analysis tool for AI Overview status on Google search, Perplexity responses, and ChatGPT conversations for unlimited keywords."
  },
  "concnmjiafnmilakbhbomhfmgdmpgcgc": {
   "name": "AI Quick Search",
@@ -1593,7 +1595,8 @@
   "ratings": 7,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Highlight text or type a prompt, then open it in one AI assistant or up to three at once. Choose your AIs and their order."
  },
  "pkdmfoabhnkpkcacnmgilaeghiggdbgf": {
   "name": "AI next to search results",
@@ -1601,7 +1604,8 @@
   "ratings": 94,
   "rating": 3.8,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "🗨️ Gemini answer alongside Google results."
  },
  "pmbmfhhbllfiifceolpogjoagoiollkc": {
   "name": "Monica Search - New Tab for AI Search",
@@ -1609,7 +1613,8 @@
   "ratings": 35,
   "rating": 3.8,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Enjoy free, unlimited access to GPT for an unparalleled search experience!"
  },
  "padcpabfckdbahodkfkincpaaeinejik": {
   "name": "Gene — AI Assistant & Smart Search",
@@ -1617,7 +1622,8 @@
   "ratings": 72,
   "rating": 4.6,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "AI assistant that works across the web. Answer questions, summarize pages, design websites, generate images, and search smarter."
  },
  "fjjkihnjlinkjpfeooipegebcakeocef": {
   "name": "Search Tool (AI)",
@@ -1625,7 +1631,8 @@
   "ratings": 24,
   "rating": 4.7,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Quickly switch between customized search engines; Add a custom search engine in the right-click menu. New AI model support."
  },
  "cehogifnhjgccoinociimejiccaejnpn": {
   "name": "AI Free Search",
@@ -1633,7 +1640,8 @@
   "ratings": 8,
   "rating": 5,
   "category": "Functionality & UI",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Simple lightweight extension that removes the AI responses from Google and Bing search. Block Gemini or Copilot and go straight to…"
  },
  "jliolpcnkmolaaecncdfeofombdekjcp": {
   "name": "Search the current site",
@@ -1780,7 +1788,8 @@
   "ratings": 15,
   "rating": 4.7,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Crawl any website and audit its SEO, AI readiness, speed, security and accessibility, with an AI summary of what to fix first."
  },
  "oojmpbcnefdebmaaolpcpcdfmnbgpced": {
   "name": "SEO Checker",
@@ -1788,7 +1797,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "On-page SEO audit for the current tab: title, meta description, headings, images, links, social tags and structured data."
  },
  "gedlmoffaoldkaepglmbpjjcbfkjadoh": {
   "name": "SEO Checker Pro - VSUDO",
@@ -1805,7 +1815,8 @@
   "ratings": 2,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Access all important SEO score with one click!"
  },
  "mhojlnjhellbccabnfnlgebjnopdmdph": {
   "name": "Page Analytics: on-page SEO insights from GA4",
@@ -1813,7 +1824,8 @@
   "ratings": 18,
   "rating": 4.5,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Get Google Analytics (GA4) and Google Search analytics for the current page. Works for online stores, blogs, news sites, and more."
  },
  "dggmapjanngfjjakfgeoegfmgpmcamfh": {
   "name": "Meta Explorer - SEO Meta and On-Page SEO tools",
@@ -1821,7 +1833,8 @@
   "ratings": 48,
   "rating": 4.9,
   "category": "Developer Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Meta Tag Explorer is the best SEO tool to find SEO Meta of any website you browse"
  },
  "dhplnknnchhpcoeikdjhlcjfbhmgphma": {
   "name": "On-page SEO analyzer by Chunky Squirrel",
@@ -1829,7 +1842,8 @@
   "ratings": 2,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "A tool to analyze on-page search engine optimizations"
  },
  "hfaogcocddbcafkdeemcdphdjhllfmof": {
   "name": "SEO Health Checker - On-Page SEO Audit",
@@ -1846,7 +1860,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Developer Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Private and open-source SEO analyzer, with no tracking, no ads, no bullsh*t."
  },
  "gebbhagfogifgggkldgodflihgfeippi": {
   "name": "Return YouTube Dislike",
@@ -1862,7 +1877,8 @@
   "ratings": 238,
   "rating": 4.1,
   "category": "Education",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Built for teachers: See how students write, not just what they wrote. View the writing process in Google Docs & Slides."
  },
  "dlochbbpenhmgcaaikpofpicfgnejfdb": {
   "name": "On Page SEO Quick Fix",
@@ -1870,7 +1886,8 @@
   "ratings": 4,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Analyze and improve your website's SEO with real-time on-page optimization insights and actionable recommendations."
  },
  "knaodoefkjbgmmilogebghadhmnphjih": {
   "name": "Enhancer",
@@ -2142,7 +2159,8 @@
   "ratings": 1,
   "rating": 5,
   "category": "Developer Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Convert CSV to JSON in your browser. Nested mapping, batch processing, smart type detection. No upload, 100% private."
  },
  "daeiieicoojpgafanfhicolieffbipoc": {
   "name": "Reddit Fusion - Scrape, Post & Reply",
@@ -2150,7 +2168,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Scrape your joined communities into JSON, and create / schedule Reddit posts and replies (optionally written by OpenAI)."
  },
  "kicocbdllmfmfkejhgajphjadkickhji": {
   "name": "Convert CSV to JSON",
@@ -2158,7 +2177,8 @@
   "ratings": 2,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Convert CSV & text files to JSON easily with our Chrome Extension."
  },
  "ldbppfeklooalaknhelcnhlchfcbpeej": {
   "name": "Csv to json",
@@ -2166,7 +2186,8 @@
   "ratings": 7,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Convert files with csv to json — simple online format converter to transform, export, and change data between JSON and CSV formats."
  },
  "gdfliikdmfdjjcijgcpaijkajpcfcohe": {
   "name": "JSON to CSV",
@@ -2174,7 +2195,8 @@
   "ratings": 4,
   "rating": 4,
   "category": "Developer Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Convert JSON arrays/objects into csv format."
  },
  "afcnkcoempmipgnobjegmilfmglciipj": {
   "name": "JSON to CSV",
@@ -2182,7 +2204,8 @@
   "ratings": 4,
   "rating": 2.2,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "download .JSON to .CSV or in other words; custom csv from json feeds or files."
  },
  "lgapdabmcijnfobnocanmbdjlopncefm": {
   "name": "CSV to JSON and JSON to CSV Converter Tool",
@@ -2190,7 +2213,8 @@
   "ratings": 2,
   "rating": 5,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Effortlessly convert CSV and JSON files with our efficient extension. Ideal for data manipulation and migration."
  },
  "ooocckmjpnadmncfonogifcadcnkpifc": {
   "name": "CSV to JSON Converter",
@@ -2198,7 +2222,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Developer Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Convert CSV data to JSON instantly in your browser. Auto-detects delimiters, headers, numbers and booleans."
  },
  "dpajdgienkfblebmemcndfobcelfmdcl": {
   "name": "CSV to JSON - Free CSV Converter",
@@ -2215,7 +2240,8 @@
   "ratings": 71,
   "rating": 3.1,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Allows to export Chrome history and bookmarks into JSON file, which can be converted to CSV/XLS/XLSX file at https://101editor.com"
  },
  "ejbofmhfeokakoppjaebnhkelpmpahal": {
   "name": "JSON to CSV",
@@ -2311,7 +2337,8 @@
   "ratings": 63,
   "rating": 4.5,
   "category": "Social Networking",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Step up your viewing experience by embedding relevant Reddit comments under YouTube videos."
  },
  "njmimaecgocggclbecipdimilidimlpl": {
   "name": "Reddit Comment Collapser",
@@ -2319,7 +2346,8 @@
   "ratings": 80,
   "rating": 4.8,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "An easier way to collapse and get around comment threads on old and new Reddit."
  },
  "mhophmekcaellddobbhpnagdanpplghb": {
   "name": "Reddit Comment Exporter",
@@ -2327,7 +2355,8 @@
   "ratings": 7,
   "rating": 3.6,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "This tool enhances your browsing experience by enabling you to save comments from any Reddit thread in both JSON and CSV formats."
  },
  "oeimlilnoiicdhcidobbgdlndccdadfe": {
   "name": "Redditor Reborn : Delete Reddit Posts & Comments",
@@ -2335,7 +2364,8 @@
   "ratings": 38,
   "rating": 4.3,
   "category": "Social Networking",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Easily delete Reddit history, comments, posts, and browsing activity.Securely clear your history and maintain privacy with one click"
  },
  "hoolgoecmeegpbidbbcefgkjegdejibd": {
   "name": "Reddit post notifier",
@@ -2343,7 +2373,8 @@
   "ratings": 26,
   "rating": 4.8,
   "category": "Social Networking",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Watch for the new posts in given subreddits, Reddit searches, and for the latest user's activities"
  },
  "jeodebnjeecpbmbgimbpinccfkihhjid": {
   "name": "Reddit (Au) Comment Highlights",
@@ -2351,7 +2382,8 @@
   "ratings": 23,
   "rating": 4.3,
   "category": "Social Networking",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Highlight unread comments since your last visit to a Reddit comment section."
  },
  "njalndcfgcolndhkmdkjihclbcnmomjl": {
   "name": "Reddit Comment Arrow",
@@ -2359,7 +2391,8 @@
   "ratings": 15,
   "rating": 4.9,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "The loved arrow in the reddit comment section to skip to the next top level comment"
  },
  "afnlbnejacdepppkphiidadbpjammaoj": {
   "name": "YouTube Comment Scraper",
@@ -2367,7 +2400,8 @@
   "ratings": 7,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Use YouTube Comment Scraper to scrape youtube comments, export or download nested threads and replies in one click to Excel file."
  },
  "llcgplklkdgffjmhlidafnajbhbohgen": {
   "name": "Comments Exporter",
@@ -2375,7 +2409,8 @@
   "ratings": 11,
   "rating": 4.1,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Extract Facebook post comments. Export in CSV, JSON, or Excel. Ideal for social media managers and researchers analyzing engagement"
  },
  "hibmbaejnfibgkcflmhkdokfdbgapbad": {
   "name": "Instagram Comment Scraper by Vertical Viral",
@@ -2392,7 +2427,8 @@
   "ratings": 1,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Scrape and download YouTube comments to CSV. Extract up to 10,000 threaded comments from any video. One-time payment, no sub."
  },
  "ldhjpljmgnggmkpcgaicmocfoefbcojl": {
   "name": "Comments Exporter",
@@ -2400,7 +2436,8 @@
   "ratings": 10,
   "rating": 3,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "This extension will help you quickly export instagram comments to Excel xlsx or csv files."
  },
  "cddgiejchlkeedmhjeodlcjdiddlcdld": {
   "name": "InsightSocial: Free Review & Comment Scraper, Social Media Data Extractor",
@@ -2408,7 +2445,8 @@
   "ratings": 14,
   "rating": 4.6,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Free review & social media scraper. Export reviews, comments & posts to Excel, CSV or Google Sheets. No code, no API key."
  },
  "ngigmhodcdcjohafngokbkmleidkigfn": {
   "name": "Comment Export Tool",
@@ -2416,7 +2454,8 @@
   "ratings": 2,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Easily export comments from Instagram posts with one click."
  },
  "koeokjkljpaajmbhhgohidfaofooifca": {
   "name": "CSV Editor",
@@ -2545,8 +2584,7 @@
   "ratings": 7800,
   "rating": 4.9,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-17",
-  "desc": "Instant Data Scraper extracts data from web pages and exports it as Excel or CSV files"
+  "fetched": "2026-11-26"
  },
  "nalfbkpbaiicpchegjkkebpogfdmliba": {
   "name": "Click and Scrape",
@@ -2770,24 +2808,23 @@
   "ratings": 704,
   "rating": 3.6,
   "category": "Tools",
-  "fetched": "2026-11-17",
-  "desc": "Data Scraper extracts data out of HTML web pages and imports it into Microsoft Excel spreadsheets"
+  "fetched": "2026-11-26"
  },
  "lmcjapacpcbakmehggpnjofhofjdmaib": {
   "name": "CrawlRadar - AI SEO Checker & GEO Audit",
-  "users": 3,
+  "users": 4,
   "ratings": 1,
   "rating": 5,
   "category": "Developer Tools",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-26"
  },
  "bighchjkhmbkekohphegfjchbjhglcon": {
   "name": "SEOwer Pro: SEO, GEO & AI Auditor",
-  "users": 25,
+  "users": 28,
   "ratings": 2,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-26"
  },
  "polapbpcbdlnangnoecepjiaijoklipl": {
   "name": "AI SEO & GEO Readiness Checker by 2UA",
@@ -2885,7 +2922,8 @@
   "ratings": 16,
   "rating": 5,
   "category": "Developer Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Advanced SEO/GEO audit · Real-time Google rank checker · Built-in AI assistant · PDF report"
  },
  "kndoaclncpgnigicgdbdbllnaadbalff": {
   "name": "GEO Checker: AI Indexing & llms.txt Audit",
@@ -2893,7 +2931,8 @@
   "ratings": 2,
   "rating": 5,
   "category": "Developer Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Check GEO / AI indexing readiness. Audit llms.txt, robots AI bots, schema and meta, then copy a ChatGPT knowledge prompt."
  },
  "lnbjnpkmkghnoejimimllknppicpjkfb": {
   "name": "Website Visibility Checker for AI",
@@ -2901,7 +2940,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Developer Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Check if your website is visible in ChatGPT and AI-powered search systems. Get an AI visibility score (0–100) and top issues to fix."
  },
  "klpaeembfajibicbhfdcpaaefakmepca": {
   "name": "AI Visibility Checker by ClickedOn",
@@ -2918,7 +2958,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Analyze webpage content visibility, quality, and SEO performance with an accurate scoring system."
  },
  "odoinifgddodmhpoieglnhkokjbgfjad": {
   "name": "AEO, GEO and AI Search Visibility Checker",
@@ -2926,7 +2967,8 @@
   "ratings": 5,
   "rating": 5,
   "category": "Developer Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Instantly check if ChatGPT, Claude and Gemini can actually read your website."
  },
  "djcmjbekfepinifndncodfeniiiemmfh": {
   "name": "SEO Audit Pro",
@@ -2943,7 +2985,8 @@
   "ratings": 3,
   "rating": 5,
   "category": "Developer Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "One-click on-page SEO audit: metadata, headings, hreflang, schema, social tags, images and links."
  },
  "fkohhhbagonaphljihlmmchcjiegnfdo": {
   "name": "PitchSEO - SEO Audit Report Generator & White Label SEO Audit Tool",
@@ -2951,7 +2994,8 @@
   "ratings": 1,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "AI Powered Website SEO Audit Tool, White Label SEO Reports, competitor insights & actionable SEO analysis."
  },
  "deknpinnpnjceljenoaoelhnhobkfcef": {
   "name": "Visual SEO Audit – On-Page, GDPR & CMS Detector",
@@ -2959,7 +3003,8 @@
   "ratings": 1,
   "rating": 5,
   "category": "Developer Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "SEO audit with consent tests, schema review, markup checks, PDF export and CMS detection."
  },
  "bkgpmdgdehhncelfaajelmnbmlefmnim": {
   "name": "SEOptimer - SEO Audit Tool",
@@ -2967,7 +3012,8 @@
   "ratings": 3,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Analyze any website with SEOptimer - Click the icon to get an instant SEO Audit."
  },
  "mekjdhoenipabelfjjhgmoccjpllinkk": {
   "name": "SEO Meta Tags & OG Previewer",
@@ -2975,7 +3021,8 @@
   "ratings": 1,
   "rating": 5,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Preview, edit, and analyze meta tags & OG data directly from any webpage in one click."
  },
  "miihmfdpfdioogfbfofbnagblnjbjomg": {
   "name": "Meta Tags Pro: SEO Checker & Site Audit",
@@ -2983,7 +3030,8 @@
   "ratings": 7,
   "rating": 5,
   "category": "Developer Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "SEO audit for pages or whole sites: meta tags, social previews, structured data, accessibility, AI readiness. Runs in your browser."
  },
  "hdkkhhoelnbnoljknkcnniakpgljojhi": {
   "name": "Meta Tag Analyzer",
@@ -2991,7 +3039,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Analyze and display meta tags (title, description, and keywords) for the current webpage."
  },
  "kddgndaiifjhgbmidlplplkcnfbpidlj": {
   "name": "Meta Tag Inspector",
@@ -2999,7 +3048,8 @@
   "ratings": 3,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "View OG, Twitter, SEO, and JSON-LD meta tags. Export and track history."
  },
  "lhiejihflnfdchbppgiiojflapngoiid": {
   "name": "Meta Tag Reader",
@@ -3007,7 +3057,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Developer Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Reads SEO meta tags from any webpage — includes Open Graph, Twitter Card, canonical, robots, and more."
  },
  "gfjihgeghcleelchnfpaeepekeeonhbn": {
   "name": "Meta Tag Preview Tool",
@@ -3024,7 +3075,8 @@
   "ratings": 9,
   "rating": 5,
   "category": "Developer Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Free SEO analyzer & meta tag checker. Check title, description, headings, images, schema, links & Open Graph tags instantly."
  },
  "eanggfilgoajaocelnaflolkadkeghjp": {
   "name": "HARPA AI: Web Automation with ChatGPT, Claude, Gemini, Grok",
@@ -3032,7 +3084,8 @@
   "ratings": 3200,
   "rating": 4.5,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Free AI sidebar with ChatGPT, Claude, Gemini & DeepSeek. 100+ commands to automate, monitor prices, summarize & write."
  },
  "kkmjccgohiiikgbmalbhkihklhddigkn": {
   "name": "Qorpus: ChatGPT, Gemini, Claude, Grok, Perplexity Sidebar",
@@ -3040,7 +3093,8 @@
   "ratings": 18,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Ask multiple AIs and compare their answers side by side."
  },
  "cncjjijmlopjnnghbjkcpageobbiciaf": {
   "name": "Perplexity - ChatGPT - Google Toggle",
@@ -3048,16 +3102,16 @@
   "ratings": 0,
   "rating": null,
   "category": "Functionality & UI",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Switches between Perplexity and Google search."
  },
  "iicgbopdlbbodahjajoomfndkeapafin": {
   "name": "Der Promptus - Prompt Manager for ChatGPT, Claude, Gemini, Perplexity",
-  "users": 10,
+  "users": 11,
   "ratings": 1,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-17",
-  "desc": "Save, organize, and instantly insert prompts into ChatGPT, Claude, Gemini, Mistral, and Perplexity. Use /shortcuts for quick access."
+  "fetched": "2026-11-26"
  },
  "fkdmcmcfifcfliohhcocpmnoiimcijdl": {
   "name": "Awesome Prompts: Prompt Manager for ChatGPT, Claude, Gemini & Perplexity",
@@ -3065,7 +3119,8 @@
   "ratings": 7,
   "rating": 4.9,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Save, organize & reuse prompts for ChatGPT, Claude, Gemini, Perplexity & Grok—smart sidebar, one-click insert, no copy-paste."
  },
  "flkebkiofojicogddingbdmcmkpbplcd": {
   "name": "Search for Perplexity ai",
@@ -3073,7 +3128,8 @@
   "ratings": 66,
   "rating": 4.7,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Find information with Search for Perplexity ai chrome extension and easily switch from perplexity.ai to another search engine."
  },
  "iinhdoboeeojoagbiegcdbkphoklegle": {
   "name": "Eve AI: Report Generator for Gemini, Claude, Perplexity and ChatGPT",
@@ -3081,7 +3137,8 @@
   "ratings": 4,
   "rating": 4,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Convert your AI chats to polished professional reports. Publish, password protect, and track engagement on your reports."
  },
  "pccmckkknfoejainpplfjndlomhbedkh": {
   "name": "Free AI Sidebar: ChatGPT, Claude, Gemini, DeepSeek, Perplexity & more",
@@ -3097,7 +3154,8 @@
   "ratings": 1,
   "rating": 2,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Highlight any text on a webpage and instantly open it in ChatGPT, Perplexity, or Claude."
  },
  "kkigojimlgomdjfjpnhaphpnhlicmpfe": {
   "name": "AI Chat Exporter: Save ChatGPT, Claude, Gemini & Perplexity as PDF & Image",
@@ -3105,7 +3163,8 @@
   "ratings": 4,
   "rating": 4,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Export AI chats as PDF & image: ChatGPT, Claude, Gemini, Grok, Perplexity. Select replies or capture area."
  },
  "kolgipeddailiembeomkpgbdcbmligch": {
   "name": "Simple SEO Analysis Tool",
@@ -3131,7 +3190,8 @@
   "ratings": 640,
   "rating": 3.7,
   "category": "Education",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "https://open-with-word.freefinancetools.net/"
  },
  "ebkhdpijgjfcppomllgombjmfdgfgjhk": {
   "name": "JSON to CSV - Fast JSON Converter",
@@ -3139,7 +3199,8 @@
   "ratings": 1,
   "rating": 5,
   "category": "Developer Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Convert JSON to CSV quickly with our Fast JSON Converter. Perfect for efficient data processing and analysis!"
  },
  "onjjpeonkbenaglclaageiidffmfemco": {
   "name": "Google Docs New",
@@ -3147,7 +3208,8 @@
   "ratings": 34,
   "rating": 4.6,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Try Google Docs New: Easily create new Docs, Google Forms, Spreadsheets and access Drive right from your browser."
  },
  "ddhapigfimgikaeghanpacikpdiakgbk": {
   "name": "YouTube Data Scraper - Videos, Comments",
@@ -3164,7 +3226,8 @@
   "ratings": 81,
   "rating": 4.1,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "1 click to create new Google Docs."
  },
  "bldgenmjegcnjebiongilahhcjldgmlm": {
   "name": "Google Docs Quick Create",
@@ -3172,7 +3235,8 @@
   "ratings": 326,
   "rating": 4.4,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Create new Documents for Google Drive from your browser bar."
  },
  "gfnpoanknpcndnafohkeooladnhphone": {
   "name": "Text to Speech Google Docs",
@@ -3180,7 +3244,8 @@
   "ratings": 70,
   "rating": 3.5,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Read your Google Docs and web pages aloud in a natural voice using Text to Speech Google Docs, hands-free while you work."
  },
  "oibghjgooccojibfacdonaoipegckdeg": {
   "name": "ChatGPT to Google Docs, Word or PDF",
@@ -3188,7 +3253,8 @@
   "ratings": 52,
   "rating": 4.6,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Convert the ChatGPT content into a Google Docs, Word or a PDF format in a single click."
  },
  "chcbikmmlhbbdkfiaaaljabpefdfajnb": {
   "name": "Process Feedback for Google Docs",
@@ -3196,7 +3262,8 @@
   "ratings": 475,
   "rating": 4.9,
   "category": "Education",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Free writing process reports and teacher dashboards · Students prove their own work · Teachers see AI use, copy-paste, and revisions"
  },
  "lgjhepbpjcmfmjlpkkdjlbgomamkgonb": {
   "name": "Google Docs Dark Mode",
@@ -3204,7 +3271,8 @@
   "ratings": 1500,
   "rating": 3.4,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "A native-looking dark theme for Google Docs, with optional dark pages."
  },
  "gbkeegbaiigmenfmjfclcdgdpimamgkj": {
   "name": "Office Editing for Docs, Sheets & Slides",
@@ -3217,30 +3285,27 @@
  },
  "ddlpcandmdagknjmlmokglimgepcgpjo": {
   "name": "Lection: AI Web Scraper & Data Extractor to CSV and Spreadsheets",
-  "users": 7000,
+  "users": 8000,
   "ratings": 5,
   "rating": 2.6,
   "category": "Tools",
-  "fetched": "2026-11-17",
-  "desc": "Describe the data you want and Lection scrapes it. Export tables and lists to spreadsheets, CSV or Excel, or schedule them."
+  "fetched": "2026-11-26"
  },
  "fmdnlcggjjlfimafoocabeghllidbopg": {
   "name": "Amazon Review Scraper - Export to CSV",
-  "users": 3000,
+  "users": 2000,
   "ratings": 15,
   "rating": 2.8,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-17",
-  "desc": "Scrape Amazon reviews and export them to CSV with AmaReviews."
+  "fetched": "2026-11-26"
  },
  "ohhaggaagolandkankmgonjbbcaiecoo": {
   "name": "Scraper: CSV/XML",
-  "users": 11,
+  "users": 12,
   "ratings": 0,
   "rating": null,
   "category": "Tools",
-  "fetched": "2026-11-17",
-  "desc": "Scraper extracts data from web pages into spreadsheets."
+  "fetched": "2026-11-26"
  },
  "iljlcicnmledkiggpimpohacbbahllmh": {
   "name": "Shop Scraper - Shopify Product to CSV/Excel",
@@ -3248,26 +3313,23 @@
   "ratings": 3,
   "rating": 2.7,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-17",
-  "desc": "A simple tool to export shopify product data to cvs / excel, and automaticaly download images."
+  "fetched": "2026-11-26"
  },
  "jlpbcipnblkplgadjnmhnoglncgafpho": {
   "name": "Turbo Scraper: Web Scraper to Excel & CSV",
-  "users": 23,
+  "users": 25,
   "ratings": 0,
   "rating": null,
   "category": "Developer Tools",
-  "fetched": "2026-11-17",
-  "desc": "No-code web scraper. Finds records and fields locally in your browser — no AI, no API key, your data never leaves your machine."
+  "fetched": "2026-11-26"
  },
  "menehnmlonblpnndcgncehnmhmggjgmc": {
   "name": "Data Scraper for Temu | Scrape Reviews Data to CSV",
-  "users": 239,
+  "users": 244,
   "ratings": 2,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-17",
-  "desc": "One click to extract item reviews or shop reviews into CSV. Export comments, ratings, variations, images, and more."
+  "fetched": "2026-11-26"
  },
  "dhmnoogboolmehljgkmoigbldodbkfhi": {
   "name": "FREE Twitter (X) Social Data Scraper - Instantly export Tweets as CSV",
@@ -3357,7 +3419,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Extract auction and marketplace listings, prices, seller info and product data. Export to CSV, JSON, Excel."
  },
  "egkjbeenmmhlljfplbpgpdhjejliekik": {
   "name": "I Scraper: Export Instagram Followers, Posts & Comments",
@@ -3365,7 +3428,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Export followers, following, comments, and posts to CSV or Excel. One-click Instagram Scraper."
  },
  "cinikecpmlfmfgdhdljljaopkfgabimh": {
   "name": "T-Feeds Scraper: Export Posts, Followers, Profiles & More",
@@ -3373,7 +3437,8 @@
   "ratings": 6,
   "rating": 3.8,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Threads Scraper: Collect following lists, user details & search data from Threads. Export to CSV, JSON, XLSX instantly."
  },
  "dgmlaagkkammabndpinijldigpgnhkip": {
   "name": "Y-Videos Scraper: Export Channels, Playlists, Comments & More",
@@ -3390,7 +3455,8 @@
   "ratings": 5,
   "rating": 4.4,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Upwork Scraper: Extract Upwork projects, reviews, client history & more. Export to CSV, JSON, XLSX seamlessly."
  },
  "ddijhlpnokdnogjedjpemidaoicflael": {
   "name": "I-Social Scraper: Export Posts, Profiles, Reels & More",
@@ -3398,7 +3464,8 @@
   "ratings": 14,
   "rating": 4,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Instagram Scraper: Extract Instagram comments, stories, followers & more. Export to CSV, JSON, XLSX with ease."
  },
  "fgknakhoebmapgknmhmgnkfjckbdkcnm": {
   "name": "Crunchbase Scraper: Export Crunchbase search",
@@ -3406,7 +3473,8 @@
   "ratings": 8,
   "rating": 3.4,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Scrape Crunchbase companies,contacts,people,investors,acquisitions,funding,hubs,schools and events from searches to CSV/EXCEL/JSON"
  },
  "hfkbeccdhnjgebkogghipljafdjhicln": {
   "name": "A-Market Scraper: Export Products, Reviews, Variants & More",
@@ -3414,7 +3482,8 @@
   "ratings": 1,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "AliExpress Scraper: Extract AliExpress store profiles, pricing & specifications. Export to CSV, JSON, XLSX seamlessly."
  },
  "kdpkkclmglikjnbdjilhlkiohkphlogo": {
   "name": "LinkedIn Scraper: Export Profiles, Jobs, Posts & Sales Navigator to Excel",
@@ -3431,7 +3500,8 @@
   "ratings": 4,
   "rating": 4.8,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Shopee Scraper: Scrape product details, variants & pricing data. Export to CSV, JSON, XLSX with ease."
  },
  "kiggnkckiglahmnikkilmngphgingclp": {
   "name": "Reddit Live Thread Ticker - Game thread comments directly on the game",
@@ -3447,7 +3517,8 @@
   "ratings": 7,
   "rating": 4.9,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Instantly summarize any Reddit thread, subreddit, or search result and chat with AI to dig deeper"
  },
  "kamnakncpfpgjoimaonmcnmiaankkgmg": {
   "name": "Reddit Thread Intelligence",
@@ -3472,7 +3543,8 @@
   "ratings": 17,
   "rating": 4.1,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Search, organize & export your Reddit saved posts and comments. Keep saves past the 1,000 limit. One-time plans from $39."
  },
  "gmighghmhmgnedooeeigolihplifgljh": {
   "name": "Thread Anchor: Reddit Comment Context",
@@ -3548,7 +3620,8 @@
   "ratings": 3,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Reveal ChatGPT, Claude, and Perplexity search fanout in real time."
  },
  "claajpcgaehlepegbiibddifpnlokckb": {
   "name": "Pre-AI Search - Remove AI from Google",
@@ -3556,7 +3629,8 @@
   "ratings": 61,
   "rating": 4.2,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Remove AI Overviews and filter Google for pre-AI content."
  },
  "clfjpihcilcibmeeemjmelifpiifigah": {
   "name": "RExporter - Export Reddit Comments to CSV & Excel",
@@ -3564,7 +3638,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Export comments and replies from Reddit posts to CSV or Excel, kept in thread order. Choose your fields and resume long exports."
  },
  "ejagljedopdmbdfekndjkocalcbnndbe": {
   "name": "Reddit Thread Exporter",
@@ -3580,7 +3655,8 @@
   "ratings": 5,
   "rating": 3.4,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Easily transform json to csv with Convert JSON to CSV tool. Ideal for quick json converter needs, making json format to csv smooth."
  },
  "lnblpminojaaelpbaijpgpdkijkobcge": {
   "name": "Reddit Exporter: Saved Posts, Comments to CSV",
@@ -3588,7 +3664,8 @@
   "ratings": 3,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Export Reddit saved and upvoted posts, comments, subreddits, search results and chats to CSV, Markdown or ZIP with media."
  },
  "ccfnedaejoheigfdcjnnfmpppmijopio": {
   "name": "ThreadExtract: Reddit Comments to CSV",
@@ -3596,7 +3673,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Export Reddit comments and discussions directly to clean CSV or JSON files with one click."
  },
  "dpbhdakddgikieibkcmijakoppldpapi": {
   "name": "AI Crawl Accuracy, by VisibilityStack",
@@ -3619,10 +3697,10 @@
  "gdmkcblhddhhfejpfbjomilpgpbpjhhg": {
   "name": "All in One SEO Analyzer by AIOSEO",
   "users": 50000,
-  "ratings": 339,
+  "ratings": 338,
   "rating": 4.9,
   "category": "Developer Tools",
-  "fetched": "2026-11-18",
+  "fetched": "2026-11-26",
   "desc": "The All in One SEO Analyzer is a free SEO tool that helps analyze your website and optimize it for search engines."
  },
  "llnbcghdpnelcbocadbbbkhgmfacblia": {
@@ -3643,11 +3721,11 @@
  },
  "gblklncgcjcinpjaaeafmmkjnfkihmfn": {
   "name": "Reddit Comment Scraper – Export to CSV + AI Brief",
-  "users": 23,
+  "users": 27,
   "ratings": 2,
   "rating": 4,
   "category": "Tools",
-  "fetched": "2026-11-18",
+  "fetched": "2026-11-26",
   "desc": "Export Reddit and Hacker News threads to CSV, JSON or Markdown, with an AI brief that cites comments. Not affiliated with Reddit."
  },
  "flkflbljppplfbfjfdpmocikbabcopld": {
@@ -3660,12 +3738,11 @@
  },
  "pclikachjdgaabokjaffogihmhcllhek": {
   "name": "SEO Auditor",
-  "users": 182,
+  "users": 183,
   "ratings": 1,
   "rating": 5,
   "category": "Developer Tools",
-  "fetched": "2026-11-18",
-  "desc": "SEO Auditor is a SEO analyzer & checker app. Audits title, meta tags, accessibility, robots.txt, sitemap inclusion & indexability."
+  "fetched": "2026-11-26"
  },
  "cmieehnbepanbodfemngddghfbdijebf": {
   "name": "Google Docs Quick Write",
@@ -3677,21 +3754,19 @@
  },
  "kpffhggoghnmcbofgjdccdgflkodakkj": {
   "name": "readReddit, Readable text posts on reddit",
-  "users": 439,
+  "users": 437,
   "ratings": 7,
   "rating": 4.4,
   "category": "Accessibility",
-  "fetched": "2026-11-18",
-  "desc": "Takes any text post and reformats it to a pleasant to read format."
+  "fetched": "2026-11-26"
  },
  "cjdnpofpilepklmoghcjaahebghjpfpk": {
   "name": "Reddit Posts for Websites",
-  "users": 33,
+  "users": 31,
   "ratings": 1,
   "rating": 1,
   "category": "News & Weather",
-  "fetched": "2026-11-18",
-  "desc": "When visiting a website, see if the URL has ever been posted on Reddit. Made by Agency Enterprise."
+  "fetched": "2026-11-26"
  },
  "gamgjpbikmeajffnfligjfoaimbnndji": {
   "name": "QuotedBy: GEO & AI Visibility Tracker for ChatGPT, Gemini & Perplexity",
@@ -4089,7 +4164,8 @@
   "ratings": 1,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-24"
+  "fetched": "2026-11-24",
+  "desc": "One-click audit for AI search readiness: GEO score, schema markup, structured data, LLM visibility, meta tags & technical SEO. Free."
  },
  "elofmphoehdbhkibcelahonkmpgchkgi": {
   "name": "Meta Tag Fetcher",
@@ -4141,5 +4217,29 @@
   "rating": null,
   "category": "Social Networking",
   "fetched": "2026-11-25"
+ },
+ "pfdemlpmcgaabgdldjfklmaeieaamaap": {
+  "name": "SEO Analyzer: One-Click Website Audit",
+  "users": 1000,
+  "ratings": 56,
+  "rating": 5,
+  "category": "Tools",
+  "fetched": "2026-11-26"
+ },
+ "mjfhomkmmhciphccefohghbdhnghpinh": {
+  "name": "AgentReady GEO Auditor",
+  "users": 4,
+  "ratings": 0,
+  "rating": null,
+  "category": "Developer Tools",
+  "fetched": "2026-11-26"
+ },
+ "dcgmbpoiboficlbjenkgdoccidgbolkh": {
+  "name": "Reddit Post Finder",
+  "users": 43,
+  "ratings": 6,
+  "rating": 5,
+  "category": "News & Weather",
+  "fetched": "2026-11-26"
  }
 }
