@@ -96,7 +96,7 @@
   "rating": 4.7,
   "category": "Developer Tools",
   "fetched": "2026-11-25",
-  "desc": "All-in-one SEO, AEO & GEO full-page audit: page score, schema generator, ai content briefs & SERP tools — built-in AI"
+  "desc": "SEO, AEO & GEO toolkit: full-page audits, schema and content tools, plus optional AI with your API key."
  },
  "bjjhdfofkppcajpiheekikagfhhcnhml": {
   "name": "SEOLensAI — SEO, AEO & GEO Checker",
@@ -1106,11 +1106,11 @@
  },
  "lcgnkjdmhfjbimfhjflliopapnmflibo": {
   "name": "Sho SERP - Rank Tracker and GEO SERP Preview for Google",
-  "users": 289,
-  "ratings": 8,
-  "rating": 5,
+  "users": 351,
+  "ratings": 0,
+  "rating": null,
   "category": "Tools",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-27"
  },
  "hlehhpklobfmmhjfmblchpboihlcfkca": {
   "name": "SEO4AI - SEO & AI Visibility Audit",
@@ -1181,12 +1181,11 @@
  },
  "klikobpiafcccffdjcopegicnmhbopdb": {
   "name": "Multiscal AI Audit",
-  "users": 12,
+  "users": 14,
   "ratings": 0,
   "rating": null,
   "category": "Tools",
-  "fetched": "2026-11-17",
-  "desc": "The Eye into AI Readiness. We help you see how AI perceives your digital presence. 100% local analysis."
+  "fetched": "2026-11-27"
  },
  "idkdnjinmoheapbfcfjhohklpbfbhmfo": {
   "name": "AuditLamp: SEO & AI audit in one click",
@@ -1283,11 +1282,11 @@
  },
  "pikobfabafpnghdneenpgogijcbipkfb": {
   "name": "GEO Analyzer",
-  "users": 95,
-  "ratings": 4,
-  "rating": 5,
+  "users": 92,
+  "ratings": 0,
+  "rating": null,
   "category": "Developer Tools",
-  "fetched": "2026-11-17",
+  "fetched": "2026-11-27",
   "desc": "JSON-LD Structured Data + GEO (Generative Engine Optimization) Analyzer. Google Rich Results & AI Search Engine Optimization."
  },
  "hbmbikcoflijkhhgnmobapkjpndbdepg": {
@@ -1481,7 +1480,8 @@
   "ratings": 3800,
   "rating": 4.5,
   "category": "Developer Tools",
-  "fetched": "2026-11-26"
+  "fetched": "2026-11-26",
+  "desc": "Instant website analysis, AI traffic insights, and SEO metrics at your fingertips."
  },
  "knedhblahbcfbdelhblenebocdpmhmcc": {
   "name": "RankKW – Etsy SEO, Keyword & Product Research",
@@ -1847,12 +1847,11 @@
  },
  "hfaogcocddbcafkdeemcdphdjhllfmof": {
   "name": "SEO Health Checker - On-Page SEO Audit",
-  "users": 634,
-  "ratings": 16,
-  "rating": 4.5,
+  "users": 624,
+  "ratings": 0,
+  "rating": null,
   "category": "Developer Tools",
-  "fetched": "2026-11-17",
-  "desc": "SEO Health Checker audits on-page SEO in one click. Check meta tags, headings, links, schema, images, keyword density and SEO health"
+  "fetched": "2026-11-27"
  },
  "dbnglnnbljaecjccjdigofnpfpjmefcg": {
   "name": "OnPage SEO Analyzer",
@@ -2414,12 +2413,11 @@
  },
  "hibmbaejnfibgkcflmhkdokfdbgapbad": {
   "name": "Instagram Comment Scraper by Vertical Viral",
-  "users": 36,
+  "users": 35,
   "ratings": 0,
   "rating": null,
   "category": "Tools",
-  "fetched": "2026-11-17",
-  "desc": "Scrape every comment on any Instagram post: username, text, likes and timestamp, exported to Excel, CSV or JSON."
+  "fetched": "2026-11-27"
  },
  "ikhgaepfjohjkiofcfepblfnodgboijp": {
   "name": "YouTube Comment Scraper: TubeHarvest",
@@ -2539,11 +2537,11 @@
  },
  "jnhgnonknehpejjnehehllkliplmbmhn": {
   "name": "Web Scraper - Free Web Scraping",
-  "users": 900000,
-  "ratings": 1100,
-  "rating": 4.7,
+  "users": 0,
+  "ratings": 0,
+  "rating": null,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-27"
  },
  "bhgobenflkkhfcgkikejaaejenoddcmo": {
   "name": "Scrape Similar",
@@ -2555,11 +2553,11 @@
  },
  "cljbfnedccphacfneigoegkiieckjndh": {
   "name": "Easy Scraper - One-click web scraper",
-  "users": 100000,
-  "ratings": 1300,
-  "rating": 5,
+  "users": 0,
+  "ratings": 0,
+  "rating": null,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-27"
  },
  "aopgicojoddojlhodfdkmcbfjgainpff": {
   "name": "Scrape Sopify",
@@ -2584,7 +2582,8 @@
   "ratings": 7800,
   "rating": 4.9,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-26"
+  "fetched": "2026-11-26",
+  "desc": "Instant Data Scraper extracts data from web pages and exports it as Excel or CSV files"
  },
  "nalfbkpbaiicpchegjkkebpogfdmliba": {
   "name": "Click and Scrape",
@@ -2861,43 +2860,43 @@
  },
  "endljcppflpjdhdpjidgelopcmmbbdbh": {
   "name": "Geolocation Spoofing. Fake Location for Google Maps & Search by GTrack",
-  "users": 10000,
-  "ratings": 29,
-  "rating": 4.7,
+  "users": 0,
+  "ratings": 0,
+  "rating": null,
   "category": "Developer Tools",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-27"
  },
  "dgdbdodafgaeifgajaajohkjjgobcgje": {
   "name": "GeoSpoof: Spoof Geolocation & Timezone",
-  "users": 10000,
-  "ratings": 31,
-  "rating": 4.5,
+  "users": 0,
+  "ratings": 0,
+  "rating": null,
   "category": "Privacy & Security",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-27"
  },
  "jlbdnalnhlklpghiofhdbjhkggiepgem": {
   "name": "Geometry Dash Lite Game",
-  "users": 100000,
-  "ratings": 114,
-  "rating": 3.9,
+  "users": 0,
+  "ratings": 0,
+  "rating": null,
   "category": "Games",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-27"
  },
  "ciajnfanflofkddjdanppgnlpkkdclln": {
   "name": "Geotrack Email Tracking with Geolocation",
-  "users": 10000,
-  "ratings": 94,
-  "rating": 4.2,
+  "users": 0,
+  "ratings": 0,
+  "rating": null,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-27"
  },
  "lfncinhjhjgebfnnblppmbmkgjgifhdf": {
   "name": "IP Address & Geolocation",
-  "users": 10000,
-  "ratings": 43,
-  "rating": 4,
+  "users": 0,
+  "ratings": 0,
+  "rating": null,
   "category": "Developer Tools",
-  "fetched": "2026-11-17"
+  "fetched": "2026-11-27"
  },
  "jlalnhjkfiogoeonamcnngdndjbneina": {
   "name": "AI Toolbox: Folders, Prompts, Advanced Search & Export for AI Chats",
@@ -2909,12 +2908,11 @@
  },
  "hnncphmffhilfkjehbknjchjfpbnfhon": {
   "name": "AI SEO Visibility: GEO + AEO Auditor",
-  "users": 16,
+  "users": 13,
   "ratings": 0,
   "rating": null,
   "category": "Tools",
-  "fetched": "2026-11-17",
-  "desc": "Check AEO/GEO AI content visibility and EEAT signals in your content."
+  "fetched": "2026-11-27"
  },
  "nhommoahpjgkbkhphkbfbbfaieafbjpj": {
   "name": "Advanced SEO/GEO Audit & Rank Checker",
@@ -3346,7 +3344,8 @@
   "ratings": 5,
   "rating": 5,
   "category": "Social Networking",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Export Facebook group, profile & Page posts and comments to Excel/CSV/JSON for engagement analysis and market research."
  },
  "inooeahlmjlhjdblojocgcoohmpjbhif": {
   "name": "Post Comments Exporter",
@@ -3354,7 +3353,8 @@
   "ratings": 384,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Export Comments and Replies from any Facebook post to CSV."
  },
  "gkmbefmceinncpamijjdheeiikaeehdn": {
   "name": "Post Comment",
@@ -3362,7 +3362,8 @@
   "ratings": 5,
   "rating": 5,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Post Comment - AI-powered LinkedIn comment suggestions"
  },
  "nbfdoajmaaohkohdnbpjakamhcaaleco": {
   "name": "Bulk Delete Reddits Posts & Comments Extension",
@@ -3370,7 +3371,8 @@
   "ratings": 182,
   "rating": 3.7,
   "category": "Social Networking",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "This extension allows you to bulk/mass delete your post & comment history from Reddit."
  },
  "aepgokioibdanpehhcpdmmddhfnombaa": {
   "name": "Bulk Cleaner for LinkedIn™ - Posts, Comments & Likes",
@@ -3378,7 +3380,8 @@
   "ratings": 7,
   "rating": 3.9,
   "category": "Developer Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Bulk delete LinkedIn posts & comments, unlike posts, remove reposts, and bulk like feed posts. Safe, local & automated."
  },
  "eijnemhbkmmcajfeeekiajbhpkiphpba": {
   "name": "Social Post — AI Comments & Viral Posts for LinkedIn & X",
@@ -3386,7 +3389,8 @@
   "ratings": 1,
   "rating": 5,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "AI copilot for LinkedIn & X: find viral posts and generate posts, ideas & one-click comments. 100% local, bring your own key."
  },
  "nlcnmpciiiaghfdpfamfkojnlbkpgdmo": {
   "name": "Comment Exporter for Facebook - Export CSV & Excel",
@@ -3403,7 +3407,8 @@
   "ratings": 3,
   "rating": 3.7,
   "category": "Communication",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Plan LinkedIn content with better examples. Sort posts by reactions, comments and reposts. Export your research"
  },
  "eidnbginjcjghpkliiobmokbedlhicnf": {
   "name": "LinkedReply - AI LinkedIn Comments & Posts",
@@ -3411,7 +3416,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Draft LinkedIn comments, posts, connection messages, and replies with AI that matches your voice."
  },
  "gjkbeionfpaaikoiajieenooolipjnai": {
   "name": "AuctionData Scraper: Export Listings & Product Data",
@@ -3509,7 +3515,8 @@
   "ratings": 5,
   "rating": 4.6,
   "category": "Social Networking",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Live Thread Ticker (LTT) adds a ticker to videos to display live comments from threads"
  },
  "jccgjnbkibbigimcfohndjbakjhelfoo": {
   "name": "Reddit Summarizer – AI Thread & Post Analyzer",
@@ -3526,7 +3533,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Developer Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Reddit thread analysis and summarization"
  },
  "kmgilglelhaocnibjheflbooamdmdddd": {
   "name": "MRD Thread Search (Hackernews & Reddit)",
@@ -3552,7 +3560,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Keep your place in Reddit comment threads. Pin the post and parent replies while reading, then jump back to any comment."
  },
  "cillldhgdpndlpjncolefcdhcgajalah": {
   "name": "Thread Context Link for Reddit",
@@ -3560,7 +3569,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Copy a Reddit comment link that opens with its parent conversation visible."
  },
  "ahlhebeohindihglfenlmpiamkgadnoi": {
   "name": "SEO CENTER Extension",
@@ -3647,7 +3657,8 @@
   "ratings": 0,
   "rating": null,
   "category": "Tools",
-  "fetched": "2026-11-25"
+  "fetched": "2026-11-25",
+  "desc": "Export any Reddit thread to Markdown in one click"
  },
  "ljmjfkenfdbnjjogomjomdjemkfecgbh": {
   "name": "Convert JSON to CSV",
@@ -3687,12 +3698,12 @@
  },
  "gpodhncmajgcadmcenlljknilkhehdik": {
   "name": "GEO Ready SEO: GEO & AEO audit for AI search",
-  "users": 0,
+  "users": 3,
   "ratings": 0,
   "rating": null,
   "category": "Developer Tools",
-  "fetched": "2026-11-18",
-  "desc": "GEO and AEO checker: can ChatGPT, Perplexity and Google AI Overviews quote this page? 70+ checks, fixes and on-page highlights."
+  "fetched": "2026-11-27",
+  "desc": "GEO and AEO checker: can ChatGPT, Perplexity and Google AI Overviews quote this page? 69 checks, fixes and on-page highlights."
  },
  "gdmkcblhddhhfejpfbjomilpgpbpjhhg": {
   "name": "All in One SEO Analyzer by AIOSEO",
@@ -3742,15 +3753,16 @@
   "ratings": 1,
   "rating": 5,
   "category": "Developer Tools",
-  "fetched": "2026-11-26"
+  "fetched": "2026-11-26",
+  "desc": "SEO Auditor is a SEO analyzer & checker app. Audits title, meta tags, accessibility, robots.txt, sitemap inclusion & indexability."
  },
  "cmieehnbepanbodfemngddghfbdijebf": {
   "name": "Google Docs Quick Write",
-  "users": 126,
+  "users": 121,
   "ratings": 0,
   "rating": null,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-18"
+  "fetched": "2026-11-27"
  },
  "kpffhggoghnmcbofgjdccdgflkodakkj": {
   "name": "readReddit, Readable text posts on reddit",
@@ -3804,12 +3816,11 @@
  },
  "kaclmpcocfnfkkkgjgmljjphigpalcpl": {
   "name": "Reddit Search - Find Related Discussions Across Subreddits",
-  "users": 0,
+  "users": 4,
   "ratings": 0,
   "rating": null,
   "category": "Workflow & Planning",
-  "fetched": "2026-11-19",
-  "desc": "Find semantically related Reddit discussions from any post."
+  "fetched": "2026-11-27"
  },
  "ncdpnmgmadfdaampfpajbponomfccieh": {
   "name": "AI Visibility Checker",
@@ -4241,5 +4252,78 @@
   "rating": 5,
   "category": "News & Weather",
   "fetched": "2026-11-26"
+ },
+ "aaakambggljckoecfknkffdccamldccf": {
+  "name": "Omni PageCheck — SEO & GEO Audit",
+  "users": 2,
+  "ratings": 0,
+  "rating": null,
+  "category": "Tools",
+  "fetched": "2026-11-27"
+ },
+ "iclecpakipemjbhmiepklgncmdhbdgdi": {
+  "name": "Boxoo — AI audit for Google Ads",
+  "users": 8,
+  "ratings": 0,
+  "rating": null,
+  "category": "Tools",
+  "fetched": "2026-11-27"
+ },
+ "fkiledhdnkccccbfkkfihkpeaedhndjo": {
+  "name": "Orwellix Readability Checker",
+  "users": 10,
+  "ratings": 0,
+  "rating": null,
+  "category": "Tools",
+  "fetched": "2026-11-27"
+ },
+ "pldhljiohonnibeghbejdcaebjenekao": {
+  "name": "Ultimate AI SEO & AEO Auditor",
+  "users": 10,
+  "ratings": 0,
+  "rating": null,
+  "category": "Developer Tools",
+  "fetched": "2026-11-27",
+  "desc": "Combines advanced feature-extraction, 1-Click Exports, and deep AI/AEO Scoring heuristics in a single powerful dashboard."
+ },
+ "npnhelfdhpnmbkpjcahmjmafnpneneke": {
+  "name": "SEO On-Page Analyzer",
+  "users": 597,
+  "ratings": 0,
+  "rating": null,
+  "category": "Developer Tools",
+  "fetched": "2026-11-27"
+ },
+ "eeklobedkgjdfjbmmepdgpilolflbidp": {
+  "name": "Meta Tags SEO Extractor 🐸",
+  "users": 393,
+  "ratings": 0,
+  "rating": null,
+  "category": "Tools",
+  "fetched": "2026-11-27"
+ },
+ "jkielobghfpaijeeeidloapanldmkakd": {
+  "name": "ChatVault: Folders, Prompts & PDF Export for ChatGPT, Claude & Perplexity",
+  "users": 4,
+  "ratings": 0,
+  "rating": null,
+  "category": "Workflow & Planning",
+  "fetched": "2026-11-27"
+ },
+ "nfijchmapfphajphbbmlegmdkpbpdnbo": {
+  "name": "Detailed SEO & AI Engine - Waqas Mehmood",
+  "users": 9,
+  "ratings": 0,
+  "rating": null,
+  "category": "Tools",
+  "fetched": "2026-11-27"
+ },
+ "bcjfpjjgpkcpocedlbjagmeljmedlgpj": {
+  "name": "Reddit Comments Export",
+  "users": 27,
+  "ratings": 0,
+  "rating": null,
+  "category": "Tools",
+  "fetched": "2026-11-27"
  }
 }
